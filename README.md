@@ -5,9 +5,19 @@
 A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
-_0 TILs and counting..._
+_1 TIL and counting..._
 
 ## Categories
+* [Html](#HTML)
+
+---
+
+### Html
+
+- [I learned about Open Graph protocol](HTML/OpenGraph.md)
+
+---
+
 ## Usage
 See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository/ 
 
