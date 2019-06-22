@@ -4,7 +4,7 @@
 - [Open Graph](http://ogp.me/) Makes your website into rich "graph" objects.
 - Now, what I understand from it is that it provides us to add
   additional metadata to your website which makes it more **rich** on social media.
-  For e.g you see the thumbnails  of links in the Telegram - *courtesy of OpenGrap*
+  For e.g you see the thumbnails of links in the Telegram - *courtesy of OpenGraph*
 
 ### How ?
 Information is added into the `<head>` tags.
