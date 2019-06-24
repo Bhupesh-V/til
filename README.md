@@ -5,15 +5,22 @@
 A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
-_2 TILs and counting..._
+_5 TILs and counting..._
 
 ## Categories
-* [Html](#HTML)
+* [CleanCode](#CleanCode)
+* [HTML](#HTML)
 * [Python](#Python)
 
 ---
 
-### Html
+### CleanCode
+
+- [Comments](CleanCode/comments.md)
+- [Functions](CleanCode/functions.md)
+- [Naming](CleanCode/naming.md)
+
+### HTML
 
 - [I learned about Open Graph protocol](HTML/OpenGraph.md)
 
@@ -28,7 +35,7 @@ See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know ho
 
 ## Author
 
-:bust_in_silhouette: **Bhupesh Varshney**
+👥 **Bhupesh Varshney**
 
 - Twitter: [@bhupeshimself](https://twitter.com/bhupeshimself)
 - Github: [@Bhupesh-V](https://github.com/Bhupesh-V)

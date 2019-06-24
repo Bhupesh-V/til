@@ -1,6 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 ''' Simple script to auto-generate the README.md file for a TIL project. 
-	Apply as a git hook by running the following command in Linux: 
-	cd .git/hooks/ && ln -s ../../createTIL.py pre-commit && cd -
 '''
 import os
 
@@ -18,7 +19,7 @@ See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know ho
 
 ## Author
 
-:bust_in_silhouette: **Bhupesh Varshney**
+👥 **Bhupesh Varshney**
 
 - Twitter: [@bhupeshimself](https://twitter.com/bhupeshimself)
 - Github: [@Bhupesh-V](https://github.com/Bhupesh-V)
@@ -86,7 +87,7 @@ def print_file(category_names, count, categories):
         # print the list of categories with links
         for category in sorted(category_names):
             file.write(
-                '* [{0}](#{1})\n'.format(category.capitalize(), category))
+                '* [{0}](#{1})\n'.format(category, category))
 
         if len(category_names) > 0:
             file.write ('''
@@ -95,7 +96,7 @@ def print_file(category_names, count, categories):
 ''')
         # print the section for each category
         for category in sorted(category_names):
-            file.write('### {0}\n'.format(category.capitalize()))
+            file.write('### {0}\n'.format(category))
             file.write('\n')
             tils = categories[category]
             for (title, filename) in sorted(tils):
