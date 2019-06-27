@@ -5,7 +5,7 @@
 A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
-_5 TILs and counting..._
+_7 TILs and counting..._
 
 ## Categories
 * [CleanCode](#CleanCode)
@@ -26,7 +26,9 @@ _5 TILs and counting..._
 
 ### Python
 
-- [PEP8 - the fashion police of Python](Python/pep8.md)
+- [Fastest Python First 🏃](Python/fast.md)
+- [PEP8 - the fashion 💃 police of Python](Python/pep8.md)
+- [Writing Unit Tests in Python ✅](Python/unittest.md)
 
 ---
 
