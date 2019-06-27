@@ -3,6 +3,7 @@
 1. Simple and easy just import the Python 3 built-in library `unittest`.
 2. Wrap up tests in a Class.
 3. Use assert methods.
+
 ```python
 import unittest
 
@@ -16,6 +17,7 @@ class TestSum(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
 ```
 
 ### Resources

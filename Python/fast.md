@@ -3,14 +3,17 @@
 Here are some tips that I learned to make Python Programs faster (_WIP_).
 
 1. Always compile regular expression, if you have to match patterns a lot of times.
+
 ```python
 import re
 
 pattern = re.compile(some_regular_expression)
 some_text = re.sub(pattern, '', data)
+
 ```
 
 2. Use List comprehension for iterating over a list.
+
 ```python
 import time
 
@@ -31,6 +34,7 @@ end_time = time.time()
 
 print("With List Comprehension : " + str(end_time - start_time))
 ```
+
 Output : 
 ```bash
 56
