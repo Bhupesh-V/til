@@ -5,7 +5,7 @@
 A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
-_8 TILs and counting..._
+_9 TILs and counting..._
 
 ## Categories
 * [CleanCode](#CleanCode)
@@ -23,6 +23,7 @@ _8 TILs and counting..._
 
 ### Development
 
+- [Releases on GitHub](Development/gittagging.md)
 - [What's a Procfile 👀](Development/procfile.md)
 
 ### HTML
