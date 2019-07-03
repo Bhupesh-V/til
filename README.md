@@ -5,7 +5,7 @@
 A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
-_9 TILs and counting..._
+_10 TILs and counting..._
 
 ## Categories
 * [CleanCode](#CleanCode)
@@ -33,6 +33,7 @@ _9 TILs and counting..._
 ### Python
 
 - [Fastest Python First 🏃](Python/fast.md)
+- [Functional Programming in Python 🐍](Python/functional.md)
 - [PEP8 - the fashion 💃 police of Python](Python/pep8.md)
 - [Writing Unit Tests in Python ✅](Python/unittest.md)
 
