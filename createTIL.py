@@ -13,6 +13,8 @@ HEADER = '''# TIL
 A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
+![til](https://img.shields.io/badge/dynamic/json.svg?color=orange&label=TILs&query=count&url=https%3A%2F%2Fraw.githubusercontent.com%2FBhupesh-V%2Ftil%2Fmaster%2Fcount.json)
+
 '''
 
 FOOTER = '''## Usage
