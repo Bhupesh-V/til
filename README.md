@@ -5,7 +5,7 @@
 A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
-_10 TILs and counting..._
+
 
 ## Categories
 * [CleanCode](#CleanCode)

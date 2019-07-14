@@ -4,6 +4,7 @@
 ''' Simple script to auto-generate the README.md file for a TIL project. 
 '''
 import os
+import json
 
 HEADER = '''# TIL
 
@@ -74,12 +75,13 @@ def get_category_dict(category_names):
 
 def print_file(category_names, count, categories):
     ''' Now we have all the information, print it out in markdown format. '''
+    with open('count.json', 'w') as json_file:
+        data = { 'count': count }
+        json.dump(data, json_file)
+
+
     with open('README.md', 'w') as file:
         file.write(HEADER)
-        if count == 1:
-            file.write('_{0} TIL and counting..._'.format(count))
-        else:
-            file.write('_{0} TILs and counting..._'.format(count))
         file.write ('''
 
 ## Categories
