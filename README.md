@@ -11,9 +11,9 @@ languages and technologies.
 
 ## Categories
 * [CleanCode](#CleanCode)
-* [Development](#Development)
-* [HTML](#HTML)
+* [Miscellaneous](#Miscellaneous)
 * [Python](#Python)
+* [WebDev](#WebDev)
 
 ---
 
@@ -23,14 +23,10 @@ languages and technologies.
 - [Functions](CleanCode/functions.md)
 - [Naming](CleanCode/naming.md)
 
-### Development
+### Miscellaneous
 
-- [Releases on GitHub](Development/gittagging.md)
-- [What's a Procfile 👀](Development/procfile.md)
-
-### HTML
-
-- [I learned about Open Graph protocol](HTML/OpenGraph.md)
+- [Releases on GitHub](Miscellaneous/gittagging.md)
+- [What's a Procfile 👀](Miscellaneous/procfile.md)
 
 ### Python
 
@@ -38,6 +34,11 @@ languages and technologies.
 - [Functional Programming in Python 🐍](Python/functional.md)
 - [PEP8 - the fashion 💃 police of Python](Python/pep8.md)
 - [Writing Unit Tests in Python ✅](Python/unittest.md)
+
+### WebDev
+
+- [I learned about Open Graph protocol](WebDev/OpenGraph.md)
+- [`async` & `defer` Attributes](WebDev/async_defer.md)
 
 ---
 
