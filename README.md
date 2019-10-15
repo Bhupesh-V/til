@@ -25,6 +25,7 @@ languages and technologies.
 
 ### Miscellaneous
 
+- [Deploying to Heroku](Miscellaneous/deployto-heroku.md)
 - [Releases on GitHub](Miscellaneous/gittagging.md)
 - [SEO Tools](Miscellaneous/seo-tools.md)
 - [Semantic Versioning](Miscellaneous/semantic_versioning.md)
