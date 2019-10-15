@@ -26,6 +26,7 @@ languages and technologies.
 ### Miscellaneous
 
 - [Releases on GitHub](Miscellaneous/gittagging.md)
+- [SEO Tools](Miscellaneous/seo-tools.md)
 - [Semantic Versioning](Miscellaneous/semantic_versioning.md)
 - [What's a Procfile 👀](Miscellaneous/procfile.md)
 
