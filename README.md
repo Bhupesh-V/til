@@ -36,6 +36,7 @@ languages and technologies.
 - [Fastest Python First 🏃](Python/fast.md)
 - [Functional Programming in Python 🐍](Python/functional.md)
 - [PEP8 - the fashion 💃 police of Python](Python/pep8.md)
+- [Publishing a Package on PyPi](Python/pypi.md)
 - [Writing Unit Tests in Python ✅](Python/unittest.md)
 
 ### WebDev
