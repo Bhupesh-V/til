@@ -42,6 +42,7 @@ languages and technologies.
 ### WebDev
 
 - [I learned about Open Graph protocol](WebDev/OpenGraph.md)
+- [Live Editing HTML](WebDev/html_editable.md)
 - [`async` & `defer` Attributes](WebDev/async_defer.md)
 
 ---
