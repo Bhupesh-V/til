@@ -55,6 +55,7 @@ languages and technologies.
 
 ### WebDev
 
+- [Auto-complete in plain HTML](WebDev/html-datalist.md)
 - [I learned about Open Graph protocol](WebDev/OpenGraph.md)
 - [Live Editing HTML](WebDev/html_editable.md)
 - [`async` & `defer` Attributes](WebDev/async_defer.md)
