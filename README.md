@@ -23,12 +23,17 @@ languages and technologies.
 
 
 ## Categories
+* [Bash](#Bash)
 * [CleanCode](#CleanCode)
 * [Miscellaneous](#Miscellaneous)
 * [Python](#Python)
 * [WebDev](#WebDev)
 
 ---
+
+### Bash
+
+- [Copying one file to multiple files in Bash](Bash/copy_one_file_to_multiple_files.md)
 
 ### CleanCode
 
