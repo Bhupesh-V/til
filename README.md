@@ -33,6 +33,7 @@ languages and technologies.
 
 ### Bash
 
+- [Colorize Output in Terminal](Bash/colorize-output-in-bash.md)
 - [Copying one file to multiple files in Bash](Bash/copy_one_file_to_multiple_files.md)
 
 ### CleanCode
