@@ -8,7 +8,7 @@ Here is the format:
 
 where
 
-<ForegroundColorCode>, <BackgroundColorCode> & <Style> are integer Color Codes.
+`<ForegroundColorCode>`, `<BackgroundColorCode>` & `<Style>` are integer Color Codes.
 See [Resources](##Resources) for list of colors.
 
 Example : 
