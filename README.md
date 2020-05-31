@@ -25,6 +25,7 @@ languages and technologies.
 ## Categories
 * [Bash](#Bash)
 * [CleanCode](#CleanCode)
+* [Go](#Go)
 * [Miscellaneous](#Miscellaneous)
 * [Python](#Python)
 * [WebDev](#WebDev)
@@ -35,12 +36,18 @@ languages and technologies.
 
 - [Colorize Output in Terminal](Bash/colorize-output-in-bash.md)
 - [Copying one file to multiple files in Bash](Bash/copy_one_file_to_multiple_files.md)
+- [Get Total System Memory using `vmstat` command](Bash/total-memory-using-vmstat.md)
 
 ### CleanCode
 
 - [Comments](CleanCode/comments.md)
 - [Functions](CleanCode/functions.md)
 - [Naming](CleanCode/naming.md)
+
+### Go
+
+- [Convert `string` to `int` and vice-versa in Go](Go/string-to-int-and-vice-versa.md)
+- [Splitting strings in Go](Go/split-strings-in-go.md)
 
 ### Miscellaneous
 
