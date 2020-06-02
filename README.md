@@ -6,7 +6,6 @@
   <a href="https://github.com/Bhupesh-V/til/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/github/license/Bhupesh-V/til" target="_blank" />
   </a>
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Bhupesh-V/til">
   <a href="https://bhupesh.codes/til/">
     <img alt="Website Status" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=orange&up_message=online&url=https%3A%2F%2Fbhupesh.codes%2Ftil%2F" />
   </a>
