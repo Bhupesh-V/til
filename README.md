@@ -46,6 +46,7 @@ languages and technologies.
 ### Go
 
 - [Convert `string` to `int` and vice-versa in Go](Go/string-to-int-and-vice-versa.md)
+- [Creating Python's `next()` alternative using Go Closures](Go/python-next-alternative-go-clousers.md)
 - [Measure Exection time in Go](Go/measure-execution-time-in-go.md)
 - [Splitting strings in Go](Go/split-strings-in-go.md)
 
