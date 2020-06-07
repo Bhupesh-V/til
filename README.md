@@ -22,20 +22,14 @@ languages and technologies.
 
 
 ## Categories
-* [Bash](#Bash)
 * [CleanCode](#CleanCode)
 * [Go](#Go)
 * [Miscellaneous](#Miscellaneous)
 * [Python](#Python)
+* [Shell](#Shell)
 * [WebDev](#WebDev)
 
 ---
-
-### Bash
-
-- [Colorize Output in Terminal](Bash/colorize-output-in-bash.md)
-- [Copying one file to multiple files in Bash](Bash/copy_one_file_to_multiple_files.md)
-- [Get Total System Memory using `vmstat` command](Bash/total-memory-using-vmstat.md)
 
 ### CleanCode
 
@@ -54,6 +48,7 @@ languages and technologies.
 ### Miscellaneous
 
 - [Deploying to Heroku](Miscellaneous/deployto-heroku.md)
+- [Internet search tips & tricks for developers](Miscellaneous/internet-search-tricks-tips-for-developers.md)
 - [Killing Open Ports in Linux](Miscellaneous/kill-this-port.md)
 - [Releases on GitHub](Miscellaneous/gittagging.md)
 - [SEO Tools](Miscellaneous/seo-tools.md)
@@ -68,6 +63,13 @@ languages and technologies.
 - [PEP8 - the fashion 💃 police of Python](Python/pep8.md)
 - [Publishing a Package on PyPi](Python/pypi.md)
 - [Writing Unit Tests in Python ✅](Python/unittest.md)
+
+### Shell
+
+- [Colorize Output in Terminal](Shell/colorize-output-in-bash.md)
+- [Copying one file to multiple files in Bash](Shell/copy_one_file_to_multiple_files.md)
+- [Find files changed 7 days ago](Shell/find-files-changed-7-days-ago.md)
+- [Get Total System Memory using `vmstat` command](Shell/total-memory-using-vmstat.md)
 
 ### WebDev
 
