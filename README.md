@@ -44,6 +44,7 @@ languages and technologies.
 - [Creating Python's `next()` alternative using Go Closures](Go/python-next-alternative-go-clousers.md)
 - [Measure Exection time in Go](Go/measure-execution-time-in-go.md)
 - [Splitting strings in Go](Go/split-strings-in-go.md)
+- [Where are my build files when I use `go run`](Go/where-are-my-build-files-when-i-use-go-run.md)
 
 ### Miscellaneous
 
