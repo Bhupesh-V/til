@@ -28,6 +28,7 @@ languages and technologies.
 * [Python](#Python)
 * [Shell](#Shell)
 * [WebDev](#WebDev)
+* [_layouts](#_layouts)
 
 ---
 
@@ -43,6 +44,7 @@ languages and technologies.
 - [Convert `string` to `int` and vice-versa in Go](Go/string-to-int-and-vice-versa.md)
 - [Creating Python's `next()` alternative using Go Closures](Go/python-next-alternative-go-clousers.md)
 - [Measure Exection time in Go](Go/measure-execution-time-in-go.md)
+- [Reading & Setting Environment variables in Go](Go/reading-and-setting-environment-variables-in-go.md)
 - [Splitting strings in Go](Go/split-strings-in-go.md)
 - [Where are my build files when I use `go run`](Go/where-are-my-build-files-when-i-use-go-run.md)
 
@@ -78,6 +80,9 @@ languages and technologies.
 - [I learned about Open Graph protocol](WebDev/OpenGraph.md)
 - [Live Editing HTML](WebDev/html_editable.md)
 - [`async` & `defer` Attributes](WebDev/async_defer.md)
+
+### _layouts
+
 
 ---
 
