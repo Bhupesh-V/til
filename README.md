@@ -28,7 +28,6 @@ languages and technologies.
 * [Python](#Python)
 * [Shell](#Shell)
 * [WebDev](#WebDev)
-* [_layouts](#_layouts)
 
 ---
 
@@ -81,9 +80,6 @@ languages and technologies.
 - [I learned about Open Graph protocol](WebDev/OpenGraph.md)
 - [Live Editing HTML](WebDev/html_editable.md)
 - [`async` & `defer` Attributes](WebDev/async_defer.md)
-
-### _layouts
-
 
 ---
 
