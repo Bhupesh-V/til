@@ -72,6 +72,7 @@ languages and technologies.
 - [Colorize Output in Terminal](Shell/colorize-output-in-bash.md)
 - [Copying one file to multiple files in Bash](Shell/copy_one_file_to_multiple_files.md)
 - [Find files changed 7 days ago](Shell/find-files-changed-7-days-ago.md)
+- [Finding all Python Virtual Environments in your system](Shell/find-all-python-virtual-environments-in-your-system.md)
 - [Get Total System Memory using `vmstat` command](Shell/total-memory-using-vmstat.md)
 
 ### WebDev
