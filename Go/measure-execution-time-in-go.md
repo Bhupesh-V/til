@@ -1,5 +1,5 @@
 # Measure Exection time in Go
-
+<!-- 2 June 2020 -->
 To know who how long your go code executes you can use the `time.Now()` and `time.Since()` methods in the `time` package.
 
 ## Demo

@@ -1,5 +1,5 @@
-# Fastest Python First 🏃
-
+# Fastest Python First: Tips and Tricks 🏃
+<!--27 Jun 2019 -->
 Here are some tips that I learned to make Python Programs faster (_WIP_).
 
 1. Always compile regular expression, if you have to match patterns a lot of times.

@@ -1,5 +1,5 @@
-# Functions
-
+# CleanCode: Writing Functions
+<!-- 24 Jun 2019 -->
 Got to learn some new points regarding functions() in CleanCode.
 
 1. Functions should be small.

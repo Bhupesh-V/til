@@ -1,5 +1,5 @@
 # Convert `string` to `int` and vice-versa in Go
-
+<!-- 31 May 2020 -->
 There are basically 2-3 methods to convert integer to string and back to integer but the most easiest way is to use the `Itoa` and `Atoi` methods in the `strconv` package.
 
 

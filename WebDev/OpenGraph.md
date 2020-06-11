@@ -1,5 +1,5 @@
 # I learned about Open Graph protocol
-
+<!-- 18 Jun 2019 -->
 ### What it does ?
 - [Open Graph](http://ogp.me/) Makes your website into rich "graph" objects.
 - Now, what I understand from it is that it provides us to add

@@ -1,5 +1,5 @@
 # `async` & `defer` Attributes
-
+<!-- 21 Jul 2019 -->
 Usually javascript files interrupt the parsing of HTML document.
 To prevent this 2 special attributes of the `<script>` elements are used.
 

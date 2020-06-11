@@ -1,5 +1,5 @@
 # Splitting strings in Go
-
+<!-- 31 May 2020 -->
 Splitting strings in Go is done by using the `Split()` method.
 You need to import the `strings` standard library to use this.
 

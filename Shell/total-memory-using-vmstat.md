@@ -1,5 +1,5 @@
 # Get Total System Memory using `vmstat` command
-
+<!-- 31 May 2020 -->
 ```bash
 vmstat -s | grep "total memory" | grep -Eo '[0-9]{1,}'
 ```

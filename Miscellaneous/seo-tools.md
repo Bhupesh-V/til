@@ -1,6 +1,6 @@
 # SEO Tools
-
-Here is a list of some tools to test your website on SEO and Social Media.
+<!--15 Oct 2019 -->
+Here is a list of some tools to test your website for SEO and Social Media.
 
 - [Facebook's Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/).
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator).

@@ -1,5 +1,5 @@
 # Functional Programming in Python 🐍
-
+<!--3 Jul 2019 -->
 Features like `lambda`, `map`, `filter`, `reduce` are generally used to perform functional programming related tasks in Python.
 Let's take a quick look on them.
 

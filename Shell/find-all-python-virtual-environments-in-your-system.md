@@ -1,5 +1,5 @@
 # Finding all Python Virtual Environments in your system
-
+<!-- 10 June 2020 -->
 So if you work with Python all day, you already know about Virtual Environments.
 The only problem with me 😅 is that I end up creating a lot of them when using and making my side-projects.
 We know that there is a `activate` script that can be used for this purpose.

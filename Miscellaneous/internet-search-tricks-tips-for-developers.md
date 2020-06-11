@@ -1,5 +1,5 @@
 # Internet search tips & tricks for developers
-
+<!-- 7 June 2020 -->
 All of the below mentioned tips works in both DuckDuckGo & Google (i use both :wink:), it should work fine in other search engines too.
 
 1. **`filetype:pdf golang`**

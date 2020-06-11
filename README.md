@@ -33,13 +33,13 @@ languages and technologies.
 
 ### CleanCode
 
-- [Comments](CleanCode/comments.md)
-- [Functions](CleanCode/functions.md)
-- [Naming](CleanCode/naming.md)
+- [CleanCode: Naming Variables & Functions](CleanCode/cleancode-naming.md)
+- [CleanCode: Writing Comments](CleanCode/write-clean-comments.md)
+- [CleanCode: Writing Functions](CleanCode/cleancode-writing-functions.md)
 
 ### Go
 
-- [Clearing terminal in Go](Go/clear-terminal-in-go.md)
+- [Clearing terminal screen in Go](Go/clear-terminal-screen-in-go.md)
 - [Convert `string` to `int` and vice-versa in Go](Go/string-to-int-and-vice-versa.md)
 - [Creating Python's `next()` alternative using Go Closures](Go/python-next-alternative-go-clousers.md)
 - [Measure Exection time in Go](Go/measure-execution-time-in-go.md)
@@ -49,37 +49,37 @@ languages and technologies.
 
 ### Miscellaneous
 
-- [Deploying to Heroku](Miscellaneous/deployto-heroku.md)
+- [Deploying to Heroku](Miscellaneous/deploy-to-heroku.md)
 - [Internet search tips & tricks for developers](Miscellaneous/internet-search-tricks-tips-for-developers.md)
-- [Killing Open Ports in Linux](Miscellaneous/kill-this-port.md)
-- [Releases on GitHub](Miscellaneous/gittagging.md)
+- [Killing Open Ports in Linux](Miscellaneous/kill-open-ports-linux.md)
+- [Releases on GitHub](Miscellaneous/making-releases-github-gittag.md)
 - [SEO Tools](Miscellaneous/seo-tools.md)
-- [Semantic Versioning](Miscellaneous/semantic_versioning.md)
-- [What's a Procfile 👀](Miscellaneous/procfile.md)
-- [Writing Cleaner Commits - Template](Miscellaneous/clean-commit.md)
+- [Semantic Versioning](Miscellaneous/semantic-versioning.md)
+- [What's a Procfile 👀](Miscellaneous/creating-procfile-in-heroku.md)
+- [Writing Cleaner Commits - Template](Miscellaneous/write-clean-commits-template.md)
 
 ### Python
 
-- [Fastest Python First 🏃](Python/fast.md)
-- [Functional Programming in Python 🐍](Python/functional.md)
+- [Fastest Python First: Tips and Tricks 🏃](Python/faster-python-tips-and-tricks.md)
+- [Functional Programming in Python 🐍](Python/functional-programming-in-python.md)
 - [PEP8 - the fashion 💃 police of Python](Python/pep8.md)
-- [Publishing a Package on PyPi](Python/pypi.md)
-- [Writing Unit Tests in Python ✅](Python/unittest.md)
+- [Publishing a Package on PyPI](Python/publishing-a-package-on-pypi.md)
+- [Writing Unit Tests in Python ✅](Python/writing-tests-in-python-using-unittest.md)
 
 ### Shell
 
-- [Colorize Output in Terminal](Shell/colorize-output-in-bash.md)
-- [Copying one file to multiple files in Bash](Shell/copy_one_file_to_multiple_files.md)
+- [Colorize Output in Terminal](Shell/colorize-output-in-terminal-bash.md)
+- [Copy one file to multiple files in Bash](Shell/copy-one-file-to-multiple-files.md)
 - [Find files changed 7 days ago](Shell/find-files-changed-7-days-ago.md)
 - [Finding all Python Virtual Environments in your system](Shell/find-all-python-virtual-environments-in-your-system.md)
 - [Get Total System Memory using `vmstat` command](Shell/total-memory-using-vmstat.md)
 
 ### WebDev
 
-- [Auto-complete in plain HTML](WebDev/html-datalist.md)
+- [Auto-complete in plain HTML](WebDev/html-datalist-auto-complete.md)
 - [I learned about Open Graph protocol](WebDev/OpenGraph.md)
-- [Live Editing HTML](WebDev/html_editable.md)
-- [`async` & `defer` Attributes](WebDev/async_defer.md)
+- [Live Editing HTML](WebDev/live-edit-html.md)
+- [`async` & `defer` Attributes](WebDev/async-defer-html-javascript.md)
 
 ---
 
