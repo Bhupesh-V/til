@@ -7,10 +7,11 @@ import os
 import json
 
 HEADER = '''
-<h1 align="center">TIL</h1>
+<h1 align="center">Today I Learned</h1>
 <p align="center">
-  <img src="https://repository-images.githubusercontent.com/192476462/fdd6ce80-0b94-11ea-8b50-812ee66b0599" />
-  <img alt="TILs Count" src="https://img.shields.io/badge/dynamic/json.svg?color=orange&label=TILs&query=count&url=https%3A%2F%2Fraw.githubusercontent.com%2FBhupesh-V%2Ftil%2Fmaster%2Fcount.json">
+  <img height="200px" src="https://repository-images.githubusercontent.com/192476462/fdd6ce80-0b94-11ea-8b50-812ee66b0599" />
+  <br>
+  <img alt="TILs Count" src="https://img.shields.io/badge/dynamic/json.svg?color=black&label=TILs&query=count&url=https%3A%2F%2Fraw.githubusercontent.com%2FBhupesh-V%2Ftil%2Fmaster%2Fcount.json">
   <img alt="last commit" src="https://img.shields.io/github/last-commit/bhupesh-V/TIL?color=purple">
   <a href="https://github.com/Bhupesh-V/til/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/github/license/Bhupesh-V/til" target="_blank" />
