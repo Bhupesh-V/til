@@ -31,7 +31,9 @@ call plug#end()%
 
 1. <kbd>i</kbd> : to come in Insert/Editing Mode.
 2. <kbd>Esc</kbd> : for command mode. 
-
+3. <kbd>V</kbd> : to enable visual mode, use <kbd>shift</kbd> and arrow keys to select text.
+4. <kbd>"+y</kbd>: for yanking(copying) text from vim to system's clipboard (tested on Ubuntu 18, might not work on other systems. Search according to your system).
+5. <kbd>nohlsearch</kbd> : for clearing search highlighting.
 
 ---
 I will only add stuff here when I start using it daily.
