@@ -33,6 +33,6 @@ Here is a `man netstat` for what it does
 You see the _python3_ one? Kill 😈 this process
 
 2. Run `kill -9 12054`
-Kill is used to Removing a background process or job, `-9` specifies SIGKILL (Forced termination) where `12054` is the PID
+Kill is used for Removing a background process or job, `-9` specifies SIGKILL (Forced termination) where `12054` is the PID
 
 3. Run the development server again.

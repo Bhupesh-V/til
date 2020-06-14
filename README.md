@@ -54,6 +54,7 @@ languages and technologies.
 - [Deploying to Heroku](Miscellaneous/deploy-to-heroku.md)
 - [Internet search tips & tricks for developers](Miscellaneous/internet-search-tricks-tips-for-developers.md)
 - [Killing Open Ports in Linux](Miscellaneous/kill-open-ports-linux.md)
+- [My vim cheatsheet](Miscellaneous/my-vim-cheatsheet.md)
 - [Releases on GitHub](Miscellaneous/making-releases-github-gittag.md)
 - [SEO Tools](Miscellaneous/seo-tools.md)
 - [Semantic Versioning](Miscellaneous/semantic-versioning.md)
