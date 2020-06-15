@@ -1,13 +1,15 @@
 # My vim cheatsheet
 <!-- 14 June, 2020 -->
-I have started transitioning slowly to lightweight editors, because my low system specifications.
-And what better than `vim`, so I will start logging interesting things I learn here.
+I have started transitioning slowly to lightweight editors, because of my low system configuration.
+And what can better than `vim`, so I will start logging interesting things I learn here.
 
 For starters I use **neovim**.
 (PS: I will write this TIL through vim only :)
 
 ### How to install plugins
 1. Open up the `~/.config/nvim/init.vim` file add the plugin.
+
+My init file
 ```
 call plug#begin()
 Plug 'roxma/nvim-completion-manager'
@@ -16,6 +18,7 @@ Plug 'honza/vim-snippets'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'gilgigilgil/anderson.vim'
 call plug#end()% 
 ```
 
@@ -24,7 +27,7 @@ call plug#end()%
 ### Some nvim specifc shortcuts
 
 - <kbd>E</kbd> - to go back the directory after opening a file.
-- </kbd>NERDTree</kbd> - to start the Tree like menu.
+- </kbd>:NERDTree</kbd> - to start the Tree like menu.
 - When in NERDTree use </kbd>m</kbd> for creating a file.
 
 ### Vim Commands
@@ -33,8 +36,11 @@ call plug#end()%
 2. <kbd>Esc</kbd> : for command mode. 
 3. <kbd>V</kbd> : to enable visual mode, use <kbd>shift</kbd> and arrow keys to select text.
 4. <kbd>"+y</kbd>: for yanking(copying) text from vim to system's clipboard (tested on Ubuntu 18, might not work on other systems. Search according to your system).
-5. <kbd>nohlsearch</kbd> : for clearing search highlighting.
+5. <kbd>:nohlsearch</kbd> : for clearing search highlighting.
+6. <kbd>:set nu</kbd> : to enable Line numbers(left margin).
+7. <kbd>"+p</kbd> : to paste from system's clipboard.
+
 
 ---
-I will only add stuff here when I start using it daily.
+I will only add stuff here when I start using it or use it for the first time.
 
