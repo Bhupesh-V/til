@@ -76,6 +76,7 @@ languages and technologies.
 - [Find files changed 7 days ago](Shell/find-files-changed-7-days-ago.md)
 - [Finding all Python Virtual Environments in your system](Shell/find-all-python-virtual-environments-in-your-system.md)
 - [Get Total System Memory using `vmstat` command](Shell/total-memory-using-vmstat.md)
+- [Terminal Shortcuts for Linux Users](Shell/terminal-shortcuts-for-linux.md)
 
 ### WebDev
 
