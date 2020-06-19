@@ -19,7 +19,10 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'gilgigilgil/anderson.vim'
-call plug#end()% 
+call plug#end()
+
+vnoremap <C-c> "+y
+map <C-v> "+p
 ```
 
 2. Open nvim, use `:PlugInstall` to install the new plugins.
@@ -35,10 +38,11 @@ call plug#end()%
 1. <kbd>i</kbd> : to come in Insert/Editing Mode.
 2. <kbd>Esc</kbd> : for command mode. 
 3. <kbd>V</kbd> : to enable visual mode, use <kbd>shift</kbd> and arrow keys to select text.
-4. <kbd>"+y</kbd>: for yanking(copying) text from vim to system's clipboard (tested on Ubuntu 18, might not work on other systems. Search according to your system).
+4. <kbd>"+y</kbd> : for yanking(copying) text from vim to system's clipboard (tested on Ubuntu 18, might not work on other systems. Search according to your system).
 5. <kbd>:nohlsearch</kbd> : for clearing search highlighting.
 6. <kbd>:set nu</kbd> : to enable Line numbers(left margin).
-7. <kbd>"+p</kbd> : to paste from system's clipboard.
+7. <kbd>"+p</kbd> : to paste from system's clipboard (I have added key bindings for copy/paste in my nvim config file).
+8. <kbd>u</kbd> : Undo latest changes in vim.
 
 
 ---
