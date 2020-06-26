@@ -23,6 +23,12 @@ call plug#end()
 
 vnoremap <C-c> "+y
 map <C-v> "+p
+nmap <F6> :NERDTreeToggle<CR>
+
+colorscheme anderson
+
+set nu
+set ai
 ```
 
 2. Open nvim, use `:PlugInstall` to install the new plugins.
@@ -49,6 +55,8 @@ map <C-v> "+p
 12. <kbd>Ctrl + wq</kbd> : Quit Window.
 13. `:earlier N` : Time travel in past N seconds.
 14. `:later N` : Time tavel in future N seconds.
+15. `:echo $MYVIMRC`: to view location of your default `.vimrc` file.
+16. Use `==` in Visual Mode to fix line indent.
 ---
 I will only add stuff here when I start using it or use it for the first time.
 
