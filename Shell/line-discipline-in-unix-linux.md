@@ -13,10 +13,8 @@ Fire up your terminal. And start typing....
 
 <table>
 	<tr>
-		<th>
-			<td>Keyboard Shortcut</td>
-			<td>Description</td>
-		</th>
+		<th>Keyboard Shortcut</th>
+		<th>Description</th>
 	</tr>
 	<tr>
 	<td><kbd>Ctrl + ?</kbd></td>
@@ -39,7 +37,7 @@ Fire up your terminal. And start typing....
 		<td>Delete the last input "word"</td>
 	</tr>
 	<tr>
-		<td><kbd>Ctrl+k</kbd></td>
+		<td><kbd>Ctrl + k</kbd></td>
 		<td>Erase line to the end, from current cursor position</td>
 	</tr>
 	<tr>
