@@ -17,11 +17,11 @@ Fire up your terminal. And start typing....
 		<th>Description</th>
 	</tr>
 	<tr>
-	<td><kbd>Ctrl</kbd>+</td><kbd>?</kbd></td>
+	<td><kbd>Ctrl</kbd>+<kbd>?</kbd></td>
 		<td>Delete the last input character, Basically Backspace (See what I am talking about, ^? can be used in terminals which may not support the backspace key</td>
 	</tr>
 	<tr>
-		<td><kbd>Ctrl</kbd>+</td><kbd>q</kbd></td>
+		<td><kbd>Ctrl</kbd>+<kbd>q</kbd></td>
 		<td>Erase line, works like carriage return <code>/r</code></td>
 	</tr>
 	<tr>
