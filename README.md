@@ -97,6 +97,7 @@ See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know ho
 
 👤 **Bhupesh Varshney**
 
+- Web : [bhupesh.codes](https://bhupesh-v.github.io)
 - Twitter : [@bhupeshimself](https://twitter.com/bhupeshimself)
 - DEV : [bhupesh](https://dev.to/bhupesh)
 
@@ -105,13 +106,17 @@ See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know ho
 
 Support me by giving a ⭐️ if this project helped you! or just [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2F)](https://twitter.com/intent/tweet?url=https://github.com/Bhupesh-V/til&text=til%20via%20@bhupeshimself)
 
+<a href="https://liberapay.com/bhupesh/donate">
+  <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" width="100">
+</a>
+
 <a href="https://www.patreon.com/bhupesh">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+  <img alt="Patron Bhupesh" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
 ## 📝 License
 
-Copyright © 2019 [Bhupesh Varshney](https://github.com/Bhupesh-V).<br />
+Copyright © 2020 [Bhupesh Varshney](https://github.com/Bhupesh-V).<br />
 This project is [MIT](https://github.com/Bhupesh-V/til/blob/master/LICENSE) licensed.
 
 ## About
