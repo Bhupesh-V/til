@@ -7,7 +7,7 @@ To know more do `man ssty`.
 
 ## Demo
 
-Other than <kbd>Ctrl+c</kbd> and <kbd>Ctrl+z</kbd> which you already know about. Here are some other tricks.
+Other than <kbd>Ctrl</kbd>+<kbd>c</kbd> and <kbd>Ctrl</kbd>+<kbd>z</kbd> which you already know about. Here are some other tricks.
 
 Fire up your terminal. And start typing....
 
@@ -17,40 +17,40 @@ Fire up your terminal. And start typing....
 		<th>Description</th>
 	</tr>
 	<tr>
-	<td><kbd>Ctrl + ?</kbd></td>
+	<td><kbd>Ctrl</kbd>+</td><kbd>?</kbd></td>
 		<td>Delete the last input character, Basically Backspace (See what I am talking about, ^? can be used in terminals which may not support the backspace key</td>
 	</tr>
 	<tr>
-		<td><kbd>Ctrl + q</kbd></td>
+		<td><kbd>Ctrl</kbd>+</td><kbd>q</kbd></td>
 		<td>Erase line, works like carriage return <code>/r</code></td>
 	</tr>
 	<tr>
-		<td><kbd>Ctrl + a</kbd></td>
+		<td><kbd>Ctrl</kbd>+<kbd>a</kbd></td>
 		<td>Moves cursor to beginning of line</td>
 	</tr>
 	<tr>
-		<td><kbd>Ctrl + e</kbd></td>
+		<td><kbd>Ctrl</kbd>+<kbd>e</kbd></td>
 		<td>Moves cursor to end of line</td>
 	</tr>
 	<tr>
-		<td><kbd>Ctrl + w</kbd></td>
+		<td><kbd>Ctrl</kbd>+<kbd>w</kbd></td>
 		<td>Delete the last input "word"</td>
 	</tr>
 	<tr>
-		<td><kbd>Ctrl + k</kbd></td>
+		<td><kbd>Ctrl</kbd>+<kbd>k</kbd></td>
 		<td>Erase line to the end, from current cursor position</td>
 	</tr>
 	<tr>
-		<td><kbd>Ctrl + y</kbd></td>
+		<td><kbd>Ctrl</kbd>+<kbd>y</kbd></td>
 		<td>Paste the last erased text</td>
 	</tr>
 </table>
 
-Apart from these line input specific kwyboard shortcuts. We also have
+Apart from these line input specific keyboard shortcuts. We also have ...
 
 #### Multiline Input
 
-Use / for continuing the multiline input.
+Use `/` for continuing the multiline input.
 
 ```bash
 bhupesh@dev: hello my name\
