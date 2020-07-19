@@ -79,7 +79,6 @@ languages and technologies.
 - [Get System info using Shell Commands](Shell/get-system-info.md)
 - [Get Total System Memory using `vmstat` command](Shell/total-memory-using-vmstat.md)
 - [Line Discipline in Unix/Linux Machines](Shell/line-discipline-in-unix-linux.md)
-- [Terminal Shortcuts for Linux Users](Shell/terminal-shortcuts-for-linux.md)
 
 ### WebDev
 
