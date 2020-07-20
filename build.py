@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-''' Simple script to auto-generate the README.md file for a TIL project. 
+''' Simple script to auto-generate the README.md file for a TIL project.
 '''
 import os
 import json
@@ -82,6 +82,7 @@ def get_title(til_file):
         for line in file:
             line = line.strip()
             if line.startswith('#'):
+                print(line[1:])
                 return line[1:].lstrip()  # text after # and whitespace
 
 
@@ -109,6 +110,11 @@ def get_category_dict(category_names):
     return (count, categories)
 
 
+def read_file(filename):
+    with open(filename) as file:
+        return file.read()
+
+
 def print_file(category_names, count, categories):
     ''' Now we have all the information, print it out in markdown format. '''
     with open('count.json', 'w') as json_file:
@@ -124,7 +130,7 @@ def print_file(category_names, count, categories):
         # print the list of categories with links
         for category in sorted(category_names):
             file.write(
-                '* [{0}](#{1})\n'.format(category, category))
+                '* [{0}](#{1})\n'.format(category, category.lower()))
 
         if len(category_names) > 0:
             file.write('''
@@ -133,15 +139,25 @@ def print_file(category_names, count, categories):
 ''')
         # print the section for each category
         for category in sorted(category_names):
-            file.write('### {0}\n'.format(category))
+            file.write('\n\n\n### {0}\n'.format(category))
             file.write('\n')
             tils = categories[category]
+            file.write('<ul>')
             for (title, filename) in sorted(tils):
-                file.write('- [{0}]({1})\n'.format(title, filename))
+                file.write('\n<li>')
+                #file.write('<table>')
+                file.write('<a href="{1}">{0}</a>'.format(title, filename))
+                #file.write('<td><details><summary> Read More </summary>')
+                file.write('<details><summary> Read More </summary>')
+                file.write('\n\n')
+                file.write(read_file(filename))
+                file.write('\n</details>')
+                file.write('</li>')
             file.write('\n')
+            file.write('</ul>')
 
         if len(category_names) > 0:
-            file.write('''---
+            file.write('''\n---
 
 ''')
         file.write(FOOTER)
@@ -153,6 +169,7 @@ def create_README():
     category_names = get_category_list()
     count, categories = get_category_dict(category_names)
     print_file(category_names, count, categories)
+    print("\n", count, "TILs read")
 
 
 if __name__ == '__main__':

@@ -1,4 +1,4 @@
-# CleanCode: Naming Variables & Functions
+# Naming Variables & Functions
 <!--24 Jun 2019 -->
 1. The name of a variable, function, or class should answer all the big questions.
    It should tell you why it exists, what it does, and how it is used.

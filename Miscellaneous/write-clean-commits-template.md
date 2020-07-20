@@ -38,9 +38,9 @@ git config --global commit.template ~/.gitmessage
 subl ~/.gitmessage
 ```
 
-This will invoke sublime with the tempplate (use `code` if you use VSCode)Now copy paste the above template, hit save and your are done.
+This will invoke sublime with the template (use `code` if you use VSCode) Now copy paste the above template, hit save and your are done.
 
-Now when commitng changes instead of using `git commit -m ""`, Use `git commit` this will invoke the commit template which you already set.
+Now when commiting changes instead of using `git commit -m ""`, Use `git commit` this will invoke the commit template which you already set.
 
 
 ### Resources

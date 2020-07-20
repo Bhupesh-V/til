@@ -1,25 +1,24 @@
 # Releases on GitHub
 <!-- 2 Jul 2019 -->
 Git tagging is generally used to release software on github.
-Here are some basic git commands to use git tagging.
+Here are some basic git commands for tagging.
 
-```bash
-git tag -a v1.4 -m "my version 1.4"
-```
-- It is used to tag specific points of your repo.
-Run this when you commit something.
+- To tag specific points of your repo. Run this when you commit something.
+  ```shell
+  git tag -a v1.4 -m "my version 1.4"
+  ```
 
-```bash
-git tag
-```
-- It lists all the tags of your repo.
+- To lists all the tags of your repo.
+  ```bash
+  git tag
+  ```
 
-```bash
-git tag -a v1.4 9fceb02
-```
 - To tag specific commits.
+  ```bash
+  git tag -a v1.4 9fceb02
+  ```
 
-```bash
-git push origin v1.4
-```
 - To push tags on GitHub.
+  ```bash
+  git push origin v1.4
+  ```
