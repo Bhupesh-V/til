@@ -779,6 +779,59 @@ Now when commiting changes instead of using `git commit -m ""`, Use `git commit`
 ### Python
 
 <ul>
+<li><a href="Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a><details><summary> Read More 👇</summary>
+
+# Cryptographically strong random string
+
+One liner
+
+```bash
+python3 -c "import secrets;print(secrets.token_urlsafe())"
+```
+
+Sample Runs
+
+```bash
+>>> import secrets
+>>> secrets.token_urlsafe()
+'noLCpWgg5bJbALwlqAKKWUcb4nZg0LvxIUFHyhyei-I'
+>>> secrets.token_urlsafe()
+'8HhV5FMm2vxfrSoO9o_v65FRy6bLbvc89POSX0fnMqk'
+>>> secrets.token_urlsafe()
+'bClPydJqA7_0GsDvUAqqShUH5ZucWzdErg0tZIGZU2k'
+>>> secrets.token_urlsafe()
+'82LSHzCKkwo5y__3NZrck27ZbDL1WiKoSYxQQki8uvA'
+>>> 
+```
+</details></li>
+<li><a href="Python/difference-class-and-function-based-views-djnago.md">Difference b/w Class & Function Based Views in Django</a><details><summary> Read More 👇</summary>
+
+# Difference b/w Class & Function Based Views in Django
+
+<table>
+	<tr>
+		<th>Function Based Views</th>
+		<th>Class Based Views</th>
+	</tr>
+	<tr>
+		<ol>
+			<li>More setup</li>
+			<li>Less Abstraction</li>
+			<li>Requires error checking</li>
+			<li>Less modular</li>
+		</ol>
+	</tr>
+	<tr>
+		<ol>
+			<li>Little setup</li>
+			<li>More "magic" abstraction</li>
+			<li>Error handling built-in (generics)</li>
+			<li>Much more modular</li>
+			<li>Sane and stable generic API</li>
+		</ol>
+	</tr>
+</table>
+</details></li>
 <li><a href="Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a><details><summary> Read More 👇</summary>
 
 # Fastest Python First: Tips and Tricks 🏃
@@ -1005,6 +1058,28 @@ This will prompt for your PyPi username and password.
 ## Resources
 - [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/)
 - [How to upload your python package to PyPi](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
+
+</details></li>
+<li><a href="Python/specify-dev-dependencies-python-package-setup.md">Specify dev dependencies in setup.py</a><details><summary> Read More 👇</summary>
+
+# Specify dev dependencies in setup.py
+
+```python
+# setup.py
+...
+
+extras_require = {
+    "dev": [
+        "pytest>=3.7",
+    ],
+}
+```
+
+Test it locally
+
+```bash
+pip install -e .[dev]
+```
 
 </details></li>
 <li><a href="Python/writing-tests-in-python-using-unittest.md">Writing Unit Tests in Python ✅</a><details><summary> Read More 👇</summary>
