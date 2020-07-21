@@ -145,10 +145,8 @@ def print_file(category_names, count, categories):
             file.write('<ul>')
             for (title, filename) in sorted(tils):
                 file.write('\n<li>')
-                #file.write('<table>')
                 file.write('<a href="{1}">{0}</a>'.format(title, filename))
-                #file.write('<td><details><summary> Read More </summary>')
-                file.write('<details><summary> Read More </summary>')
+                file.write('<details><summary> Read More 👇</summary>')
                 file.write('\n\n')
                 file.write(read_file(filename))
                 file.write('\n</details>')

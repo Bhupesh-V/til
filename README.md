@@ -39,7 +39,7 @@ languages and technologies.
 ### CleanCode
 
 <ul>
-<li><a href="CleanCode/cleancode-naming.md">Naming Variables & Functions</a><details><summary> Read More </summary>
+<li><a href="CleanCode/cleancode-naming.md">Naming Variables & Functions</a><details><summary> Read More 👇</summary>
 
 # Naming Variables & Functions
 <!--24 Jun 2019 -->
@@ -52,7 +52,7 @@ languages and technologies.
 ---
 _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean-code/9780136083238/) for a while & logging what I learn here._
 </details></li>
-<li><a href="CleanCode/write-clean-comments.md">Writing Comments</a><details><summary> Read More </summary>
+<li><a href="CleanCode/write-clean-comments.md">Writing Comments</a><details><summary> Read More 👇</summary>
 
 # Writing Comments
 <!--24 Jun 2019 -->
@@ -82,7 +82,7 @@ But know reading it is an eye opener & shocking 😱. I will try to avoid commen
 _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean-code/9780136083238/) for a while & logging what I learn here._
 
 </details></li>
-<li><a href="CleanCode/cleancode-writing-functions.md">Writing Functions</a><details><summary> Read More </summary>
+<li><a href="CleanCode/cleancode-writing-functions.md">Writing Functions</a><details><summary> Read More 👇</summary>
 
 # Writing Functions
 <!-- 24 Jun 2019 -->
@@ -107,7 +107,7 @@ _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean
 ### Go
 
 <ul>
-<li><a href="Go/clear-terminal-screen-in-go.md">Clearing terminal screen in Go</a><details><summary> Read More </summary>
+<li><a href="Go/clear-terminal-screen-in-go.md">Clearing terminal screen in Go</a><details><summary> Read More 👇</summary>
 
 # Clearing terminal screen in Go
 <!-- 5 June 2020 -->
@@ -176,7 +176,7 @@ func main() {
 
 > The sequence `\033[2J` is read as _Esc[2J_ where *"2j"* clears the screen and moves the cursor to the home position (line 0, column 0).
 </details></li>
-<li><a href="Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a><details><summary> Read More </summary>
+<li><a href="Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a><details><summary> Read More 👇</summary>
 
 # Convert `string` to `int` and vice-versa in Go
 <!-- 31 May 2020 -->
@@ -214,7 +214,7 @@ string
 See [online](https://play.golang.org/p/moTZJ5LYEz9) demo
 
 </details></li>
-<li><a href="Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a><details><summary> Read More </summary>
+<li><a href="Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a><details><summary> Read More 👇</summary>
 
 # Creating Python's `next()` alternative using Go Closures
 <!-- 4 June 2020 -->
@@ -286,7 +286,7 @@ func main() {
 
 See this demo on [Go Playground](https://play.golang.org/p/8nH6t0HfnGu).
 </details></li>
-<li><a href="Go/measure-execution-time-in-go.md">Measure Exection time in Go</a><details><summary> Read More </summary>
+<li><a href="Go/measure-execution-time-in-go.md">Measure Exection time in Go</a><details><summary> Read More 👇</summary>
 
 # Measure Exection time in Go
 <!-- 2 June 2020 -->
@@ -384,7 +384,7 @@ Execution Time : 750ms
 ```
 
 </details></li>
-<li><a href="Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a><details><summary> Read More </summary>
+<li><a href="Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a><details><summary> Read More 👇</summary>
 
 # Reading & Setting Environment variables in Go
 <!-- 9 June 2020 -->
@@ -407,7 +407,7 @@ func main() {
 }
 ```
 </details></li>
-<li><a href="Go/split-strings-in-go.md">Splitting strings in Go</a><details><summary> Read More </summary>
+<li><a href="Go/split-strings-in-go.md">Splitting strings in Go</a><details><summary> Read More 👇</summary>
 
 # Splitting strings in Go
 <!-- 31 May 2020 -->
@@ -437,7 +437,7 @@ The `split()` return a Go Array, running this program should print the following
 [1999 03 12]
 ```
 </details></li>
-<li><a href="Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a><details><summary> Read More </summary>
+<li><a href="Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a><details><summary> Read More 👇</summary>
 
 # Where are my build files when I use `go run`
 <!-- 9 June 2020 -->
@@ -467,7 +467,7 @@ The default directory may vary with your system & `GOPATH`.
 ### Miscellaneous
 
 <ul>
-<li><a href="Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a><details><summary> Read More 👇</summary>
 
 # Deploying to Heroku
 <!--15 Oct 2019 -->
@@ -497,7 +497,7 @@ Where `app-name` is the name of app on heroku.
 3. `git push heroku master`
 Push new changes to heroku.
 </details></li>
-<li><a href="Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a><details><summary> Read More 👇</summary>
 
 # Internet search tips & tricks for developers
 <!-- 7 June 2020 -->
@@ -521,7 +521,7 @@ All of the below mentioned tips works in both DuckDuckGo & Google (i use both :w
 > Double quotes can be used for exact matches of the phrase (doesn't work sometimes).
 
 </details></li>
-<li><a href="Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a><details><summary> Read More 👇</summary>
 
 # Killing Open Ports in Linux
 <!--27 Jan 27 2020 -->
@@ -563,7 +563,7 @@ Kill is used for Removing a background process or job, `-9` specifies SIGKILL (F
 3. Run the development server again.
 
 </details></li>
-<li><a href="Miscellaneous/my-vim-cheatsheet.md">My vim cheatsheet</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/my-vim-cheatsheet.md">My vim cheatsheet</a><details><summary> Read More 👇</summary>
 
 # My vim cheatsheet
 <!-- 14 June, 2020 -->
@@ -629,7 +629,7 @@ I will only add stuff here when I start using it or use it for the first time.
 
 
 </details></li>
-<li><a href="Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a><details><summary> Read More 👇</summary>
 
 # Record your Desktop using `ffmpeg`
 <!--24 June 2020 -->
@@ -654,7 +654,7 @@ ffmpeg -video_size 1280x1024 -framerate 25 -f x11grab -i :0.0+0,0 -c:v libx264rg
 ## Resources
 - [Record-Your-Desktop-Using-FFmpeg-on-Ubuntu-Linux](https://www.wikihow.com/Record-Your-Desktop-Using-FFmpeg-on-Ubuntu-Linux)
 </details></li>
-<li><a href="Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a><details><summary> Read More 👇</summary>
 
 # Releases on GitHub
 <!-- 2 Jul 2019 -->
@@ -681,7 +681,7 @@ Here are some basic git commands for tagging.
   git push origin v1.4
   ```
 </details></li>
-<li><a href="Miscellaneous/seo-tools.md">SEO Tools</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/seo-tools.md">SEO Tools</a><details><summary> Read More 👇</summary>
 
 # SEO Tools
 <!--15 Oct 2019 -->
@@ -692,7 +692,7 @@ Here is a list of some tools to test your website for SEO and Social Media.
 - [Google's Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/).
 - [web.dev](https://web.dev/)
 </details></li>
-<li><a href="Miscellaneous/semantic-versioning.md">Semantic Versioning</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/semantic-versioning.md">Semantic Versioning</a><details><summary> Read More 👇</summary>
 
 # Semantic Versioning
 <!-- 24 Jul 2019 -->
@@ -706,7 +706,7 @@ Here is a list of some tools to test your website for SEO and Social Media.
 ### Resources
 - [Semantic Versioning 2.0.0](https://semver.org/)
 </details></li>
-<li><a href="Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a><details><summary> Read More 👇</summary>
 
 # What's a Procfile 👀
 <!--1 Jul 2019 -->
@@ -721,7 +721,7 @@ This is what I got to know :
 ### Resources
 - [The Procfile](https://devcenter.heroku.com/articles/procfile)
 </details></li>
-<li><a href="Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a><details><summary> Read More </summary>
+<li><a href="Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a><details><summary> Read More 👇</summary>
 
 # Writing Cleaner Commits - Template
 <!--20 Nov 2019 -->
@@ -779,7 +779,7 @@ Now when commiting changes instead of using `git commit -m ""`, Use `git commit`
 ### Python
 
 <ul>
-<li><a href="Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a><details><summary> Read More </summary>
+<li><a href="Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a><details><summary> Read More 👇</summary>
 
 # Fastest Python First: Tips and Tricks 🏃
 <!--27 Jun 2019 -->
@@ -832,7 +832,7 @@ Without List Comprehension : 0.0002067089080810547
 With List Comprehension : 0.00019121170043945312
 ```
 </details></li>
-<li><a href="Python/functional-programming-in-python.md">Functional Programming in Python 🐍</a><details><summary> Read More </summary>
+<li><a href="Python/functional-programming-in-python.md">Functional Programming in Python 🐍</a><details><summary> Read More 👇</summary>
 
 # Functional Programming in Python 🐍
 <!--3 Jul 2019 -->
@@ -898,7 +898,7 @@ print(sum)
 ```
 
 </details></li>
-<li><a href="Python/pep8.md">PEP8 - the fashion 💃 police of Python</a><details><summary> Read More </summary>
+<li><a href="Python/pep8.md">PEP8 - the fashion 💃 police of Python</a><details><summary> Read More 👇</summary>
 
 # PEP8 - the fashion 💃 police of Python
 <!--22 Jun 2019 -->
@@ -924,7 +924,7 @@ Below is a summary which includes some go-to rules you can memorize.
 ### Tools 
 If use Sublime Text, you can install [Python PEP8 Autoformat](https://packagecontrol.io/packages/Python%20PEP8%20Autoformat) - it does the job for you.
 </details></li>
-<li><a href="Python/publishing-a-package-on-pypi.md">Publishing a Package on PyPI</a><details><summary> Read More </summary>
+<li><a href="Python/publishing-a-package-on-pypi.md">Publishing a Package on PyPI</a><details><summary> Read More 👇</summary>
 
 # Publishing a Package on PyPI
 <!-- 31 Oct 2019 -->
@@ -1007,7 +1007,7 @@ This will prompt for your PyPi username and password.
 - [How to upload your python package to PyPi](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
 
 </details></li>
-<li><a href="Python/writing-tests-in-python-using-unittest.md">Writing Unit Tests in Python ✅</a><details><summary> Read More </summary>
+<li><a href="Python/writing-tests-in-python-using-unittest.md">Writing Unit Tests in Python ✅</a><details><summary> Read More 👇</summary>
 
 # Writing Unit Tests in Python ✅
 <!--27 Jun 2019 -->
@@ -1041,7 +1041,7 @@ if __name__ == '__main__':
 ### Shell
 
 <ul>
-<li><a href="Shell/colorize-output-in-terminal-bash.md">Colorize Output in Terminal</a><details><summary> Read More </summary>
+<li><a href="Shell/colorize-output-in-terminal-bash.md">Colorize Output in Terminal</a><details><summary> Read More 👇</summary>
 
 # Colorize Output in Terminal
 <!-- 31 Jan 2020 -->
@@ -1068,7 +1068,7 @@ Hello will be bold & green in color
 - [Bash tips: Colors and formatting (ANSI/VT100 Control sequences)](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 </details></li>
-<li><a href="Shell/copy-one-file-to-multiple-files.md">Copy one file to multiple files in Bash</a><details><summary> Read More </summary>
+<li><a href="Shell/copy-one-file-to-multiple-files.md">Copy one file to multiple files in Bash</a><details><summary> Read More 👇</summary>
 
 # Copy one file to multiple files in Bash
 <!--24 Dec 2019 -->
@@ -1077,7 +1077,7 @@ for f in file{1..10}.py; do cp main.py $f; done
 ```
 > this will create new files file_1.py, file_2.py etc and copy contents of _main.py_ file to all of them.
 </details></li>
-<li><a href="Shell/find-files-changed-7-days-ago.md">Find files changed 7 days ago</a><details><summary> Read More </summary>
+<li><a href="Shell/find-files-changed-7-days-ago.md">Find files changed 7 days ago</a><details><summary> Read More 👇</summary>
 
 # Find files changed 7 days ago
 
@@ -1103,7 +1103,7 @@ an alternative version
 find Documents/ -newermt "7 days ago" -ls
 ```
 </details></li>
-<li><a href="Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a><details><summary> Read More </summary>
+<li><a href="Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a><details><summary> Read More 👇</summary>
 
 # Finding all Python Virtual Environments in your system
 <!-- 10 June 2020 -->
@@ -1187,7 +1187,7 @@ grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox} "/home"  0.0
 
 Now you can just do `source <path>`.
 </details></li>
-<li><a href="Shell/get-system-info.md">Get System info using Shell Commands</a><details><summary> Read More </summary>
+<li><a href="Shell/get-system-info.md">Get System info using Shell Commands</a><details><summary> Read More 👇</summary>
 
 # Get System info using Shell Commands
 <!-- 19 July 2020 -->
@@ -1217,7 +1217,7 @@ ps axch -o cmd:15,%cpu --sort=-%cpu | head
 ```
 
 </details></li>
-<li><a href="Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a><details><summary> Read More </summary>
+<li><a href="Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a><details><summary> Read More 👇</summary>
 
 # Get Total System Memory using `vmstat` command
 <!-- 31 May 2020 -->
@@ -1259,7 +1259,7 @@ The command `vmstat -s` is usually used to print memory statistics a sample outp
 ```
 
 </details></li>
-<li><a href="Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a><details><summary> Read More </summary>
+<li><a href="Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a><details><summary> Read More 👇</summary>
 
 # Line Discipline in Unix/Linux Machines
 
@@ -1364,7 +1364,7 @@ All of this is controlled by the `tty` driver
 ### WebDev
 
 <ul>
-<li><a href="WebDev/html-datalist-auto-complete.md">Auto-complete in plain HTML</a><details><summary> Read More </summary>
+<li><a href="WebDev/html-datalist-auto-complete.md">Auto-complete in plain HTML</a><details><summary> Read More 👇</summary>
 
 # Auto-complete in plain HTML
 <!--21 Dec 2019 -->
@@ -1397,7 +1397,7 @@ Now as you type `G` it will show _Go_ ;)
 ### Resources
 - [tweet by Álvaro Trigo](https://twitter.com/IMAC2/status/1206913760696373253)
 </details></li>
-<li><a href="WebDev/OpenGraph.md">I learned about Open Graph protocol</a><details><summary> Read More </summary>
+<li><a href="WebDev/OpenGraph.md">I learned about Open Graph protocol</a><details><summary> Read More 👇</summary>
 
 # I learned about Open Graph protocol
 <!-- 18 Jun 2019 -->
@@ -1421,7 +1421,7 @@ For e.g below is the metadata of one of my [blogs](https://bhupeshv.me/30-Second
 ### Sidenotes
 Socila Media platforms like Twitter, LinkedIn, Telegram heavily use this meta info to render links, display images etc.
 </details></li>
-<li><a href="WebDev/live-edit-html.md">Live Editing HTML</a><details><summary> Read More </summary>
+<li><a href="WebDev/live-edit-html.md">Live Editing HTML</a><details><summary> Read More 👇</summary>
 
 # Live Editing HTML
 <!-- 6 Nov 2019 -->
@@ -1448,7 +1448,7 @@ Well you can use this HTML5 feature to make a motepad right into your browser.
 data:text/html, <html contenteditable <head ><title>Notepad</title></head><body style="background-color:black;color: white;"></body></html>
 ```
 </details></li>
-<li><a href="WebDev/async-defer-html-javascript.md">`async` & `defer` Attributes</a><details><summary> Read More </summary>
+<li><a href="WebDev/async-defer-html-javascript.md">`async` & `defer` Attributes</a><details><summary> Read More 👇</summary>
 
 # `async` & `defer` Attributes
 <!-- 21 Jul 2019 -->
