@@ -4,7 +4,7 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 
-# Build settings
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
