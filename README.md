@@ -807,21 +807,22 @@ Sample Runs
 <li><a href="Python/difference-class-and-function-based-views-djnago.md">Difference b/w Class & Function Based Views in Django</a><details><summary> Read More 👇</summary>
 
 # Difference b/w Class & Function Based Views in Django
-
+<!--21 jul 2020 -->
 <table>
 	<tr>
 		<th>Function Based Views</th>
 		<th>Class Based Views</th>
 	</tr>
 	<tr>
+		<td>
 		<ol>
 			<li>More setup</li>
 			<li>Less Abstraction</li>
 			<li>Requires error checking</li>
 			<li>Less modular</li>
 		</ol>
-	</tr>
-	<tr>
+		</td>
+		<td>
 		<ol>
 			<li>Little setup</li>
 			<li>More "magic" abstraction</li>
@@ -829,8 +830,10 @@ Sample Runs
 			<li>Much more modular</li>
 			<li>Sane and stable generic API</li>
 		</ol>
+		</td>
 	</tr>
 </table>
+
 </details></li>
 <li><a href="Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a><details><summary> Read More 👇</summary>
 
@@ -1063,7 +1066,7 @@ This will prompt for your PyPi username and password.
 <li><a href="Python/specify-dev-dependencies-python-package-setup.md">Specify dev dependencies in setup.py</a><details><summary> Read More 👇</summary>
 
 # Specify dev dependencies in setup.py
-
+<!--21 jul 2020 -->
 ```python
 # setup.py
 ...
