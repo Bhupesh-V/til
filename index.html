@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>til - Bhupesh Varshney by Bhupesh-V</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>til - Bhupesh Varshney</h1>
+        <h2>Today I Learned : Interesting things I learn everyday related to software development, computer science &amp; stuff.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/Bhupesh-V/til/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/Bhupesh-V/til/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/Bhupesh-V/til" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 align="center">
+<a id="today-i-learned" class="anchor" href="#today-i-learned" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Today I Learned</h1>
+<p align="center">
+  <img height="200px" src="https://repository-images.githubusercontent.com/192476462/fdd6ce80-0b94-11ea-8b50-812ee66b0599">
+  <br>
+  <img alt="TILs Count" src="https://img.shields.io/badge/dynamic/json.svg?color=black&amp;label=TILs&amp;query=count&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2FBhupesh-V%2Ftil%2Fmaster%2Fcount.json">
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/bhupesh-V/TIL?color=purple">
+  <a href="https://github.com/Bhupesh-V/til/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/Bhupesh-V/til">
+  </a>
+  <a href="https://bhupesh.codes/til/">
+    <img alt="Website Status" src="https://img.shields.io/website?down_color=red&amp;down_message=offline&amp;up_color=orange&amp;up_message=online&amp;url=https%3A%2F%2Fbhupesh.codes%2Ftil%2F">
+  </a>
+  <a href="https://twitter.com/bhupeshimself">
+    <img alt="Twitter: Bhupesh Varshney" src="https://img.shields.io/twitter/follow/bhupeshimself.svg?style=social">
+  </a>
+</p>
+<blockquote>
+<p>Today I Learned.
+A collection of concise write-ups on small things I learn across a variety of
+languages and technologies.</p>
+</blockquote>
+<h2>
+<a id="categories" class="anchor" href="#categories" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Categories</h2>
+<ul>
+<li><a href="#cleancode">CleanCode</a></li>
+<li><a href="#go">Go</a></li>
+<li><a href="#miscellaneous">Miscellaneous</a></li>
+<li><a href="#python">Python</a></li>
+<li><a href="#shell">Shell</a></li>
+<li><a href="#webdev">WebDev</a></li>
+</ul>
+<hr>
+<h3>
+<a id="cleancode" class="anchor" href="#cleancode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CleanCode</h3>
+<ul>
+<li>
+<a href="CleanCode/cleancode-naming.md">Naming Variables &amp; Functions</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="naming-variables--functions" class="anchor" href="#naming-variables--functions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Naming Variables &amp; Functions</h1>
+
+<ol>
+<li>The name of a variable, function, or class should answer all the big questions.
+It should tell you why it exists, what it does, and how it is used.</li>
+<li>Classes &amp; Objects should have <em>noun</em> or noun phrase names like <em>Student</em>,<em>Account</em> etc.
+A class name should not be a <em>verb</em>.</li>
+<li>Methods should have verb or verb phrase names like <em>getCategories()</em>, <em>saveTutorial()</em>.</li>
+</ol>
+<hr>
+<p><em>PS : I have been reading <a href="https://www.oreilly.com/library/view/clean-code/9780136083238/">CleanCode</a> for a while &amp; logging what I learn here.</em></p>
+</details>
+</li>
+<li>
+<a href="CleanCode/write-clean-comments.md">Writing Comments</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="writing-comments" class="anchor" href="#writing-comments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Writing Comments</h1>
+
+<ol>
+<li>The proper use of comments is to compensate for our <em>failure to express
+ourself in code</em>.</li>
+<li>Inaccurate comments are far worse than no comments at all.</li>
+<li>Comments do not make up for the bad code.
+i.e if you find yourself writing comments for a code that is complex to understand.
+<em>MAKE IT LESS COMPLEX</em>.</li>
+<li>Short functions don't need much description. A well-chosen name for a small function
+that does one thing is usually better than a comment header.</li>
+<li>For example. In this code the comments are not needed bcoz the fucntion name describes what it is doing.</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">def</span> <span class="pl-en">get_category_list</span>():
+    <span class="pl-s">''' Walk the current directory and get a list of all subdirectories at that</span>
+<span class="pl-s">    level.  These are the "categories" in which there are TILs. '''</span>
+    <span class="pl-s1">dirs</span> <span class="pl-c1">=</span> [<span class="pl-s1">x</span> <span class="pl-k">for</span> <span class="pl-s1">x</span> <span class="pl-c1">in</span> <span class="pl-s1">os</span>.<span class="pl-en">listdir</span>(<span class="pl-s">'.'</span>) <span class="pl-k">if</span> <span class="pl-s1">os</span>.<span class="pl-s1">path</span>.<span class="pl-en">isdir</span>(<span class="pl-s1">x</span>) <span class="pl-c1">and</span> <span class="pl-s">'.git'</span> <span class="pl-c1">not</span> <span class="pl-c1">in</span> <span class="pl-s1">x</span>]
+    <span class="pl-k">return</span> <span class="pl-s1">dirs</span></pre></div>
+<h3>
+<a id="summary" class="anchor" href="#summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary</h3>
+<p>Until now I thought writing comments is a good practice &amp; we should write comments wherever possible.
+But know reading it is an eye opener &amp; shocking <g-emoji class="g-emoji" alias="scream" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png">😱</g-emoji>. I will try to avoid comments now.</p>
+<hr>
+<p><em>PS : I have been reading <a href="https://www.oreilly.com/library/view/clean-code/9780136083238/">CleanCode</a> for a while &amp; logging what I learn here.</em></p>
+</details>
+</li>
+<li>
+<a href="CleanCode/cleancode-writing-functions.md">Writing Functions</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="writing-functions" class="anchor" href="#writing-functions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Writing Functions</h1>
+
+<p>Got to learn some new points regarding functions() in CleanCode.</p>
+<ol>
+<li>Functions should be small.</li>
+<li>They should do one thing only.
+<blockquote>
+<p>FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL.
+THEY SHOULD DO IT ONLY.</p>
+</blockquote>
+</li>
+<li>To know if a function is doing more than "one thing" see if you can extract another
+funtion from it with a name that is not merely a restatement of its implementation.</li>
+<li>Function arguments should <em>NEVER</em> be greater than 3.</li>
+<li>We should never ignore any part of code.The parts we ignore are where the bugs will hide.</li>
+</ol>
+<hr>
+<p><em>PS : I have been reading <a href="https://www.oreilly.com/library/view/clean-code/9780136083238/">CleanCode</a> for a while &amp; logging what I learn here.</em></p>
+</details>
+</li>
+</ul>
+<h3>
+<a id="go" class="anchor" href="#go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Go</h3>
+<ul>
+<li>
+<a href="Go/clear-terminal-screen-in-go.md">Clearing terminal screen in Go</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="clearing-terminal-screen-in-go" class="anchor" href="#clearing-terminal-screen-in-go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Clearing terminal screen in Go</h1>
+
+<p>There are two ways I like (without any external dependency)</p>
+<h3>
+<a id="using-osexec-package" class="anchor" href="#using-osexec-package" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using <code>os/exec</code> package</h3>
+<p>I have added some boilerplate code to make sure you see whats happening. I think this is probably the best way to do this.</p>
+<div class="highlight highlight-source-go"><pre><span class="pl-k">package</span> main
+ 
+<span class="pl-k">import</span> (
+    <span class="pl-s">"os"</span>
+    <span class="pl-s">"fmt"</span>
+    <span class="pl-s">"os/exec"</span>
+    <span class="pl-s">"time"</span>
+)
+ 
+<span class="pl-k">func</span> <span class="pl-en">main</span>() {
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"Clearing Screen in 2s..."</span>)
+
+	<span class="pl-c">// sleep for 2 seconds</span>
+	<span class="pl-s1">duration</span>, <span class="pl-s1">_</span> <span class="pl-c1">:=</span> <span class="pl-s1">time</span>.<span class="pl-en">ParseDuration</span>(<span class="pl-s">"2s"</span>)
+	<span class="pl-s1">time</span>.<span class="pl-en">Sleep</span>(<span class="pl-s1">duration</span>)
+    
+    <span class="pl-s1">c</span> <span class="pl-c1">:=</span> <span class="pl-s1">exec</span>.<span class="pl-en">Command</span>(<span class="pl-s">"clear"</span>)
+    <span class="pl-s1">c</span>.<span class="pl-c1">Stdout</span> <span class="pl-c1">=</span> <span class="pl-s1">os</span>.<span class="pl-c1">Stdout</span>
+    <span class="pl-s1">c</span>.<span class="pl-en">Run</span>()
+}</pre></div>
+<h3>
+<a id="using-ansi-escape-sequences" class="anchor" href="#using-ansi-escape-sequences" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using ANSI Escape Sequences</h3>
+<p>Not a good way but may come in handy for some situations.</p>
+<div class="highlight highlight-source-go"><pre>
+<span class="pl-k">package</span> main
+ 
+<span class="pl-k">import</span> (
+    <span class="pl-s">"fmt"</span>
+    <span class="pl-s">"time"</span>
+)
+ 
+<span class="pl-k">func</span> <span class="pl-en">main</span>() {
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"this is a line"</span>)
+
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"Clearing Screen in 1s..."</span>)
+	<span class="pl-s1">dur</span>, <span class="pl-s1">_</span> <span class="pl-c1">:=</span> <span class="pl-s1">time</span>.<span class="pl-en">ParseDuration</span>(<span class="pl-s">"1s"</span>)
+	<span class="pl-s1">time</span>.<span class="pl-en">Sleep</span>(<span class="pl-s1">dur</span>)
+
+    <span class="pl-s1">fmt</span>.<span class="pl-en">Print</span>(<span class="pl-s">"<span class="pl-cce">\033</span>[2J"</span>)
+}</pre></div>
+<blockquote>
+<p>The sequence <code>\033[2J</code> is read as <em>Esc[2J</em> where <em>"2j"</em> clears the screen and moves the cursor to the home position (line 0, column 0).</p>
+</blockquote>
+</details>
+</li>
+<li>
+<a href="Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="convert-string-to-int-and-vice-versa-in-go" class="anchor" href="#convert-string-to-int-and-vice-versa-in-go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Convert <code>string</code> to <code>int</code> and vice-versa in Go</h1>
+
+<p>There are basically 2-3 methods to convert integer to string and back to integer but the most easiest way is to use the <code>Itoa</code> and <code>Atoi</code> methods in the <code>strconv</code> package.</p>
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+<div class="highlight highlight-source-go"><pre><span class="pl-k">package</span> main
+
+<span class="pl-k">import</span> (
+    <span class="pl-s">"fmt"</span>
+    <span class="pl-s">"strconv"</span>
+)
+
+<span class="pl-k">func</span> <span class="pl-en">main</span>() {
+	<span class="pl-c">// String to Int</span>
+	<span class="pl-s1">nice</span>, <span class="pl-s1">_</span> <span class="pl-c1">:=</span> <span class="pl-s1">strconv</span>.<span class="pl-en">Atoi</span>(<span class="pl-s">"69"</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Printf</span>(<span class="pl-s">"%T"</span>, <span class="pl-s1">nice</span>)
+
+	<span class="pl-c">//Integer to String</span>
+	<span class="pl-s1">high</span> <span class="pl-c1">:=</span> <span class="pl-s1">strconv</span>.<span class="pl-en">Itoa</span>(<span class="pl-c1">420</span>)
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Printf</span>(<span class="pl-s">"<span class="pl-cce">\n</span>%T"</span>, <span class="pl-s1">high</span>)
+}</pre></div>
+<p><code>Atoi</code> returns a second value (<code>err</code> ignored in this example for easier understanding)</p>
+<p>The above code should output:</p>
+<pre><code>int
+string
+</code></pre>
+<p>See <a href="https://play.golang.org/p/moTZJ5LYEz9">online</a> demo</p>
+</details>
+</li>
+<li>
+<a href="Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="creating-pythons-next-alternative-using-go-closures" class="anchor" href="#creating-pythons-next-alternative-using-go-closures" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating Python's <code>next()</code> alternative using Go Closures</h1>
+
+<p>If you don't know what next() in python means, the below code illustrates it.</p>
+<div class="highlight highlight-source-python"><pre>
+<span class="pl-v">MCU_Movies</span> <span class="pl-c1">=</span> <span class="pl-en">iter</span>([<span class="pl-s">"Iron Man"</span>, <span class="pl-s">"Thor"</span>, <span class="pl-s">"Captain America: The first Avenger"</span>])
+<span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-en">next</span>(<span class="pl-v">MCU_Movies</span>)
+<span class="pl-en">print</span>(<span class="pl-s1">x</span>, <span class="pl-s1">end</span><span class="pl-c1">=</span><span class="pl-s">"<span class="pl-cce">\n</span>"</span>)
+<span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-en">next</span>(<span class="pl-v">MCU_Movies</span>)
+<span class="pl-en">print</span>(<span class="pl-s1">x</span>, <span class="pl-s1">end</span><span class="pl-c1">=</span><span class="pl-s">"<span class="pl-cce">\n</span>"</span>)
+<span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-en">next</span>(<span class="pl-v">MCU_Movies</span>)
+<span class="pl-en">print</span>(<span class="pl-s1">x</span>)</pre></div>
+<p>So if you had guess this would print</p>
+<div class="highlight highlight-source-shell"><pre>Iron Man
+Thor
+Captain America: The first Avenger</pre></div>
+<blockquote>
+<p>The <code>next()</code> function is used to get the next item in an iterator.</p>
+</blockquote>
+<p>Go doesn't have a next method (nor the concept of iterators actually) so we will try to achieve something similar using <a href="https://tour.golang.org/moretypes/25">Closures</a>.</p>
+<ul>
+<li>A closure is implemented through a anonymous(<em>function with no name</em>) function, basically closure is an instance of function.</li>
+<li>In Go functions are first class citizens, meaning we can do all sort of things with them, assign them to a variable, pass as an argument to another function.</li>
+</ul>
+<p>Below is a naive implementation of how this could look in Go. Ping me if you have a better way to do this ;)</p>
+<div class="highlight highlight-source-go"><pre>
+<span class="pl-k">package</span> main
+
+<span class="pl-k">import</span> <span class="pl-s">"fmt"</span>
+
+<span class="pl-c">/*</span>
+<span class="pl-c">nextIterator returns another function, which we define anonymously in the body of nextIterator.</span>
+<span class="pl-c">The returned function closes over the variable index to form a closure.</span>
+<span class="pl-c">*/</span>
+<span class="pl-k">func</span> <span class="pl-en">nextIterator</span>(<span class="pl-s1">array</span> []<span class="pl-smi">int</span>) <span class="pl-k">func</span>() <span class="pl-smi">int</span> {
+    <span class="pl-s1">index</span> <span class="pl-c1">:=</span> <span class="pl-c1">-</span><span class="pl-c1">1</span>
+
+    <span class="pl-k">return</span> <span class="pl-k">func</span>() <span class="pl-smi">int</span>{
+        <span class="pl-s1">index</span><span class="pl-c1">++</span>
+        <span class="pl-k">return</span> <span class="pl-s1">array</span>[<span class="pl-s1">index</span>]
+    }
+}
+<span class="pl-k">func</span> <span class="pl-en">main</span>() {
+
+	<span class="pl-c">// an integer array</span>
+    <span class="pl-k">var</span> <span class="pl-s1">prices</span> <span class="pl-c1">=</span> []<span class="pl-smi">int</span>{<span class="pl-c1">7</span>, <span class="pl-c1">1</span>, <span class="pl-c1">5</span>}
+
+    <span class="pl-c">// create an instance of the anonymous function. i.e, a closue</span>
+    <span class="pl-s1">next</span> <span class="pl-c1">:=</span> <span class="pl-en">nextIterator</span>(<span class="pl-s1">prices</span>)
+
+    <span class="pl-c">// call the closure</span>
+    <span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-en">next</span>())
+    <span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-en">next</span>())
+    <span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-en">next</span>())
+
+}</pre></div>
+<p>See this demo on <a href="https://play.golang.org/p/8nH6t0HfnGu">Go Playground</a>.</p>
+</details>
+</li>
+<li>
+<a href="Go/measure-execution-time-in-go.md">Measure Exection time in Go</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="measure-exection-time-in-go" class="anchor" href="#measure-exection-time-in-go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Measure Exection time in Go</h1>
+
+<p>To know who how long your go code executes you can use the <code>time.Now()</code> and <code>time.Since()</code> methods in the <code>time</code> package.</p>
+<h2>
+<a id="demo-1" class="anchor" href="#demo-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+<div class="highlight highlight-source-go"><pre>
+<span class="pl-k">package</span> main
+
+<span class="pl-k">import</span> (
+	<span class="pl-s">"fmt"</span>
+	<span class="pl-s">"time"</span>
+)
+
+<span class="pl-k">func</span> <span class="pl-en">main</span>(){
+
+	<span class="pl-s1">start</span> <span class="pl-c1">:=</span> <span class="pl-s1">time</span>.<span class="pl-en">Now</span>()
+	<span class="pl-s1">dur</span>, <span class="pl-s1">_</span> <span class="pl-c1">:=</span> <span class="pl-s1">time</span>.<span class="pl-en">ParseDuration</span>(<span class="pl-s">"15ms"</span>)
+
+	<span class="pl-c">// A Go Anonymous function (self-executing)</span>
+	<span class="pl-k">func</span> (){
+		<span class="pl-k">for</span> <span class="pl-s1">i</span> <span class="pl-c1">:=</span> <span class="pl-c1">0</span>; <span class="pl-s1">i</span> <span class="pl-c1">&lt;</span> <span class="pl-c1">100</span>; <span class="pl-s1">i</span><span class="pl-c1">++</span> {
+			<span class="pl-s1">time</span>.<span class="pl-en">Sleep</span>(<span class="pl-s1">dur</span>)
+			<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s">"Bhupesh is programming in Go"</span>)
+		}
+	}()
+
+	<span class="pl-s1">elapsed</span> <span class="pl-c1">:=</span> <span class="pl-s1">time</span>.<span class="pl-en">Since</span>(<span class="pl-s1">start</span>)
+
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Printf</span>(<span class="pl-s">"Execution Time : %s"</span>, <span class="pl-s1">elapsed</span>)
+}</pre></div>
+<p>Since() returns the time elapsed since t (<code>start</code> in our demo). It is shorthand for <code>time.Now().Sub(t)</code>.</p>
+<p>Here is the output of the above code
+You can also play with the <a href="https://play.golang.org/p/YgiaYf_Wetq">online</a> demo</p>
+<pre><code>Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Bhupesh is programming in Go
+Execution Time : 750ms
+</code></pre>
+</details>
+</li>
+<li>
+<a href="Go/reading-and-setting-environment-variables-in-go.md">Reading &amp; Setting Environment variables in Go</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="reading--setting-environment-variables-in-go" class="anchor" href="#reading--setting-environment-variables-in-go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reading &amp; Setting Environment variables in Go</h1>
+
+<p>Use <code>os.Getenv()</code> and <code>os.Setenv()</code> for reading and setting environment variables.</p>
+<h2>
+<a id="demo-2" class="anchor" href="#demo-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+<div class="highlight highlight-source-go"><pre><span class="pl-k">package</span> main
+
+<span class="pl-k">import</span> (
+	<span class="pl-s">"fmt"</span>
+	<span class="pl-s">"os"</span>
+)
+
+<span class="pl-k">func</span> <span class="pl-en">main</span>() {
+	<span class="pl-s1">os</span>.<span class="pl-en">Setenv</span>(<span class="pl-s">"NAME"</span>, <span class="pl-s">"gopher"</span>)
+
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Printf</span>(<span class="pl-s">"My Desktop Environment : %s.<span class="pl-cce">\n</span>"</span>, <span class="pl-s1">os</span>.<span class="pl-en">Getenv</span>(<span class="pl-s">"XDG_CURRENT_DESKTOP"</span>))
+}</pre></div>
+</details>
+</li>
+<li>
+<a href="Go/split-strings-in-go.md">Splitting strings in Go</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="splitting-strings-in-go" class="anchor" href="#splitting-strings-in-go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Splitting strings in Go</h1>
+
+<p>Splitting strings in Go is done by using the <code>Split()</code> method.
+You need to import the <code>strings</code> standard library to use this.</p>
+<h2>
+<a id="demo-3" class="anchor" href="#demo-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+<div class="highlight highlight-source-go"><pre><span class="pl-k">package</span> main 
+
+<span class="pl-k">import</span> (
+	<span class="pl-s">"fmt"</span>
+	<span class="pl-s">"strings"</span>
+)
+
+<span class="pl-k">func</span> <span class="pl-en">main</span>(){
+	<span class="pl-k">var</span> <span class="pl-s1">date</span> <span class="pl-smi">string</span> <span class="pl-c1">=</span> <span class="pl-s">"1999-03-12"</span>
+	<span class="pl-s1">date_array</span> <span class="pl-c1">=</span> <span class="pl-s1">strings</span>.<span class="pl-en">Split</span>(<span class="pl-s1">date</span>, <span class="pl-s">"-"</span>)
+
+	<span class="pl-s1">fmt</span>.<span class="pl-en">Println</span>(<span class="pl-s1">date_array</span>)
+}</pre></div>
+<p>The <code>split()</code> return a Go Array, running this program should print the following:</p>
+<pre><code>[1999 03 12]
+</code></pre>
+</details>
+</li>
+<li>
+<a href="Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="where-are-my-build-files-when-i-use-go-run" class="anchor" href="#where-are-my-build-files-when-i-use-go-run" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Where are my build files when I use <code>go run</code>
+</h1>
+
+<p>By default, 'go run' runs the compiled binary directly.
+The binaries are stored in a <code>temp</code> work folder, to see where they are stored use the <code>-work</code> flag.</p>
+<h2>
+<a id="demo-4" class="anchor" href="#demo-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+<div class="highlight highlight-source-shell"><pre>go run --work fizzbuzz.go</pre></div>
+<p>Sample Output</p>
+<pre><code>WORK=/tmp/go-build645222420
+[1 2 Fizz]
+</code></pre>
+<p>When you run this go will not delete the temporary build when exiting.
+The default directory may vary with your system &amp; <code>GOPATH</code>.</p>
+</details>
+</li>
+</ul>
+<h3>
+<a id="miscellaneous" class="anchor" href="#miscellaneous" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Miscellaneous</h3>
+<ul>
+<li>
+<a href="Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="deploying-to-heroku" class="anchor" href="#deploying-to-heroku" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploying to Heroku</h1>
+
+<h2>
+<a id="list-of-steps-to-follow-when-you-are-deployihg-a-new-repositoryproject-python" class="anchor" href="#list-of-steps-to-follow-when-you-are-deployihg-a-new-repositoryproject-python" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List of steps to follow when you are deployihg a <strong>new</strong> repository/project (Python).</h2>
+<ol>
+<li><code>heroku login</code></li>
+<li>
+<code>touch Procfile</code>
+Create Procfile for deployment. For a Django Web-App the contents of Procfile would be.</li>
+</ol>
+<pre><code>gunicorn djangoherokuapp.wsgi --log-file -
+</code></pre>
+<ol start="3">
+<li>
+<code>touch runtime.txt</code>
+Specify your Python version here. For example</li>
+</ol>
+<pre><code>python-3.6.8
+</code></pre>
+<ol start="4">
+<li>
+<code>heroku create herokuAPPName</code>
+Before running this, Make sure to add <code>appname.herokuapp.com</code> in ALLOWED_HOSTS and your <code>requirements.txt</code> is updated.</li>
+</ol>
+<h2>
+<a id="list-of-commands-to-run-when-you-are-deployihg-a-cloned-repository" class="anchor" href="#list-of-commands-to-run-when-you-are-deployihg-a-cloned-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List of commands to run when you are deployihg a <strong>cloned</strong> repository.</h2>
+<ol>
+<li>
+<code>heroku login</code>
+Login with your e-mail and password.</li>
+<li>
+<code>heroku git:remote -a &lt;app-name&gt;</code>
+Where <code>app-name</code> is the name of app on heroku.</li>
+<li>
+<code>git push heroku master</code>
+Push new changes to heroku.</li>
+</ol>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips &amp; tricks for developers</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="internet-search-tips--tricks-for-developers" class="anchor" href="#internet-search-tips--tricks-for-developers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Internet search tips &amp; tricks for developers</h1>
+
+<p>All of the below mentioned tips works in both DuckDuckGo &amp; Google (i use both <g-emoji class="g-emoji" alias="wink" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png">😉</g-emoji>), it should work fine in other search engines too.</p>
+<ol>
+<li><strong><code>filetype:pdf golang</code></strong></li>
+</ol>
+<blockquote>
+<p>Use it to search for books or specific file types</p>
+</blockquote>
+<ol start="2">
+<li><strong><code>inurl:docs.djangoproject.com templates</code></strong></li>
+</ol>
+<blockquote>
+<p>Use it to look for occurence of some phrases in the URL of the website mentioned.
+<code>inurl</code> <a href="docs.djangoproject.com">docs.djangoproject.com</a> look for <code>templates</code> phrase.</p>
+</blockquote>
+<ol start="3">
+<li><strong><code>site:github.com synatx error</code></strong></li>
+</ol>
+<blockquote>
+<p>Limit search results to a specific site, good for looking for bug fixes.</p>
+</blockquote>
+<ol start="4">
+<li><strong><code>"how to add pagination in django"</code></strong></li>
+</ol>
+<blockquote>
+<p>Double quotes can be used for exact matches of the phrase (doesn't work sometimes).</p>
+</blockquote>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="killing-open-ports-in-linux" class="anchor" href="#killing-open-ports-in-linux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Killing Open Ports in Linux</h1>
+
+<p>I had this weird error while running Django Development Server.</p>
+<pre><code>System check identified no issues (0 silenced).
+January 27, 2020 - 16:42:39
+Django version 2.2.9, using settings 'codeclassroom.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+</code></pre>
+<h2>
+<a id="solution" class="anchor" href="#solution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Solution</h2>
+<ol>
+<li>Run <code>netstat -ntlp</code> to see available open ports.</li>
+</ol>
+<pre><code>(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.1:42405         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:5940          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:8000          0.0.0.0:*               LISTEN      12054/python3       
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -  
+</code></pre>
+<p>Here is a <code>man netstat</code> for what it does</p>
+<blockquote>
+<p>netstat  -  Print  network connections, routing tables, interface statistics,
+masquerade connections, and multicast memberships</p>
+</blockquote>
+<p>You see the <em>python3</em> one? Kill <g-emoji class="g-emoji" alias="smiling_imp" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f608.png">😈</g-emoji> this process</p>
+<ol start="2">
+<li>
+<p>Run <code>kill -9 12054</code>
+Kill is used for Removing a background process or job, <code>-9</code> specifies SIGKILL (Forced termination) where <code>12054</code> is the PID</p>
+</li>
+<li>
+<p>Run the development server again.</p>
+</li>
+</ol>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/my-vim-cheatsheet.md">My vim cheatsheet</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="my-vim-cheatsheet" class="anchor" href="#my-vim-cheatsheet" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>My vim cheatsheet</h1>
+
+<p>I have started transitioning slowly to lightweight editors, because of my low system configuration.
+And what can better than <code>vim</code>, so I will start logging interesting things I learn here.</p>
+<p>For starters I use <strong>neovim</strong>.
+(PS: I will write this TIL through vim only :)</p>
+<h3>
+<a id="how-to-install-plugins" class="anchor" href="#how-to-install-plugins" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to install plugins</h3>
+<ol>
+<li>Open up the <code>~/.config/nvim/init.vim</code> file add the plugin.</li>
+</ol>
+<p>My init file</p>
+<pre><code>call plug#begin()
+Plug 'roxma/nvim-completion-manager'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'gilgigilgil/anderson.vim'
+call plug#end()
+
+vnoremap &lt;C-c&gt; "+y
+map &lt;C-v&gt; "+p
+nmap &lt;F6&gt; :NERDTreeToggle&lt;CR&gt;
+
+colorscheme anderson
+
+set nu
+set ai
+</code></pre>
+<ol start="2">
+<li>Open nvim, use <code>:PlugInstall</code> to install the new plugins.</li>
+</ol>
+<h3>
+<a id="some-nvim-specifc-shortcuts" class="anchor" href="#some-nvim-specifc-shortcuts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Some nvim specifc shortcuts</h3>
+<ul>
+<li>
+<kbd>E</kbd> - to go back the directory after opening a file.</li>
+<li>:NERDTree - to start the Tree like menu.</li>
+<li>When in NERDTree use m for creating a file.</li>
+</ul>
+<h3>
+<a id="vim-commands" class="anchor" href="#vim-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Vim Commands</h3>
+<ol>
+<li>
+<code>:i</code> : to come in Insert/Editing Mode.</li>
+<li>
+<kbd>Esc</kbd> : for command mode.</li>
+<li>
+<code>:V</code> : to enable visual mode, use <kbd>shift</kbd> and arrow keys to select text.</li>
+<li>
+<code>:"+y</code> : for yanking(copying) text from vim to system's clipboard (tested on Ubuntu 18, might not work on other systems. Search according to your system).</li>
+<li>
+<code>:nohlsearch</code> : for clearing search highlighting.</li>
+<li>
+<code>:set nu</code> : to enable Line numbers(left margin).</li>
+<li>
+<code>:"+p</code> : to paste from system's clipboard (I have added key bindings for copy/paste in my nvim config file).</li>
+<li>
+<code>:u</code> : Undo latest changes in vim.</li>
+<li>
+<kbd>Ctrl + ws</kbd> : Split Windows horizontally.</li>
+<li>
+<kbd>Ctrl + wv</kbd> : Split Windows vertically.</li>
+<li>
+<kbd>Ctrl + ww</kbd> : Switch between Windows.</li>
+<li>
+<kbd>Ctrl + wq</kbd> : Quit Window.</li>
+<li>
+<code>:earlier N</code> : Time travel in past N seconds.</li>
+<li>
+<code>:later N</code> : Time tavel in future N seconds.</li>
+<li>
+<code>:echo $MYVIMRC</code>: to view location of your default <code>.vimrc</code> file.</li>
+<li>Use <code>==</code> in Visual Mode to fix line indent.</li>
+</ol>
+<hr>
+<p>I will only add stuff here when I start using it or use it for the first time.</p>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="record-your-desktop-using-ffmpeg" class="anchor" href="#record-your-desktop-using-ffmpeg" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Record your Desktop using <code>ffmpeg</code>
+</h1>
+
+<ol>
+<li>
+<p>Make sure you have ffmpeg installed, by checking <code>ffmpeg -version</code>. If not install use <code>sudo apt-get install ffmpeg</code>.</p>
+</li>
+<li>
+<p>Run the following command.</p>
+</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>ffmpeg -video_size 1280x1024 -framerate 25 -f x11grab -i :0.0+0,0 -c:v libx264rgb -crf 0 -preset ultrafast output.mkv</pre></div>
+<ul>
+<li>
+<p><code>-video_size</code> specifies the size of the recorded area. If you have a different screen size, use that instead of 1920x1080. If you want to record only an area of the screen, specify the area size here.</p>
+</li>
+<li>
+<p><code>-framerate</code> specifies the frame rate, i. e. how many frames of video are recorded in a second. The lowest allowed framerate is 20.</p>
+</li>
+<li>
+<p><code>-f x11grab</code> is what actually tells FFmpeg to record your screen. You shouldn't change that.</p>
+</li>
+<li>
+<p><code>-i :0.0+0,0</code> is where you specify the x and y offset of the top left corner of the area that you want to record. For example, use :0.0+100,200 to have an x offset of 100 and an y offset of 200.</p>
+</li>
+<li>
+<p><code>-c:v libx264rgb -crf 0 -preset ultrafast</code> are encoding options. These specify a fast and lossless recording.</p>
+</li>
+</ul>
+<blockquote>
+<p>Run <code>xdpyinfo | grep 'dimensions:'</code> to know your monitor dimensions</p>
+</blockquote>
+<h2>
+<a id="resources" class="anchor" href="#resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h2>
+<ul>
+<li><a href="https://www.wikihow.com/Record-Your-Desktop-Using-FFmpeg-on-Ubuntu-Linux">Record-Your-Desktop-Using-FFmpeg-on-Ubuntu-Linux</a></li>
+</ul>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="releases-on-github" class="anchor" href="#releases-on-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Releases on GitHub</h1>
+
+<p>Git tagging is generally used to release software on github.
+Here are some basic git commands for tagging.</p>
+<ul>
+<li>
+<p>To tag specific points of your repo. Run this when you commit something.</p>
+<div class="highlight highlight-source-shell"><pre>git tag -a v1.4 -m <span class="pl-s"><span class="pl-pds">"</span>my version 1.4<span class="pl-pds">"</span></span></pre></div>
+</li>
+<li>
+<p>To lists all the tags of your repo.</p>
+<div class="highlight highlight-source-shell"><pre>git tag</pre></div>
+</li>
+<li>
+<p>To tag specific commits.</p>
+<div class="highlight highlight-source-shell"><pre>git tag -a v1.4 9fceb02</pre></div>
+</li>
+<li>
+<p>To push tags on GitHub.</p>
+<div class="highlight highlight-source-shell"><pre>git push origin v1.4</pre></div>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/seo-tools.md">SEO Tools</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="seo-tools" class="anchor" href="#seo-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SEO Tools</h1>
+
+<p>Here is a list of some tools to test your website for SEO and Social Media.</p>
+<ul>
+<li>
+<a href="https://developers.facebook.com/tools/debug/sharing/">Facebook's Sharing Debugger</a>.</li>
+<li>
+<a href="https://cards-dev.twitter.com/validator">Twitter Card Validator</a>.</li>
+<li>
+<a href="https://search.google.com/structured-data/testing-tool/u/0/">Google's Structured Data Testing Tool</a>.</li>
+<li><a href="https://web.dev/">web.dev</a></li>
+</ul>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/semantic-versioning.md">Semantic Versioning</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="semantic-versioning" class="anchor" href="#semantic-versioning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Semantic Versioning</h1>
+
+<ul>
+<li>Describes how softwares are assigned version numbers.</li>
+<li>We generally see 3 parts in a version number, <code>x.y.z</code> (MAJOR, MINOR, PATCH)
+<ol>
+<li>
+<code>x</code> represents MAJOR part - meant for describing any major backend code changes, support of APIs etc.</li>
+<li>
+<code>y</code> represents MINOR part - meant for describing very small changes.</li>
+<li>
+<code>z</code> represents PATCH part - meant for describing bug fixes.</li>
+</ol>
+</li>
+</ul>
+<h3>
+<a id="resources-1" class="anchor" href="#resources-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h3>
+<ul>
+<li><a href="https://semver.org/">Semantic Versioning 2.0.0</a></li>
+</ul>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile <g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji></a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="whats-a-procfile-" class="anchor" href="#whats-a-procfile-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What's a Procfile <g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji>
+</h1>
+
+<p>I recently deployed a Python application on Heroku, there I encountered a <code>Procfile</code>.
+This is what I got to know :</p>
+<ul>
+<li>The Procfile is a simple text file that is named <code>Procfile</code> without a file extension. For example, <code>Procfile.txt</code> is not a valid Procfile.</li>
+<li>It specifies the commands that are executed by the app on startup. For e.g A Django server.</li>
+<li>Example: If you want to run a python script on Heroku, your <em>Procfile</em> content should be
+<code>worker: python script.py</code>
+</li>
+</ul>
+<h3>
+<a id="resources-2" class="anchor" href="#resources-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h3>
+<ul>
+<li><a href="https://devcenter.heroku.com/articles/procfile">The Procfile</a></li>
+</ul>
+</details>
+</li>
+<li>
+<a href="Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="writing-cleaner-commits---template" class="anchor" href="#writing-cleaner-commits---template" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Writing Cleaner Commits - Template</h1>
+
+<p>Writing cleaner commits is hard, so I use this template which makes me a pro <g-emoji class="g-emoji" alias="sweat_smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png">😅</g-emoji></p>
+<pre lang="text"><code># If applied, this commit will...
+# [Add/Fix/Remove/Update/Refactor/Document] [issue #id] [summary]
+
+
+# Why is it necessary? (Bug fix, feature, improvements?)
+-
+# How does the change address the issue? 
+-
+# What side effects does this change have?
+-
+
+</code></pre>
+<h5>
+<a id="or" class="anchor" href="#or" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OR</h5>
+<pre lang="text"><code># If applied, this commit will...
+# [Add/Fix/Remove/Update/Refactor/Document]
+
+# Reference any issue number here
+- This fixes #454
+# Why is it necessary? (Bug fix, feature, improvements?)
+-
+# How does the change address the issue? 
+-
+</code></pre>
+<h2>
+<a id="how-" class="anchor" href="#how-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How ?</h2>
+<p>You have to configure Git to use the above template file (for example, <code>.gitmessage</code> in your home directory), then create the template file by running.</p>
+<div class="highlight highlight-source-shell"><pre>git config --global commit.template <span class="pl-k">~</span>/.gitmessage
+subl <span class="pl-k">~</span>/.gitmessage</pre></div>
+<p>This will invoke sublime with the template (use <code>code</code> if you use VSCode) Now copy paste the above template, hit save and your are done.</p>
+<p>Now when commiting changes instead of using <code>git commit -m ""</code>, Use <code>git commit</code> this will invoke the commit template which you already set.</p>
+<h3>
+<a id="resources-3" class="anchor" href="#resources-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h3>
+<ul>
+<li><a href="https://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message</a></li>
+<li><a href="https://victoria.dev/blog/git-commit-practices-your-future-self-will-thank-you-for/">Git commit practices your future self will thank you for</a></li>
+</ul>
+</details>
+</li>
+</ul>
+<h3>
+<a id="python" class="anchor" href="#python" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python</h3>
+<ul>
+<li>
+<a href="Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="cryptographically-strong-random-string" class="anchor" href="#cryptographically-strong-random-string" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cryptographically strong random string</h1>
+<p>One liner</p>
+<div class="highlight highlight-source-shell"><pre>python3 -c <span class="pl-s"><span class="pl-pds">"</span>import secrets;print(secrets.token_urlsafe())<span class="pl-pds">"</span></span></pre></div>
+<p>Sample Runs</p>
+<div class="highlight highlight-source-shell"><pre>&gt;&gt;&gt; import secrets
+&gt;&gt;&gt; <span class="pl-en">secrets.token_urlsafe</span>()
+<span class="pl-s"><span class="pl-pds">'</span>noLCpWgg5bJbALwlqAKKWUcb4nZg0LvxIUFHyhyei-I<span class="pl-pds">'</span></span>
+&gt;&gt;&gt; <span class="pl-en">secrets.token_urlsafe</span>()
+<span class="pl-s"><span class="pl-pds">'</span>8HhV5FMm2vxfrSoO9o_v65FRy6bLbvc89POSX0fnMqk<span class="pl-pds">'</span></span>
+&gt;&gt;&gt; <span class="pl-en">secrets.token_urlsafe</span>()
+<span class="pl-s"><span class="pl-pds">'</span>bClPydJqA7_0GsDvUAqqShUH5ZucWzdErg0tZIGZU2k<span class="pl-pds">'</span></span>
+&gt;&gt;&gt; <span class="pl-en">secrets.token_urlsafe</span>()
+<span class="pl-s"><span class="pl-pds">'</span>82LSHzCKkwo5y__3NZrck27ZbDL1WiKoSYxQQki8uvA<span class="pl-pds">'</span></span>
+&gt;&gt;&gt; </pre></div>
+</details>
+</li>
+<li>
+<a href="Python/difference-class-and-function-based-views-djnago.md">Difference b/w Class &amp; Function Based Views in Django</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="difference-bw-class--function-based-views-in-django" class="anchor" href="#difference-bw-class--function-based-views-in-django" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Difference b/w Class &amp; Function Based Views in Django</h1>
+
+<table>
+	<tr>
+		<th>Function Based Views</th>
+		<th>Class Based Views</th>
+	</tr>
+	<tr>
+		<td>
+		<ol>
+			<li>More setup</li>
+			<li>Less Abstraction</li>
+			<li>Requires error checking</li>
+			<li>Less modular</li>
+		</ol>
+		</td>
+		<td>
+		<ol>
+			<li>Little setup</li>
+			<li>More "magic" abstraction</li>
+			<li>Error handling built-in (generics)</li>
+			<li>Much more modular</li>
+			<li>Sane and stable generic API</li>
+		</ol>
+		</td>
+	</tr>
+</table>
+</details>
+</li>
+<li>
+<a href="Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks <g-emoji class="g-emoji" alias="runner" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3.png">🏃</g-emoji></a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="fastest-python-first-tips-and-tricks-" class="anchor" href="#fastest-python-first-tips-and-tricks-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fastest Python First: Tips and Tricks <g-emoji class="g-emoji" alias="runner" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3.png">🏃</g-emoji>
+</h1>
+
+<p>Here are some tips that I learned to make Python Programs faster (<em>WIP</em>).</p>
+<ol>
+<li>Always compile regular expression, if you have to match patterns a lot of times.</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> <span class="pl-s1">re</span>
+
+<span class="pl-s1">pattern</span> <span class="pl-c1">=</span> <span class="pl-s1">re</span>.<span class="pl-en">compile</span>(<span class="pl-s1">some_regular_expression</span>)
+<span class="pl-s1">some_text</span> <span class="pl-c1">=</span> <span class="pl-s1">re</span>.<span class="pl-en">sub</span>(<span class="pl-s1">pattern</span>, <span class="pl-s">''</span>, <span class="pl-s1">data</span>)</pre></div>
+<ol start="2">
+<li>Use List comprehension for iterating over a list.</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> <span class="pl-s1">time</span>
+
+<span class="pl-s1">itemlist</span> <span class="pl-c1">=</span> [<span class="pl-c1">23</span>, <span class="pl-c1">45</span>, <span class="pl-c1">56</span>, <span class="pl-c1">67</span>, <span class="pl-c1">1</span>, <span class="pl-c1">100</span>, <span class="pl-c1">340</span>, <span class="pl-c1">90</span>]
+<span class="pl-s">""" Normal Iteration """</span>
+<span class="pl-s1">start_time</span> <span class="pl-c1">=</span> <span class="pl-s1">time</span>.<span class="pl-en">time</span>()
+<span class="pl-k">for</span> <span class="pl-s1">item</span> <span class="pl-c1">in</span> <span class="pl-s1">itemlist</span>:
+	<span class="pl-k">if</span> <span class="pl-s1">item</span> <span class="pl-c1">%</span> <span class="pl-c1">2</span> <span class="pl-c1">==</span> <span class="pl-c1">0</span>:
+		<span class="pl-en">print</span>(<span class="pl-s1">item</span>)
+<span class="pl-s1">end_time</span> <span class="pl-c1">=</span> <span class="pl-s1">time</span>.<span class="pl-en">time</span>()
+
+<span class="pl-en">print</span>(<span class="pl-s">"Without List Comprehension : "</span> <span class="pl-c1">+</span> <span class="pl-en">str</span>(<span class="pl-s1">end_time</span> <span class="pl-c1">-</span> <span class="pl-s1">start_time</span>))
+
+<span class="pl-s">""" List Comprehension """</span>
+<span class="pl-s1">start_time</span> <span class="pl-c1">=</span> <span class="pl-s1">time</span>.<span class="pl-en">time</span>()
+[<span class="pl-en">print</span>(<span class="pl-s1">item</span>) <span class="pl-k">for</span> <span class="pl-s1">item</span> <span class="pl-c1">in</span> <span class="pl-s1">itemlist</span> <span class="pl-k">if</span> <span class="pl-s1">item</span> <span class="pl-c1">%</span> <span class="pl-c1">2</span> <span class="pl-c1">==</span> <span class="pl-c1">0</span>]
+<span class="pl-s1">end_time</span> <span class="pl-c1">=</span> <span class="pl-s1">time</span>.<span class="pl-en">time</span>()
+
+<span class="pl-en">print</span>(<span class="pl-s">"With List Comprehension : "</span> <span class="pl-c1">+</span> <span class="pl-en">str</span>(<span class="pl-s1">end_time</span> <span class="pl-c1">-</span> <span class="pl-s1">start_time</span>))</pre></div>
+<p>Output :</p>
+<div class="highlight highlight-source-shell"><pre>56
+100
+340
+90
+Without List Comprehension <span class="pl-c1">:</span> 0.0002067089080810547
+56
+100
+340
+90
+With List Comprehension <span class="pl-c1">:</span> 0.00019121170043945312</pre></div>
+</details>
+</li>
+<li>
+<a href="Python/functional-programming-in-python.md">Functional Programming in Python <g-emoji class="g-emoji" alias="snake" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f40d.png">🐍</g-emoji></a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="functional-programming-in-python-" class="anchor" href="#functional-programming-in-python-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Functional Programming in Python <g-emoji class="g-emoji" alias="snake" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f40d.png">🐍</g-emoji>
+</h1>
+
+<p>Features like <code>lambda</code>, <code>map</code>, <code>filter</code>, <code>reduce</code> are generally used to perform functional programming related tasks in Python.
+Let's take a quick look on them.</p>
+<h3>
+<a id="lambdas" class="anchor" href="#lambdas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lambdas</h3>
+<ul>
+<li>Anonymous functions</li>
+<li>No function name,</li>
+<li>They can be passed as function arguments/objects.</li>
+<li>No <code>return</code> statment, evaluated exrpession is returned automatically.</li>
+<li>Single line function.</li>
+</ul>
+<p>Example :</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-s1">double</span> <span class="pl-c1">=</span> <span class="pl-k">lambda</span> <span class="pl-s1">x</span>: <span class="pl-s1">x</span><span class="pl-c1">*</span><span class="pl-s1">x</span>
+<span class="pl-en">print</span>(<span class="pl-en">double</span>(<span class="pl-c1">34</span>))
+
+<span class="pl-s1">elementList</span> <span class="pl-c1">=</span> [<span class="pl-c1">34</span>, <span class="pl-c1">56</span>, <span class="pl-c1">78</span>, <span class="pl-c1">90</span>, <span class="pl-c1">0</span>, <span class="pl-c1">12</span>]
+<span class="pl-s1">doubleList</span> <span class="pl-c1">=</span> <span class="pl-k">lambda</span> <span class="pl-s1">elementList</span>: [<span class="pl-s1">e</span><span class="pl-c1">*</span><span class="pl-s1">e</span> <span class="pl-k">for</span> <span class="pl-s1">e</span> <span class="pl-c1">in</span> <span class="pl-s1">elementList</span>]
+<span class="pl-en">print</span>(<span class="pl-en">doubleList</span>(<span class="pl-s1">elementList</span>))</pre></div>
+<h3>
+<a id="map" class="anchor" href="#map" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Map</h3>
+<ul>
+<li>applies a function to all the items in an input list.</li>
+<li>
+<code>map(function_to_apply, list_of_inputs)</code>.</li>
+</ul>
+<p>Example :</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-s1">myList</span> <span class="pl-c1">=</span> [<span class="pl-s">"bhupesh"</span>, <span class="pl-s">"varshney"</span>, <span class="pl-s">"is"</span>, <span class="pl-s">"a"</span>, <span class="pl-s">"developer"</span>]
+
+<span class="pl-s1">capitalize</span> <span class="pl-c1">=</span> <span class="pl-en">list</span>(<span class="pl-en">map</span>(<span class="pl-k">lambda</span> <span class="pl-s1">x</span>: <span class="pl-s1">x</span>.<span class="pl-en">upper</span>(), <span class="pl-s1">myList</span>))
+<span class="pl-en">print</span>(<span class="pl-s1">capitalize</span>)</pre></div>
+<h3>
+<a id="filter" class="anchor" href="#filter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Filter</h3>
+<ul>
+<li>creates a list of elements for which a function returns <code>True</code>.</li>
+</ul>
+<p>Example :</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-s1">mylist</span> <span class="pl-c1">=</span> [<span class="pl-c1">23</span>, <span class="pl-c1">45</span>, <span class="pl-c1">6</span>, <span class="pl-c1">8</span>, <span class="pl-c1">10</span>, <span class="pl-c1">16</span>]
+<span class="pl-s1">evenList</span> <span class="pl-c1">=</span> <span class="pl-en">list</span>(<span class="pl-en">filter</span>(<span class="pl-k">lambda</span> <span class="pl-s1">x</span>: <span class="pl-s1">x</span><span class="pl-c1">%</span><span class="pl-c1">2</span> <span class="pl-c1">==</span> <span class="pl-c1">0</span>, <span class="pl-s1">mylist</span>))
+<span class="pl-en">print</span>(<span class="pl-s1">evenList</span>)</pre></div>
+<h3>
+<a id="reduce" class="anchor" href="#reduce" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reduce</h3>
+<ul>
+<li>accepts a function and a sequence(list/set <em>etc</em>) and returns a single value calculated.</li>
+<li>Initially, the function is called with the first two items from the sequence and the result is returned.</li>
+<li>The function is then called again with the result obtained in step 1 and the next value in the sequence. This process keeps repeating until there are items in the sequence.</li>
+</ul>
+<p>Example :</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">from</span> <span class="pl-s1">functools</span> <span class="pl-k">import</span> <span class="pl-s1">reduce</span>
+
+<span class="pl-s1">li</span> <span class="pl-c1">=</span> [<span class="pl-c1">5</span>, <span class="pl-c1">8</span>, <span class="pl-c1">10</span>, <span class="pl-c1">20</span>, <span class="pl-c1">50</span>, <span class="pl-c1">100</span>]
+
+<span class="pl-s1">sum</span> <span class="pl-c1">=</span> <span class="pl-en">reduce</span>((<span class="pl-k">lambda</span> <span class="pl-s1">x</span>, <span class="pl-s1">y</span>: <span class="pl-s1">x</span> <span class="pl-c1">+</span> <span class="pl-s1">y</span>), <span class="pl-s1">li</span>) 
+<span class="pl-en">print</span>(<span class="pl-s1">sum</span>)</pre></div>
+</details>
+</li>
+<li>
+<a href="Python/pep8.md">PEP8 - the fashion <g-emoji class="g-emoji" alias="woman_dancing" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f483.png">💃</g-emoji> police of Python</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="pep8---the-fashion--police-of-python" class="anchor" href="#pep8---the-fashion--police-of-python" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PEP8 - the fashion <g-emoji class="g-emoji" alias="woman_dancing" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f483.png">💃</g-emoji> police of Python</h1>
+
+<p>Well basically PEP8 is a style guide which provides guidelines and best practices
+for writing python code.</p>
+<h3>
+<a id="how-i-learn" class="anchor" href="#how-i-learn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How I learn?</h3>
+<p>Well bascially the official Python docs for <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> seems good but I use <a href="https://pep8.org/">pep8.org</a>.
+It provides much more cleaner interface.</p>
+<h3>
+<a id="summary-1" class="anchor" href="#summary-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary</h3>
+<p>Below is a summary which includes some go-to rules you can memorize.</p>
+<ol>
+<li>Use 4 spaces per indentation level.</li>
+<li>Spaces are preferred instead of tabs (Why ?? <g-emoji class="g-emoji" alias="disappointed_relieved" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f625.png">😥</g-emoji>)
+Python disallows mixing of Tabs &amp; Spaces (Syntax Errors).
+So be consistent with what you choose, I prefer tabs <g-emoji class="g-emoji" alias="wink" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png">😉</g-emoji>
+</li>
+<li>Limit all lines to a maximum of 79 characters. Use \ to break/continue line.</li>
+<li>Never use the characters ‘l’ (lowercase letter el), ‘O’ (uppercase letter oh), or ‘I’ (uppercase letter eye) as single character variable names. These are misunderstood with numerals one and zero in some font styles.</li>
+<li>Function Names - lowercase words separated by _ .</li>
+<li>Class Names - Start each word with a capital letter. Use CamelCase E.g StudentClass</li>
+</ol>
+<h3>
+<a id="tools" class="anchor" href="#tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tools</h3>
+<p>If use Sublime Text, you can install <a href="https://packagecontrol.io/packages/Python%20PEP8%20Autoformat">Python PEP8 Autoformat</a> - it does the job for you.</p>
+</details>
+</li>
+<li>
+<a href="Python/publishing-a-package-on-pypi.md">Publishing a Package on PyPI</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="publishing-a-package-on-pypi" class="anchor" href="#publishing-a-package-on-pypi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Publishing a Package on PyPI</h1>
+
+<p>I just published my first package on pypi <g-emoji class="g-emoji" alias="heart_eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60d.png">😍</g-emoji>
+I used the following steps to do it :</p>
+<ol>
+<li>
+<p>Put your python files/classes inside the folder <code>package-name</code>.Also make sure your main class file has the same name <code>package-name</code>.</p>
+</li>
+<li>
+<p>Add the <code>__init__.py</code> file in the same folder. Use the init file like this.</p>
+</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">from</span> <span class="pl-s1">coderunner</span>.<span class="pl-s1">coderunner</span> <span class="pl-k">import</span> <span class="pl-v">Run</span></pre></div>
+<ol start="3">
+<li>Now make a file <code>setup.py</code> inside the root of your github folder.
+Add the following contents in it:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> <span class="pl-s1">setuptools</span>
+
+<span class="pl-k">with</span> <span class="pl-en">open</span>(<span class="pl-s">"README.md"</span>, <span class="pl-s">"r"</span>) <span class="pl-k">as</span> <span class="pl-s1">fh</span>:
+    <span class="pl-s1">long_description</span> <span class="pl-c1">=</span> <span class="pl-s1">fh</span>.<span class="pl-en">read</span>()
+
+<span class="pl-s1">setuptools</span>.<span class="pl-en">setup</span>(
+    <span class="pl-s1">name</span><span class="pl-c1">=</span><span class="pl-s">"plagcheck"</span>,
+    <span class="pl-s1">version</span><span class="pl-c1">=</span><span class="pl-s">"0.1"</span>,
+    <span class="pl-s1">author</span><span class="pl-c1">=</span><span class="pl-s">"Bhupesh Varshney"</span>,
+    <span class="pl-s1">author_email</span><span class="pl-c1">=</span><span class="pl-s">"varshneybhupesh@gmail.com"</span>,
+    <span class="pl-s1">description</span><span class="pl-c1">=</span><span class="pl-s">"A Powerful Moss results scrapper"</span>,
+    <span class="pl-s1">keywords</span><span class="pl-c1">=</span><span class="pl-s">'mosspy moss plagiarism cheat'</span>,
+    <span class="pl-s1">long_description</span><span class="pl-c1">=</span><span class="pl-s1">long_description</span>,
+    <span class="pl-s1">long_description_content_type</span><span class="pl-c1">=</span><span class="pl-s">"text/markdown"</span>,
+    <span class="pl-s1">url</span><span class="pl-c1">=</span><span class="pl-s">"https://github.com/codeclassroom/PlagCheck"</span>,
+    <span class="pl-s1">project_urls</span><span class="pl-c1">=</span>{
+        <span class="pl-s">"Documentation"</span>: <span class="pl-s">"https://github.com/codeclassroom/PlagCheck/blob/master/docs/docs.md"</span>,
+        <span class="pl-s">"Source Code"</span>: <span class="pl-s">"https://github.com/codeclassroom/PlagCheck"</span>,
+        <span class="pl-s">"Funding"</span>: <span class="pl-s">"https://www.patreon.com/bePatron?u=18082750"</span>,
+        <span class="pl-s">"Say Thanks!"</span>: <span class="pl-s">"https://github.com/codeclassroom/PlagCheck/issues/new?assignees=&amp;labels=&amp;template=---say-thank-you.md&amp;title="</span>,
+    },
+    <span class="pl-s1">packages</span><span class="pl-c1">=</span><span class="pl-s1">setuptools</span>.<span class="pl-en">find_packages</span>(),
+    <span class="pl-s1">install_requires</span><span class="pl-c1">=</span>[
+        <span class="pl-s">'requests'</span>,
+        <span class="pl-s">'mosspy'</span>,
+        <span class="pl-s">'beautifulsoup4'</span>,
+        <span class="pl-s">'lxml'</span>,
+    ],
+    <span class="pl-s1">classifiers</span><span class="pl-c1">=</span>[
+        <span class="pl-s">"Programming Language :: Python :: 3"</span>,
+        <span class="pl-s">"License :: OSI Approved :: MIT License"</span>,
+        <span class="pl-s">'Topic :: Software Development :: Build Tools'</span>,
+        <span class="pl-s">"Operating System :: OS Independent"</span>,
+    ],
+    <span class="pl-s1">python_requires</span><span class="pl-c1">=</span><span class="pl-s">'&gt;=3.6'</span>,
+)</pre></div>
+<ol start="4">
+<li>Now make a file <code>setup.cfg</code>.
+It is used for displaying project description on PyPi.</li>
+</ol>
+<pre lang="txt"><code>[metadata]
+description-file = README.md
+</code></pre>
+<ol start="5">
+<li>Install the followig libraries.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>pip3 install setuptools wheel twine</pre></div>
+<ol start="6">
+<li>Run the following command.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>python3 setup.py sdist bdist_wheel</pre></div>
+<ol start="7">
+<li>Finally upload it to PyPi.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>twine upload dist/<span class="pl-k">*</span></pre></div>
+<p>This will prompt for your PyPi username and password.</p>
+<h2>
+<a id="resources-4" class="anchor" href="#resources-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h2>
+<ul>
+<li><a href="https://packaging.python.org/tutorials/packaging-projects/">Packaging Python Projects</a></li>
+<li><a href="https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56">How to upload your python package to PyPi</a></li>
+</ul>
+</details>
+</li>
+<li>
+<a href="Python/specify-dev-dependencies-python-package-setup.md">Specify dev dependencies in setup.py</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="specify-dev-dependencies-in-setuppy" class="anchor" href="#specify-dev-dependencies-in-setuppy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Specify dev dependencies in setup.py</h1>
+
+<div class="highlight highlight-source-python"><pre><span class="pl-c"># setup.py</span>
+...
+
+<span class="pl-s1">extras_require</span> <span class="pl-c1">=</span> {
+    <span class="pl-s">"dev"</span>: [
+        <span class="pl-s">"pytest&gt;=3.7"</span>,
+    ],
+}</pre></div>
+<p>Test it locally</p>
+<div class="highlight highlight-source-shell"><pre>pip install -e .[dev]</pre></div>
+</details>
+</li>
+<li>
+<a href="Python/writing-tests-in-python-using-unittest.md">Writing Unit Tests in Python <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji></a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="writing-unit-tests-in-python-" class="anchor" href="#writing-unit-tests-in-python-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Writing Unit Tests in Python <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>
+</h1>
+
+<ol>
+<li>Simple and easy just import the Python 3 built-in library <code>unittest</code>.</li>
+<li>Wrap up tests in a Class.</li>
+<li>Use assert methods.</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> <span class="pl-s1">unittest</span>
+
+<span class="pl-k">class</span> <span class="pl-v">TestSum</span>(<span class="pl-s1">unittest</span>.<span class="pl-v">TestCase</span>):
+
+    <span class="pl-k">def</span> <span class="pl-en">test_sum</span>(<span class="pl-s1">self</span>):
+        <span class="pl-s1">self</span>.<span class="pl-en">assertEqual</span>(<span class="pl-en">sum</span>([<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">3</span>]), <span class="pl-c1">6</span>, <span class="pl-s">"Should be 6"</span>)
+
+    <span class="pl-k">def</span> <span class="pl-en">test_sum_tuple</span>(<span class="pl-s1">self</span>):
+        <span class="pl-s1">self</span>.<span class="pl-en">assertEqual</span>(<span class="pl-en">sum</span>((<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">2</span>)), <span class="pl-c1">6</span>, <span class="pl-s">"Should be 6"</span>)
+
+<span class="pl-k">if</span> <span class="pl-s1">__name__</span> <span class="pl-c1">==</span> <span class="pl-s">'__main__'</span>:
+    <span class="pl-s1">unittest</span>.<span class="pl-en">main</span>()</pre></div>
+<h3>
+<a id="resources-5" class="anchor" href="#resources-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h3>
+<ul>
+<li><a href="https://realpython.com/python-testing/">Getting Started With Testing in Python</a></li>
+<li><a href="https://docs.python.org/3.6/library/unittest.html">unittest — Unit testing framework</a></li>
+</ul>
+</details>
+</li>
+</ul>
+<h3>
+<a id="shell" class="anchor" href="#shell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shell</h3>
+<ul>
+<li>
+<a href="Shell/colorize-output-in-terminal-bash.md">Colorize Output in Terminal</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="colorize-output-in-terminal" class="anchor" href="#colorize-output-in-terminal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Colorize Output in Terminal</h1>
+
+<p>The ANSI escape sequences help adding color to the terminal (Doesn't work on Windows I guess)</p>
+<p>Here is the format:</p>
+<p><code>\033[&lt;ForegroundColorCode&gt;;&lt;BackgroundColorCode&gt;;&lt;Style&gt;mYour Text</code></p>
+<p>where</p>
+<p><code>&lt;ForegroundColorCode&gt;</code>, <code>&lt;BackgroundColorCode&gt;</code> &amp; <code>&lt;Style&gt;</code> are integer Color Codes.
+See <a href="##Resources">Resources</a> for list of colors.</p>
+<p>Example :</p>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c1">echo</span> -e <span class="pl-s"><span class="pl-pds">"</span>\033[92;1mHello\033[0m<span class="pl-pds">"</span></span></pre></div>
+<p>Hello will be bold &amp; green in color</p>
+<h2>
+<a id="resources-6" class="anchor" href="#resources-6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h2>
+<ul>
+<li><a href="https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences">List of ANSI color escape sequences</a></li>
+<li><a href="https://misc.flogisoft.com/bash/tip_colors_and_formatting">Bash tips: Colors and formatting (ANSI/VT100 Control sequences)</a></li>
+</ul>
+</details>
+</li>
+<li>
+<a href="Shell/copy-one-file-to-multiple-files.md">Copy one file to multiple files in Bash</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="copy-one-file-to-multiple-files-in-bash" class="anchor" href="#copy-one-file-to-multiple-files-in-bash" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copy one file to multiple files in Bash</h1>
+
+<div class="highlight highlight-source-shell"><pre><span class="pl-k">for</span> <span class="pl-smi">f</span> <span class="pl-k">in</span> file{1..10}.py<span class="pl-k">;</span> <span class="pl-k">do</span> cp main.py <span class="pl-smi">$f</span><span class="pl-k">;</span> <span class="pl-k">done</span></pre></div>
+<blockquote>
+<p>this will create new files file_1.py, file_2.py etc and copy contents of <em>main.py</em> file to all of them.</p>
+</blockquote>
+</details>
+</li>
+<li>
+<a href="Shell/find-files-changed-7-days-ago.md">Find files changed 7 days ago</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="find-files-changed-7-days-ago" class="anchor" href="#find-files-changed-7-days-ago" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Find files changed 7 days ago</h1>
+<p>To find last modified file</p>
+<div class="highlight highlight-source-shell"><pre>find Documents/ -mtime -1</pre></div>
+<p>where <code>mtime</code> means "Last Modification Time"</p>
+<p>To find files Accessed (read operation)</p>
+<div class="highlight highlight-source-shell"><pre>find Documents/ -atime -7</pre></div>
+<p>where <code>atime</code> means "Last Access Time"</p>
+<p><strong>-7</strong> signifies anything changed 7 days or less.
+<strong>+7</strong> signifies anything changed atleast 7 days ago.
+<strong>7</strong> signifies anything changed exactly 7 days ago.</p>
+<p>an alternative version</p>
+<div class="highlight highlight-source-shell"><pre>find Documents/ -newermt <span class="pl-s"><span class="pl-pds">"</span>7 days ago<span class="pl-pds">"</span></span> -ls</pre></div>
+</details>
+</li>
+<li>
+<a href="Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="finding-all-python-virtual-environments-in-your-system" class="anchor" href="#finding-all-python-virtual-environments-in-your-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Finding all Python Virtual Environments in your system</h1>
+
+<p>So if you work with Python all day, you already know about Virtual Environments.
+The only problem with me <g-emoji class="g-emoji" alias="sweat_smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png">😅</g-emoji> is that I end up creating a lot of them when using and making my side-projects.
+We know that there is a <code>activate</code> script that can be used for this purpose.</p>
+<p>shut up &amp; give me answer</p>
+<p>Ok</p>
+<h2>
+<a id="using-find" class="anchor" href="#using-find" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using <code>find</code>
+</h2>
+<div class="highlight highlight-source-shell"><pre>find /home -name <span class="pl-s"><span class="pl-pds">"</span>*activate<span class="pl-pds">"</span></span></pre></div>
+<p>This will list out all activate scripts in your home directory (should work fine).
+Only problem, it is slow.</p>
+<p><strong>Sample Ouput</strong></p>
+<pre><code>/home/bhupesh/Desktop/testFind/bin/activate
+/home/bhupesh/Desktop/bits/bin/activate
+/home/bhupesh/Desktop/cc-new/bin/activate
+/home/bhupesh/Desktop/test-audio/bin/activate
+/home/bhupesh/Desktop/comp-code/bin/activate
+/home/bhupesh/Desktop/req-blog/bin/activate
+/home/bhupesh/Desktop/py-cli/bin/activate
+/home/bhupesh/Desktop/sian-env/bin/activate
+/home/bhupesh/Desktop/ques/bin/activate
+/home/bhupesh/Documents/api/bin/activate
+/home/bhupesh/Documents/defe-venv/bin/activate
+/home/bhupesh/Documents/bot-tutorial/bin/activate
+/home/bhupesh/Documents/cc/bin/activate
+/home/bhupesh/Documents/test-package/bin/activate
+/home/bhupesh/Documents/qt-lear/bin/activate
+/home/bhupesh/Documents/csv-voil/bin/activate
+/home/bhupesh/Documents/bottest/bin/activate
+/home/bhupesh/Documents/new-tutorialdb/bin/activate
+/home/bhupesh/Documents/cc2/bin/activate
+/home/bhupesh/Documents/plag/bin/activate
+find /home -name "*activate"  2.57s user 4.14s system 7% cpu 1:31.72 total
+</code></pre>
+<h2>
+<a id="using-locate" class="anchor" href="#using-locate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using <code>locate</code>
+</h2>
+<div class="highlight highlight-source-shell"><pre>locate -b <span class="pl-s"><span class="pl-pds">'</span>\activate<span class="pl-pds">'</span></span> <span class="pl-k">|</span> grep <span class="pl-s"><span class="pl-pds">"</span>/home<span class="pl-pds">"</span></span></pre></div>
+<p>Grep your home directory for all activate scripts.</p>
+<p><strong>Sample Output</strong></p>
+<pre><code>/home/bhupesh/Desktop/bits/bin/activate
+/home/bhupesh/Desktop/cc-new/bin/activate
+/home/bhupesh/Desktop/comp-code/bin/activate
+/home/bhupesh/Desktop/py-cli/bin/activate
+/home/bhupesh/Desktop/ques/bin/activate
+/home/bhupesh/Desktop/req-blog/bin/activate
+/home/bhupesh/Desktop/sian-env/bin/activate
+/home/bhupesh/Desktop/test-audio/bin/activate
+/home/bhupesh/Desktop/testFind/bin/activate
+/home/bhupesh/Documents/api/bin/activate
+/home/bhupesh/Documents/bot-tutorial/bin/activate
+/home/bhupesh/Documents/bottest/bin/activate
+/home/bhupesh/Documents/cc/bin/activate
+/home/bhupesh/Documents/cc2/bin/activate
+/home/bhupesh/Documents/csv-voil/bin/activate
+/home/bhupesh/Documents/defe-venv/bin/activate
+/home/bhupesh/Documents/new-tutorialdb/bin/activate
+/home/bhupesh/Documents/plag/bin/activate
+/home/bhupesh/Documents/qt-lear/bin/activate
+/home/bhupesh/Documents/test-package/bin/activate
+locate -b '\activate'  0.45s user 0.02s system 99% cpu 0.476 total
+grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox} "/home"  0.00s user 0.00s system 0% cpu 0.472 total
+</code></pre>
+<p>Now you can just do <code>source &lt;path&gt;</code>.</p>
+</details>
+</li>
+<li>
+<a href="Shell/get-system-info.md">Get System info using Shell Commands</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="get-system-info-using-shell-commands" class="anchor" href="#get-system-info-using-shell-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get System info using Shell Commands</h1>
+
+<h3>
+<a id="memory-usedtotal" class="anchor" href="#memory-usedtotal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Memory Used/Total</h3>
+<div class="highlight highlight-source-shell"><pre>free -h <span class="pl-k">|</span> awk <span class="pl-s"><span class="pl-pds">'</span>/^Mem:/ {print $3 "/" $2}<span class="pl-pds">'</span></span></pre></div>
+<h3>
+<a id="show-cpu-temperature" class="anchor" href="#show-cpu-temperature" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Show CPU temperature</h3>
+<div class="highlight highlight-source-shell"><pre>sensors <span class="pl-k">|</span> awk <span class="pl-s"><span class="pl-pds">'</span>/^Core*/ {print $1$2, $3}<span class="pl-pds">'</span></span></pre></div>
+<h3>
+<a id="most-memory-intensive-processes" class="anchor" href="#most-memory-intensive-processes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Most Memory Intensive processes</h3>
+<div class="highlight highlight-source-shell"><pre>ps axch -o cmd:15,%mem --sort=-%mem <span class="pl-k">|</span> head</pre></div>
+<h3>
+<a id="most-cpu-intensive-processes" class="anchor" href="#most-cpu-intensive-processes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Most CPU Intensive processes</h3>
+<div class="highlight highlight-source-shell"><pre>ps axch -o cmd:15,%cpu --sort=-%cpu <span class="pl-k">|</span> head</pre></div>
+</details>
+</li>
+<li>
+<a href="Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="get-total-system-memory-using-vmstat-command" class="anchor" href="#get-total-system-memory-using-vmstat-command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get Total System Memory using <code>vmstat</code> command</h1>
+
+<div class="highlight highlight-source-shell"><pre>vmstat -s <span class="pl-k">|</span> grep <span class="pl-s"><span class="pl-pds">"</span>total memory<span class="pl-pds">"</span></span> <span class="pl-k">|</span> grep -Eo <span class="pl-s"><span class="pl-pds">'</span>[0-9]{1,}<span class="pl-pds">'</span></span></pre></div>
+<p>This will print the total memory (your RAM) in highlighted text.</p>
+<p>The command <code>vmstat -s</code> is usually used to print memory statistics a sample output might look like</p>
+<div class="highlight highlight-source-shell"><pre>   1882140 K total memory
+    644068 K used memory
+    861172 K active memory
+    653200 K inactive memory
+    217160 K free memory
+     55140 K buffer memory
+    965772 K swap cache
+   2097148 K total swap
+    230400 K used swap
+   1866748 K free swap
+    169316 non-nice user cpu ticks
+      4939 nice user cpu ticks
+     37944 system cpu ticks
+    666678 idle cpu ticks
+     53315 IO-wait cpu ticks
+         0 IRQ cpu ticks
+       693 softirq cpu ticks
+         0 stolen cpu ticks
+   2554778 pages paged <span class="pl-k">in</span>
+   1429680 pages paged out
+     40722 pages swapped <span class="pl-k">in</span>
+    191481 pages swapped out
+   3487312 interrupts
+  10042547 CPU context switches
+1590932382 boot <span class="pl-k">time</span>
+      9975 forks</pre></div>
+</details>
+</li>
+<li>
+<a href="Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="line-discipline-in-unixlinux-machines" class="anchor" href="#line-discipline-in-unixlinux-machines" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Line Discipline in Unix/Linux Machines</h1>
+<p>Line discipline handles things like <kbd>backspace</kbd> and also generates various signals for special characters like <kbd>Ctrl + C/Z</kbd> etc.</p>
+<p><code>stty -a</code> will display all these settings.
+To know more do <code>man ssty</code>.</p>
+<h2>
+<a id="demo-5" class="anchor" href="#demo-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+<p>Other than <kbd>Ctrl</kbd>+<kbd>c</kbd> and <kbd>Ctrl</kbd>+<kbd>z</kbd> which you already know about. Here are some other tricks.</p>
+<p>Fire up your terminal. And start typing....</p>
+<table>
+	<tr>
+		<th>Keyboard Shortcut</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+	<td>
+<kbd>Ctrl</kbd>+<kbd>?</kbd>
+</td>
+		<td>Delete the last input character, Basically Backspace (See what I am talking about, ^? can be used in terminals which may not support the backspace key</td>
+	</tr>
+	<tr>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>q</kbd>
+</td>
+		<td>Erase line, works like carriage return <code>/r</code>
+</td>
+	</tr>
+	<tr>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>a</kbd>
+</td>
+		<td>Moves cursor to beginning of line</td>
+	</tr>
+	<tr>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>e</kbd>
+</td>
+		<td>Moves cursor to end of line</td>
+	</tr>
+	<tr>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>w</kbd>
+</td>
+		<td>Delete the last input "word"</td>
+	</tr>
+	<tr>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>k</kbd>
+</td>
+		<td>Erase line to the end, from current cursor position</td>
+	</tr>
+	<tr>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>y</kbd>
+</td>
+		<td>Paste the last erased text</td>
+	</tr>
+</table>
+<p>Apart from these line input specific keyboard shortcuts. We also have ...</p>
+<h4>
+<a id="multiline-input" class="anchor" href="#multiline-input" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Multiline Input</h4>
+<p>Use <code>/</code> for continuing the multiline input.</p>
+<div class="highlight highlight-source-shell"><pre>bhupesh@dev: hello my name\
+is\
+bhupesh\
+check\
+<span class="pl-k">&gt;</span> my boi\
+<span class="pl-k">&gt;</span> hoooo\
+<span class="pl-k">&gt;</span> </pre></div>
+<p>A better version</p>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c"><span class="pl-c">#!</span>/bin/bash</span>
+
+<span class="pl-c1">echo</span> -e <span class="pl-s"><span class="pl-pds">"</span>Enter Commit Message (Ctrl+d to stop) : <span class="pl-pds">"</span></span>
+commit_message=<span class="pl-s"><span class="pl-pds">$(</span><span class="pl-k">&lt;</span>/dev/stdin<span class="pl-pds">)</span></span>
+
+<span class="pl-c1">echo</span> -e <span class="pl-s"><span class="pl-pds">"</span>\n\n<span class="pl-smi">$commit_message</span><span class="pl-pds">"</span></span></pre></div>
+<p>Make it executable and run.</p>
+<div class="highlight highlight-source-shell"><pre>Enter Commit Message (Ctrl+d to stop) <span class="pl-c1">:</span> 
+- fixed bug <span class="pl-c"><span class="pl-c">#</span>454</span>
+- Increase reponse <span class="pl-k">time</span>
+- style fixes
+
+
+- fixed bug <span class="pl-c"><span class="pl-c">#</span>454</span>
+- Increase reponse <span class="pl-k">time</span>
+- style fixes
+</pre></div>
+<p>All of this is controlled by the <code>tty</code> driver</p>
+<h2>
+<a id="resources-7" class="anchor" href="#resources-7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h2>
+<ul>
+<li><a href="https://www.linusakesson.net/programming/tty/index.php">The TTY demystified</a></li>
+</ul>
+</details>
+</li>
+</ul>
+<h3>
+<a id="webdev" class="anchor" href="#webdev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>WebDev</h3>
+<ul>
+<li>
+<a href="WebDev/html-datalist-auto-complete.md">Auto-complete in plain HTML</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="auto-complete-in-plain-html" class="anchor" href="#auto-complete-in-plain-html" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Auto-complete in plain HTML</h1>
+
+<p>You can make a type-ahead/autocomplete like thing in plain HTML
+using the <code>&lt;datalist&gt;&lt;/datalist&gt;</code> tag.</p>
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<div class="highlight highlight-text-html-basic"><pre><span class="pl-c1">&lt;!DOCTYPE html<span class="pl-kos">&gt;</span></span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">html</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">head</span><span class="pl-kos">&gt;</span>
+	<span class="pl-kos">&lt;</span><span class="pl-ent">title</span><span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">title</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">head</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">body</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">h1</span><span class="pl-kos">&gt;</span>Type Ahead HTML<span class="pl-kos">&lt;/</span><span class="pl-ent">h1</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">input</span> <span class="pl-c1">list</span>="<span class="pl-s">test</span>" <span class="pl-c1">placeholder</span>="<span class="pl-s">Choose an option</span>"<span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">datalist</span> <span class="pl-c1">id</span>="<span class="pl-s">test</span>"<span class="pl-kos">&gt;</span>
+	<span class="pl-kos">&lt;</span><span class="pl-ent">option</span> <span class="pl-c1">value</span>="<span class="pl-s">C++</span>"<span class="pl-kos">&gt;</span>
+	<span class="pl-kos">&lt;</span><span class="pl-ent">option</span> <span class="pl-c1">value</span>="<span class="pl-s">Python</span>"<span class="pl-kos">&gt;</span>
+	<span class="pl-kos">&lt;</span><span class="pl-ent">option</span> <span class="pl-c1">value</span>="<span class="pl-s">Go</span>"<span class="pl-kos">&gt;</span>
+	<span class="pl-kos">&lt;</span><span class="pl-ent">option</span> <span class="pl-c1">value</span>="<span class="pl-s">JavaScript</span>"<span class="pl-kos">&gt;</span>
+	<span class="pl-kos">&lt;</span><span class="pl-ent">option</span> <span class="pl-c1">value</span>="<span class="pl-s">HTML</span>"<span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">datalist</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">body</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">html</span><span class="pl-kos">&gt;</span></pre></div>
+<p>Now as you type <code>G</code> it will show <em>Go</em> ;)</p>
+<h3>
+<a id="resources-8" class="anchor" href="#resources-8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h3>
+<ul>
+<li><a href="https://twitter.com/IMAC2/status/1206913760696373253">tweet by Álvaro Trigo</a></li>
+</ul>
+</details>
+</li>
+<li>
+<a href="WebDev/OpenGraph.md">I learned about Open Graph protocol</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="i-learned-about-open-graph-protocol" class="anchor" href="#i-learned-about-open-graph-protocol" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>I learned about Open Graph protocol</h1>
+
+<h3>
+<a id="what-it-does-" class="anchor" href="#what-it-does-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What it does ?</h3>
+<ul>
+<li>
+<a href="http://ogp.me/">Open Graph</a> Makes your website into rich "graph" objects.</li>
+<li>Now, what I understand from it is that it provides us to add
+additional metadata to your website which makes it more <strong>rich</strong> on social media.
+For e.g you see the thumbnails of links in the Telegram - <em>courtesy of OpenGraph</em>
+</li>
+</ul>
+<h3>
+<a id="how--1" class="anchor" href="#how--1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How ?</h3>
+<p>Information is added into the <code>&lt;head&gt;</code> tags.
+For e.g below is the metadata of one of my <a href="https://bhupeshv.me/30-Seconds-of-C++/">blogs</a></p>
+<div class="highlight highlight-text-html-basic"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">meta</span> <span class="pl-c1">property</span>="<span class="pl-s">og:description</span>" <span class="pl-c1">content</span>="<span class="pl-s">A collection of C++ STL features (functions/libraries) which can be learned in 30 seconds or less</span>" /&gt;
+<span class="pl-kos">&lt;</span><span class="pl-ent">meta</span> <span class="pl-c1">property</span>="<span class="pl-s">og:title</span>" <span class="pl-c1">content</span>="<span class="pl-s">30 Seconds of C++</span>" /&gt;
+<span class="pl-kos">&lt;</span><span class="pl-ent">meta</span> <span class="pl-c1">property</span>="<span class="pl-s">og:url</span>" <span class="pl-c1">content</span>="<span class="pl-s">/30-Seconds-of-C++/</span>" /&gt;
+<span class="pl-kos">&lt;</span><span class="pl-ent">meta</span> <span class="pl-c1">property</span>="<span class="pl-s">og:image</span>" <span class="pl-c1">content</span>="<span class="pl-s">/images/blog5.png</span>"/&gt;</pre></div>
+<h3>
+<a id="sidenotes" class="anchor" href="#sidenotes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sidenotes</h3>
+<p>Socila Media platforms like Twitter, LinkedIn, Telegram heavily use this meta info to render links, display images etc.</p>
+</details>
+</li>
+<li>
+<a href="WebDev/live-edit-html.md">Live Editing HTML</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="live-editing-html" class="anchor" href="#live-editing-html" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Live Editing HTML</h1>
+
+<p>Yes !, you can live edit webpages by adding the following in the <code>&lt;html&gt;</code> tag.</p>
+<div class="highlight highlight-text-html-basic"><pre><span class="pl-c1">&lt;!DOCTYPE html<span class="pl-kos">&gt;</span></span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">html</span> <span class="pl-c1">contenteditable</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">head</span><span class="pl-kos">&gt;</span>
+	<span class="pl-kos">&lt;</span><span class="pl-ent">title</span><span class="pl-kos">&gt;</span>Yay! Live Editing<span class="pl-kos">&lt;/</span><span class="pl-ent">title</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">head</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;</span><span class="pl-ent">body</span><span class="pl-kos">&gt;</span>
+	<span class="pl-kos">&lt;</span><span class="pl-ent">p</span><span class="pl-kos">&gt;</span>Try Editing Tis<span class="pl-kos">&lt;/</span><span class="pl-ent">p</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">body</span><span class="pl-kos">&gt;</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">html</span><span class="pl-kos">&gt;</span></pre></div>
+<p>Setting <code>contenteditable="true"</code> will make its content editable.</p>
+<p>So what ?
+Well you can use this HTML5 feature to make a motepad right into your browser.</p>
+<div class="highlight highlight-text-html-basic"><pre>data:text/html, <span class="pl-kos">&lt;</span><span class="pl-ent">html</span> <span class="pl-c1">contenteditable</span><span class="pl-kos"></span> <span class="pl-kos">&lt;</span><span class="pl-ent">head</span> <span class="pl-kos">&gt;</span><span class="pl-kos">&lt;</span><span class="pl-ent">title</span><span class="pl-kos">&gt;</span>Notepad<span class="pl-kos">&lt;/</span><span class="pl-ent">title</span><span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">head</span><span class="pl-kos">&gt;</span><span class="pl-kos">&lt;</span><span class="pl-ent">body</span> <span class="pl-c1">style</span>="<span class="pl-s">background-color:black;color: white;</span>"<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">body</span><span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">html</span><span class="pl-kos">&gt;</span></pre></div>
+</details>
+</li>
+<li>
+<a href="WebDev/async-defer-html-javascript.md">`async` &amp; `defer` Attributes</a><details><summary> Read More <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji></summary>
+<h1>
+<a id="async--defer-attributes" class="anchor" href="#async--defer-attributes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><code>async</code> &amp; <code>defer</code> Attributes</h1>
+
+<p>Usually javascript files interrupt the parsing of HTML document.
+To prevent this 2 special attributes of the <code>&lt;script&gt;</code> elements are used.</p>
+<h3>
+<a id="async" class="anchor" href="#async" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><code>async</code>
+</h3>
+<div class="highlight highlight-source-js"><pre><span class="pl-c1">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">async</span> <span class="pl-c1">src</span><span class="pl-c1">=</span><span class="pl-s">"script.js"</span><span class="pl-c1">&gt;</span></pre></div>
+<ul>
+<li>The async attribute is used to indicate to the browser that the script file can be executed asynchronously.</li>
+<li>Therefore the HTML parser does not need to pause and wait for the JS code to load, it is intead fetched in parallel.</li>
+<li>It is only available for externally located script files.</li>
+</ul>
+<h3>
+<a id="defer" class="anchor" href="#defer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><code>defer</code>
+</h3>
+<div class="highlight highlight-source-js"><pre><span class="pl-c1">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">defer</span> <span class="pl-c1">src</span><span class="pl-c1">=</span><span class="pl-s">"script.js"</span><span class="pl-c1">&gt;</span></pre></div>
+<ul>
+<li>The defer attribute tells the browser to only execute the script file once the HTML document has been fully parsed.</li>
+<li>The js file can be downloaded but it does not executes until the whole HTML is parsed.</li>
+</ul>
+</details>
+</li>
+</ul>
+---
+<h2>
+<a id="usage-1" class="anchor" href="#usage-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<p>See <a href="https://github.com/Bhupesh-V/til/blob/master/USAGE.md">USAGE.md</a> to know how I use this repository.</p>
+<h2>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author</h2>
+<p><g-emoji class="g-emoji" alias="bust_in_silhouette" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f464.png">👤</g-emoji> <strong>Bhupesh Varshney</strong></p>
+<ul>
+<li>Web : <a href="https://bhupesh-v.github.io">bhupesh.codes</a>
+</li>
+<li>Twitter : <a href="https://twitter.com/bhupeshimself">@bhupeshimself</a>
+</li>
+<li>DEV : <a href="https://dev.to/bhupesh">bhupesh</a>
+</li>
+</ul>
+<h2>
+<a id="️-show-your-support" class="anchor" href="#%EF%B8%8F-show-your-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="relaxed" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/263a.png">☺️</g-emoji> Show your support</h2>
+<p>Support me by giving a <g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐️</g-emoji> if this project helped you! or just <a href="https://twitter.com/intent/tweet?url=https://github.com/Bhupesh-V/til&amp;text=til%20via%20@bhupeshimself"><img src="https://img.shields.io/twitter/url?style=social&amp;url=https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2F" alt="Twitter URL"></a></p>
+<a href="https://liberapay.com/bhupesh/donate">
+  <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" width="100">
+</a>
+<a href="https://www.patreon.com/bhupesh">
+  <img alt="Patron Bhupesh" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+<h2>
+<a id="-license" class="anchor" href="#-license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> License</h2>
+<p>Copyright © 2020 <a href="https://github.com/Bhupesh-V">Bhupesh Varshney</a>.<br>
+This project is <a href="https://github.com/Bhupesh-V/til/blob/master/LICENSE">MIT</a> licensed.</p>
+<h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h2>
+<p>Original Idea/Work <a href="https://github.com/thoughtbot/til">thoughtbot/til</a>.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
