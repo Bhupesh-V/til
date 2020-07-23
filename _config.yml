@@ -3,8 +3,4 @@ description: Today I Learned - Interesting things I learn everyday related to so
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
-
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
+markdown: CommonMarkGhPages

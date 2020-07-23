@@ -70,7 +70,7 @@ Original Idea/Work [thoughtbot/til](https://github.com/thoughtbot/til).
 def get_category_list():
     ''' Walk the current directory and get a list of all subdirectories at that
     level.  These are the "categories" in which there are TILs. '''
-    avoid_dirs = ['images', 'stylesheets', 'javascripts', '_layouts']
+    avoid_dirs = ['images', 'stylesheets', 'javascripts', '_layouts', '.sass-cache', '_site']
     dirs = [x for x in os.listdir('.') if os.path.isdir(x) and '.git' not in x and x not in avoid_dirs]
     return dirs
 
