@@ -117,6 +117,7 @@ def read_file(filename):
 
 
 def print_file(category_names, count, categories):
+    host_url = "https://github.com/Bhupesh-V/til/blob/master/"
     ''' Now we have all the information, print it out in markdown format. '''
     with open('count.json', 'w') as json_file:
         data = {'count': count}
@@ -130,8 +131,9 @@ def print_file(category_names, count, categories):
 ''')
         # print the list of categories with links
         for category in sorted(category_names):
+            tils = categories[category]
             file.write(
-                '* [{0}](#{1})\n'.format(category, category.lower()))
+                '* [{0}](#{1}) [**`{2}`**]\n'.format(category, category.lower(), len(tils)))
 
         if len(category_names) > 0:
             file.write('''
@@ -146,19 +148,15 @@ def print_file(category_names, count, categories):
             file.write('<ul>')
             for (title, filename) in sorted(tils):
                 file.write('\n<li>')
-                file.write('<a href="{1}">{0}</a>'.format(title, filename))
-                file.write('<details><summary> Read More 👇</summary>')
+                file.write('<a target="_blank" href="{1}">{0}</a>'.format(title, host_url+filename))
+                file.write('<details><summary> Read More 🔽</summary>')
                 file.write('\n\n')
                 file.write(read_file(filename))
                 file.write('\n</details>')
                 file.write('</li>')
             file.write('\n')
-            file.write('</ul>')
+            file.write('</ul>\n\n')
 
-        if len(category_names) > 0:
-            file.write('''\n---
-
-''')
         file.write(FOOTER)
 
 
