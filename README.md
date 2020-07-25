@@ -28,7 +28,7 @@ languages and technologies.
 * [Go](#go) [**`7`**]
 * [Miscellaneous](#miscellaneous) [**`10`**]
 * [Python](#python) [**`8`**]
-* [Shell](#shell) [**`8`**]
+* [Shell](#shell) [**`9`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -1185,6 +1185,15 @@ Hello will be bold & green in color
 for f in file{1..10}.py; do cp main.py $f; done
 ```
 > this will create new files file_1.py, file_2.py etc and copy contents of _main.py_ file to all of them.
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-default-git-branch-name.md">Find default git branch name</a><details><summary> Read More 🔽</summary>
+
+# Find default git branch name
+
+```bash
+git remote show origin | awk '/HEAD/ {print $3}'
+```
+
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-files-changed-7-days-ago.md">Find files changed 7 days ago</a><details><summary> Read More 🔽</summary>
 
