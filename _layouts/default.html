@@ -45,5 +45,12 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    <script>
+    document.addEventListener("visibilitychange", function() {
+    	currTitle = document.title;
+	    document.title = document.hidden ? "Did your learn somethng new ?" : "{{ site.title }}";
+	    document.querySelector("link").href = document.hidden ? "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💡</text></svg>" : "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>";
+	});
+    </script>
   </body>
 </html>
