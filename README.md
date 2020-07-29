@@ -28,7 +28,7 @@ languages and technologies.
 * [Go](#go) [**`7`**]
 * [Miscellaneous](#miscellaneous) [**`10`**]
 * [Python](#python) [**`8`**]
-* [Shell](#shell) [**`9`**]
+* [Shell](#shell) [**`10`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -1189,7 +1189,7 @@ for f in file{1..10}.py; do cp main.py $f; done
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-default-git-branch-name.md">Find default git branch name</a><details><summary> Read More 🔽</summary>
 
 # Find default git branch name
-
+<!-- 25 July 2020 -->
 ```bash
 git remote show origin | awk '/HEAD/ {print $3}'
 ```
@@ -1475,6 +1475,22 @@ All of this is controlled by the `tty` driver
 
 - [The TTY demystified](https://www.linusakesson.net/programming/tty/index.php)
 
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/random-number-between-x-and-y.md">Random number(s) between x & y</a><details><summary> Read More 🔽</summary>
+
+# Random number(s) between x & y
+<!-- July 29 2020 -->
+On Linux, the GNU coreutil, `shuf` can help us achieve this pretty easily.
+
+One Random number between 69 & 420
+```bash
+shuf -i69-420 -n1
+```
+
+Five Random numbers between 69 & 420
+```bash
+shuf -i69-420 -n5
+```
 </details></li>
 </ul>
 
