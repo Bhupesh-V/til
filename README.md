@@ -28,7 +28,7 @@ languages and technologies.
 * [Go](#go) [**`7`**]
 * [Miscellaneous](#miscellaneous) [**`10`**]
 * [Python](#python) [**`8`**]
-* [Shell](#shell) [**`10`**]
+* [Shell](#shell) [**`11`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -1127,7 +1127,7 @@ if __name__ == '__main__':
 ### Shell
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/alternative -to-ls-linux.md">Alternative to 'ls' commnand</a><details><summary> Read More 🔽</summary>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/alternative-to-ls-linux.md">Alternative to 'ls' commnand</a><details><summary> Read More 🔽</summary>
 
 # Alternative to 'ls' commnand
 <!-- 22 July 2020 -->
@@ -1221,6 +1221,14 @@ an alternative version
 find Documents/ -newermt "7 days ago" -ls
 ```
 </details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-fonts-in-linux.md">Find fonts available in Linux</a><details><summary> Read More 🔽</summary>
+
+# Find fonts available in Linux
+
+```bash
+fc-list
+```
+</details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a><details><summary> Read More 🔽</summary>
 
 # Finding all Python Virtual Environments in your system
@@ -1304,6 +1312,31 @@ grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox} "/home"  0.0
 
 
 Now you can just do `source <path>`.
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a><details><summary> Read More 🔽</summary>
+
+# Generate random numbers in bash
+<!-- July 29 2020 -->
+Easiest way is to use the `$RANDOM` variable.
+
+```bash
+>> echo "$RANDOM"
+12261
+```
+
+Each time this parameter is referenced, a random integer between **0** and **32767** is generated.
+
+A better way which I like is to use the GNU coreutil, `shuf`
+
+One Random number between 69 & 420
+```bash
+shuf -i69-420 -n1
+```
+
+Five Random numbers between 69 & 420
+```bash
+shuf -i69-420 -n5
+```
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md">Get System info using Shell Commands</a><details><summary> Read More 🔽</summary>
 
@@ -1475,22 +1508,6 @@ All of this is controlled by the `tty` driver
 
 - [The TTY demystified](https://www.linusakesson.net/programming/tty/index.php)
 
-</details></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/random-number-between-x-and-y.md">Random number(s) between x & y</a><details><summary> Read More 🔽</summary>
-
-# Random number(s) between x & y
-<!-- July 29 2020 -->
-On Linux, the GNU coreutil, `shuf` can help us achieve this pretty easily.
-
-One Random number between 69 & 420
-```bash
-shuf -i69-420 -n1
-```
-
-Five Random numbers between 69 & 420
-```bash
-shuf -i69-420 -n5
-```
 </details></li>
 </ul>
 
