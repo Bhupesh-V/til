@@ -51,9 +51,8 @@ Support me by giving a ⭐️ if this project helped you! or just [![Twitter URL
 <a href="https://liberapay.com/bhupesh/donate">
   <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" width="100">
 </a>
-
-<a href="https://www.patreon.com/bhupesh">
-  <img alt="Patron Bhupesh" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+<a href="https://ko-fi.com/bhupesh">
+  <img title="ko-fi/bhupesh" alt="Support on ko-fi" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="185">
 </a>
 
 ## 📝 License
