@@ -24,3 +24,5 @@ ps axch -o cmd:15,%mem --sort=-%mem | head
 ```shell
 ps axch -o cmd:15,%cpu --sort=-%cpu | head
 ```
+
+I [wrote a small shell script](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/sys.sh) to get _(almost)_ realtime update of your system.

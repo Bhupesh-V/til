@@ -28,7 +28,7 @@ languages and technologies.
 * [Go](#go) [**`7`**]
 * [Miscellaneous](#miscellaneous) [**`10`**]
 * [Python](#python) [**`8`**]
-* [Shell](#shell) [**`13`**]
+* [Shell](#shell) [**`14`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -1367,6 +1367,7 @@ ps axch -o cmd:15,%mem --sort=-%mem | head
 ps axch -o cmd:15,%cpu --sort=-%cpu | head
 ```
 
+I [wrote a small shell script](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/sys.sh) to get _(almost)_ realtime update of your system.
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a><details><summary> Read More 🔽</summary>
 
@@ -1541,6 +1542,32 @@ netu() {
 
 
 [Grab it from here](https://github.com/Bhupesh-V/.Varshney/blob/316cde84f3a666cf3f503a2de34e8289074ffbce/.bash_functions#L69)
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/print-everything-between-two-words.md">Print everything between 2 words</a><details><summary> Read More 🔽</summary>
+
+# Print everything between 2 words
+<!-- 24 Aug 2020 -->
+
+### Using `sed`
+
+For example to view latest changelog (where `x.x.x` is the latest version).
+
+```bash
+sed -n -e '/x.x.x/,/0.1.0/ p' CHANGELOG.md | sed -e '1d;$d'
+```
+
+`sed -e '1d;$d'` removes the first & last line.
+
+### Using `awk`
+
+```bash
+awk '/x.x.x/,/0.1.0/' CHANGELOG.md | awk 'NR>2 {print last} {last=$0}'
+```
+
+#### Resources
+
+- [How to show lines after each grep match until other specific match?](https://unix.stackexchange.com/questions/21076/how-to-show-lines-after-each-grep-match-until-other-specific-match)
+- [What is the easiest way to remove 1st and last line from file with awk?](https://stackoverflow.com/questions/15856733/what-is-the-easiest-way-to-remove-1st-and-last-line-from-file-with-awk)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a><details><summary> Read More 🔽</summary>
 
