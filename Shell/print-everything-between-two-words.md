@@ -1,9 +1,9 @@
 # Print everything between 2 words
 <!-- 24 Aug 2020 -->
 
-### Using `sed`
-
 For example to view latest changelog (where `x.x.x` is the latest version).
+
+### Using `sed`
 
 ```bash
 sed -n -e '/x.x.x/,/0.1.0/ p' CHANGELOG.md | sed -e '1d;$d'
@@ -16,6 +16,8 @@ sed -n -e '/x.x.x/,/0.1.0/ p' CHANGELOG.md | sed -e '1d;$d'
 ```bash
 awk '/x.x.x/,/0.1.0/' CHANGELOG.md | awk 'NR>2 {print last} {last=$0}'
 ```
+
+`awk 'NR>2 {print last} {last=$0}'` removes the first & last line.
 
 #### Resources
 
