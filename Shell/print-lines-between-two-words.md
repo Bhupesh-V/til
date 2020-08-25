@@ -1,7 +1,8 @@
-# Print everything between 2 words
+# Print lines between 2 words
 <!-- 24 Aug 2020 -->
 
-For example to view latest changelog (where `x.x.x` is the latest version).
+You may arrive in a situation where you may want to "extract" out text between two words.
+For example to view the latest changelog (where `x.x.x` is the latest version) in a [CHANGELOG.md](https://github.com/Bhupesh-V/dotman/blob/master/CHANGELOG.md) file.
 
 ### Using `sed`
 
@@ -18,6 +19,8 @@ awk '/x.x.x/,/0.1.0/' CHANGELOG.md | awk 'NR>2 {print last} {last=$0}'
 ```
 
 `awk 'NR>2 {print last} {last=$0}'` removes the first & last line.
+
+> NOTE: `NR` means which Line number is being processed
 
 #### Resources
 

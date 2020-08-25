@@ -1543,14 +1543,15 @@ netu() {
 
 [Grab it from here](https://github.com/Bhupesh-V/.Varshney/blob/316cde84f3a666cf3f503a2de34e8289074ffbce/.bash_functions#L69)
 </details></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/print-everything-between-two-words.md">Print everything between 2 words</a><details><summary> Read More 🔽</summary>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/print-lines-between-two-words.md">Print lines between 2 words</a><details><summary> Read More 🔽</summary>
 
-# Print everything between 2 words
+# Print lines between 2 words
 <!-- 24 Aug 2020 -->
 
-### Using `sed`
+You may arrive in a situation where you may want to "extract" out text between two words.
+For example to view the latest changelog (where `x.x.x` is the latest version) in a [CHANGELOG.md](https://github.com/Bhupesh-V/dotman/blob/master/CHANGELOG.md) file.
 
-For example to view latest changelog (where `x.x.x` is the latest version).
+### Using `sed`
 
 ```bash
 sed -n -e '/x.x.x/,/0.1.0/ p' CHANGELOG.md | sed -e '1d;$d'
@@ -1563,6 +1564,10 @@ sed -n -e '/x.x.x/,/0.1.0/ p' CHANGELOG.md | sed -e '1d;$d'
 ```bash
 awk '/x.x.x/,/0.1.0/' CHANGELOG.md | awk 'NR>2 {print last} {last=$0}'
 ```
+
+`awk 'NR>2 {print last} {last=$0}'` removes the first & last line.
+
+> NOTE: `NR` means which Line number is being processed
 
 #### Resources
 
