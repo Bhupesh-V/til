@@ -28,7 +28,7 @@ languages and technologies.
 * [Go](#go) [**`7`**]
 * [Miscellaneous](#miscellaneous) [**`10`**]
 * [Python](#python) [**`8`**]
-* [Shell](#shell) [**`14`**]
+* [Shell](#shell) [**`15`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -1185,6 +1185,32 @@ Hello will be bold & green in color
 for f in file{1..10}.py; do cp main.py $f; done
 ```
 > this will create new files file_1.py, file_2.py etc and copy contents of _main.py_ file to all of them.
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/extract-file-id-from-drive-shareable-link.md">Extract file id from drive shareable link</a><details><summary> Read More 🔽</summary>
+
+# Extract file id from drive shareable link
+
+I host my blog images on Google Drive sometimes, the normal shareable link is not
+the actual image source.
+Instead this is :
+
+`https://drive.google.com/uc?export=view&id=<INSERT-ID>`
+
+`INSERT_ID` is the file id (in the shareable link)which is higlighted below
+
+[https://drive.google.com/file/d/**1ifRiquoNw3awVTX6geyNoDp8FW6tafOE**/view?usp=sharing]()
+
+here is a bash script to convert the link.
+
+```bash
+#!/usr/bin/env bash
+
+str="$1"
+remove_lat=${str%/*}
+echo "https://drive.google.com/uc?export=view&id=${remove_lat##*/}"
+```
+
+You can now use it in `<img>` src
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-default-git-branch-name.md">Find default git branch name</a><details><summary> Read More 🔽</summary>
 
