@@ -1206,9 +1206,14 @@ here is a bash script to convert the link.
 #!/usr/bin/env bash
 
 str="$1"
-remove_lat=${str%/*}
-echo "https://drive.google.com/uc?export=view&id=${remove_lat##*/}"
+# remove everything after the last /
+remove_last=${str%/*}
+# get everything after the last /
+get_last=${remove_lat##*/}
+echo "https://drive.google.com/uc?export=view&id=$get_last"
 ```
+
+[Also a Python version](https://gist.github.com/Bhupesh-V/7ad79f1cf6e007df1be02aeba22ec586)
 
 You can now use it in `<img>` src
 </details></li>
