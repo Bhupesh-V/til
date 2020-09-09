@@ -1209,7 +1209,7 @@ str="$1"
 # remove everything after the last /
 remove_last=${str%/*}
 # get everything after the last /
-get_last=${remove_lat##*/}
+get_last=${remove_last##*/}
 echo "https://drive.google.com/uc?export=view&id=$get_last"
 ```
 
