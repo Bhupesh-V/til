@@ -507,9 +507,9 @@ Push new changes to heroku.
 <!-- 7 June 2020 -->
 All of the below mentioned tips works in both DuckDuckGo & Google (i use both :wink:), it should work fine in other search engines too.
 
-1. **`filetype:pdf golang`**
+1. **`file:pdf golang`**
 
-> Use it to search for books or specific file types
+> Use it to search for books, presentations or specific file types
 
 2. **`inurl:docs.djangoproject.com templates`**
 
@@ -524,6 +524,13 @@ All of the below mentioned tips works in both DuckDuckGo & Google (i use both :w
 
 > Double quotes can be used for exact matches of the phrase (doesn't work sometimes).
 
+5. **`related:http://freecodecamp.org`**
+
+> Related specifier, "related:<domain>" returns the root domain of similar websites
+
+6. **`intitle:best vim plugins`** 
+
+> Intitle specifier returns results that contains your searched word in the title.
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a><details><summary> Read More 🔽</summary>
 
