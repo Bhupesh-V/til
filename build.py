@@ -24,8 +24,7 @@ HEADER = '''
   </a>
 </p>
 
-> Today I Learned.
-A collection of concise write-ups on small things I learn across a variety of 
+> A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
 

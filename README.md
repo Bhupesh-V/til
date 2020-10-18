@@ -16,8 +16,7 @@
   </a>
 </p>
 
-> Today I Learned.
-A collection of concise write-ups on small things I learn across a variety of 
+> A collection of concise write-ups on small things I learn across a variety of 
 languages and technologies.
 
 
@@ -27,8 +26,8 @@ languages and technologies.
 * [CleanCode](#cleancode) [**`3`**]
 * [Go](#go) [**`7`**]
 * [Miscellaneous](#miscellaneous) [**`11`**]
-* [Python](#python) [**`8`**]
-* [Shell](#shell) [**`15`**]
+* [Python](#python) [**`9`**]
+* [Shell](#shell) [**`16`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -822,6 +821,17 @@ Now when commiting changes instead of using `git commit -m ""`, Use `git commit`
 ### Python
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/check-indentation-errors-in-python.md">Check indentation errors in python 🐍</a><details><summary> Read More 🔽</summary>
+
+# Check indentation errors in python 🐍
+<!-- 18 Oct 2020 -->
+Use `tabnanny` in python standard library for this.
+
+```bash
+python -m tabnanny hack-nasa.py
+```
+
+</details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a><details><summary> Read More 🔽</summary>
 
 # Cryptographically strong random string
@@ -1253,6 +1263,37 @@ echo "https://drive.google.com/uc?export=view&id=$get_last"
 [Also a Python version](https://gist.github.com/Bhupesh-V/7ad79f1cf6e007df1be02aeba22ec586)
 
 You can now use it in `<img>` src
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-bootup-time-in-linux.md">Find boot-up time in linux 🐧</a><details><summary> Read More 🔽</summary>
+
+# Find boot-up time in linux 🐧
+<!-- 18 Oct 2020 -->
+We can achieve this using the `systemd` service. Just run this
+
+```bash
+systemd-analyze
+```
+
+Demo:
+
+```bash
+Startup finished in 36.655s (kernel) + 58.030s (userspace) = 1min 34.685s
+graphical.target reached after 57.709s in userspace
+```
+
+> The `graphical.target` specifies how long it took to reach to the _log-in_ screen.
+
+## Other tricks
+
+1. You can also plot service initializations in a SVG graph.
+```bash
+systemd-analyze plot > demo.svg
+```
+
+2. Check which service takes most of the time.
+```bash
+systemd-analyze blame
+```
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-default-git-branch-name.md">Find default git branch name</a><details><summary> Read More 🔽</summary>
 
