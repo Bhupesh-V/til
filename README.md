@@ -26,7 +26,7 @@ languages and technologies.
 ## Categories
 * [CleanCode](#cleancode) [**`3`**]
 * [Go](#go) [**`7`**]
-* [Miscellaneous](#miscellaneous) [**`10`**]
+* [Miscellaneous](#miscellaneous) [**`11`**]
 * [Python](#python) [**`8`**]
 * [Shell](#shell) [**`15`**]
 * [WebDev](#webdev) [**`4`**]
@@ -500,6 +500,36 @@ Login with your e-mail and password.
 Where `app-name` is the name of app on heroku.
 3. `git push heroku master`
 Push new changes to heroku.
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/docker-quick-guide.md">Docker quick guide</a><details><summary> Read More 🔽</summary>
+
+# Docker quick guide
+<!-- 18 Oct 2020 -->
+
+1. Remove docker image.
+```bash
+docker rmi <img-id>
+```
+
+2. Remove docker container.
+```bash
+docker rm <container-id>
+```
+
+3. Build a docker image with a name.
+```bash
+docker build -f <dockerfile-path> -t name .
+```
+
+4. Run a container.
+```bash
+docker run -p 3000:3000 <name>
+```
+
+5. Stop a container.
+```bash
+docker stop <container-id>
+```
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a><details><summary> Read More 🔽</summary>
 
