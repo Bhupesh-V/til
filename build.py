@@ -7,17 +7,17 @@ import os
 import json
 
 HEADER = '''
-<h1 align="center">Today I Learned</h1>
+[<img align="right" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="240px" height="51x">](https://ko-fi.com/bhupesh)
+
+<h1 align="left">Today I Learned</h1>
 <p align="center">
-  <img height="200px" src="https://repository-images.githubusercontent.com/192476462/fdd6ce80-0b94-11ea-8b50-812ee66b0599" />
-  <br>
   <img alt="TILs Count" src="https://img.shields.io/badge/dynamic/json.svg?color=black&label=TILs&query=count&url=https%3A%2F%2Fraw.githubusercontent.com%2FBhupesh-V%2Ftil%2Fmaster%2Fcount.json">
   <img alt="last commit" src="https://img.shields.io/github/last-commit/bhupesh-V/TIL?color=purple">
   <a href="https://github.com/Bhupesh-V/til/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/github/license/Bhupesh-V/til" target="_blank" />
   </a>
-  <a href="https://bhupesh.codes/til/">
-    <img alt="Website Status" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=orange&up_message=online&url=https%3A%2F%2Fbhupesh.codes%2Ftil%2F" />
+  <a href="https://bhupesh-v.github.io/til/">
+    <img alt="Website Status" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=orange&up_message=online&url=https%3A%2F%2Fbhupesh-v.github.io%2Ftil%2F" />
   </a>
   <a href="https://twitter.com/bhupeshimself">
     <img alt="Twitter: Bhupesh Varshney" src="https://img.shields.io/twitter/follow/bhupeshimself.svg?style=social" target="_blank" />
