@@ -27,7 +27,7 @@ languages and technologies.
 * [Go](#go) [**`7`**]
 * [Miscellaneous](#miscellaneous) [**`11`**]
 * [Python](#python) [**`9`**]
-* [Shell](#shell) [**`16`**]
+* [Shell](#shell) [**`17`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -522,12 +522,17 @@ docker build -f <dockerfile-path> -t name .
 
 4. Run a container.
 ```bash
-docker run -p 3000:3000 <name>
+docker run -p 3000:3000 <container-id>
 ```
 
 5. Stop a container.
 ```bash
 docker stop <container-id>
+```
+
+6. Run a container in detach mode (run in background).
+```bash
+docker run -d <container-id>
 ```
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a><details><summary> Read More 🔽</summary>
@@ -1617,6 +1622,41 @@ All of this is controlled by the `tty` driver
 ## Resources
 
 - [The TTY demystified](https://www.linusakesson.net/programming/tty/index.php)
+
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md">Line Editing in Linux, Tips and Tricks</a><details><summary> Read More 🔽</summary>
+
+# Line Editing in Linux, Tips and Tricks
+
+I will log various ways through which tools like `sed`, `cut` and `tr` can be used.
+
+## `sed` 😥
+
+- Print specific lines from a file using line numbers
+  ```bash
+  # print lines 12 to 22
+  sed -n '12,22p' file.txt
+  ```
+
+## `tr` ➡️
+
+- Translate (or convert) all () to [] in a textfile.
+  ```bash
+  tr '()' '[]'
+  ```
+
+- Translate all occurences of multiple spaces with a single space.
+  ```bash
+  tr -s ' '
+  ```
+
+## `cut` ✂️
+
+- Print every 4th word (or field) from a space separated STDIN.
+  ```bash
+  cut -d' ' -f4
+  ```
+  I don't about you but this is pretty cool.
 
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/monitor-network-data-usage.md">Monitor network (data) usage</a><details><summary> Read More 🔽</summary>
