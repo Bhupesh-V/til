@@ -34,14 +34,9 @@ FOOTER = '''## Usage
 
 See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository.
 
-## Author
+## Author [![bhupesh-twitter-image](https://kutt.it/bhupeshimself)](https://twitter.com/bhupeshimself)
 
-👤 **Bhupesh Varshney**
-
-- Web : [bhupesh.codes](https://bhupesh-v.github.io)
-- Twitter : [@bhupeshimself](https://twitter.com/bhupeshimself)
-- DEV : [bhupesh](https://dev.to/bhupesh)
-
+👤 **[Bhupesh Varshney](https://bhupesh-v.github.io)** 
 
 ## ☺️ Show your support
 
