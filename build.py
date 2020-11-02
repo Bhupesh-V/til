@@ -63,8 +63,10 @@ Original Idea/Work [thoughtbot/til](https://github.com/thoughtbot/til).
 def get_category_list():
     ''' Walk the current directory and get a list of all subdirectories at that
     level.  These are the "categories" in which there are TILs. '''
-    avoid_dirs = ['images', 'stylesheets', 'javascripts', '_layouts', '.sass-cache', '_site']
-    dirs = [x for x in os.listdir('.') if os.path.isdir(x) and '.git' not in x and x not in avoid_dirs]
+    avoid_dirs = ['images', 'stylesheets', 'javascripts',
+                  '_layouts', '.sass-cache', '_site']
+    dirs = [x for x in os.listdir('.') if os.path.isdir(
+        x) and '.git' not in x and x not in avoid_dirs]
     return dirs
 
 
@@ -141,7 +143,8 @@ def print_file(category_names, count, categories):
             file.write('<ul>')
             for (title, filename) in sorted(tils):
                 file.write('\n<li>')
-                file.write('<a target="_blank" href="{1}">{0}</a>'.format(title, host_url+filename))
+                file.write(
+                    '<a target="_blank" href="{1}">{0}</a>'.format(title, host_url+filename))
                 file.write('<details><summary> Read More 🔽</summary>')
                 file.write('\n\n')
                 file.write(read_file(filename))

@@ -1692,7 +1692,7 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   ```bash
   cut -d' ' -f4
   ```
-  I don't about you but this is pretty cool.
+  I don't know about you but this is pretty cool.
 
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/monitor-network-data-usage.md">Monitor network (data) usage</a><details><summary> Read More 🔽</summary>

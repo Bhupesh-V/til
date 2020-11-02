@@ -28,4 +28,4 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   ```bash
   cut -d' ' -f4
   ```
-  I don't about you but this is pretty cool.
+  I don't know about you but this is pretty cool.
