@@ -43,6 +43,28 @@
    docker volume rm <volume-name>
    ```
 
+8. Check port mapping.
+   ```bash
+   docker port <name>
+   ```
+
+9. Starting a docker container
+   ```bash
+   docker start <container>
+   ```
+
+   > The first two letters of CONTAINER_ID can be provided as an argument too.
+
+10. Run a command inside container.
+    ```bash
+    docker container exec <CONTAINER> ls -la
+    ```
+
+11. Check history of an image.
+    ```bash
+    docker history <IMAGE>
+    ```
+   
 
 ## Docker Compose
 
