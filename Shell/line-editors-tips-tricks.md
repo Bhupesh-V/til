@@ -10,6 +10,11 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   sed -n '12,22p' file.txt
   ```
 
+- Omit first line of output.
+  ```bash
+  sed -n '1!p'
+  ```
+
 ## `tr` ➡️
 
 - Translate (or convert) all () to [] in a textfile.
