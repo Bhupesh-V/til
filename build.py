@@ -145,13 +145,15 @@ def print_file(category_names, count, categories):
                 root_file = urllib.parse.quote(host_url+filename)
                 urlsafe_twitter = "https://twitter.com/intent/tweet?url="+urllib.parse.quote_plus(f"{title} by @bhupeshimself {host_url+filename}")
                 urlsafe_reddit = f"https://www.reddit.com/submit?title={urllib.parse.quote(title)}&url={root_file}"
+                urlsafe_telegram = f"https://telegram.me/share/url?text={urllib.parse.quote(title)}&url={root_file}"
                 file.write('\n<li>')
                 file.write(f"""<a target="_blank" href="{host_url+filename}">{title}</a>""")
                 file.write('<details><summary> Read More 🔽</summary>')
                 file.write('\n\n')
                 file.write(read_file(filename))
-                file.write(f"\n\n> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)]({urlsafe_twitter})")
-                file.write(f"\n[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)]({urlsafe_reddit})")
+                file.write(f"\n\n> Share on [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)]({urlsafe_twitter})")
+                file.write(f"\n[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)]({urlsafe_reddit})")
+                file.write(f"\n[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)]({urlsafe_telegram})")
                 file.write('\n</details>')
                 file.write('</li>')
             file.write('\n')
