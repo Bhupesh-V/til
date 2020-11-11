@@ -5,6 +5,7 @@
 '''
 import os
 import json
+import urllib.parse
 
 HEADER = '''
 [<img align="right" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="240px" height="51x">](https://ko-fi.com/bhupesh)
@@ -127,8 +128,7 @@ def print_file(category_names, count, categories):
         # print the list of categories with links
         for category in sorted(category_names):
             tils = categories[category]
-            file.write(
-                '* [{0}](#{1}) [**`{2}`**]\n'.format(category, category.lower(), len(tils)))
+            file.write(f"""* [{category}](#{category.lower()}) [**`{len(tils)}`**]\n""")
 
         if len(category_names) > 0:
             file.write('''
@@ -142,12 +142,16 @@ def print_file(category_names, count, categories):
             tils = categories[category]
             file.write('<ul>')
             for (title, filename) in sorted(tils):
+                root_file = urllib.parse.quote(host_url+filename)
+                urlsafe_twitter = "https://twitter.com/intent/tweet?url="+urllib.parse.quote_plus(f"{title} by @bhupeshimself {host_url+filename}")
+                urlsafe_reddit = f"https://www.reddit.com/submit?title={urllib.parse.quote(title)}&url={root_file}"
                 file.write('\n<li>')
-                file.write(
-                    '<a target="_blank" href="{1}">{0}</a>'.format(title, host_url+filename))
+                file.write(f"""<a target="_blank" href="{host_url+filename}">{title}</a>""")
                 file.write('<details><summary> Read More 🔽</summary>')
                 file.write('\n\n')
                 file.write(read_file(filename))
+                file.write(f"\n\n> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)]({urlsafe_twitter})")
+                file.write(f"\n[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)]({urlsafe_reddit})")
                 file.write('\n</details>')
                 file.write('</li>')
             file.write('\n')

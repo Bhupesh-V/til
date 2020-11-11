@@ -50,6 +50,9 @@ languages and technologies.
 
 ---
 _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean-code/9780136083238/) for a while & logging what I learn here._
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Naming+Variables+%26+Functions+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCleanCode%2Fcleancode-naming.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Naming%20Variables%20%26%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-naming.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/CleanCode/write-clean-comments.md">Writing Comments</a><details><summary> Read More 🔽</summary>
 
@@ -80,6 +83,9 @@ But know reading it is an eye opener & shocking 😱. I will try to avoid commen
 ---
 _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean-code/9780136083238/) for a while & logging what I learn here._
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Writing+Comments+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCleanCode%2Fwrite-clean-comments.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Writing%20Comments&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/write-clean-comments.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-writing-functions.md">Writing Functions</a><details><summary> Read More 🔽</summary>
 
@@ -99,6 +105,9 @@ Got to learn some new points regarding functions() in CleanCode.
 ---
 _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean-code/9780136083238/) for a while & logging what I learn here._
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Writing+Functions+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCleanCode%2Fcleancode-writing-functions.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Writing%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-writing-functions.md)
 </details></li>
 </ul>
 
@@ -176,6 +185,9 @@ func main() {
 ```
 
 > The sequence `\033[2J` is read as _Esc[2J_ where *"2j"* clears the screen and moves the cursor to the home position (line 0, column 0).
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Clearing+terminal+screen+in+Go+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FGo%2Fclear-terminal-screen-in-go.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Clearing%20terminal%20screen%20in%20Go&url=https%3A//github.com/Bhupesh-V/til/blob/master/Go/clear-terminal-screen-in-go.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a><details><summary> Read More 🔽</summary>
 
@@ -214,6 +226,9 @@ string
 ```
 See [online](https://play.golang.org/p/moTZJ5LYEz9) demo
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Convert+%60string%60+to+%60int%60+and+vice-versa+in+Go+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FGo%2Fstring-to-int-and-vice-versa.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Convert%20%60string%60%20to%20%60int%60%20and%20vice-versa%20in%20Go&url=https%3A//github.com/Bhupesh-V/til/blob/master/Go/string-to-int-and-vice-versa.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a><details><summary> Read More 🔽</summary>
 
@@ -286,6 +301,9 @@ func main() {
 ```
 
 See this demo on [Go Playground](https://play.golang.org/p/8nH6t0HfnGu).
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Creating+Python%27s+%60next%28%29%60+alternative+using+Go+Closures+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FGo%2Fpython-next-alternative-go-clousers.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Creating%20Python%27s%20%60next%28%29%60%20alternative%20using%20Go%20Closures&url=https%3A//github.com/Bhupesh-V/til/blob/master/Go/python-next-alternative-go-clousers.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/measure-execution-time-in-go.md">Measure Exection time in Go</a><details><summary> Read More 🔽</summary>
 
@@ -384,6 +402,9 @@ Bhupesh is programming in Go
 Execution Time : 750ms
 ```
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Measure+Exection+time+in+Go+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FGo%2Fmeasure-execution-time-in-go.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Measure%20Exection%20time%20in%20Go&url=https%3A//github.com/Bhupesh-V/til/blob/master/Go/measure-execution-time-in-go.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a><details><summary> Read More 🔽</summary>
 
@@ -407,6 +428,9 @@ func main() {
 	fmt.Printf("My Desktop Environment : %s.\n", os.Getenv("XDG_CURRENT_DESKTOP"))
 }
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Reading+%26+Setting+Environment+variables+in+Go+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FGo%2Freading-and-setting-environment-variables-in-go.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Reading%20%26%20Setting%20Environment%20variables%20in%20Go&url=https%3A//github.com/Bhupesh-V/til/blob/master/Go/reading-and-setting-environment-variables-in-go.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/split-strings-in-go.md">Splitting strings in Go</a><details><summary> Read More 🔽</summary>
 
@@ -437,6 +461,9 @@ The `split()` return a Go Array, running this program should print the following
 ```
 [1999 03 12]
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Splitting+strings+in+Go+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FGo%2Fsplit-strings-in-go.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Splitting%20strings%20in%20Go&url=https%3A//github.com/Bhupesh-V/til/blob/master/Go/split-strings-in-go.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a><details><summary> Read More 🔽</summary>
 
@@ -461,6 +488,9 @@ WORK=/tmp/go-build645222420
 
 When you run this go will not delete the temporary build when exiting.
 The default directory may vary with your system & `GOPATH`.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Where+are+my+build+files+when+I+use+%60go+run%60+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FGo%2Fwhere-are-my-build-files-when-i-use-go-run.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Where%20are%20my%20build%20files%20when%20I%20use%20%60go%20run%60&url=https%3A//github.com/Bhupesh-V/til/blob/master/Go/where-are-my-build-files-when-i-use-go-run.md)
 </details></li>
 </ul>
 
@@ -499,6 +529,9 @@ Login with your e-mail and password.
 Where `app-name` is the name of app on heroku.
 3. `git push heroku master`
 Push new changes to heroku.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Deploying+to+Heroku+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fdeploy-to-heroku.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Deploying%20to%20Heroku&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/deploy-to-heroku.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/docker-quick-guide.md">Docker 🐋 quick guide</a><details><summary> Read More 🔽</summary>
 
@@ -592,6 +625,9 @@ Push new changes to heroku.
    docker-compose ps
    ```
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Docker+%F0%9F%90%8B+quick+guide+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fdocker-quick-guide.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Docker%20%F0%9F%90%8B%20quick%20guide&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/docker-quick-guide.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a><details><summary> Read More 🔽</summary>
 
@@ -623,6 +659,9 @@ All of the below mentioned tips works in both DuckDuckGo & Google (i use both :w
 6. **`intitle:best vim plugins`** 
 
 > Intitle specifier returns results that contains your searched word in the title.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Internet+search+tips+%26+tricks+for+developers+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Finternet-search-tricks-tips-for-developers.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Internet%20search%20tips%20%26%20tricks%20for%20developers&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a><details><summary> Read More 🔽</summary>
 
@@ -665,6 +704,9 @@ Kill is used for Removing a background process or job, `-9` specifies SIGKILL (F
 
 3. Run the development server again.
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Killing+Open+Ports+in+Linux+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fkill-open-ports-linux.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Killing%20Open%20Ports%20in%20Linux&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md">My vim cheatsheet</a><details><summary> Read More 🔽</summary>
 
@@ -731,6 +773,9 @@ set ai
 I will only add stuff here when I start using it or use it for the first time.
 
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=My+vim+cheatsheet+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fmy-vim-cheatsheet.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=My%20vim%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a><details><summary> Read More 🔽</summary>
 
@@ -756,6 +801,9 @@ ffmpeg -video_size 1280x1024 -framerate 25 -f x11grab -i :0.0+0,0 -c:v libx264rg
 
 ## Resources
 - [Record-Your-Desktop-Using-FFmpeg-on-Ubuntu-Linux](https://www.wikihow.com/Record-Your-Desktop-Using-FFmpeg-on-Ubuntu-Linux)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Record+your+Desktop+using+%60ffmpeg%60+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Frecord-your-desktop-using-ffmpeg-on-linux.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Record%20your%20Desktop%20using%20%60ffmpeg%60&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a><details><summary> Read More 🔽</summary>
 
@@ -783,6 +831,9 @@ Here are some basic git commands for tagging.
   ```bash
   git push origin v1.4
   ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Releases+on+GitHub+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fmaking-releases-github-gittag.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Releases%20on%20GitHub&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/making-releases-github-gittag.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md">SEO Tools</a><details><summary> Read More 🔽</summary>
 
@@ -794,6 +845,9 @@ Here is a list of some tools to test your website for SEO and Social Media.
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator).
 - [Google's Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/).
 - [web.dev](https://web.dev/)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=SEO+Tools+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fseo-tools.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=SEO%20Tools&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md">Semantic Versioning</a><details><summary> Read More 🔽</summary>
 
@@ -808,6 +862,9 @@ Here is a list of some tools to test your website for SEO and Social Media.
 
 ### Resources
 - [Semantic Versioning 2.0.0](https://semver.org/)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Semantic+Versioning+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fsemantic-versioning.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Semantic%20Versioning&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a><details><summary> Read More 🔽</summary>
 
@@ -823,6 +880,9 @@ This is what I got to know :
 
 ### Resources
 - [The Procfile](https://devcenter.heroku.com/articles/procfile)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=What%27s+a+Procfile+%F0%9F%91%80+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fcreating-procfile-in-heroku.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=What%27s%20a%20Procfile%20%F0%9F%91%80&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/creating-procfile-in-heroku.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a><details><summary> Read More 🔽</summary>
 
@@ -875,6 +935,9 @@ Now when commiting changes instead of using `git commit -m ""`, Use `git commit`
 
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 - [Git commit practices your future self will thank you for](https://victoria.dev/blog/git-commit-practices-your-future-self-will-thank-you-for/)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Writing+Cleaner+Commits+-+Template+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fwrite-clean-commits-template.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Writing%20Cleaner%20Commits%20-%20Template&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/write-clean-commits-template.md)
 </details></li>
 </ul>
 
@@ -894,6 +957,9 @@ Use `tabnanny` in python standard library for this.
 python -m tabnanny hack-nasa.py
 ```
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Check+indentation+errors+in+python+%F0%9F%90%8D+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Fcheck-indentation-errors-in-python.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Check%20indentation%20errors%20in%20python%20%F0%9F%90%8D&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/check-indentation-errors-in-python.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/datetim-eobject-to-string-and-vice-versa.md">Converting 📅⏲ datetime object to string & vice-versa</a><details><summary> Read More 🔽</summary>
 
@@ -937,6 +1003,9 @@ This can be handy when you are getting date/time fields from external resource (
 [**Format codes for `strptime` and `strftime`**](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)
 
 <table><thead><tr><th>Directive</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>%a</td><td>Weekday as locale’s abbreviated name.</td><td>Sun, Mon, …, Sat (en_US);<br>So, Mo, …, Sa (de_DE)</td></tr><tr><td>%A</td><td>Weekday as locale’s full name.</td><td>Sunday, Monday, …, Saturday (en_US);<br>Sonntag, Montag, …, Samstag (de_DE)</td></tr><tr><td>%w</td><td>Weekday as a decimal number, where 0 is Sunday and 6 is Saturday.</td><td>0, 1, …, 6</td></tr><tr><td>%d</td><td>Day of the month as a zero-padded decimal number.</td><td>01, 02, …, 31</td></tr><tr><td>%b</td><td>Month as locale’s abbreviated name.</td><td>Jan, Feb, …, Dec (en_US);<br>Jan, Feb, …, Dez (de_DE)</td></tr><tr><td>%B</td><td>Month as locale’s full name.</td><td>January, February, …, December (en_US);<br>Januar, Februar, …, Dezember (de_DE)</td></tr><tr><td>%m</td><td>Month as a zero-padded decimal number.</td><td>01, 02, …, 12</td></tr><tr><td>%y</td><td>Year without century as a zero-padded decimal number.</td><td>00, 01, …, 99</td></tr><tr><td>%Y</td><td>Year with century as a decimal number.</td><td>0001, 0002, …, 2013, 2014, …, 9998, 9999</td></tr><tr><td>%H</td><td>Hour (24-hour clock) as a zero-padded decimal number.</td><td>00, 01, …, 23</td></tr><tr><td>%I</td><td>Hour (12-hour clock) as a zero-padded decimal number.</td><td>01, 02, …, 12</td></tr><tr><td>%p</td><td>Locale’s equivalent of either AM or PM.</td><td>AM, PM (en_US);<br>am, pm (de_DE)</td></tr><tr><td>%M</td><td>Minute as a zero-padded decimal number.</td><td>00, 01, …, 59</td></tr><tr><td>%S</td><td>Second as a zero-padded decimal number.</td><td>00, 01, …, 59</td></tr><tr><td>%f</td><td>Microsecond as a decimal number, zero-padded on the left.</td><td>000000, 000001, …, 999999</td></tr><tr><td>%z</td><td>UTC offset in the form ±HHMM[SS[.ffffff]] (empty string if the object is naive).</td><td>(empty), +0000, -0400, +1030, +063415, -030712.345216</td></tr><tr><td>%Z</td><td>Time zone name (empty string if the object is naive).</td><td>(empty), UTC, GMT</td></tr><tr><td>%j</td><td>Day of the year as a zero-padded decimal number.</td><td>001, 002, …, 366</td></tr><tr><td>%U</td><td>Week number of the year (Sunday as the first day of the week) as a zero padded decimal number. All days in a new year preceding the first Sunday are considered to be in week 0.</td><td>00, 01, …, 53</td></tr><tr><td>%W</td><td>Week number of the year (Monday as the first day of the week) as a decimal number. All days in a new year preceding the first Monday are considered to be in week 0.</td><td>00, 01, …, 53</td></tr><tr><td>%c</td><td>Locale’s appropriate date and time representation.</td><td>Tue Aug 16 21:30:00 1988 (en_US);<br>Di 16 Aug 21:30:00 1988 (de_DE)</td></tr><tr><td>%x</td><td>Locale’s appropriate date representation.</td><td>08/16/88 (None);<br>08/16/1988 (en_US);<br>16.08.1988 (de_DE)</td></tr><tr><td>%X</td><td>Locale’s appropriate time representation.</td><td>21:30:00 (en_US);<br>21:30:00 (de_DE)</td></tr><tr><td>%%</td><td>A literal '%' character.</td><td>%</td></tr></tbody></table>
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Converting+%F0%9F%93%85%E2%8F%B2+datetime+object+to+string+%26+vice-versa+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Fdatetim-eobject-to-string-and-vice-versa.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Converting%20%F0%9F%93%85%E2%8F%B2%20datetime%20object%20to%20string%20%26%20vice-versa&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/datetim-eobject-to-string-and-vice-versa.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a><details><summary> Read More 🔽</summary>
 
@@ -962,6 +1031,9 @@ Sample Runs
 '82LSHzCKkwo5y__3NZrck27ZbDL1WiKoSYxQQki8uvA'
 >>> 
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Cryptographically+strong+random+string+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Fcryptographically-strong-random-string.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Cryptographically%20strong%20random%20string&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/cryptographically-strong-random-string.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/difference-class-and-function-based-views-djnago.md">Difference b/w Class & Function Based Views in Django</a><details><summary> Read More 🔽</summary>
 
@@ -993,6 +1065,9 @@ Sample Runs
 	</tr>
 </table>
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Difference+b%2Fw+Class+%26+Function+Based+Views+in+Django+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Fdifference-class-and-function-based-views-djnago.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Difference%20b/w%20Class%20%26%20Function%20Based%20Views%20in%20Django&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/difference-class-and-function-based-views-djnago.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a><details><summary> Read More 🔽</summary>
 
@@ -1046,6 +1121,9 @@ Without List Comprehension : 0.0002067089080810547
 90
 With List Comprehension : 0.00019121170043945312
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Fastest+Python+First%3A+Tips+and+Tricks+%F0%9F%8F%83+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Ffaster-python-tips-and-tricks.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Fastest%20Python%20First%3A%20Tips%20and%20Tricks%20%F0%9F%8F%83&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/faster-python-tips-and-tricks.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/functional-programming-in-python.md">Functional Programming in Python 🐍</a><details><summary> Read More 🔽</summary>
 
@@ -1112,6 +1190,9 @@ sum = reduce((lambda x, y: x + y), li)
 print(sum)
 ```
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Functional+Programming+in+Python+%F0%9F%90%8D+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Ffunctional-programming-in-python.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Functional%20Programming%20in%20Python%20%F0%9F%90%8D&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/functional-programming-in-python.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/pep8.md">PEP8 - the fashion 💃 police of Python</a><details><summary> Read More 🔽</summary>
 
@@ -1138,6 +1219,9 @@ Below is a summary which includes some go-to rules you can memorize.
 
 ### Tools 
 If use Sublime Text, you can install [Python PEP8 Autoformat](https://packagecontrol.io/packages/Python%20PEP8%20Autoformat) - it does the job for you.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=PEP8+-+the+fashion+%F0%9F%92%83+police+of+Python+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Fpep8.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=PEP8%20-%20the%20fashion%20%F0%9F%92%83%20police%20of%20Python&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/pep8.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/publishing-a-package-on-pypi.md">Publishing a Package on PyPI</a><details><summary> Read More 🔽</summary>
 
@@ -1221,6 +1305,9 @@ This will prompt for your PyPi username and password.
 - [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/)
 - [How to upload your python package to PyPi](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Publishing+a+Package+on+PyPI+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Fpublishing-a-package-on-pypi.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Publishing%20a%20Package%20on%20PyPI&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/publishing-a-package-on-pypi.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/specify-dev-dependencies-python-package-setup.md">Specify dev dependencies in setup.py</a><details><summary> Read More 🔽</summary>
 
@@ -1243,6 +1330,9 @@ Test it locally
 pip install -e .[dev]
 ```
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Specify+dev+dependencies+in+setup.py+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Fspecify-dev-dependencies-python-package-setup.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Specify%20dev%20dependencies%20in%20setup.py&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/specify-dev-dependencies-python-package-setup.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/writing-tests-in-python-using-unittest.md">Writing Unit Tests in Python ✅</a><details><summary> Read More 🔽</summary>
 
@@ -1271,6 +1361,9 @@ if __name__ == '__main__':
 ### Resources
 - [Getting Started With Testing in Python](https://realpython.com/python-testing/)
 - [unittest — Unit testing framework](https://docs.python.org/3.6/library/unittest.html)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Writing+Unit+Tests+in+Python+%E2%9C%85+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FPython%2Fwriting-tests-in-python-using-unittest.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Writing%20Unit%20Tests%20in%20Python%20%E2%9C%85&url=https%3A//github.com/Bhupesh-V/til/blob/master/Python/writing-tests-in-python-using-unittest.md)
 </details></li>
 </ul>
 
@@ -1302,6 +1395,9 @@ The character * serves as a "wild card" for filename expansion in globbing. By i
 
 ## Resource
 - [globbing](https://www.tldp.org/LDP/abs/html/globbingref.html)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Alternative+to+%27ls%27+commnand+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Falternative-to-ls-linux.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Alternative%20to%20%27ls%27%20commnand&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/alternative-to-ls-linux.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/colorize-output-in-terminal-bash.md">Colorize Output in Terminal</a><details><summary> Read More 🔽</summary>
 
@@ -1329,6 +1425,9 @@ Hello will be bold & green in color
 - [List of ANSI color escape sequences](https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences)
 - [Bash tips: Colors and formatting (ANSI/VT100 Control sequences)](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Colorize+Output+in+Terminal+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fcolorize-output-in-terminal-bash.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Colorize%20Output%20in%20Terminal&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/colorize-output-in-terminal-bash.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/copy-one-file-to-multiple-files.md">Copy one file to multiple files in Bash</a><details><summary> Read More 🔽</summary>
 
@@ -1338,6 +1437,9 @@ Hello will be bold & green in color
 for f in file{1..10}.py; do cp main.py $f; done
 ```
 > this will create new files file_1.py, file_2.py etc and copy contents of _main.py_ file to all of them.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Copy+one+file+to+multiple+files+in+Bash+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fcopy-one-file-to-multiple-files.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Copy%20one%20file%20to%20multiple%20files%20in%20Bash&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/copy-one-file-to-multiple-files.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/extract-file-id-from-drive-shareable-link.md">Extract file id from drive shareable link</a><details><summary> Read More 🔽</summary>
 
@@ -1369,6 +1471,9 @@ echo "https://drive.google.com/uc?export=view&id=$get_last"
 [Also a Python version](https://gist.github.com/Bhupesh-V/7ad79f1cf6e007df1be02aeba22ec586)
 
 You can now use it in `<img>` src
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Extract+file+id+from+drive+shareable+link+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fextract-file-id-from-drive-shareable-link.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Extract%20file%20id%20from%20drive%20shareable%20link&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/extract-file-id-from-drive-shareable-link.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-bootup-time-in-linux.md">Find boot-up time in linux 🐧</a><details><summary> Read More 🔽</summary>
 
@@ -1400,6 +1505,9 @@ systemd-analyze plot > demo.svg
 ```bash
 systemd-analyze blame
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Find+boot-up+time+in+linux+%F0%9F%90%A7+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Ffind-bootup-time-in-linux.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Find%20boot-up%20time%20in%20linux%20%F0%9F%90%A7&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-bootup-time-in-linux.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-default-git-branch-name.md">Find default git branch name</a><details><summary> Read More 🔽</summary>
 
@@ -1409,6 +1517,9 @@ systemd-analyze blame
 git remote show origin | awk '/HEAD/ {print $3}'
 ```
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Find+default+git+branch+name+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Ffind-default-git-branch-name.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Find%20default%20git%20branch%20name&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-default-git-branch-name.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-files-changed-7-days-ago.md">Find files changed 7 days ago</a><details><summary> Read More 🔽</summary>
 
@@ -1435,6 +1546,9 @@ an alternative version
 ```bash
 find Documents/ -newermt "7 days ago" -ls
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Find+files+changed+7+days+ago+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Ffind-files-changed-7-days-ago.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Find%20files%20changed%207%20days%20ago&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-files-changed-7-days-ago.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-fonts-in-linux.md">Find fonts available in Linux</a><details><summary> Read More 🔽</summary>
 
@@ -1443,6 +1557,9 @@ find Documents/ -newermt "7 days ago" -ls
 ```bash
 fc-list
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Find+fonts+available+in+Linux+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Ffind-fonts-in-linux.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Find%20fonts%20available%20in%20Linux&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-fonts-in-linux.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a><details><summary> Read More 🔽</summary>
 
@@ -1527,6 +1644,9 @@ grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox} "/home"  0.0
 
 
 Now you can just do `source <path>`.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Finding+all+Python+Virtual+Environments+in+your+system+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Ffind-all-python-virtual-environments-in-your-system.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Finding%20all%20Python%20Virtual%20Environments%20in%20your%20system&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a><details><summary> Read More 🔽</summary>
 
@@ -1552,6 +1672,9 @@ Five Random numbers between 69 & 420
 ```bash
 shuf -i69-420 -n5
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Generate+random+numbers+in+bash+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fgenerate-random-numbers-in-bash.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Generate%20random%20numbers%20in%20bash&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md">Get System info using Shell Commands</a><details><summary> Read More 🔽</summary>
 
@@ -1583,6 +1706,9 @@ ps axch -o cmd:15,%cpu --sort=-%cpu | head
 ```
 
 I [wrote a small shell script](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/sys.sh) to get _(almost)_ realtime update of your system.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Get+System+info+using+Shell+Commands+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fget-system-info.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Get%20System%20info%20using%20Shell%20Commands&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a><details><summary> Read More 🔽</summary>
 
@@ -1625,6 +1751,9 @@ The command `vmstat -s` is usually used to print memory statistics a sample outp
       9975 forks
 ```
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Get+Total+System+Memory+using+%60vmstat%60+command+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Ftotal-memory-using-vmstat.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Get%20Total%20System%20Memory%20using%20%60vmstat%60%20command&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a><details><summary> Read More 🔽</summary>
 
@@ -1724,6 +1853,9 @@ All of this is controlled by the `tty` driver
 
 - [The TTY demystified](https://www.linusakesson.net/programming/tty/index.php)
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Line+Discipline+in+Unix%2FLinux+Machines+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fline-discipline-in-unix-linux.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Line%20Discipline%20in%20Unix/Linux%20Machines&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md">Line Editing in Linux, Tips and Tricks</a><details><summary> Read More 🔽</summary>
 
@@ -1764,6 +1896,9 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   ```
   I don't know about you but this is pretty cool.
 
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Line+Editing+in+Linux%2C+Tips+and+Tricks+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fline-editors-tips-tricks.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Line%20Editing%20in%20Linux%2C%20Tips%20and%20Tricks&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/monitor-network-data-usage.md">Monitor network (data) usage</a><details><summary> Read More 🔽</summary>
 
@@ -1797,6 +1932,9 @@ netu() {
 
 
 [Grab it from here](https://github.com/Bhupesh-V/.Varshney/blob/316cde84f3a666cf3f503a2de34e8289074ffbce/.bash_functions#L69)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Monitor+network+%28data%29+usage+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fmonitor-network-data-usage.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Monitor%20network%20%28data%29%20usage&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/monitor-network-data-usage.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/print-lines-between-two-words.md">Print lines between 2 words</a><details><summary> Read More 🔽</summary>
 
@@ -1828,16 +1966,24 @@ awk '/x.x.x/,/0.1.0/' CHANGELOG.md | awk 'NR>2 {print last} {last=$0}'
 
 - [How to show lines after each grep match until other specific match?](https://unix.stackexchange.com/questions/21076/how-to-show-lines-after-each-grep-match-until-other-specific-match)
 - [What is the easiest way to remove 1st and last line from file with awk?](https://stackoverflow.com/questions/15856733/what-is-the-easiest-way-to-remove-1st-and-last-line-from-file-with-awk)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Print+lines+between+2+words+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fprint-lines-between-two-words.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Print%20lines%20between%202%20words&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/print-lines-between-two-words.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a><details><summary> Read More 🔽</summary>
 
 # Random emoji 😲 in one line
 <!-- 30 July 2020 -->
+
 ```bash
-rand_int=$(shuf -i600-700 -n1); printf "%b\n" "\U1F$rand_int"
+printf "%b\n" "\U1F$(shuf -i600-700 -n1)"
 ```
 
 > PS: I am still working on a better way, this will only generate emojis in UNICODE range `1F601` to `1F700` while ignoring codepoints like `1F60A` 😊. Let me know if you have a beter way (create an issue)
+
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Random+emoji+%F0%9F%98%B2+in+one+line+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Frandom-emoji-one-liner.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Random%20emoji%20%F0%9F%98%B2%20in%20one%20line&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/random-emoji-one-liner.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a><details><summary> Read More 🔽</summary>
 
@@ -1858,6 +2004,9 @@ File descriptors:
 
 1. With `bash`, use **`&>`**
 2. With `sh`, use **`> where-to-redirect 2>&1`**
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Shell+Redirections+%E2%86%94+Quick+Guide+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fshell-redirections-quick-guide.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Shell%20Redirections%20%E2%86%94%20Quick%20Guide&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md)
 </details></li>
 </ul>
 
@@ -1899,6 +2048,9 @@ Now as you type `G` it will show _Go_ ;)
 
 ### Resources
 - [tweet by Álvaro Trigo](https://twitter.com/IMAC2/status/1206913760696373253)
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Auto-complete+in+plain+HTML+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FWebDev%2Fhtml-datalist-auto-complete.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Auto-complete%20in%20plain%20HTML&url=https%3A//github.com/Bhupesh-V/til/blob/master/WebDev/html-datalist-auto-complete.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/OpenGraph.md">I learned about Open Graph protocol</a><details><summary> Read More 🔽</summary>
 
@@ -1923,6 +2075,9 @@ For e.g below is the metadata of one of my [blogs](https://bhupeshv.me/30-Second
 
 ### Sidenotes
 Socila Media platforms like Twitter, LinkedIn, Telegram heavily use this meta info to render links, display images etc.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=I+learned+about+Open+Graph+protocol+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FWebDev%2FOpenGraph.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=I%20learned%20about%20Open%20Graph%20protocol&url=https%3A//github.com/Bhupesh-V/til/blob/master/WebDev/OpenGraph.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/live-edit-html.md">Live Editing HTML</a><details><summary> Read More 🔽</summary>
 
@@ -1950,6 +2105,9 @@ Well you can use this HTML5 feature to make a motepad right into your browser.
 ```html
 data:text/html, <html contenteditable <head ><title>Notepad</title></head><body style="background-color:black;color: white;"></body></html>
 ```
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Live+Editing+HTML+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FWebDev%2Flive-edit-html.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Live%20Editing%20HTML&url=https%3A//github.com/Bhupesh-V/til/blob/master/WebDev/live-edit-html.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/async-defer-html-javascript.md">`async` & `defer` Attributes</a><details><summary> Read More 🔽</summary>
 
@@ -1976,6 +2134,9 @@ To prevent this 2 special attributes of the `<script>` elements are used.
 ```
 - The defer attribute tells the browser to only execute the script file once the HTML document has been fully parsed.
 - The js file can be downloaded but it does not executes until the whole HTML is parsed.
+
+> [![Twitter Share URL](https://img.shields.io/twitter/url?label=Share%20&logo=twitter&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=%60async%60+%26+%60defer%60+Attributes+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FWebDev%2Fasync-defer-html-javascript.md)
+[![Twitter URL](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=%60async%60%20%26%20%60defer%60%20Attributes&url=https%3A//github.com/Bhupesh-V/til/blob/master/WebDev/async-defer-html-javascript.md)
 </details></li>
 </ul>
 
