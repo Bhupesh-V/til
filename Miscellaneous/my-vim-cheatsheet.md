@@ -1,39 +1,14 @@
 # My vim cheatsheet
 <!-- 14 June, 2020 -->
 I have started transitioning slowly to lightweight editors, because of my low system configuration.
-And what can better than `vim`, so I will start logging interesting things I learn here.
+And what can be better than `vim`, so I will start logging things I learn here.
 
 For starters I use **neovim**.
 (PS: I will write this TIL through vim only :)
 
-### How to install plugins
-1. Open up the `~/.config/nvim/init.vim` file add the plugin.
+All my Plugins & Themes are listed in my [dotfiles](https://github.com/Bhupesh-V/.Varshney#initvim-or-vimrc)
 
-My init file
-```
-call plug#begin()
-Plug 'roxma/nvim-completion-manager'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'gilgigilgil/anderson.vim'
-call plug#end()
-
-vnoremap <C-c> "+y
-map <C-v> "+p
-nmap <F6> :NERDTreeToggle<CR>
-
-colorscheme anderson
-
-set nu
-set ai
-```
-
-2. Open nvim, use `:PlugInstall` to install the new plugins.
-
-### Some nvim specifc shortcuts
+## Some nvim specifc shortcuts
 
 - <kbd>E</kbd> - to go back the directory after opening a file.
 - </kbd>:NERDTree</kbd> - to start the Tree like menu.
@@ -57,6 +32,19 @@ set ai
 14. `:later N` : Time tavel in future N seconds.
 15. `:echo $MYVIMRC`: to view location of your default `.vimrc` file.
 16. Use `==` in Visual Mode to fix line indent.
+17. `:Ex `: press Tab to cycle through directories inside current dir.
+
+
+### Cut/Copy/Paste
+
+I feel like a noob when I am searching this, anyways here is how you do it:
+
+1. Enable visual mode by pressing `v`.
+2. Use arrow keys to select text.
+3. Use `d` to Cut.
+4. USe `p` to paste afer the cursor position or `P` to paste before the cursor.
+
+
 ---
 I will only add stuff here when I start using it or use it for the first time.
 

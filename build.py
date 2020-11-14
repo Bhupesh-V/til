@@ -65,7 +65,7 @@ def get_category_list():
     ''' Walk the current directory and get a list of all subdirectories at that
     level.  These are the "categories" in which there are TILs. '''
     avoid_dirs = ['images', 'stylesheets', 'javascripts',
-                  '_layouts', '.sass-cache', '_site']
+            '_layouts', '.sass-cache', '_site']
     dirs = [x for x in os.listdir('.') if os.path.isdir(
         x) and '.git' not in x and x not in avoid_dirs]
     return dirs
@@ -135,7 +135,7 @@ def print_file(category_names, count, categories):
 ---
 
 ''')
-        # print the section for each category
+            # print the section for each category
         for category in sorted(category_names):
             file.write('\n\n\n### {0}\n'.format(category))
             file.write('\n')
@@ -151,9 +151,10 @@ def print_file(category_names, count, categories):
                 file.write('<details><summary> Read More 🔽</summary>')
                 file.write('\n\n')
                 file.write(read_file(filename))
-                file.write(f"\n\n> Share on [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)]({urlsafe_twitter})")
+                file.write(f"\n\n**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)]({urlsafe_twitter})")
                 file.write(f"\n[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)]({urlsafe_reddit})")
                 file.write(f"\n[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)]({urlsafe_telegram})")
+                file.write(f"\n[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url={root_file})")
                 file.write('\n</details>')
                 file.write('</li>')
             file.write('\n')
