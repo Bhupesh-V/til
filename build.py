@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-''' Simple script to auto-generate the README.md file for a TIL project.
-'''
+""" Simple script to auto-generate the README.md file for a TIL project.
+"""
 import os
 import json
 import urllib.parse
 
-HEADER = '''
+HEADER = """
 [<img align="right" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="240px" height="51x">](https://ko-fi.com/bhupesh)
 
 <h1 align="left">Today I Learned</h1>
@@ -29,9 +29,9 @@ HEADER = '''
 languages and technologies.
 
 
-'''
+"""
 
-FOOTER = '''## Usage
+FOOTER = """## Usage
 
 See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository.
 
@@ -58,42 +58,51 @@ This project is [MIT](https://github.com/Bhupesh-V/til/blob/master/LICENSE) lice
 ## About
 
 Original Idea/Work [thoughtbot/til](https://github.com/thoughtbot/til).
-'''
+"""
 
 
 def get_category_list():
-    ''' Walk the current directory and get a list of all subdirectories at that
-    level.  These are the "categories" in which there are TILs. '''
-    avoid_dirs = ['images', 'stylesheets', 'javascripts',
-            '_layouts', '.sass-cache', '_site']
-    dirs = [x for x in os.listdir('.') if os.path.isdir(
-        x) and '.git' not in x and x not in avoid_dirs]
+    """Walk the current directory and get a list of all subdirectories at that
+    level.  These are the "categories" of TILs."""
+    avoid_dirs = [
+        "images",
+        "stylesheets",
+        "javascripts",
+        "_layouts",
+        ".sass-cache",
+        "_site",
+    ]
+    dirs = [
+        x
+        for x in os.listdir(".")
+        if os.path.isdir(x) and ".git" not in x and x not in avoid_dirs
+    ]
     return dirs
 
 
 def get_title(til_file):
-    ''' Read the file until we hit the first line that starts with a #
+    """Read the file until we hit the first line that starts with a #
     indicating a title in markdown.  We'll use that as the title for this
-    entry. '''
+    entry."""
     with open(til_file) as file:
         for line in file:
             line = line.strip()
-            if line.startswith('#'):
+            if line.startswith("#"):
                 print(line[1:])
                 return line[1:].lstrip()  # text after # and whitespace
 
 
 def get_tils(category):
-    ''' For a given category, get the list of TIL titles. '''
+    """ For a given category, get the list of TIL titles. """
     til_files = [x for x in os.listdir(category)]
     titles = []
     for filename in til_files:
         fullname = os.path.join(category, filename)
-        if (os.path.isfile(fullname)) and fullname.endswith('.md'):
+        if (os.path.isfile(fullname)) and fullname.endswith(".md"):
             title = get_title(fullname)
             # changing path separator for Windows paths
             # https://mail.python.org/pipermail/tutor/2011-July/084788.html
-            titles.append((title, fullname.replace(os.path.sep, '/')))
+            titles.append((title, fullname.replace(os.path.sep, "/")))
     return titles
 
 
@@ -114,63 +123,70 @@ def read_file(filename):
 
 def print_file(category_names, count, categories):
     host_url = "https://github.com/Bhupesh-V/til/blob/master/"
-    ''' Now we have all the information, print it out in markdown format. '''
-    with open('count.json', 'w') as json_file:
-        data = {'count': count}
+    # used by shields.io for creating the TIL badge
+    with open("count.json", "w") as json_file:
+        data = {"count": count}
         json.dump(data, json_file)
 
-    with open('README.md', 'w') as file:
+    with open("README.md", "w") as file:
         file.write(HEADER)
-        file.write('''
-
-## Categories
-''')
+        file.write("""\n\n## Categories\n""")
         # print the list of categories with links
         for category in sorted(category_names):
             tils = categories[category]
             file.write(f"""* [{category}](#{category.lower()}) [**`{len(tils)}`**]\n""")
 
         if len(category_names) > 0:
-            file.write('''
----
-
-''')
+            file.write("""\n---\n\n""")
             # print the section for each category
         for category in sorted(category_names):
-            file.write('\n\n\n### {0}\n'.format(category))
-            file.write('\n')
+            file.write("\n\n\n### {0}\n\n".format(category))
             tils = categories[category]
-            file.write('<ul>')
+            file.write("<ul>")
             for (title, filename) in sorted(tils):
-                root_file = urllib.parse.quote(host_url+filename)
-                urlsafe_twitter = "https://twitter.com/intent/tweet?url="+urllib.parse.quote_plus(f"{title} by @bhupeshimself {host_url+filename}")
+                root_file = urllib.parse.quote(host_url + filename)
+                urlsafe_twitter = (
+                    "https://twitter.com/intent/tweet?url="
+                    + urllib.parse.quote_plus(
+                        f"{title} by @bhupeshimself {host_url+filename}"
+                    )
+                )
                 urlsafe_reddit = f"https://www.reddit.com/submit?title={urllib.parse.quote(title)}&url={root_file}"
                 urlsafe_telegram = f"https://telegram.me/share/url?text={urllib.parse.quote(title)}&url={root_file}"
-                file.write('\n<li>')
-                file.write(f"""<a target="_blank" href="{host_url+filename}">{title}</a>""")
-                file.write('<details><summary> Read More 🔽</summary>')
-                file.write('\n\n')
+                file.write("\n<li>")
+                file.write(
+                    f"""<a target="_blank" href="{host_url+filename}">{title}</a>"""
+                )
+                file.write("<details><summary> Read More 🔽</summary>\n\n")
                 file.write(read_file(filename))
-                file.write(f"\n\n**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)]({urlsafe_twitter})")
-                file.write(f"\n[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)]({urlsafe_reddit})")
-                file.write(f"\n[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)]({urlsafe_telegram})")
-                file.write(f"\n[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url={root_file})")
-                file.write('\n</details>')
-                file.write('</li>')
-            file.write('\n')
-            file.write('</ul>\n\n')
+                file.write(
+                    f"\n\n**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)]({urlsafe_twitter})"
+                )
+                file.write(
+                    f"\n[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)]({urlsafe_reddit})"
+                )
+                file.write(
+                    f"\n[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)]({urlsafe_telegram})"
+                )
+                file.write(
+                    f"\n[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url={root_file})"
+                )
+                file.write("\n</details>")
+                file.write("</li>")
+            file.write("\n")
+            file.write("</ul>\n\n")
 
         file.write(FOOTER)
 
 
 def create_README():
-    ''' Create a TIL README.md file with a nice index for using it directly
-            from GitHub. '''
+    """Create a TIL README.md file with a nice index for using it directly
+    from GitHub."""
     category_names = get_category_list()
     count, categories = get_category_dict(category_names)
     print_file(category_names, count, categories)
     print("\n", count, "TILs read")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     create_README()
