@@ -14,25 +14,27 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 
 ### Editing
 
-- **`i`** to insert text before the cursor position
-- **`a`** to append text after the cursor position (my advice, always use this instead of `i`)
-- **`o`** to open a new line after current line
-- **`O`** to open a new line before current line
-- **`x`** to delete character under cursor
+- **`i`** insert text before the cursor position
+- **`a`** append text after the cursor position (my advice, always use this instead of `i`)
+- **`A`** append text at end of line
+- **`o`** open a new line after current line
+- **`O`** open a new line before current line
+- **`x`** delete character under cursor
 - **`D`** delete until the end of line
 - **`r`** replace the character under cursor
 - **`R`** replace stuff until we want
 
 ## Basic Stuff
 
-### Undo/Redo
+### Undo/Redo/Repeat
 
 - <kbd>u</kbd> : Undo latest changes in vim.
-- <kbd>Ctrl</kbd> + <kbd>r</kbd>: to redo
+- <kbd>Ctrl</kbd> + <kbd>r</kbd> : to redo
+- <kbd>.</kbd> : repeat last change in vim.
 
 ### Cut/Copy/Paste
 
-I feel like a noob when I am searching this, anyways here is how you do it:
+> I felt like a rookie when I used to search this, anyways here is how you do it:
 
 1. Enable visual mode by pressing `v`.
 2. Use arrow keys to select text.
@@ -60,7 +62,6 @@ I feel like a noob when I am searching this, anyways here is how you do it:
 3. `:echo $MYVIMRC`: to view location of your default `.vimrc` file.
 4. Use `==` in Visual Mode to fix line indent.
 5. `:Ex `: press Tab to cycle through directories inside current dir.
-
 
 ---
 I will only add stuff here when I start using it or use it for the first time.
