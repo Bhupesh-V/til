@@ -1,5 +1,17 @@
-# My vim cheatsheet
+# My Vim cheatsheet
 <!-- 14 June, 2020 -->
+
+<pre>                         
+ _______ _______ _______ 
+|\     /|\     /|\     /|
+| +---+ | +---+ | +---+ |
+| |   | | |   | | |   | |
+| |v  | | |i  | | |m  | |
+| +---+ | +---+ | +---+ |
+|/_____\|/_____\|/_____\|
+                         
+</pre>
+
 I have started transitioning slowly to lightweight editors, because of my low system configuration.
 And what can be better than `vim`. I will keep a log of things I learn in the process.
 
@@ -48,20 +60,45 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 
 1. Move your cursor to the desired word
 2. Use `*` to select all its occurences. 
-3. Hit <kbd>Esc</kbd> and use `:%s//<replace-word>` to replace all the selcted words.
+3. Hit <kbd>Esc</kbd> and use **`:%s//<replace-word>/`** to replace all the selected words.
    > `:nohlsearch` : for clearing search highlighting.
 
 ## Intermediate Stuff
-<!--
-7. <kbd>Ctrl</kbd> + <kbd>ws</kbd>: Split Windows horizontally.
-9. <kbd>Ctrl</kbd> + <kbd>wv</kbd>: Split Windows vertically.
-10. <kbd>Ctrl</kbd> + <kbd>ww</kbd>: Switch between Windows.
-11. <kbd>Ctrl</kbd> + <kbd>wq</kbd>: Quit Window.-->
-1. `:earlier N` : Time travel in past N seconds.
-2. `:later N` : Time tavel in future N seconds.
-3. `:echo $MYVIMRC`: to view location of your default `.vimrc` file.
+
+1. **`:earlier N`** : Time travel in past N seconds.
+2. **`:later N`** : Time tavel in future N seconds.
+3. **`:echo $MYVIMRC`** : to view location of your default `.vimrc` file.
 4. Use `==` in Visual Mode to fix line indent.
-5. `:Ex `: press Tab to cycle through directories inside current dir.
+5. When in command mode (:), use <kbd>Ctrl</kbd> + <kbd>f</kbd> to browse through your command history, live edit any command and hit enter to run it.
+6. Use **`:resize 60`** to resize windows horizontally or **`:vertical resize 60`** for vertical resizing. Also signed values can be used like +5, -2.
+
+### Navigation
+
+- **w** jump through words in a line
+- **e** jump to end of words in a line
+- **b** to move backward
+- **H** jump to top of text under screen (not to be confused with top of file).
+- **M** jump to middle
+- **L** jump to bottom
+- **gg** go to top of file
+- **GG** go to end of file
+- **0** go to beginning of line
+- **$** go to end of current line
+- **zb** put current line at bottom of screen
+- **zt** put current line at top of screen
+
+
+### Completions
+
+Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +
+
+1. <kbd>f</kbd>	= File name completion
+2. <kbd>l</kbd>	= Whole line completion (context aware, handy if you are copy pasting a previously typed line)
+3. <kbd>i</kbd>	= Keywords in current & included file ("include" means when you import or #include)
+4. <kbd>s</kbd>	= Spelling suggestions
+5. <kbd>k</kbd>	= Keywords from dictionary. For this to work add `set dictionary+=/usr/share/dict/words` to your vimrc
+
+> use `:help ins-completion` to see more such completions
 
 ---
 I will only add stuff here when I start using it or use it for the first time.

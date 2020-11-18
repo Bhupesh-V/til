@@ -1,0 +1,107 @@
+<h1>My Vim cheatsheet</h1>
+<!-- 14 June, 2020 -->
+<pre>                         
+ _______ _______ _______ 
+|\     /|\     /|\     /|
+| +---+ | +---+ | +---+ |
+| |   | | |   | | |   | |
+| |v  | | |i  | | |m  | |
+| +---+ | +---+ | +---+ |
+|/_____\|/_____\|/_____\|
+                         
+</pre>
+<p>I have started transitioning slowly to lightweight editors, because of my low system configuration.
+And what can be better than <code>vim</code>. I will keep a log of things I learn in the process.</p>
+<p>For starters I use <strong>neovim</strong> (v0.2.2).
+(PS: I will write this TIL through vim only :)</p>
+<p>All my Plugins &amp; Colorschemes are listed in my <a href="https://github.com/Bhupesh-V/.Varshney#initvim-or-vimrc">dotfiles</a></p>
+<h2>Super Basic Stuff</h2>
+<blockquote>
+<p>Some must know stuff filtered from the vast array of vim things.</p>
+</blockquote>
+<h3>Editing</h3>
+<ul>
+<li><strong><code>i</code></strong> insert text before the cursor position</li>
+<li><strong><code>a</code></strong> append text after the cursor position (my advice, always use this instead of <code>i</code>)</li>
+<li><strong><code>A</code></strong> append text at end of line</li>
+<li><strong><code>o</code></strong> open a new line after current line</li>
+<li><strong><code>O</code></strong> open a new line before current line</li>
+<li><strong><code>x</code></strong> delete character under cursor</li>
+<li><strong><code>D</code></strong> delete until the end of line</li>
+<li><strong><code>r</code></strong> replace the character under cursor</li>
+<li><strong><code>R</code></strong> replace stuff until we want</li>
+</ul>
+<h2>Basic Stuff</h2>
+<h3>Undo/Redo/Repeat</h3>
+<ul>
+<li><kbd>u</kbd> : Undo latest changes in vim.</li>
+<li><kbd>Ctrl</kbd> + <kbd>r</kbd> : to redo</li>
+<li><kbd>.</kbd> : repeat last change in vim.</li>
+</ul>
+<h3>Cut/Copy/Paste</h3>
+<blockquote>
+<p>I felt like a rookie when I used to search this, anyways here is how you do it:</p>
+</blockquote>
+<ol>
+<li>Enable visual mode by pressing <code>v</code>.</li>
+<li>Use arrow keys to select text.</li>
+<li>Use <kbd>d</kbd> to Cut. OR</li>
+<li>Use <kbd>y</kbd> to yank (copy) text (only inside vim)
+<blockquote>
+<p><code>:&quot;+y</code> : for yanking(copying) text to system's clipboard.</p>
+</blockquote>
+</li>
+<li>Use <kbd>p</kbd> to paste after the cursor position or <kbd>P</kbd> to paste before the cursor.
+<blockquote>
+<p><code>:&quot;+p</code> : to paste from system's clipboard</p>
+</blockquote>
+</li>
+</ol>
+<h3>Search &amp; Replace</h3>
+<ol>
+<li>Move your cursor to the desired word</li>
+<li>Use <code>*</code> to select all its occurences.</li>
+<li>Hit <kbd>Esc</kbd> and use <strong><code>:%s//&lt;replace-word&gt;/</code></strong> to replace all the selected words.
+<blockquote>
+<p><code>:nohlsearch</code> : for clearing search highlighting.</p>
+</blockquote>
+</li>
+</ol>
+<h2>Intermediate Stuff</h2>
+<ol>
+<li><strong><code>:earlier N</code></strong> : Time travel in past N seconds.</li>
+<li><strong><code>:later N</code></strong> : Time tavel in future N seconds.</li>
+<li><strong><code>:echo $MYVIMRC</code></strong> : to view location of your default <code>.vimrc</code> file.</li>
+<li>Use <code>==</code> in Visual Mode to fix line indent.</li>
+<li>When in command mode (:), use <kbd>Ctrl</kbd> + <kbd>f</kbd> to browse through your command history, live edit any command and hit enter to run it.</li>
+<li>Use <strong><code>:resize 60</code></strong> to resize windows horizontally or <strong><code>:vertical resize 60</code></strong> for vertical resizing. Also signed values can be used like +5, -2.</li>
+</ol>
+<h3>Navigation</h3>
+<ul>
+<li><strong>w</strong> jump through words in a line</li>
+<li><strong>e</strong> jump to end of words in a line</li>
+<li><strong>b</strong> to move backward</li>
+<li><strong>H</strong> jump to top of text under screen (not to be confused with top of file).</li>
+<li><strong>M</strong> jump to middle</li>
+<li><strong>L</strong> jump to bottom</li>
+<li><strong>gg</strong> go to top of file</li>
+<li><strong>GG</strong> go to end of file</li>
+<li><strong>0</strong> go to beginning of line</li>
+<li><strong>$</strong> go to end of current line</li>
+<li><strong>zb</strong> put current line at bottom of screen</li>
+<li><strong>zt</strong> put current line at top of screen</li>
+</ul>
+<h3>Completions</h3>
+<p>Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +</p>
+<ol>
+<li><kbd>f</kbd>	= File name completion</li>
+<li><kbd>l</kbd>	= Whole line completion (context aware, handy if you are copy pasting a previously typed line)</li>
+<li><kbd>i</kbd>	= Keywords in current &amp; included file (&quot;include&quot; means when you import or #include)</li>
+<li><kbd>s</kbd>	= Spelling suggestions</li>
+<li><kbd>k</kbd>	= Keywords from dictionary. For this to work add <code>set dictionary+=/usr/share/dict/words</code> to your vimrc</li>
+</ol>
+<blockquote>
+<p>use <code>:help ins-completion</code> to see more such completions</p>
+</blockquote>
+<hr />
+<p>I will only add stuff here when I start using it or use it for the first time.</p>

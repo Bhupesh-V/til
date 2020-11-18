@@ -736,10 +736,22 @@ Kill is used for Removing a background process or job, `-9` specifies SIGKILL (F
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Killing%20Open%20Ports%20in%20Linux&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md)
 </details></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md">My vim cheatsheet</a><details><summary> Read More 🔽</summary>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md">My Vim cheatsheet</a><details><summary> Read More 🔽</summary>
 
-# My vim cheatsheet
+# My Vim cheatsheet
 <!-- 14 June, 2020 -->
+
+<pre>                         
+ _______ _______ _______ 
+|\     /|\     /|\     /|
+| +---+ | +---+ | +---+ |
+| |   | | |   | | |   | |
+| |v  | | |i  | | |m  | |
+| +---+ | +---+ | +---+ |
+|/_____\|/_____\|/_____\|
+                         
+</pre>
+
 I have started transitioning slowly to lightweight editors, because of my low system configuration.
 And what can be better than `vim`. I will keep a log of things I learn in the process.
 
@@ -788,29 +800,54 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 
 1. Move your cursor to the desired word
 2. Use `*` to select all its occurences. 
-3. Hit <kbd>Esc</kbd> and use `:%s//<replace-word>` to replace all the selcted words.
+3. Hit <kbd>Esc</kbd> and use **`:%s//<replace-word>/`** to replace all the selected words.
    > `:nohlsearch` : for clearing search highlighting.
 
 ## Intermediate Stuff
-<!--
-7. <kbd>Ctrl</kbd> + <kbd>ws</kbd>: Split Windows horizontally.
-9. <kbd>Ctrl</kbd> + <kbd>wv</kbd>: Split Windows vertically.
-10. <kbd>Ctrl</kbd> + <kbd>ww</kbd>: Switch between Windows.
-11. <kbd>Ctrl</kbd> + <kbd>wq</kbd>: Quit Window.-->
-1. `:earlier N` : Time travel in past N seconds.
-2. `:later N` : Time tavel in future N seconds.
-3. `:echo $MYVIMRC`: to view location of your default `.vimrc` file.
+
+1. **`:earlier N`** : Time travel in past N seconds.
+2. **`:later N`** : Time tavel in future N seconds.
+3. **`:echo $MYVIMRC`** : to view location of your default `.vimrc` file.
 4. Use `==` in Visual Mode to fix line indent.
-5. `:Ex `: press Tab to cycle through directories inside current dir.
+5. When in command mode (:), use <kbd>Ctrl</kbd> + <kbd>f</kbd> to browse through your command history, live edit any command and hit enter to run it.
+6. Use **`:resize 60`** to resize windows horizontally or **`:vertical resize 60`** for vertical resizing. Also signed values can be used like +5, -2.
+
+### Navigation
+
+- **w** jump through words in a line
+- **e** jump to end of words in a line
+- **b** to move backward
+- **H** jump to top of text under screen (not to be confused with top of file).
+- **M** jump to middle
+- **L** jump to bottom
+- **gg** go to top of file
+- **GG** go to end of file
+- **0** go to beginning of line
+- **$** go to end of current line
+- **zb** put current line at bottom of screen
+- **zt** put current line at top of screen
+
+
+### Completions
+
+Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +
+
+1. <kbd>f</kbd>	= File name completion
+2. <kbd>l</kbd>	= Whole line completion (context aware, handy if you are copy pasting a previously typed line)
+3. <kbd>i</kbd>	= Keywords in current & included file ("include" means when you import or #include)
+4. <kbd>s</kbd>	= Spelling suggestions
+5. <kbd>k</kbd>	= Keywords from dictionary. For this to work add `set dictionary+=/usr/share/dict/words` to your vimrc
+
+> use `:help ins-completion` to see more such completions
 
 ---
 I will only add stuff here when I start using it or use it for the first time.
 
 
 
-**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=My+vim+cheatsheet+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fmy-vim-cheatsheet.md)
-[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=My%20vim%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
-[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=My%20vim%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=My+Vim+cheatsheet+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fmy-vim-cheatsheet.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=My%20Vim%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=My%20Vim%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a><details><summary> Read More 🔽</summary>
