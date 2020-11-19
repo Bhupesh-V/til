@@ -799,18 +799,20 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 ### Search & Replace
 
 1. Move your cursor to the desired word
-2. Use `*` to select all its occurences. 
+2. Use `*` to select all its occurrences. 
 3. Hit <kbd>Esc</kbd> and use **`:%s//<replace-word>/`** to replace all the selected words.
    > `:nohlsearch` : for clearing search highlighting.
 
 ## Intermediate Stuff
 
 1. **`:earlier N`** : Time travel in past N seconds.
-2. **`:later N`** : Time tavel in future N seconds.
+2. **`:later N`** : Time travel in future N seconds.
 3. **`:echo $MYVIMRC`** : to view location of your default `.vimrc` file.
 4. Use `==` in Visual Mode to fix line indent.
 5. When in command mode (:), use <kbd>Ctrl</kbd> + <kbd>f</kbd> to browse through your command history, live edit any command and hit enter to run it.
 6. Use **`:resize 60`** to resize windows horizontally or **`:vertical resize 60`** for vertical resizing. Also signed values can be used like +5, -2.
+7. Use **`:right`**, **`:left`** or **`:center`** to align text. Assuming width of document is `textwidth` (default is 80). You can also specify arguments for e.g `:center 100` will move the start of line to 100th column.
+8. To list all your active/inactive buffers, use **`:buffers`** in command mode. You can switch to a buffer by providing the buffer name, `:buffer <TAB>` to see all buffers.
 
 ### Navigation
 
@@ -839,6 +841,12 @@ Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +
 5. <kbd>k</kbd>	= Keywords from dictionary. For this to work add `set dictionary+=/usr/share/dict/words` to your vimrc
 
 > use `:help ins-completion` to see more such completions
+
+
+### Registers
+
+Take registers as "special vim storage locations". There are exactly 21 registers which store different kind of stuff, from these 4 registers are read-only.
+In command mode use `:di` or `:reg` to display contents of all these registers. Do `h registers` to read the docs
 
 ---
 I will only add stuff here when I start using it or use it for the first time.
