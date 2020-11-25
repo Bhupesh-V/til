@@ -79,7 +79,7 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 8. To list all your active/inactive buffers, use **`:buffers`** in command mode. You can switch to a buffer by providing the buffer name, `:buffer <TAB>` to see all buffers.
 9. Use `:verb map <key>` to check which key is mapped to what operation. Useful when debugging your mappings and differentiating them from that of a plugin.
    > Read help for checking key notations `:h key-notation`
-10. Use vim's `wildignore` setting to exclude searching for files and directories according to your project. For e,g a perfect setting for python projects would be
+10. Use vim's `wildignore` setting to exclude searching for files and directories according to your project. For e.g for python projects this could look like
     ```vim
     set wildignore+=*/.git/*,*/site-packages/*,*/lib/*,*/bin/*,*.pyc
     ```
@@ -109,6 +109,15 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 - **zt** put current line at top of screen
 - **Ctrl+f** scroll down 1 page
 - **Ctrl+b** scroll up 1 page
+
+**Character Wise**
+
+f - find next
+F - find backward
+t - find next char & place cursor before
+T - find next char & place cursor before backward
+; - go to the next occurrence of f/t
+, - go to previous occurrence of f/t
 
 
 ### Completions

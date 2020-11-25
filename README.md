@@ -775,6 +775,9 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 - **`D`** delete until the end of line
 - **`r`** replace the character under cursor
 - **`R`** replace stuff until we want
+- **`dd`** Delete current line.
+- **`cc`** delete current line and switch to insert mode.
+- **`C`** delete everything from the cursor position to the EOL.
 
 ## Basic Stuff
 
@@ -802,6 +805,7 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 2. Use `*` to select all its occurrences. 
 3. Hit <kbd>Esc</kbd> and use **`:%s//<replace-word>/`** to replace all the selected words.
    > `:nohlsearch` : for clearing search highlighting.
+   Also read (:h usr_12.txt), section 12.2 for a nice overview on search.
 
 ## Intermediate Stuff
 
@@ -809,14 +813,27 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 2. **`:later N`** : Time travel in future N seconds.
 3. **`:echo $MYVIMRC`** : to view location of your default `.vimrc` file.
 4. Use `==` in Visual Mode to fix line indent.
-5. When in command mode (:), use <kbd>Ctrl</kbd> + <kbd>f</kbd> to browse through your command history, live edit any command and hit enter to run it.
+5. When in command mode (:), use <kbd>Ctrl</kbd> + <kbd>f</kbd> to browse through your command history, live edit any command and hit enter to run it (the quick fix window).
 6. Use **`:resize 60`** to resize windows horizontally or **`:vertical resize 60`** for vertical resizing. Also signed values can be used like +5, -2.
 7. Use **`:right`**, **`:left`** or **`:center`** to align text. Assuming width of document is `textwidth` (default is 80). You can also specify arguments for e.g `:center 100` will move the start of line to 100th column.
 8. To list all your active/inactive buffers, use **`:buffers`** in command mode. You can switch to a buffer by providing the buffer name, `:buffer <TAB>` to see all buffers.
+9. Use `:verb map <key>` to check which key is mapped to what operation. Useful when debugging your mappings and differentiating them from that of a plugin.
+   > Read help for checking key notations `:h key-notation`
+10. Use vim's `wildignore` setting to exclude searching for files and directories according to your project. For e.g for python projects this could look like
+    ```vim
+    set wildignore+=*/.git/*,*/site-packages/*,*/lib/*,*/bin/*,*.pyc
+    ```
+    This should exclude searching through your virtual environments [Read manual `:h 'wildignore'`].
+    Another handy trick is to exclude media files from appearing in search by excluding them as well.
+    ```vim
+    set wildignore+=*.jpg,*.bmp,*.gif,*.png,*.jpeg,*.avi,*.mp4,*.mkv,*.pdf,*.odt
+    ```
+11. `:syntax` will output all highlight groups for syntax highlighting of the current open file. It can come handy when you are writing your own colorscheme.
+
 
 ### Navigation
 
-- **w** jump through words in a line
+- **w** jump through beginning of words in a line
 - **e** jump to end of words in a line
 - **b** to move backward
 - **H** jump to top of text under screen (not to be confused with top of file).
@@ -826,8 +843,21 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 - **GG** go to end of file
 - **0** go to beginning of line
 - **$** go to end of current line
+- **^** go to first character in a line
+- **g_** go to last character of the line
 - **zb** put current line at bottom of screen
 - **zt** put current line at top of screen
+- **Ctrl+f** scroll down 1 page
+- **Ctrl+b** scroll up 1 page
+
+**Character Wise**
+
+f - find next
+F - find backward
+t - find next char & place cursor before
+T - find next char & place cursor before backward
+; - go to the next occurrence of f/t
+, - go to previous occurrence of f/t
 
 
 ### Completions
