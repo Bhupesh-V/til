@@ -67,6 +67,8 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
    > `:nohlsearch` : for clearing search highlighting.
    Also read (:h usr_12.txt), section 12.2 for a nice overview on search.
 
+   When in search mode instead of hitting Enter use `Ctrl + g` and `Ctrl + t` to traverse matches while still being in search mode.
+
 ## Intermediate Stuff
 
 1. **`:earlier N`** : Time travel in past N seconds.
@@ -89,6 +91,9 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
     set wildignore+=*.jpg,*.bmp,*.gif,*.png,*.jpeg,*.avi,*.mp4,*.mkv,*.pdf,*.odt
     ```
 11. `:syntax` will output all highlight groups for syntax highlighting of the current open file. It can come handy when you are writing your own colorscheme.
+12. Scrolling 2 or more windows together. When in multiple windows (or splits), you can use `scrollbind`.
+    Pick one window then `:set scb`, pick another window `:set scb` for disabling use `:set noscb`
+13. To search for pattern in vim help text use `:helpgrep` or `:helpg`
 
 
 ### Navigation
