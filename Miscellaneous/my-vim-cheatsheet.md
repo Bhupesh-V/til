@@ -95,6 +95,23 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
     Pick one window then `:set scb`, pick another window `:set scb` for disabling use `:set noscb`
 13. To search for pattern in vim help text use `:helpgrep` or `:helpg`
 
+### Code Folding
+
+It helps you view only a selected range of your text (Read `:h usr_28.txt`) for a quick overview
+
+Quick settings to put in vimrc
+
+```vim
+set foldmethod=indent
+set foldcolumn=1
+```
+
+**za**: Toggle code folding.
+**zR**: Open all folds.
+**zM**: Close all folds.
+**zo**: Open current fold.
+**zc**: Close current fold.
+
 
 ### Navigation
 

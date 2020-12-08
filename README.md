@@ -25,7 +25,7 @@ languages and technologies.
 ## Categories
 * [CleanCode](#cleancode) [**`3`**]
 * [Go](#go) [**`7`**]
-* [Miscellaneous](#miscellaneous) [**`11`**]
+* [Miscellaneous](#miscellaneous) [**`13`**]
 * [Python](#python) [**`10`**]
 * [Shell](#shell) [**`19`**]
 * [WebDev](#webdev) [**`4`**]
@@ -520,6 +520,36 @@ The default directory may vary with your system & `GOPATH`.
 ### Miscellaneous
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a><details><summary> Read More 🔽</summary>
+
+# Converting videos to High quality GIFs
+<!-- Dec 6, 2020 -->
+
+Converting videos to gifs using ffmpeg is a pain in the ass if you don't know what's happening.
+GIF size getting 10x the size of original video ? Don't worry, I got you!
+
+1. Always create a custom palette
+2. Don't increase/decrease file dimensions
+3. Save unnecessary frame conversion by using `-t` to convert video until timestamp.
+4. Experiment with `fps` (default value is 24)
+
+```bash
+# generate a palette
+ffmpeg -i video.mp4 -vf "fps=22,scale=1024:-1:flags=lanczos,palettegen" palette.png
+# use the generated palette
+ffmpeg -t 29 -i video.mp4 -i palette.png -filter_complex "fps=22,scale=1024:-1:flags=lanczos[x];[x][1:v]paletteuse" output.gif
+```
+
+### Resources
+
+- [High quality GIF from video](https://d12frosted.io/posts/2018-10-13-gifify.html)
+
+
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Converting+videos+to+High+quality+GIFs+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fconverting-videos-to-high-quality-gif.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Converting%20videos%20to%20High%20quality%20GIFs&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Converting%20videos%20to%20High%20quality%20GIFs&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md)
+[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md)
+</details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a><details><summary> Read More 🔽</summary>
 
 # Deploying to Heroku
@@ -835,6 +865,23 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
     Pick one window then `:set scb`, pick another window `:set scb` for disabling use `:set noscb`
 13. To search for pattern in vim help text use `:helpgrep` or `:helpg`
 
+### Code Folding
+
+It helps you view only a selected range of your text (Read `:h usr_28.txt`) for a quick overview
+
+Quick settings to put in vimrc
+
+```vim
+set foldmethod=indent
+set foldcolumn=1
+```
+
+**za**: Toggle code folding.
+**zR**: Open all folds.
+**zM**: Close all folds.
+**zo**: Open current fold.
+**zc**: Close current fold.
+
 
 ### Navigation
 
@@ -1068,6 +1115,29 @@ Now when commiting changes instead of using `git commit -m ""`, Use `git commit`
 [![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Writing%20Cleaner%20Commits%20-%20Template&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/write-clean-commits-template.md)
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Writing%20Cleaner%20Commits%20-%20Template&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/write-clean-commits-template.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/write-clean-commits-template.md)
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/writing-cover-letter-tips.md">Writing Cover letter - Tips</a><details><summary> Read More 🔽</summary>
+
+# Writing Cover letter - Tips
+<!-- Dec 8, 2020 -->
+
+I am not a hiring expert but I think these tips can help someone stand ahead of the crowd.
+This might also help when you are cold-emailing a recruiter.
+
+1. Keep the letter to 2 paragraphs. The 1st para highlighting **WHY** do you want to work there & 2nd para highlighting **HOW** hiring you is going to benefit them.
+2. Do research about the company. Go through their social, blogs etc. Yes this is the time to be a stalker on internet
+3. Always add a personal touch while explaining why do you want to work with them. This is the time to be as "thoughtful" as you can. 
+4. Don't use any copy-paste templates, not worth it. If a company is asking for a cover letter means that they know a _Resume_ has limitations, they want to hear the WHY & HOW of hiring you is going to help them.
+5. Explain something exceptional/cool you did.
+
+
+> This is a progressive post, I will add/delete as I learn. Suggestions welcome
+
+
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Writing+Cover+letter+-+Tips+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fwriting-cover-letter-tips.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Writing%20Cover%20letter%20-%20Tips&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/writing-cover-letter-tips.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Writing%20Cover%20letter%20-%20Tips&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/writing-cover-letter-tips.md)
+[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/writing-cover-letter-tips.md)
 </details></li>
 </ul>
 
