@@ -1,4 +1,4 @@
-# My Vim cheatsheet
+# My Vim Cheatsheet
 <!-- 14 June, 2020 -->
 
 <pre>                         
@@ -15,10 +15,11 @@
 I have started transitioning slowly to lightweight editors, because of my low system configuration.
 And what can be better than `vim`. I will keep a log of things I learn in the process.
 
-For starters I use **neovim** (v0.2.2).
-(PS: I will write this TIL through vim only :)
+> Update: I started using vim "actively" from Nov 12, 2020 and it has now been 1 month complete in Vim & I don't think I am moving to another text editor in future.
 
-All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhupesh-V/.Varshney#initvim-or-vimrc)
+For starters I use **neovim** (v0.4.4).
+
+All my Plugins & Colorschemes are listed in my [**dotfiles**](https://github.com/Bhupesh-V/.Varshney#initvim-or-vimrc)
 
 ## Super Basic Stuff
 
@@ -57,12 +58,12 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 4. Use <kbd>y</kbd> to yank (copy) text (only inside vim)
    > `:"+y` : for yanking(copying) text to system's clipboard.
 5. Use <kbd>p</kbd> to paste after the cursor position or <kbd>P</kbd> to paste before the cursor.
-   > `:"+p` : to paste from system's clipboard 
-   
+   > `:"+p` : to paste from system's clipboard
+
 ### Search & Replace
 
 1. Move your cursor to the desired word
-2. Use `*` to select all its occurrences. 
+2. Use `*` to select all its occurrences.
 3. Hit <kbd>Esc</kbd> and use **`:%s//<replace-word>/`** to replace all the selected words.
    > `:nohlsearch` : for clearing search highlighting.
    Also read (:h usr_12.txt), section 12.2 for a nice overview on search.
@@ -94,16 +95,24 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 12. Scrolling 2 or more windows together. When in multiple windows (or splits), you can use `scrollbind`.
     Pick one window then `:set scb`, pick another window `:set scb` for disabling use `:set noscb`
 13. To search for pattern in vim help text use `:helpgrep` or `:helpg`
+14. If you have spell-checking (`:set spell`) enabled use `zg` to exclude certain words from being reported as misspelled. This adds the words to your own list of words called a _spellfile_. On neovim this fill is created automatically, although you can do it manually.
+    ```bash
+    mkdir -p ~/.vim/spell/
+    ```
+    then in `vimrc`
+    ```vim
+    set spellfile=~/.vim/spell/en.utf-8.add
+    ```
 
 ### Code Folding
 
-It helps you view only a selected range of your text (Read `:h usr_28.txt`) for a quick overview
+It helps you view only a selected range of text (Read `:h usr_28.txt`) for a quick overview.
 
 Quick settings to put in vimrc
 
 ```vim
 set foldmethod=indent
-set foldcolumn=1
+set foldcolumn=2
 ```
 
 **za**: Toggle code folding.
@@ -134,12 +143,12 @@ set foldcolumn=1
 
 **Character Wise**
 
-f - find next
-F - find backward
-t - find next char & place cursor before
-T - find next char & place cursor before backward
-; - go to the next occurrence of f/t
-, - go to previous occurrence of f/t
+- f : find next
+- F : find backward
+- t : find next char & place cursor before
+- T : find next char & place cursor before backward
+- ; : go to the next occurrence of f/t
+- , : go to previous occurrence of f/t
 
 
 ### Completions
@@ -159,6 +168,19 @@ Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +
 
 Take registers as "special vim storage locations". There are exactly 21 registers which store different kind of stuff, from these 4 registers are read-only.
 In command mode use `:di` or `:reg` to display contents of all these registers. Do `h registers` to read the docs
+
+## File Browsing
+
+Vim has a default file browser called netrw, below are some handy tips that will help:
+
+1. **R** : rename a file/directory.
+2. **qf** : Show file info.
+3. **x** : open file in associated program, use it open media files like images.
+4. **Ctrl + l** : refresh netrw, Opens a new buffer. Use `:e .` instead.
+5. **d** : Make a new directory.
+6. **gh** : toggle display of hidden files.
+7. **D** : Delete a file/directory (Doesn't work on non-empty directories).
+
 
 ---
 I will only add stuff here when I start using it or use it for the first time.

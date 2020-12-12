@@ -25,7 +25,7 @@ languages and technologies.
 ## Categories
 * [CleanCode](#cleancode) [**`3`**]
 * [Go](#go) [**`7`**]
-* [Miscellaneous](#miscellaneous) [**`13`**]
+* [Miscellaneous](#miscellaneous) [**`14`**]
 * [Python](#python) [**`10`**]
 * [Shell](#shell) [**`19`**]
 * [WebDev](#webdev) [**`4`**]
@@ -766,9 +766,9 @@ Kill is used for Removing a background process or job, `-9` specifies SIGKILL (F
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Killing%20Open%20Ports%20in%20Linux&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md)
 </details></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md">My Vim cheatsheet</a><details><summary> Read More 🔽</summary>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md">My Vim Cheatsheet</a><details><summary> Read More 🔽</summary>
 
-# My Vim cheatsheet
+# My Vim Cheatsheet
 <!-- 14 June, 2020 -->
 
 <pre>                         
@@ -785,10 +785,11 @@ Kill is used for Removing a background process or job, `-9` specifies SIGKILL (F
 I have started transitioning slowly to lightweight editors, because of my low system configuration.
 And what can be better than `vim`. I will keep a log of things I learn in the process.
 
-For starters I use **neovim** (v0.2.2).
-(PS: I will write this TIL through vim only :)
+> Update: I started using vim "actively" from Nov 12, 2020 and it has now been 1 month complete in Vim & I don't think I am moving to another text editor in future.
 
-All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhupesh-V/.Varshney#initvim-or-vimrc)
+For starters I use **neovim** (v0.4.4).
+
+All my Plugins & Colorschemes are listed in my [**dotfiles**](https://github.com/Bhupesh-V/.Varshney#initvim-or-vimrc)
 
 ## Super Basic Stuff
 
@@ -827,12 +828,12 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 4. Use <kbd>y</kbd> to yank (copy) text (only inside vim)
    > `:"+y` : for yanking(copying) text to system's clipboard.
 5. Use <kbd>p</kbd> to paste after the cursor position or <kbd>P</kbd> to paste before the cursor.
-   > `:"+p` : to paste from system's clipboard 
-   
+   > `:"+p` : to paste from system's clipboard
+
 ### Search & Replace
 
 1. Move your cursor to the desired word
-2. Use `*` to select all its occurrences. 
+2. Use `*` to select all its occurrences.
 3. Hit <kbd>Esc</kbd> and use **`:%s//<replace-word>/`** to replace all the selected words.
    > `:nohlsearch` : for clearing search highlighting.
    Also read (:h usr_12.txt), section 12.2 for a nice overview on search.
@@ -864,16 +865,24 @@ All my Plugins & Colorschemes are listed in my [dotfiles](https://github.com/Bhu
 12. Scrolling 2 or more windows together. When in multiple windows (or splits), you can use `scrollbind`.
     Pick one window then `:set scb`, pick another window `:set scb` for disabling use `:set noscb`
 13. To search for pattern in vim help text use `:helpgrep` or `:helpg`
+14. If you have spell-checking (`:set spell`) enabled use `zg` to exclude certain words from being reported as misspelled. This adds the words to your own list of words called a _spellfile_. On neovim this fill is created automatically, although you can do it manually.
+    ```bash
+    mkdir -p ~/.vim/spell/
+    ```
+    then in `vimrc`
+    ```vim
+    set spellfile=~/.vim/spell/en.utf-8.add
+    ```
 
 ### Code Folding
 
-It helps you view only a selected range of your text (Read `:h usr_28.txt`) for a quick overview
+It helps you view only a selected range of text (Read `:h usr_28.txt`) for a quick overview.
 
 Quick settings to put in vimrc
 
 ```vim
 set foldmethod=indent
-set foldcolumn=1
+set foldcolumn=2
 ```
 
 **za**: Toggle code folding.
@@ -904,12 +913,12 @@ set foldcolumn=1
 
 **Character Wise**
 
-f - find next
-F - find backward
-t - find next char & place cursor before
-T - find next char & place cursor before backward
-; - go to the next occurrence of f/t
-, - go to previous occurrence of f/t
+- f : find next
+- F : find backward
+- t : find next char & place cursor before
+- T : find next char & place cursor before backward
+- ; : go to the next occurrence of f/t
+- , : go to previous occurrence of f/t
 
 
 ### Completions
@@ -930,14 +939,27 @@ Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +
 Take registers as "special vim storage locations". There are exactly 21 registers which store different kind of stuff, from these 4 registers are read-only.
 In command mode use `:di` or `:reg` to display contents of all these registers. Do `h registers` to read the docs
 
+## File Browsing
+
+Vim has a default file browser called netrw, below are some handy tips that will help:
+
+1. **R** : rename a file/directory.
+2. **qf** : Show file info.
+3. **x** : open file in associated program, use it open media files like images.
+4. **Ctrl + l** : refresh netrw, Opens a new buffer. Use `:e .` instead.
+5. **d** : Make a new directory.
+6. **gh** : toggle display of hidden files.
+7. **D** : Delete a file/directory (Doesn't work on non-empty directories).
+
+
 ---
 I will only add stuff here when I start using it or use it for the first time.
 
 
 
-**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=My+Vim+cheatsheet+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fmy-vim-cheatsheet.md)
-[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=My%20Vim%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
-[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=My%20Vim%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=My+Vim+Cheatsheet+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fmy-vim-cheatsheet.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=My%20Vim%20Cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=My%20Vim%20Cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a><details><summary> Read More 🔽</summary>
@@ -1019,6 +1041,33 @@ Here is a list of some tools to test your website for SEO and Social Media.
 [![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=SEO%20Tools&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md)
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=SEO%20Tools&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md)
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/searching-your-way-through-vim.md">Searching your way through vim</a><details><summary> Read More 🔽</summary>
+
+# Searching your way through vim
+<!-- Dec 9, 2020 -->
+
+1. Matching a word "exactly"
+
+`/.*\<hello world\>\&.*\<goodbye world\>/`
+
+2. Searching between 2 words (inclusive)
+
+`\&` allows to match two regular expression parts at the same position. To have both strings match in the same line, you need to allow for an arbitrary number of characters before the matches.
+Example : `/.*red\&.*blue/`
+Say you want to find how many f-strings are used in your python program the search query for that would be `f"\&.*"`
+
+3. Search between 2 words on different lines.
+   `try\_.\{-}except`
+   This will highlight everything between try/except block inclusive.
+
+Read `:help pattern.txt` for everything related to searching.
+
+
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Searching+your+way+through+vim+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fsearching-your-way-through-vim.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Searching%20your%20way%20through%20vim&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/searching-your-way-through-vim.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Searching%20your%20way%20through%20vim&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/searching-your-way-through-vim.md)
+[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/searching-your-way-through-vim.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md">Semantic Versioning</a><details><summary> Read More 🔽</summary>
 
