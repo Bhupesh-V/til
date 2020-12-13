@@ -1047,21 +1047,31 @@ Here is a list of some tools to test your website for SEO and Social Media.
 # Searching your way through vim
 <!-- Dec 9, 2020 -->
 
-1. Matching a word "exactly"
+## Matching a word "exactly"
+`/\<hello world\>/`
 
-`/.*\<hello world\>\&.*\<goodbye world\>/`
+`\<` and `\>` mark the start and end of a whole word resp.
 
-2. Searching between 2 words (inclusive)
+## Searching between 2 words (inclusive)
+`/red\&.*blue/`
 
-`\&` allows to match two regular expression parts at the same position. To have both strings match in the same line, you need to allow for an arbitrary number of characters before the matches.
-Example : `/.*red\&.*blue/`
-Say you want to find how many f-strings are used in your python program the search query for that would be `f"\&.*"`
+This will highlight everything b/w "red" and "blue" on the same line.
 
-3. Search between 2 words on different lines.
-   `try\_.\{-}except`
-   This will highlight everything between try/except block inclusive.
+`\&` also called as "Branch" matches the last pattern but **only if** all the preceding patterns match at the same position 
 
-Read `:help pattern.txt` for everything related to searching.
+Example: Find **f-strings** `f"\&.*"`
+
+## Search between 2 words on different lines.
+`hello\_.*world`
+
+This will highlight everything between hello world.
+
+Example: Find **try/catch** block `hello\_.*world`
+
+`"\_.*except"` matches all text from the current position to the last occurrence of "except" in the file.
+
+
+> Read `:help pattern.txt` for everything related to pattern searching.
 
 
 **Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Searching+your+way+through+vim+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fsearching-your-way-through-vim.md)
@@ -2058,14 +2068,14 @@ this can be done using the `git log` command
 git log --follow -p -- filename
 ```
 
-this by default renders the diffed version history of the file over time. We can use
-`awk` to look for pattern _Date_ in this.
+This by default renders the diffed version history of the file over time. This can be 
+suppressed by `-q` flag after that we can use `awk` to look for pattern _Date_.
 
 ```bash
-git log --follow -p -- README.md | awk '/Date/ { print $4,$3,$6 }'
+git log --follow -q -- README.md | awk '/Date/ { print $4,$3,$6 }'
 ```
 
-this will grab the date of each commit which modified this file!
+This will grab the date of each commit which modified this file!
 
 ```bash
 14 Nov 2020
@@ -2085,16 +2095,14 @@ Here is simple script that will list last commit date of each file inside a git 
 [[ ! -d ".git" ]] && echo -e "Not a git repo" && exit 1
 
 for file in $(du --exclude='.git' -a . | awk '{ print $2 }'); do
-	if [[ -f "${file:2}" ]]; then
-		last_modify_date=$(git log --follow -p -- "${file:2}" | awk '/Date/ { print $4,$3,$6 }' | head -1)
-		if [[ "$last_modify_date" ]]; then
-			printf "%s : %s\n" "$last_modify_date" "${file:2}"
-		fi
-	fi
+    if [[ -f "${file:2}" ]]; then
+        commit_date=$(git log --follow -q -- "${file:2}" | awk '/Date/ { print $4,$3,$6 }' | head -1)
+        [[ "$commit_date" ]] && printf "%12s : %s\n" "$commit_date" "${file:2}"
+    fi
 done
-
 ```
 
+A better version of the script is available in my [dotfiles](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/last-modify.sh)
 
 
 **Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Get+last+commit+date+of+file+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fget-last-commit-date-of-file.md)

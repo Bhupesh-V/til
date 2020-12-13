@@ -1,18 +1,28 @@
 # Searching your way through vim
 <!-- Dec 9, 2020 -->
 
-1. Matching a word "exactly"
+## Matching a word "exactly"
+`/\<hello world\>/`
 
-`/.*\<hello world\>\&.*\<goodbye world\>/`
+`\<` and `\>` mark the start and end of a whole word resp.
 
-2. Searching between 2 words (inclusive)
+## Searching between 2 words (inclusive)
+`/red\&.*blue/`
 
-`\&` allows to match two regular expression parts at the same position. To have both strings match in the same line, you need to allow for an arbitrary number of characters before the matches.
-Example : `/.*red\&.*blue/`
-Say you want to find how many f-strings are used in your python program the search query for that would be `f"\&.*"`
+This will highlight everything b/w "red" and "blue" on the same line.
 
-3. Search between 2 words on different lines.
-   `try\_.\{-}except`
-   This will highlight everything between try/except block inclusive.
+`\&` also called as "Branch" matches the last pattern but **only if** all the preceding patterns match at the same position 
 
-Read `:help pattern.txt` for everything related to searching.
+Example: Find **f-strings** `f"\&.*"`
+
+## Search between 2 words on different lines.
+`hello\_.*world`
+
+This will highlight everything between hello world.
+
+Example: Find **try/catch** block `hello\_.*world`
+
+`"\_.*except"` matches all text from the current position to the last occurrence of "except" in the file.
+
+
+> Read `:help pattern.txt` for everything related to pattern searching.
