@@ -25,7 +25,7 @@ languages and technologies.
 ## Categories
 * [CleanCode](#cleancode) [**`3`**]
 * [Go](#go) [**`7`**]
-* [Miscellaneous](#miscellaneous) [**`14`**]
+* [Miscellaneous](#miscellaneous) [**`15`**]
 * [Python](#python) [**`10`**]
 * [Shell](#shell) [**`19`**]
 * [WebDev](#webdev) [**`4`**]
@@ -691,28 +691,29 @@ All of the below mentioned tips works in both DuckDuckGo & Google (i use both :w
 
 1. **`file:pdf golang`**
 
-> Use it to search for books, presentations or specific file types
+   > Use it to search for books, presentations or specific file types
 
 2. **`inurl:docs.djangoproject.com templates`**
 
-> Use it to look for occurence of some phrases in the URL of the website mentioned.
-`inurl` [docs.djangoproject.com](docs.djangoproject.com) look for `templates` phrase.
+   > Use it to look for occurence of some phrases in the URL of the website mentioned.
+   `inurl` [docs.djangoproject.com](docs.djangoproject.com) look for `templates` phrase.
 
 3. **`site:github.com synatx error`**
 
-> Limit search results to a specific site, good for looking for bug fixes.
+   > Limit search results to a specific site, good for looking for bug fixes.
 
 4. **`"how to add pagination in django"`**
 
-> Double quotes can be used for exact matches of the phrase (doesn't work sometimes).
+   > Double quotes can be used for exact matches of the phrase (doesn't work sometimes).
 
 5. **`related:http://freecodecamp.org`**
 
-> Related specifier, "related:<domain>" returns the root domain of similar websites
+   > Related specifier, "related:<domain>" returns the root domain of similar websites
 
 6. **`intitle:best vim plugins`** 
 
-> Intitle specifier returns results that contains your searched word in the title.
+   > Intitle specifier returns results that contains your searched word in the title.
+
 
 **Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Internet+search+tips+%26+tricks+for+developers+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Finternet-search-tricks-tips-for-developers.md)
 [![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Internet%20search%20tips%20%26%20tricks%20for%20developers&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md)
@@ -1097,6 +1098,52 @@ Example: Find **try/catch** block `hello\_.*world`
 [![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Semantic%20Versioning&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md)
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Semantic%20Versioning&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md)
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a><details><summary> Read More 🔽</summary>
+
+# Streaming videos, things behind the curtain
+<!-- 17 Dec, 2020 -->
+
+> This is a log of things I learn on how streaming "videos" works & what are the modern ways companies do it and possibly everything about it.
+
+
+- TCP is more appropriate for serving video on demand
+
+- Live streaming via TCP/IP, then it would be forced to wait for dropped packets before it could continue processing newer data. That's not good because:
+  1. Old data will be re-transmitted (that's probably for a frame that was already displayed and therefore worthless).
+  2. New data can't arrive until after old data was re-transmitted.
+
+- UDP is ideal for teleconferencing.
+- [**QUIC**](https://en.wikipedia.org/wiki/QUIC) protocol for transport layer over UDP. It is fast, secure and reliable. It builds on top of UDP
+
+- The `<audio>` and `<video>` tags are protocol agnostic, no browser currently supports anything other than HTTP without requiring plugins, although this looks set to change. Protocols other than HTTP may also be subject to blocking from firewalls or proxy servers.
+
+- Netflix and other streaming providers make extensive use of _distributed content delivery networks (CDN)_, which store content in locations around the world that are much closer to users.
+
+- **Adaptive Streaming**: Quality of video is automatically chosen based on user's network and processing capabilities. (think YouTube's Auto setting)
+
+## Protocols
+
+1. [DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)
+   Used by YouTube, Netflix or Amazon Prime Video (and many others). [DASH’ manifest](https://github.com/google/shaka-player/blob/master/docs/design/dash-manifests.md) is called the Media Presentation Description (or MPD) and is at its base XML.
+2. [HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming)
+   Developed by Apple, used by DailyMotion, Twitch.tv, and many others. The HLS manifest is called the playlist and is in the m3u8 format (which are m3u playlist files, encoded in UTF-8).
+3. [Smooth Streaming](https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming#Microsoft_Smooth_Streaming)
+   Developed by Microsoft, used by multiple Microsoft products and MyCanal.
+
+
+### Resources
+
+- [TCP vs UDP on video stream](https://stackoverflow.com/questions/6187456/tcp-vs-udp-on-video-stream)
+- [Live streaming web audio and video](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video)
+- [How video streaming works on the web: An introduction](https://medium.com/canal-tech/how-video-streaming-works-on-the-web-an-introduction-7919739f7e1)
+
+
+
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Streaming+videos%2C+things+behind+the+curtain+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fstreaming-videos-collected-information-regarding-everything.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Streaming%20videos%2C%20things%20behind%20the%20curtain&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/streaming-videos-collected-information-regarding-everything.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Streaming%20videos%2C%20things%20behind%20the%20curtain&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/streaming-videos-collected-information-regarding-everything.md)
+[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/streaming-videos-collected-information-regarding-everything.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a><details><summary> Read More 🔽</summary>
 
