@@ -25,9 +25,9 @@ languages and technologies.
 ## Categories
 * [CleanCode](#cleancode) [**`3`**]
 * [Go](#go) [**`7`**]
-* [Miscellaneous](#miscellaneous) [**`15`**]
+* [Miscellaneous](#miscellaneous) [**`16`**]
 * [Python](#python) [**`10`**]
-* [Shell](#shell) [**`19`**]
+* [Shell](#shell) [**`20`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -549,6 +549,37 @@ ffmpeg -t 29 -i video.mp4 -i palette.png -filter_complex "fps=22,scale=1024:-1:f
 [![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Converting%20videos%20to%20High%20quality%20GIFs&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md)
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Converting%20videos%20to%20High%20quality%20GIFs&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md)
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a><details><summary> Read More 🔽</summary>
+
+# Creating a Regex Compiler/Parser - Research
+<!-- 18 Dec, 2020 -->
+Making a regex parser/compiler is not simple as it sounds, here is the overview of the steps:
+
+1. Convert the expression to Postfix notation.
+   > While converting to postfix, you also need to handle Character Classes & Range Quantifiers. Tutorials on internet haven't done this. Read [this](https://patents.google.com/patent/US8898094B2/en) for an insight on how to do this.
+2. Convert the postfix in above step to AST.
+3. Convert the AST to a state machine, preferably a NFA (non-deterministic finite automata)
+
+
+## Resources
+
+- [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) by Russ Cox
+- [Converting Regular Expressions to Postfix Notation with the Shunting-Yard Algorithm
+](https://medium.com/@gregorycernera/converting-regular-expressions-to-postfix-notation-with-the-shunting-yard-algorithm-63d22ea1cf88)
+- [Postfix to NFA using Thompson algorithm](https://medium.com/swlh/visualizing-thompsons-construction-algorithm-for-nfas-step-by-step-f92ef378581b)
+- [Regex Compiler: Part 2](https://kean.blog/post/regex-compiler)
+- [Regular Expressions Based on Nondeterministic Finite Automaton](https://dannysu.com/2015/10/31/regex-nfa/)
+- [Using NFA to evaluate regular expressions](http://prnbs.github.io/projects/regular-expression-parser/)
+- [How to implement regular expression NFA with character ranges?](https://stackoverflow.com/questions/20767047/how-to-implement-regular-expression-nfa-with-character-ranges)
+- [Regex under the hood: Implementing a simple regex compiler in Go](https://medium.com/@phanindramoganti/regex-under-the-hood-implementing-a-simple-regex-compiler-in-go-ef2af5c6079)
+
+
+
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Creating+a+Regex+Compiler%2FParser+-+Research+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fregex-compiler-research.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Creating%20a%20Regex%20Compiler/Parser%20-%20Research&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/regex-compiler-research.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Creating%20a%20Regex%20Compiler/Parser%20-%20Research&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/regex-compiler-research.md)
+[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/regex-compiler-research.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a><details><summary> Read More 🔽</summary>
 
@@ -1991,6 +2022,47 @@ Now you can just do `source <path>`.
 [![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Finding%20all%20Python%20Virtual%20Environments%20in%20your%20system&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md)
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Finding%20all%20Python%20Virtual%20Environments%20in%20your%20system&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md)
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md">Finding the file creation date/time on Linux</a><details><summary> Read More 🔽</summary>
+
+# Finding the file creation date/time on Linux
+<!-- 18 Dec, 2020 -->
+### 1. Find inode number of file.
+   ```bash
+   $ ls -i myfile.md
+   9344160 myfile.md
+   ```
+### 2. Find name of your root partition
+   ```bash
+   $ df -h
+   Filesystem      Size  Used Avail Use% Mounted on
+   udev            924M     0  924M   0% /dev
+   tmpfs           191M  1.4M  190M   1% /run
+   /dev/sda1       146G   38G  101G  28% /
+   tmpfs           954M  121M  833M  13% /dev/shm
+   ...
+   ```
+### 3. Use the inode no in `stat` & `debugfs`
+   ```bash
+   sudo debugfs -R 'stat <9344160>' /dev/sda1
+   ```
+   Look for **crtime**, that is our file creation date/time
+
+Here is a one liner if your filesystem is ext4
+```bash
+sudo debugfs -R "stat <$(ls -i myfile.md | awk '{ print $1}')>" /dev/sda1 | grep 'crtime'
+```
+
+- debugfs is a ext2, ext3, ext4 file system debugger. The `-R` flag causes debugfs to execute a single command. In our case that command is `stat` which is used to check file status. We need to run debugfs where our filesystem is mounted, i.e `/dev/sda1`.
+
+> **Note**: this will not work on older file systems.
+  Although this has changed with modern file systems such as ext4 & Btrfs which has been designed to store file creation time.
+
+
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Finding+the+file+creation+date%2Ftime+on+Linux+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Ffind-file-creation-date-time-in-linux.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Finding%20the%20file%20creation%20date/time%20on%20Linux&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Finding%20the%20file%20creation%20date/time%20on%20Linux&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md)
+[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a><details><summary> Read More 🔽</summary>
 
