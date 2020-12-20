@@ -125,8 +125,8 @@ def print_file(category_names, count, categories):
     host_url = "https://github.com/Bhupesh-V/til/blob/master/"
     # used by shields.io for creating the TIL badge
     with open("count.json", "w") as json_file:
-        data = {"count": count}
-        json.dump(data, json_file)
+        data = { "count": count }
+        json.dump(data, json_file, indent=" ")
 
     with open("README.md", "w") as file:
         file.write(HEADER)
