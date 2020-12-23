@@ -1064,13 +1064,16 @@ Here are some basic git commands for tagging.
 
 # SEO Tools
 <!--15 Oct 2019 -->
-Here is a list of some tools to test your website for SEO and Social Media.
+Here is a list of some tools to test your website for SEO, Rich Snippets and Social Media.
 
 - [Facebook's Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/).
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator).
-- [Google's Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/).
 - [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)
 - [web.dev](https://web.dev/)
+- [Structured Data Testing](https://search.google.com/structured-data/testing-tool#)
+- [Structured Data Markup Helper](https://www.google.com/webmasters/markup-helper/)
+- [Rich Results Test](https://search.google.com/test/rich-results)
+- [JSONLD.com](https://jsonld.com/)
 
 
 **Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=SEO+Tools+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fseo-tools.md)
