@@ -25,7 +25,7 @@ languages and technologies.
 ## Categories
 * [CleanCode](#cleancode) [**`3`**]
 * [Go](#go) [**`7`**]
-* [Miscellaneous](#miscellaneous) [**`16`**]
+* [Miscellaneous](#miscellaneous) [**`17`**]
 * [Python](#python) [**`10`**]
 * [Shell](#shell) [**`20`**]
 * [WebDev](#webdev) [**`4`**]
@@ -1283,6 +1283,52 @@ This might also help when you are cold-emailing a recruiter.
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Writing%20Cover%20letter%20-%20Tips&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/writing-cover-letter-tips.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/writing-cover-letter-tips.md)
 </details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/vim-surround-cheatsheet.md">vim surround: quick cheatsheet</a><details><summary> Read More 🔽</summary>
+
+# vim surround: quick cheatsheet
+<!-- 27 Dec, 2020 -->
+
+## Adding `ys` (_you surround_)
+
+> `ys` takes a valid vim motion or text object as first argument
+
+- `ysiw"`  : surround inner word with "
+- `yss]`   : surround current line with ]
+- `ys2aw*` : add * around 2 words 
+
+**The `vS` mapping**
+
+- `vS"`    : visually surround selected text with "
+
+**Spicy Stuff**
+
+- `yswt` : prompt & surround with a html tag
+> If a t or < is specified, Vim prompts for an HTML/XML tag to insert (also supports adding attributes)
+
+- `yswf` : prompt & surround with a function call
+> If a f is specified, Vim prompts for an function name to insert (use F to add space around ())
+
+## Changing `cs` (_change surround_)
+
+> Takes 2 arguments a _target_ to replace & a _replacement_ character
+
+- `cs])` : change surrounding [] with ()
+
+## Deleting `ds` (_delete surround_)
+
+- `ds"` : delete surrounding "
+- `dst` : delete surrounding tag (HTML)
+
+Do `:helpg surround` for more docs.
+
+Thanks tpope!
+
+
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=vim+surround%3A+quick+cheatsheet+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fvim-surround-cheatsheet.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=vim%20surround%3A%20quick%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/vim-surround-cheatsheet.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=vim%20surround%3A%20quick%20cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/vim-surround-cheatsheet.md)
+[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/vim-surround-cheatsheet.md)
+</details></li>
 </ul>
 
 
@@ -2340,15 +2386,15 @@ All of this is controlled by the `tty` driver
 [![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Line%20Discipline%20in%20Unix/Linux%20Machines&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md)
 </details></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md">Line Editing in Linux, Tips and Tricks</a><details><summary> Read More 🔽</summary>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md">Line Editors in Linux, Tips and Tricks</a><details><summary> Read More 🔽</summary>
 
-# Line Editing in Linux, Tips and Tricks
+# Line Editors in Linux, Tips and Tricks
 
 I will log various ways through which tools like `sed`, `cut` and `tr` can be used.
 
 ## `sed` 😥
 
-- Print specific lines from a file using line numbers
+- Print specific lines from a file using line numbers.
   ```bash
   # print lines 12 to 22
   sed -n '12,22p' file.txt
@@ -2359,14 +2405,29 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   sed -n '1!p'
   ```
 
+- Omit last line of file.
+  ```bash
+  sed '$d' file.txt
+  ```
+
+- Print everything after a _pattern_ (inclusive).
+  ```bash
+  sed -n '/pattern/,$ p' file.txt
+  ```
+
+- Print everything before a _pattern_ (inclusive).
+  ```bash
+  sed -n '1,/pattern/ p' file.txt
+  ```
+
 ## `tr` ➡️
 
-- Translate (or convert) all () to [] in a textfile.
+- Translate (or convert) all () to [] in a text file.
   ```bash
   tr '()' '[]'
   ```
 
-- Translate all occurences of multiple spaces with a single space.
+- Translate all occurrences of multiple spaces with a single space.
   ```bash
   tr -s ' '
   ```
@@ -2380,9 +2441,18 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   I don't know about you but this is pretty cool.
 
 
-**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Line+Editing+in+Linux%2C+Tips+and+Tricks+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fline-editors-tips-tricks.md)
-[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Line%20Editing%20in%20Linux%2C%20Tips%20and%20Tricks&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md)
-[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Line%20Editing%20in%20Linux%2C%20Tips%20and%20Tricks&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md)
+## `awk`
+
+- Don't print first line of file
+  ```bash
+  awk NR\>1 file.txt
+  ```
+
+
+
+**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)](https://twitter.com/intent/tweet?url=Line+Editors+in+Linux%2C+Tips+and+Tricks+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FShell%2Fline-editors-tips-tricks.md)
+[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)](https://www.reddit.com/submit?title=Line%20Editors%20in%20Linux%2C%20Tips%20and%20Tricks&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md)
+[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)](https://telegram.me/share/url?text=Line%20Editors%20in%20Linux%2C%20Tips%20and%20Tricks&url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md)
 [![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md)
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/monitor-network-data-usage.md">Monitor network (data) usage</a><details><summary> Read More 🔽</summary>
