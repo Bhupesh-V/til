@@ -75,10 +75,10 @@ All my Plugins & Colorschemes are listed in my [**dotfiles**](https://github.com
 1. **`:earlier N`** : Time travel in past N seconds.
 2. **`:later N`** : Time travel in future N seconds.
 3. **`:echo $MYVIMRC`** : to view location of your default `.vimrc` file.
-4. Use `==` in Visual Mode to fix line indent.
+4. Use **`==`** in Visual Mode to fix line indent.
 5. When in command mode (:), use <kbd>Ctrl</kbd> + <kbd>f</kbd> to browse through your command history, live edit any command and hit enter to run it (the quick fix window).
 6. Use **`:resize 60`** to resize windows horizontally or **`:vertical resize 60`** for vertical resizing. Also signed values can be used like +5, -2.
-7. Use **`:right`**, **`:left`** or **`:center`** to align text. Assuming width of document is `textwidth` (default is 80). You can also specify arguments for e.g `:center 100` will move the start of line to 100th column.
+7. Use **`:right`**, **`:left`** or **`:center`** to align text. Assuming width of document is `textwidth` (default is 80). You can also specify arguments for e.g `:center 100` will move the start of line to _100th_ column.
 8. To list all your active/inactive buffers, use **`:buffers`** in command mode. You can switch to a buffer by providing the buffer name, `:buffer <TAB>` to see all buffers.
 9. Use `:verb map <key>` to check which key is mapped to what operation. Useful when debugging your mappings and differentiating them from that of a plugin.
    > Read help for checking key notations `:h key-notation`
@@ -95,7 +95,7 @@ All my Plugins & Colorschemes are listed in my [**dotfiles**](https://github.com
 12. Scrolling 2 or more windows together. When in multiple windows (or splits), you can use `scrollbind`.
     Pick one window then `:set scb`, pick another window `:set scb` for disabling use `:set noscb`
 13. To search for pattern in vim help text use `:helpgrep` or `:helpg`
-14. If you have spell-checking (`:set spell`) enabled use `zg` to exclude certain words from being reported as misspelled. This adds the words to your own list of words called a _spellfile_. On neovim this fill is created automatically, although you can do it manually.
+14. If you have spell-checking (`:set spell`) enabled use `zg` to exclude certain words from being reported as misspelled. This adds the words to your own list of words called a _spellfile_. On NeoVim this fill is created automatically, although you can do it manually.
     ```bash
     mkdir -p ~/.vim/spell/
     ```
@@ -103,23 +103,29 @@ All my Plugins & Colorschemes are listed in my [**dotfiles**](https://github.com
     ```vim
     set spellfile=~/.vim/spell/en.utf-8.add
     ```
+15. Use `q:` to open command line history or `Ctrl + f` when already in command mode
+16. Use `q/` to open search history, this will list all the things you searched using search mode `/`. Press `i` to change anything and \<CR\> to execute again.
+17. To quickly jump to function definition or variable assignments under cursor use `gd`(local declaration) or `gD`(global declaration)
 
 ### Code Folding
 
-It helps you view only a selected range of text (Read `:h usr_28.txt`) for a quick overview.
+It helps you view only a selected range of text. (Read `:h usr_28.txt` for a quick overview)
 
-Quick settings to put in vimrc
+Quick settings to put in vimrc/init.vimrc
 
 ```vim
 set foldmethod=indent
 set foldcolumn=2
 ```
 
-**za**: Toggle code folding.
-**zR**: Open all folds.
-**zM**: Close all folds.
-**zo**: Open current fold.
-**zc**: Close current fold.
+> You can also setup foldmethod [based on file type](https://github.com/Bhupesh-V/.Varshney/blob/fa65398dedcb12831d20c6ac4762471bc9eea66c/init.vim#L173-L178
+)
+
+- **za**: Toggle code folding.
+- **zR**: Open all folds.
+- **zM**: Close all folds.
+- **zo**: Open current fold.
+- **zc**: Close current fold.
 
 
 ### Navigation
@@ -143,12 +149,12 @@ set foldcolumn=2
 
 **Character Wise**
 
-- f : find next
-- F : find backward
-- t : find next char & place cursor before
-- T : find next char & place cursor before backward
-- ; : go to the next occurrence of f/t
-- , : go to previous occurrence of f/t
+- **f** : find next
+- **F** : find backward
+- **t** : find next char & place cursor before
+- **T** : find next char & place cursor before backward
+- **;** : go to the next occurrence of f/t
+- **,** : go to previous occurrence of f/t
 
 
 ### Completions
@@ -169,7 +175,7 @@ Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +
 Take registers as "special vim storage locations". There are exactly 21 registers which store different kind of stuff, from these 4 registers are read-only.
 In command mode use `:di` or `:reg` to display contents of all these registers. Do `h registers` to read the docs
 
-## File Browsing
+### File Browsing
 
 Vim has a default file browser called netrw, below are some handy tips that will help:
 
@@ -180,6 +186,14 @@ Vim has a default file browser called netrw, below are some handy tips that will
 5. **d** : Make a new directory.
 6. **gh** : toggle display of hidden files.
 7. **D** : Delete a file/directory (Doesn't work on non-empty directories).
+
+### `Ex` mode
+
+It let's you run commands repetitively without using `:`.
+
+Use `Q` to enter into Ex mode, `vi` or `visual` to go back.
+
+The Ex mode in Vim is quite underrated in 2020 since we have a `:term` but learning about it can be quite helpful sometimes.
 
 
 ---

@@ -17,12 +17,13 @@
 
 - Netflix and other streaming providers make extensive use of _distributed content delivery networks (CDN)_, which store content in locations around the world that are much closer to users.
 
-- **Adaptive Streaming**: Quality of video is automatically chosen based on user's network and processing capabilities. (think YouTube's Auto setting)
+- **Adaptive Streaming**: Quality of video is automatically chosen based on user's network and processing capabilities. (think YouTube's Auto setting. DASH)
 
 ## Protocols
 
 1. [DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)
    Used by YouTube, Netflix or Amazon Prime Video (and many others). [DASH’ manifest](https://github.com/google/shaka-player/blob/master/docs/design/dash-manifests.md) is called the Media Presentation Description (or MPD) and is at its base XML.
+   It’s an adaptive bitrate streaming technique that enables high-quality streaming of videos over the web from conventional HTTP web servers. Via this technique, the content is made available to the viewer at different bit rates. YouTube client automatically adapts the video rendering as per the internet connection speed of the viewer thus cutting down the buffering as much as possible.
 2. [HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming)
    Developed by Apple, used by DailyMotion, Twitch.tv, and many others. The HLS manifest is called the playlist and is in the m3u8 format (which are m3u playlist files, encoded in UTF-8).
 3. [Smooth Streaming](https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming#Microsoft_Smooth_Streaming)
