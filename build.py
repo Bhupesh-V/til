@@ -160,16 +160,16 @@ def print_file(category_names, count, categories):
                 file.write("<details><summary> Read More 🔽</summary>\n\n")
                 file.write(read_file(filename))
                 file.write(
-                    f"\n\n**Share on** [![Twitter share](https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V)]({urlsafe_twitter})"
+                    f"""\n<a title="Share on Twitter" target="_blank" href="{urlsafe_twitter}"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>"""
                 )
                 file.write(
-                    f"\n[![Reddit share](https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url)]({urlsafe_reddit})"
+                    f"""\n<a title="Share on Reddit" target="_blank" href="{urlsafe_reddit}"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>"""
                 )
                 file.write(
-                    f"\n[![Telegram share](https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com)]({urlsafe_telegram})"
+                    f"""\n<a title="Share on Telegram" target="_blank" href="{urlsafe_telegram}"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>"""
                 )
                 file.write(
-                    f"\n[![LinkedIn Share](https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url)](https://www.linkedin.com/sharing/share-offsite/?url={root_file})"
+                    f"""\n<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={root_file}"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>"""
                 )
                 file.write("\n</details>")
                 file.write("</li>")

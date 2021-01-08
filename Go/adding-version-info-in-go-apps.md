@@ -1,6 +1,6 @@
 # Add version info in Go projects
-
-Go offers a nice way to specify version informations at compile time using the `-ldflags` flag in go build command.
+<!-- 08 Jan, 2021 -->
+Go offers a nice way to specify version information at compile time using the `-ldflags` flag in go build command.
 
 ## How to use it effectively ?
 
@@ -32,3 +32,4 @@ go build -ldflags="-X 'main.AppVersion=v1.0.0'"
 ```
 
 Test if it works by running `./yourapp -v`
+
