@@ -939,6 +939,8 @@ All my Plugins & Colorschemes are listed in my [**dotfiles**](https://github.com
 15. Use `q:` to open command line history or `Ctrl + f` when already in command mode
 16. Use `q/` to open search history, this will list all the things you searched using search mode `/`. Press `i` to change anything and \<CR\> to execute again.
 17. To quickly jump to function definition or variable assignments under cursor use `gd`(local declaration) or `gD`(global declaration)
+18. To reselect the last visual selection use `gv`.
+19. When in visual mode use `gU` to make text uppercase & `gu` to lowercase.
 
 ### Code Folding
 
