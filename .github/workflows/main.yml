@@ -1,6 +1,5 @@
 name: Audit Links using AreYouOk
 on:
-  push:
   workflow_dispatch:
   schedule:
     # At 06:00 AM, every 30 days

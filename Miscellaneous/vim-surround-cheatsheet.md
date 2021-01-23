@@ -25,7 +25,8 @@
 
 > Takes 2 arguments a _target_ to replace & a _replacement_ character
 
-- `cs])` : change surrounding [] with ()
+- `cs])`    : change surrounding [] with ()
+- `cst<h3>` : change surrounding html tag with h3
 
 ## Deleting `ds` (_delete surround_)
 
