@@ -26,7 +26,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          wget https://github.com/Bhupesh-V/areyouok/releases/latest/download/areyouok-linux-amd64
+          wget -q https://github.com/Bhupesh-V/areyouok/releases/latest/download/areyouok-linux-amd64
+          chmod +x areyouok-linux-amd64
           ./areyouok-linux-amd64 -i=_layouts,.git,_site,README.md,build.py,USAGE.md -r=github
       - name: Create Issue
         uses: peter-evans/create-issue-from-file@v2
