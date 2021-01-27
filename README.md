@@ -23,7 +23,7 @@ languages and technologies.
 
 
 ## Categories
-* [CleanCode](#cleancode) [**`3`**]
+* [Coding Practices](#coding practices) [**`4`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`15`**]
 * [Python](#python) [**`10`**]
@@ -36,10 +36,10 @@ languages and technologies.
 
 
 
-### CleanCode
+### Coding Practices
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-naming.md">Naming Variables & Functions</a><details><summary> Read More 🔽</summary>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/cleancode-naming.md">Naming Variables & Functions</a><details><summary> Read More 🔽</summary>
 
 # Naming Variables & Functions
 <!--24 Jun 2019 -->
@@ -51,12 +51,71 @@ languages and technologies.
 
 ---
 _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean-code/9780136083238/) for a while & logging what I learn here._
-<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Naming+Variables+%26+Functions+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCleanCode%2Fcleancode-naming.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
-<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Naming%20Variables%20%26%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-naming.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
-<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Naming%20Variables%20%26%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-naming.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
-<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-naming.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Naming+Variables+%26+Functions+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCoding+Practices%2Fcleancode-naming.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Naming%20Variables%20%26%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/cleancode-naming.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Naming%20Variables%20%26%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/cleancode-naming.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/cleancode-naming.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
 </details></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/CleanCode/write-clean-comments.md">Writing Comments</a><details><summary> Read More 🔽</summary>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/everything-about-functions-procedures.md">Routines: Functions & Procedures</a><details><summary> Read More 🔽</summary>
+
+# Routines: Functions & Procedures
+<!-- 27 Jan, 2021 -->
+
+                                        _________ Routines ________
+                                        |                          |
+                                   Functions                   Procedures
+                               (Returns a value)        (Doesn't return a value)
+
+
+
+## Best practices
+
+- A routine should not w/r global variables instead it should communicate with other routines.
+- A routine should have a single, clearly defined purpose (1 Task = 1 Routine)
+- **Hide Pointer Operation**: 
+  - Isolate pointer operations in routines by this you can be certain that the code is correct & if in future you find a better data type then pointers you can change the program without traumatizing your code.
+- Use a _function_ if the primary purpose of the routine is to return the value indicated by function "name" otherwise use a _procedure_.
+- Don't hesitate to create small functions even if the operation seems one or two liner
+- Make sure a _function_ always returns a valid value (mentally exercise each possible control flow path).
+- Don't return references or pointers to local data since they will be out of scope once the function completes instead save the information as a class/struct member data.
+
+
+## Cohesion
+
+- Make sure cohesion is strong inside a function, below are some types of cohesion you need to worry about
+  - **Functional Cohesion**: It is the strongest and best kind of cohesion (a routine performs one & only one operation). E.g. `GetCustomerName()`, `EraseFile()`.
+  - **Sequential Cohesion**: I exists when a routine contains operation that must be performed in a specific order, that share data from step to step & that don't make up a complete function when done together.
+  - **Temporal Cohesion**: It occurs when operations are combined into a routine because they are all done at the same time. E.g `Startup()`, `Shutdown()`.<br>
+   Functions like these tend to be a hodgepodge of code to fix this think of temporal routines as _organisers_ of other events.
+   _Startup()_ for e.g would read a config file, setup a memory manager etc. Make the temporal routine to perform specific activities rather than performing operations directly itself.
+  - **Logical Cohesion**: It occurs when several operations are stuffed into the same routine & one of the operations is selected by a control _flag_ that's passed in.
+  Instead of having using a flag to decide on operation its cleaner to have _n_ routines each of which does 1 distinct operation. If the operations use the same code or share data the code should be moved into a lower level routine & all the routines should be packaged into a class/module.
+  Its all right to write a logically cohesive routine if its code consist solely of a series of if or case statements calls to other routines (only dispatching commands), its generally called a "_event handler_".
+
+## Naming a `routine()`
+
+- Avoid meaningless, vague verbs for e.g `HandleCalculation()`, `OutputUser()`.
+  The verb is vague because the operation performed by the routine are vague. The routine suffers from weakness of purpose & the weak name is a symptom.
+- Make names of routines as long as necessary and possible (9-15 chars)
+- To name a _function_, use a description of return value.
+- To name a _procedure_, use a strong verb + object. E.g `CheckOrderInfo()`, `PrintDocument()`
+
+
+## Parameters
+
+- Put parameters in "INPUT-MODIFY-OUTPUT" order i.e, list the parameters that are input first, input-and-output second & output only third.
+- Put status or error variables last (think Go errors)
+- Don't use routine parameters as working variables. It's dangerous to use the parameters passed in a routine as working variables use local variables instead (think formal/actual parameters)
+
+
+> Most of the stuff documented here is inspired and/or taken from the legendary books: Clean Code & Code Complete. This can be understood as a summary of some chapters from these books.
+
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Routines%3A+Functions+%26+Procedures+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCoding+Practices%2Feverything-about-functions-procedures.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Routines%3A%20Functions%20%26%20Procedures&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/everything-about-functions-procedures.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Routines%3A%20Functions%20%26%20Procedures&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/everything-about-functions-procedures.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/everything-about-functions-procedures.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/write-clean-comments.md">Writing Comments</a><details><summary> Read More 🔽</summary>
 
 # Writing Comments
 <!--24 Jun 2019 -->
@@ -85,12 +144,12 @@ But know reading it is an eye opener & shocking 😱. I will try to avoid commen
 ---
 _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean-code/9780136083238/) for a while & logging what I learn here._
 
-<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Writing+Comments+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCleanCode%2Fwrite-clean-comments.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
-<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Writing%20Comments&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/write-clean-comments.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
-<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Writing%20Comments&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/write-clean-comments.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
-<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/write-clean-comments.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Writing+Comments+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCoding+Practices%2Fwrite-clean-comments.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Writing%20Comments&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/write-clean-comments.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Writing%20Comments&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/write-clean-comments.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/write-clean-comments.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
 </details></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-writing-functions.md">Writing Functions</a><details><summary> Read More 🔽</summary>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/cleancode-writing-functions.md">Writing Functions</a><details><summary> Read More 🔽</summary>
 
 # Writing Functions
 <!-- 24 Jun 2019 -->
@@ -108,10 +167,10 @@ Got to learn some new points regarding functions() in CleanCode.
 ---
 _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean-code/9780136083238/) for a while & logging what I learn here._
 
-<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Writing+Functions+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCleanCode%2Fcleancode-writing-functions.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
-<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Writing%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-writing-functions.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
-<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Writing%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-writing-functions.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
-<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/CleanCode/cleancode-writing-functions.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Writing+Functions+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCoding+Practices%2Fcleancode-writing-functions.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Writing%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/cleancode-writing-functions.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Writing%20Functions&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/cleancode-writing-functions.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/cleancode-writing-functions.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
 </details></li>
 </ul>
 
@@ -2505,8 +2564,24 @@ Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +
 
 ### Registers
 
-Take registers as "special vim storage locations". There are exactly 21 registers which store different kind of stuff, from these 4 registers are read-only.
-In command mode use `:di` or `:reg` to display contents of all these registers. Do `h registers` to read the docs
+Take registers as "special vim storage locations". There are exactly 21 + 26 registers which store different kind of stuff
+
+> In command mode use `:di` or `:reg` to display contents of all these registers. Do `h registers` to read manual
+
+**10 flavors of registers**
+
+| Register Name        | Register           | Description|
+|:-------------:|:-------------:|:----------------|
+| The unnamed register | `""` | Last yank/delete or change |
+| 10 numbered registers |  `"0` to `"9` | **0** store the most recent yank<br> **1** stores the most recent delete<br>With successive deletes/changes vim shifts the contents of register 1 to 2, 2 to 3 & so on.|
+| The small delete register |  `"-` | Text from commands that delete less than one line|
+| 26 named registers |  `"a` to `"z` or `"A` to `"Z` | Add whatever you want, lowercase for clearing previous content. Uppercase for appending|
+| 3 read only registers |  `":`, `".` & `"%` | **:** contains the most recent executed command line, use @:<br> **%** contains name of current file<br> **.** contains the last inserted text|
+| Alternate buffer register |  `"#` | The name of the alternate file for the current window|
+| The Expression register |  `"=` | Evaluate expression press \<C-R\> then = |
+| The black hole register |  `"_` | What goes in black hole, stays in black hole |
+| The Selection registers |  `"*` & `"+` | Store & retrieve selected text from GUIs (read `quotestar` & `quoteplus`)|
+| Last search pattern register |  `"/` |The most recent search-pattern|
 
 ### File Browsing
 
