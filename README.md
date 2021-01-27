@@ -23,7 +23,7 @@ languages and technologies.
 
 
 ## Categories
-* [Coding Practices](#coding practices) [**`4`**]
+* [Coding Practices](#coding-practices) [**`4`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`15`**]
 * [Python](#python) [**`10`**]

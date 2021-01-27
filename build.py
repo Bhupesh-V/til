@@ -134,7 +134,7 @@ def print_file(category_names, count, categories):
         # print the list of categories with links
         for category in sorted(category_names):
             tils = categories[category]
-            file.write(f"""* [{category}](#{category.lower()}) [**`{len(tils)}`**]\n""")
+            file.write(f"""* [{category}](#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n""")
 
         if len(category_names) > 0:
             file.write("""\n---\n\n""")
