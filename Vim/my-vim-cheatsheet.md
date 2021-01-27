@@ -174,8 +174,24 @@ Use <kbd>Ctrl</kbd> + <kbd>x</kbd> +
 
 ### Registers
 
-Take registers as "special vim storage locations". There are exactly 21 registers which store different kind of stuff, from these 4 registers are read-only.
-In command mode use `:di` or `:reg` to display contents of all these registers. Do `h registers` to read the docs
+Take registers as "special vim storage locations". There are exactly 21 + 26 registers which store different kind of stuff
+
+> In command mode use `:di` or `:reg` to display contents of all these registers. Do `h registers` to read manual
+
+**10 flavors of registers**
+
+| Register Name        | Register           | Description|
+|:-------------:|:-------------:|:----------------|
+| The unnamed register | `""` | Last yank/delete or change |
+| 10 numbered registers |  `"0` to `"9` | **0** store the most recent yank<br> **1** stores the most recent delete<br>With successive deletes/changes vim shifts the contents of register 1 to 2, 2 to 3 & so on.|
+| The small delete register |  `"-` | Text from commands that delete less than one line|
+| 26 named registers |  `"a` to `"z` or `"A` to `"Z` | Add whatever you want, lowercase for clearing previous content. Uppercase for appending|
+| 3 read only registers |  `":`, `".` & `"%` | **:** contains the most recent executed command line, use @:<br> **%** contains name of current file<br> **.** contains the last inserted text|
+| Alternate buffer register |  `"#` | The name of the alternate file for the current window|
+| The Expression register |  `"=` | Evaluate expression press \<C-R\> then = |
+| The black hole register |  `"_` | What goes in black hole, stays in black hole |
+| The Selection registers |  `"*` & `"+` | Store & retrieve selected text from GUIs (read `quotestar` & `quoteplus`)|
+| Last search pattern register |  `"/` |The most recent search-pattern|
 
 ### File Browsing
 
