@@ -28,7 +28,7 @@ languages and technologies.
 * [Miscellaneous](#miscellaneous) [**`15`**]
 * [Python](#python) [**`10`**]
 * [Shell](#shell) [**`20`**]
-* [Vim](#vim) [**`3`**]
+* [Vim](#vim) [**`4`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -2401,6 +2401,29 @@ File descriptors:
 <a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Convert%20bulleted/unordered%20lists%20to%20numbered%20lists&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/convert-unordered-list-to-ordered-list.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
 <a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Convert%20bulleted/unordered%20lists%20to%20numbered%20lists&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/convert-unordered-list-to-ordered-list.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
 <a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/convert-unordered-list-to-ordered-list.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-make-vim-faster.md">How to make Vim faster ⚡️</a><details><summary> Read More 🔽</summary>
+
+# How to make Vim faster ⚡️
+<!-- 30 Jan, 2021 -->
+
+Apart from not loading shit ton of plugins, there are some other tricks that can be used to make the Vim more faster:
+
+1. `set noswapfile`
+   If you are a single user on your system, you probably don't need swap files.
+
+2. `set lazyredraw`
+   When this option is set, the screen will not be redrawn while executing macros, registers and other commands that have not been typed.
+
+3. `set shada=NONE` (NeoVim) or `set viminfo=NONE` (Vanilla Vim)
+   The shada or viminfo file is used to store a lot of things like command line history, marks, input-line history, search history.
+   Disabling this for real dev work won't be a wise choice but it can be a life-saver if you are using Vim over SSH.
+
+
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=How+to+make+Vim+faster+%E2%9A%A1%EF%B8%8F+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FVim%2Fhow-to-make-vim-faster.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=How%20to%20make%20Vim%20faster%20%E2%9A%A1%EF%B8%8F&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/how-to-make-vim-faster.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=How%20to%20make%20Vim%20faster%20%E2%9A%A1%EF%B8%8F&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/how-to-make-vim-faster.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/how-to-make-vim-faster.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md">My Vim Cheatsheet</a><details><summary> Read More 🔽</summary>
 
