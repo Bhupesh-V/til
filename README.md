@@ -28,7 +28,7 @@ languages and technologies.
 * [Miscellaneous](#miscellaneous) [**`15`**]
 * [Python](#python) [**`10`**]
 * [Shell](#shell) [**`20`**]
-* [Vim](#vim) [**`4`**]
+* [Vim](#vim) [**`5`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -2232,6 +2232,11 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   sed -n '1,/pattern/ p' file.txt
   ```
 
+- Avoid printing the searched pattern
+  ```bash
+  sed -n 's/^my_string//p' file.md
+  ```
+
 ## `tr` ➡️
 
 - Translate (or convert) all () to [] in a text file.
@@ -2651,6 +2656,21 @@ I will only add stuff here when I start using it or use it for the first time.
 <a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=My%20Vim%20Cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
 <a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=My%20Vim%20Cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
 <a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md">Sum column values in Vim</a><details><summary> Read More 🔽</summary>
+
+# Sum column values in Vim
+
+1. Visually select your column
+2. Enter into command mode & enter
+   ```vim
+   :'<,'>!awk '{print; sum+=$1}; END {print "Total: "sum}'
+   ```
+
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Sum+column+values+in+Vim+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FVim%2Fhow-to-add-sum-column-in-vim.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Sum%20column%20values%20in%20Vim&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Sum%20column%20values%20in%20Vim&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/vim-surround-cheatsheet.md">vim surround: quick cheatsheet</a><details><summary> Read More 🔽</summary>
 

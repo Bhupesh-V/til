@@ -30,6 +30,11 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   sed -n '1,/pattern/ p' file.txt
   ```
 
+- Avoid printing the searched pattern
+  ```bash
+  sed -n 's/^my_string//p' file.md
+  ```
+
 ## `tr` ➡️
 
 - Translate (or convert) all () to [] in a text file.
