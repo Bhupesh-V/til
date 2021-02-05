@@ -23,7 +23,7 @@ languages and technologies.
 
 
 ## Categories
-* [Coding Practices](#coding-practices) [**`4`**]
+* [Coding Practices](#coding-practices) [**`5`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`15`**]
 * [Python](#python) [**`10`**]
@@ -114,6 +114,44 @@ _PS : I have been reading [CleanCode](https://www.oreilly.com/library/view/clean
 <a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Routines%3A%20Functions%20%26%20Procedures&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/everything-about-functions-procedures.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
 <a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Routines%3A%20Functions%20%26%20Procedures&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/everything-about-functions-procedures.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
 <a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/everything-about-functions-procedures.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/solid.md">SOLID: Design Principles</a><details><summary> Read More 🔽</summary>
+
+# SOLID: Design Principles
+<!-- 05 Feb, 2021 -->
+
+1. **S**ingle Responsibility Principle
+   - An object should do exactly one thing, and should be the only object in the codebase that does that one thing.
+   - A class should have one, and only reason to change
+
+2. **O**pen-closed principle
+   - A class should be open to extension, but closed to change.
+   - You should be able to extend classes behaviour, without modifying it.
+
+3. **L**iskov substitution principle
+   - Derived classes must be substitutable for their base classes.
+   - An extension of the Open Close Principle and it means that we must make sure that new derived classes are extending the base classes without changing their behavior.
+
+4. **I**nterface segregation principle
+   - An interface should have as few methods as is feasible to provide the functionality of the role defined by the interface.
+   - Make fine grained interfaces that are client specific.
+
+5. **D**ependency Inversion principle
+   - Depend on abstractions, not on concretions (concrete details)
+   - High-level modules should not depend on low-level modules. Both should depend on abstractions (interfaces)
+   - Abstractions should not depend on details. Details should depend on abstractions.
+
+
+## Resources
+
+- [Dependency Inversion Principle](https://www.oodesign.com/dependency-inversion-principle.html)
+- [Liskov's Substitution Principle](https://www.oodesign.com/liskov-s-substitution-principle.html)
+
+
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=SOLID%3A+Design+Principles+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FCoding+Practices%2Fsolid.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=SOLID%3A%20Design%20Principles&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/solid.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=SOLID%3A%20Design%20Principles&url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/solid.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Coding%20Practices/solid.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/write-clean-comments.md">Writing Comments</a><details><summary> Read More 🔽</summary>
 
