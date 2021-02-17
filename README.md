@@ -25,7 +25,7 @@ languages and technologies.
 ## Categories
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Go](#go) [**`8`**]
-* [Miscellaneous](#miscellaneous) [**`15`**]
+* [Miscellaneous](#miscellaneous) [**`16`**]
 * [Python](#python) [**`10`**]
 * [Shell](#shell) [**`20`**]
 * [Vim](#vim) [**`5`**]
@@ -651,6 +651,61 @@ The default directory may vary with your system & `GOPATH`.
 ### Miscellaneous
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md">Collected notes on Database Sharding 🗃</a><details><summary> Read More 🔽</summary>
+
+# Collected notes on Database Sharding 🗃
+<!-- 16 Feb, 2021 -->
+
+Sharding means breaking up data into two or more smaller chunks.
+Shards may deployed at separate "physical" locations.
+
+Different ways of partitioning:
+
+- Horizontal Partitioning: Schema remains same but the data rows are segregated.
+- Vertical Partitioning: Schema is changed, each row in a shard is different from another shard.
+
+Can be done either at application level(logically decide which shard to store data) or natively at database level
+
+## Pros
+
+- Horizontal Scaling (scaling out): add more machines so as to distribute load.
+  > In contrast to Vertical Scaling (scaling up) which can be done by improving server resources like CPU etc.
+- Faster query results, since monolithic db will have millions of rows to search from. Indexing size is reduced
+- Better uptime, resistant from outages. Only a part of application will be affected
+
+
+## Cons
+
+- Increased Complexity in implementing a sharded db
+- Uneven segregation can lead to problems
+- Cannot go back to unsharded state
+- Not much good support at database level.
+
+## Techniques
+
+Different approaches exist to create a sharded architecture:
+
+1. Key base Sharding
+   - A hash function is applied on user data (like primary keys, IP address etc).
+   - The hash value generated (shard id) can be used to determine on which shard data must be stored.
+   - Problem lies in the fact that if you start adding more servers each one will need a corresponding hash value and many of your existing entries will need to be remapped to the new correct hash value and then migrated to the appropriate server. Thus increasing chances of downtime. Although [consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing) can be used to fix this.
+2. Range based Sharding
+   - Data is divided in terms of ranges, each shard stores different part of the division
+3. Directory based Sharding
+   - A special table (map) is used to determine which shard holds what data.
+   - Most flexible of all the tree approaches, custom rules can be enforced easily.
+
+### Resources
+
+- [Shared Nothing Architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture)
+- [Performance & Scalability](https://www.infoq.com/performance-scalability/)
+
+
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Collected+notes+on+Database+Sharding+%F0%9F%97%83+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fdatabase-sharding.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Collected%20notes%20on%20Database%20Sharding%20%F0%9F%97%83&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Collected%20notes%20on%20Database%20Sharding%20%F0%9F%97%83&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+</details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a><details><summary> Read More 🔽</summary>
 
 # Converting videos to High quality GIFs
