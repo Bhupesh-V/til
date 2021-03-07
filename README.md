@@ -28,7 +28,7 @@ languages and technologies.
 * [Miscellaneous](#miscellaneous) [**`16`**]
 * [Python](#python) [**`10`**]
 * [Shell](#shell) [**`20`**]
-* [Vim](#vim) [**`5`**]
+* [Vim](#vim) [**`6`**]
 * [WebDev](#webdev) [**`4`**]
 
 ---
@@ -651,6 +651,50 @@ The default directory may vary with your system & `GOPATH`.
 ### Miscellaneous
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md">Chaos Engineering 🐒️</a><details><summary> Read More 🔽</summary>
+
+# Chaos Engineering 🐒️
+<!-- 07 Mar, 2021 -->
+
+Act of studying a system so as to build confidence in its capability to withstand harsh conditions. This is done by literally breaking (experimenting with) the system.
+
+> Although chaos engineering really seems to only help some large-scale distributed operations in the world, its principles can be applied to even smaller systems to achieve strong systems
+
+The said "[experiments](https://www.gremlin.com/community/tutorials/your-first-chaos-experiment/)" follow certain steps:
+
+1. Define the steady state of the system that specifies normal or expected behaviour (e.g latency, throughput)
+2. Segregate environments for experimenting
+   - _Normal Group_ (Main production app)
+   - _Experimental Group_ 
+3. Introduce variables that reflect real world events (server crash, hard-drive malfunction, sending large payload data, limited network connection).
+
+The harder is to break the steady state, the more confidence we have in the behaviour of our system
+
+## Advanced principles:
+
+1. **Run Experiments in prod 💣️**:<br>
+   Systems behave differently depending on environment & since a _experimental group_ may not exactly have the same usage metrics, it becomes necessary to experiment in production. 
+2. **Automate experiments to run continuously**:<br>
+   Running experiments manually can be time-consuming & costly.
+3. **Minimize Blast Radius**:<br>
+   Experimenting in production has the potential to cause unnecessary customer pain. 
+
+
+## Tools
+
+Netflix open-sourced [chaosmonkey](https://github.com/Netflix/chaosmonkey) which is a resiliency tool that helps applications tolerate random instance failures.
+
+## Resources & Credits
+
+- [Chaos Architecture](https://www.infoq.com/presentations/chaos-architecture-mindset/)
+- [Principles of chaos engineering](https://principlesofchaos.org/)
+- [Chaos Engineering - Gremlin](https://www.gremlin.com/chaos-engineering/)
+
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Chaos+Engineering+%F0%9F%90%92%EF%B8%8F+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fchaos-engineering-collected-notes.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Chaos%20Engineering%20%F0%9F%90%92%EF%B8%8F&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Chaos%20Engineering%20%F0%9F%90%92%EF%B8%8F&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+</details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md">Collected notes on Database Sharding 🗃</a><details><summary> Read More 🔽</summary>
 
 # Collected notes on Database Sharding 🗃
@@ -1061,42 +1105,6 @@ Here is a list of some tools to test your website for SEO, Rich Snippets and Soc
 <a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=SEO%20Tools&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
 <a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=SEO%20Tools&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
 <a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
-</details></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/searching-your-way-through-vim.md">Searching your way through vim</a><details><summary> Read More 🔽</summary>
-
-# Searching your way through vim
-<!-- Dec 9, 2020 -->
-
-## Matching a word "exactly"
-`/\<hello world\>/`
-
-`\<` and `\>` mark the start and end of a whole word resp.
-
-## Searching between 2 words (inclusive)
-`/red\&.*blue/`
-
-This will highlight everything b/w "red" and "blue" on the same line.
-
-`\&` also called as "Branch" matches the last pattern but **only if** all the preceding patterns match at the same position 
-
-Example: Find **f-strings** `f"\&.*"`
-
-## Search between 2 words on different lines.
-`hello\_.*world`
-
-This will highlight everything between hello world.
-
-Example: Find **try/catch** block `hello\_.*world`
-
-`"\_.*except"` matches all text from the current position to the last occurrence of "except" in the file.
-
-
-> Read `:help pattern.txt` for everything related to pattern searching.
-
-<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Searching+your+way+through+vim+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FMiscellaneous%2Fsearching-your-way-through-vim.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
-<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Searching%20your%20way%20through%20vim&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/searching-your-way-through-vim.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
-<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Searching%20your%20way%20through%20vim&url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/searching-your-way-through-vim.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
-<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Miscellaneous/searching-your-way-through-vim.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md">Semantic Versioning</a><details><summary> Read More 🔽</summary>
 
@@ -2749,6 +2757,42 @@ I will only add stuff here when I start using it or use it for the first time.
 <a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=My%20Vim%20Cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
 <a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=My%20Vim%20Cheatsheet&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
 <a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
+</details></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/searching-your-way-through-vim.md">Searching your way through vim</a><details><summary> Read More 🔽</summary>
+
+# Searching your way through vim
+<!-- Dec 9, 2020 -->
+
+## Matching a word "exactly"
+`/\<hello world\>/`
+
+`\<` and `\>` mark the start and end of a whole word resp.
+
+## Searching between 2 words (inclusive)
+`/red\&.*blue/`
+
+This will highlight everything b/w "red" and "blue" on the same line.
+
+`\&` also called as "Branch" matches the last pattern but **only if** all the preceding patterns match at the same position 
+
+Example: Find **f-strings** `f"\&.*"`
+
+## Search between 2 words on different lines.
+`hello\_.*world`
+
+This will highlight everything between hello world.
+
+Example: Find **try/catch** block `hello\_.*world`
+
+`"\_.*except"` matches all text from the current position to the last occurrence of "except" in the file.
+
+
+> Read `:help pattern.txt` for everything related to pattern searching.
+
+<a title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=Searching+your+way+through+vim+by+%40bhupeshimself+https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2Fblob%2Fmaster%2FVim%2Fsearching-your-way-through-vim.md"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>
+<a title="Share on Reddit" target="_blank" href="https://www.reddit.com/submit?title=Searching%20your%20way%20through%20vim&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/searching-your-way-through-vim.md"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>
+<a title="Share on Telegram" target="_blank" href="https://telegram.me/share/url?text=Searching%20your%20way%20through%20vim&url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/searching-your-way-through-vim.md"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>
+<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Bhupesh-V/til/blob/master/Vim/searching-your-way-through-vim.md"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>
 </details></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md">Sum column values in Vim</a><details><summary> Read More 🔽</summary>
 
