@@ -125,7 +125,7 @@ def print_file(category_names, count, categories):
     host_url = "https://github.com/Bhupesh-V/til/blob/master/"
     # used by shields.io for creating the TIL badge
     with open("count.json", "w") as json_file:
-        data = { "count": count }
+        data = {"count": count}
         json.dump(data, json_file, indent=" ")
 
     with open("README.md", "w") as file:
@@ -134,7 +134,9 @@ def print_file(category_names, count, categories):
         # print the list of categories with links
         for category in sorted(category_names):
             tils = categories[category]
-            file.write(f"""* [{category}](#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n""")
+            file.write(
+                f"""* [{category}](#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n"""
+            )
 
         if len(category_names) > 0:
             file.write("""\n---\n\n""")
@@ -157,22 +159,22 @@ def print_file(category_names, count, categories):
                 file.write(
                     f"""<a target="_blank" href="{host_url+filename}">{title}</a>"""
                 )
-                file.write("<details><summary> Read More 🔽</summary>\n\n")
-                file.write(read_file(filename))
-                file.write(
-                    f"""\n<a title="Share on Twitter" target="_blank" href="{urlsafe_twitter}"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>"""
-                )
-                file.write(
-                    f"""\n<a title="Share on Reddit" target="_blank" href="{urlsafe_reddit}"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>"""
-                )
-                file.write(
-                    f"""\n<a title="Share on Telegram" target="_blank" href="{urlsafe_telegram}"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>"""
-                )
-                file.write(
-                    f"""\n<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={root_file}"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>"""
-                )
-                file.write("\n</details>")
-                file.write("</li>")
+                # file.write("<details><summary> Read More 🔽</summary>\n\n")
+            # file.write(read_file(filename))
+            # file.write(
+            # f"""\n<a title="Share on Twitter" target="_blank" href="{urlsafe_twitter}"><img title="Share on Twitter" src="https://img.shields.io/twitter/url?label=%20&style=social&url=https://github.com/bhupesh-V"></a>"""
+            # )
+            # file.write(
+            # f"""\n<a title="Share on Reddit" target="_blank" href="{urlsafe_reddit}"><img title="Share on Reddit" src="https://img.shields.io/twitter/url?label=%20&logo=reddit&url=https%3A%2F%2Frandom.url"></a>"""
+            # )
+            # file.write(
+            # f"""\n<a title="Share on Telegram" target="_blank" href="{urlsafe_telegram}"><img title="Share on Telegram" src="https://img.shields.io/twitter/url?color=red&label=%20&logo=telegram&style=social&url=http%3Afvfv.com"></a>"""
+            # )
+            # file.write(
+            # f"""\n<a title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={root_file}"><img title="Share on LinkedIn" src="https://img.shields.io/twitter/url?label=%20&logo=linkedin&style=social&url=http%3A%2F%2Frandom.url"></a>"""
+            # )
+            # file.write("\n</details>")
+            # file.write("</li>")
             file.write("\n")
             file.write("</ul>\n\n")
 
