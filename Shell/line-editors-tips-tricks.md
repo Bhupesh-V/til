@@ -63,3 +63,9 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   awk NR\>1 file.txt
   ```
 
+
+### Resources & Learning Material
+
+- [AWK](https://www.grymoire.com/Unix/Awk.html)
+- [An Awk Primer - WikiBooks](https://en.wikibooks.org/wiki/An_Awk_Primer)
+

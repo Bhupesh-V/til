@@ -27,7 +27,8 @@ The harder is to break the steady state, the more confidence we have in the beha
 
 ## Tools
 
-Netflix open-sourced [chaosmonkey](https://github.com/Netflix/chaosmonkey) which is a resiliency tool that helps applications tolerate random instance failures.
+- Netflix's [chaosmonkey](https://github.com/Netflix/chaosmonkey) is a resiliency tool that helps applications tolerate random instance failures.
+- [pumba](https://github.com/alexei-led/pumba) is a chaos testing, network emulation and stress testing tool for containers.
 
 ## Resources & Credits
 

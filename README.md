@@ -1,6 +1,4 @@
 
-[<img align="right" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="240px" height="51x">](https://ko-fi.com/bhupesh)
-
 <h1 align="left">Today I Learned</h1>
 <p align="center">
   <img alt="TILs Count" src="https://img.shields.io/badge/dynamic/json.svg?color=black&label=TILs&query=count&url=https%3A%2F%2Fraw.githubusercontent.com%2FBhupesh-V%2Ftil%2Fmaster%2Fcount.json">
@@ -8,8 +6,11 @@
   <a href="https://github.com/Bhupesh-V/til/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/github/license/Bhupesh-V/til" target="_blank" />
   </a>
-  <a href="https://bhupesh-v.github.io/til/">
-    <img alt="Website Status" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=orange&up_message=online&url=https%3A%2F%2Fbhupesh-v.github.io%2Ftil%2F" />
+  <a href="https://bhupesh.gitbook.io">
+    <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fbhupesh.gitbook.io">
+  </a>
+  <a href="https://paypal.me/BhupeshVarshney">
+    <img alt="PayPal-Bhupesh Varshney" src="https://camo.githubusercontent.com/4a35ad533ec57bf3c47c44dad7b9bd41c83a5fc132497acb2787973a2ae2feeb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f6e6174652d50617950616c2d3130343039382e7376673f6c6f676f3d50617950616c" target="_blank" />
   </a>
   <a href="https://twitter.com/bhupeshimself">
     <img alt="Twitter: Bhupesh Varshney" src="https://img.shields.io/twitter/follow/bhupeshimself.svg?style=social" target="_blank" />
@@ -27,7 +28,7 @@ languages and technologies.
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`16`**]
 * [Python](#python) [**`10`**]
-* [Shell](#shell) [**`20`**]
+* [Shell](#shell) [**`21`**]
 * [Vim](#vim) [**`6`**]
 * [WebDev](#webdev) [**`4`**]
 
@@ -123,6 +124,7 @@ languages and technologies.
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md">Get System info using Shell Commands</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-current-git-branch-name.md">Get current branch name</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-last-commit-date-of-file.md">Get last commit date of file</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md">Line Editors in Linux, Tips and Tricks</a>
@@ -176,11 +178,6 @@ Support me by giving a ⭐️ if this project helped you! or just [![Twitter URL
 <a href="https://ko-fi.com/bhupesh">
   <img title="ko-fi/bhupesh" alt="Support on ko-fi" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="185">
 </a>
-
-## 📝 License
-
-Copyright © 2020 [Bhupesh Varshney](https://github.com/Bhupesh-V).<br />
-This project is [MIT](https://github.com/Bhupesh-V/til/blob/master/LICENSE) licensed.
 
 ## About
 
