@@ -28,7 +28,7 @@ languages and technologies.
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`16`**]
 * [Python](#python) [**`10`**]
-* [Shell](#shell) [**`21`**]
+* [Shell](#shell) [**`22`**]
 * [Vim](#vim) [**`6`**]
 * [WebDev](#webdev) [**`4`**]
 
@@ -129,6 +129,7 @@ languages and technologies.
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md">Line Editors in Linux, Tips and Tricks</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/monitor-network-data-usage.md">Monitor network (data) usage</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/parsing-git-status-for-tracked-untracked-changes.md">Parsing `git status` for tracked & untracked changes</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/print-lines-between-two-words.md">Print lines between 2 words</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
