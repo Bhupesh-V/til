@@ -1,4 +1,4 @@
-# Generate Feed for files inside a Git repository - Recent n files
+# Generate Feed for files inside a Git repository - Recent N files
 **_Posted on 16 Mar, 2021_**
 
 Github is nice enough to provide us with RSS feeds for latest commits in a repo but it lacks the basic thing of telling me what commit introduced a new file.
@@ -39,5 +39,5 @@ The magic here is done by the [`--diff-filter=A`](https://www.git-scm.com/docs/g
 
 > NOTE: We are assuming that the file creation date to be the _date of commit that introduced the file_ and since its a Feed for a git repo, this should makes sense (I was born when I was committed 😁️)
 
-Now you can easily generate a valid RSS/Atom XML file which is pretty easy to do. For reference I generate a **json** file instead to show (& automate) recent [TILs](https://github.com/Bhupesh-V/til) on my [GitHub Profile](https://github.com/Bhupesh-V)
+Now you can easily generate a valid RSS/Atom XML file which is pretty easy to do. For reference I generate a [**json** file](https://github.com/Bhupesh-V/til/blob/master/recent_tils.json) instead to show (& automate) recent [TILs](https://github.com/Bhupesh-V/til) on my [GitHub Profile](https://github.com/Bhupesh-V)
 

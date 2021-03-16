@@ -5,6 +5,7 @@
 """
 import os
 import json
+import itertools
 import urllib.parse
 import subprocess as sp
 import pathlib
@@ -86,7 +87,7 @@ def get_title(til_file):
         for line in file:
             line = line.strip()
             if line.startswith("#"):
-                print(line[1:])
+                # print(line[1:])
                 return line[1:].lstrip()  # text after # and whitespace
 
 
@@ -179,17 +180,23 @@ def print_file(category_names, count, categories):
         file.write(FOOTER)
 
 
-def get_recent_tils():
+def get_recent_tils(categories):
     cmd = "git log --no-color --date=format:'%d %b, %Y' --diff-filter=A --name-status --pretty=''"
     recent_tils = []
 
     result = sp.Popen(cmd, shell=True, stdout=sp.PIPE, stderr=sp.PIPE)
     out, err = result.communicate()
     clean_output = out.decode("utf-8").strip("\n").replace("A\t", "").split("\n")
-    # check if path actually exists
+    # filter filepaths that don't exist
+    flattened_list = list(itertools.chain(*list(categories.values())))
+    flattened_list = [item[1] for item in flattened_list]
     valid_files = list(
-        filter(lambda path: pathlib.Path(path).exists(), clean_output)
+        filter(
+            lambda path: pathlib.Path(path).exists() and path in flattened_list,
+            clean_output,
+        )
     )
+
     for til in valid_files[:10]:
         til_dict = {}
         til_dict["title"] = get_title(til)
@@ -197,7 +204,7 @@ def get_recent_tils():
         recent_tils.append(til_dict)
 
     with open("recent_tils.json", "w") as json_file:
-        json.dump(recent_tils, json_file, indent=" ")
+        json.dump(recent_tils, json_file, ensure_ascii=False, indent=" ")
 
 
 def create_README():
@@ -205,11 +212,10 @@ def create_README():
     from GitHub."""
     category_names = get_category_list()
     count, categories = get_category_dict(category_names)
-    print(categories)
+    get_recent_tils(categories)
     print_file(category_names, count, categories)
     print("\n", count, "TILs read")
 
 
 if __name__ == "__main__":
-    get_recent_tils()
     create_README()

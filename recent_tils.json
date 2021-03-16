@@ -1,5 +1,9 @@
 [
  {
+  "title": "Generate Feed for files inside a Git repository - Recent N files",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-for-files-in-git-repo.md"
+ },
+ {
   "title": "Parsing `git status` for tracked & untracked changes",
   "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/parsing-git-status-for-tracked-untracked-changes.md"
  },
@@ -8,11 +12,11 @@
   "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/get-current-git-branch-name.md"
  },
  {
-  "title": "Chaos Engineering \ud83d\udc12\ufe0f",
+  "title": "Chaos Engineering 🐒️",
   "url": "https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md"
  },
  {
-  "title": "Collected notes on Database Sharding \ud83d\uddc3",
+  "title": "Collected notes on Database Sharding 🗃",
   "url": "https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md"
  },
  {
@@ -24,7 +28,7 @@
   "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md"
  },
  {
-  "title": "How to make Vim faster \u26a1\ufe0f",
+  "title": "How to make Vim faster ⚡️",
   "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-make-vim-faster.md"
  },
  {
@@ -34,9 +38,5 @@
  {
   "title": "Routines: Functions & Procedures",
   "url": "https://github.com/Bhupesh-V/til/blob/master/Coding Practices/everything-about-functions-procedures.md"
- },
- {
-  "title": "At 06:00 AM, every 30 days",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/.github/workflows/main.yml"
  }
 ]
