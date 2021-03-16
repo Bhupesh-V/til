@@ -29,6 +29,12 @@ You should see something like this
  ...
 ```
 
+To generate recent N results use the `-n` flag
+
+```bash
+git log --no-color -n 5 --date=format:'%d %b, %Y' --diff-filter=A --name-status --pretty=''
+```
+
 If you want to follow renames as well,
 
 ```bash
