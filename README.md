@@ -28,7 +28,7 @@ languages and technologies.
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`16`**]
 * [Python](#python) [**`10`**]
-* [Shell](#shell) [**`22`**]
+* [Shell](#shell) [**`23`**]
 * [Vim](#vim) [**`6`**]
 * [WebDev](#webdev) [**`4`**]
 
@@ -121,6 +121,7 @@ languages and technologies.
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-fonts-in-linux.md">Find fonts available in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md">Finding the file creation date/time on Linux</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-for-files-in-git-repo.md">Generate Feed for files inside a Git repository - Recent n files</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md">Get System info using Shell Commands</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a>

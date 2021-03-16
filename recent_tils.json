@@ -1,0 +1,42 @@
+[
+ {
+  "title": "Parsing `git status` for tracked & untracked changes",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/parsing-git-status-for-tracked-untracked-changes.md"
+ },
+ {
+  "title": "Get current branch name",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/get-current-git-branch-name.md"
+ },
+ {
+  "title": "Chaos Engineering \ud83d\udc12\ufe0f",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md"
+ },
+ {
+  "title": "Collected notes on Database Sharding \ud83d\uddc3",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md"
+ },
+ {
+  "title": "SOLID: Design Principles",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Coding Practices/solid.md"
+ },
+ {
+  "title": "Sum column values in Vim",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md"
+ },
+ {
+  "title": "How to make Vim faster \u26a1\ufe0f",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-make-vim-faster.md"
+ },
+ {
+  "title": "Convert bulleted/unordered lists to numbered lists",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/convert-unordered-list-to-ordered-list.md"
+ },
+ {
+  "title": "Routines: Functions & Procedures",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Coding Practices/everything-about-functions-procedures.md"
+ },
+ {
+  "title": "At 06:00 AM, every 30 days",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/.github/workflows/main.yml"
+ }
+]

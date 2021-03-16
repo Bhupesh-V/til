@@ -6,6 +6,8 @@
 import os
 import json
 import urllib.parse
+import subprocess as sp
+import pathlib
 
 HEADER = """
 <h1 align="left">Today I Learned</h1>
@@ -177,14 +179,37 @@ def print_file(category_names, count, categories):
         file.write(FOOTER)
 
 
+def get_recent_tils():
+    cmd = "git log --no-color --date=format:'%d %b, %Y' --diff-filter=A --name-status --pretty=''"
+    recent_tils = []
+
+    result = sp.Popen(cmd, shell=True, stdout=sp.PIPE, stderr=sp.PIPE)
+    out, err = result.communicate()
+    clean_output = out.decode("utf-8").strip("\n").replace("A\t", "").split("\n")
+    # check if path actually exists
+    valid_files = list(
+        filter(lambda path: pathlib.Path(path).exists(), clean_output)
+    )
+    for til in valid_files[:10]:
+        til_dict = {}
+        til_dict["title"] = get_title(til)
+        til_dict["url"] = f"https://github.com/Bhupesh-V/til/blob/master/{til}"
+        recent_tils.append(til_dict)
+
+    with open("recent_tils.json", "w") as json_file:
+        json.dump(recent_tils, json_file, indent=" ")
+
+
 def create_README():
     """Create a TIL README.md file with a nice index for using it directly
     from GitHub."""
     category_names = get_category_list()
     count, categories = get_category_dict(category_names)
+    print(categories)
     print_file(category_names, count, categories)
     print("\n", count, "TILs read")
 
 
 if __name__ == "__main__":
+    get_recent_tils()
     create_README()
