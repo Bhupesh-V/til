@@ -1,11 +1,11 @@
-# Generate Feed of recent files inside a Git repository
+# Generate a RSS Feed of recent files inside a Git repository
 **_Posted on 16 Mar, 2021_**
 
 I like to log my notes & [TILs](https://github.com/Bhupesh-V/til) in a git repository and recently I had an idea to showcase (& automate) my most recent learnings on my [github profile](https://github.com/Bhupesh-V/#recent-works).
 
-Github is nice enough to provide us with RSS feeds for latest commits in a repo but it lacks the basic thing of telling me what commit introduced a new file.
+Github is nice enough to provide us with RSS feeds for the latest commits inside a repo but it lacks the most basic thing of telling me what commit introduced a new file.
 
-The following command will show each new path that was Added to the git history along with the commit date (sorted my most recent).
+The following command will show each new path that was added to the git history along with the commit date (sorted by most recent).
 
 ```bash
 git log --no-color --date=format:'%d %b, %Y' --diff-filter=A --name-status --pretty='%ad'
@@ -46,7 +46,7 @@ git log --no-color --date=format:'%d %b, %Y' --diff-filter=AR --name-status --pr
 
 The magic here is done by the [`--diff-filter=A`](https://www.git-scm.com/docs/git-log#Documentation/git-log.txt---diff-filterACDMRTUXB82308203) option that only shows files that were **A**dded. I remember using this to find [birthday of README files](https://bhupesh-v.github.io/git-cake-when-is-my-readme-birthday/).
 
-> NOTE: We are assuming that the file creation date to be the _date of commit that introduced the file_ and since its a Feed for a git repo, this should makes sense (I was born when I was committed 😁️)
+> NOTE: We are assuming that the file creation date to be the _date of the commit that introduced the file_ and since its a Feed for a git repo, this should make sense (I was born when I was committed 😁️)
 
 Here is a python [script to generate a valid RSS feed](https://gist.github.com/Bhupesh-V/d7ac30d5d689df00ef5310f2dbff2d01)
 
@@ -128,6 +128,5 @@ if __name__ == "__main__":
         feed.write(FOOTER)
 ```
 
-Here is a [demo](https://github.com/Bhupesh-V/til/blob/master/feed.xml) of output from above script.
+Here is a [demo](https://github.com/Bhupesh-V/til/blob/master/feed.xml) of output from the above script.
 
-> 
