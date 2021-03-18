@@ -1,7 +1,7 @@
 [
  {
-  "title": "Generate Feed for files inside a Git repository - Recent N files",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-for-files-in-git-repo.md"
+  "title": "Generate a RSS Feed of recent files inside a Git repository",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-files-in-git-repo.md"
  },
  {
   "title": "Parsing `git status` for tracked & untracked changes",

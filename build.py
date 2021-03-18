@@ -29,8 +29,7 @@ HEADER = """
   </a>
 </p>
 
-> A collection of concise write-ups on small things I learn across a variety of 
-languages and technologies.
+> Personal Wiki of Interesting things I learn every day at the intersection of software development, computer science & stuff.
 
 
 """

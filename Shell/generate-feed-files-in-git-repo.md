@@ -3,9 +3,9 @@
 
 I like to log my notes & [TILs](https://github.com/Bhupesh-V/til) in a git repository and recently I had an idea to showcase (& automate) my most recent learnings on my [github profile](https://github.com/Bhupesh-V/#recent-works).
 
-Github is nice enough to provide us with RSS feeds for the latest commits inside a repo but it lacks the most basic thing of telling me what commit introduced a new file.
+Github is nice enough to provide us with RSS feeds for the latest commits inside a repo but it lacks the most basic thing of telling me what commit introduced a new file (i.e recent files in a repo).
 
-The following command will show each new path that was added to the git history along with the commit date (sorted by most recent).
+The following command will show each new relative path that was added to the git history along with the commit date (sorted by most recent).
 
 ```bash
 git log --no-color --date=format:'%d %b, %Y' --diff-filter=A --name-status --pretty='%ad'
@@ -49,6 +49,7 @@ The magic here is done by the [`--diff-filter=A`](https://www.git-scm.com/docs/g
 > NOTE: We are assuming that the file creation date to be the _date of the commit that introduced the file_ and since its a Feed for a git repo, this should make sense (I was born when I was committed 😁️)
 
 Here is a python [script to generate a valid RSS feed](https://gist.github.com/Bhupesh-V/d7ac30d5d689df00ef5310f2dbff2d01)
+
 
 ```python
 #!/usr/bin/env python3
@@ -128,5 +129,37 @@ if __name__ == "__main__":
         feed.write(FOOTER)
 ```
 
-Here is a [demo](https://github.com/Bhupesh-V/til/blob/master/feed.xml) of output from the above script.
+The XML generated is valid enough to be consumed without any issue. Here is a [demo](https://github.com/Bhupesh-V/til/blob/master/feed.xml) of output from the above script.
 
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>til.git</title>
+<link>https://github.com/Bhupesh-V/til
+</link>
+<description>Recently committed files in til</description>
+<lastBuildDate>Wed, 17 Mar 2021</lastBuildDate><item>
+<title>Shell/generate-feed-for-files-in-git-repo.md</title>
+<pubDate>Tue, 16 Mar 2021 16:24:47 +0530</pubDate>
+</item>
+<item>
+<title>recent_tils.json</title>
+<pubDate>Tue, 16 Mar 2021 16:24:47 +0530</pubDate>
+</item>
+<item>
+<title>Shell/parsing-git-status-for-tracked-untracked-changes.md</title>
+<pubDate>Mon, 15 Mar 2021 19:26:12 +0530</pubDate>
+</item>
+<item>
+<title>Shell/get-current-git-branch-name.md</title>
+<pubDate>Sat, 13 Mar 2021 13:11:02 +0530</pubDate>
+</item>
+<item>
+<title>Miscellaneous/chaos-engineering-collected-notes.md</title>
+<pubDate>Sun, 7 Mar 2021 19:42:28 +0530</pubDate>
+</item>
+<item>
+</channel>
+</rss>
+```

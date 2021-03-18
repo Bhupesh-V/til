@@ -17,8 +17,7 @@
   </a>
 </p>
 
-> A collection of concise write-ups on small things I learn across a variety of 
-languages and technologies.
+> Personal Wiki of Interesting things I learn every day at the intersection of software development, computer science & stuff.
 
 
 
@@ -121,7 +120,7 @@ languages and technologies.
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-fonts-in-linux.md">Find fonts available in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md">Finding the file creation date/time on Linux</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-for-files-in-git-repo.md">Generate Feed for files inside a Git repository - Recent N files</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-files-in-git-repo.md">Generate a RSS Feed of recent files inside a Git repository</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md">Get System info using Shell Commands</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a>
