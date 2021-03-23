@@ -26,8 +26,8 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`16`**]
-* [Python](#python) [**`13`**]
-* [Shell](#shell) [**`23`**]
+* [Python](#python) [**`12`**]
+* [Shell](#shell) [**`24`**]
 * [Vim](#vim) [**`6`**]
 * [WebDev](#webdev) [**`5`**]
 
@@ -92,7 +92,6 @@
 ### Python
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/abstract-base-classes-python.md"># Resources</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/check-indentation-errors-in-python.md">Check indentation errors in python 🐍</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/datetim-eobject-to-string-and-vice-versa.md">Converting 📅⏲ datetime object to string & vice-versa</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a>
@@ -117,6 +116,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/colorize-output-in-terminal-bash.md">Colorize Output in Terminal</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/copy-one-file-to-multiple-files.md">Copy one file to multiple files in Bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/extract-file-id-from-drive-shareable-link.md">Extract file id from drive shareable link</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/fzf-tips-tricks.md">FZF: Tips and Tricks</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-bootup-time-in-linux.md">Find boot-up time in linux 🐧</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-default-git-branch-name.md">Find default git branch name</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-files-changed-7-days-ago.md">Find files changed 7 days ago</a>
