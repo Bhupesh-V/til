@@ -1,5 +1,17 @@
 [
  {
+  "title": "Dividing Time deltas in python - Difference b/w 2 datetime values",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Python/dividing-time-deltas-python.md"
+ },
+ {
+  "title": "Generate random secure password using python",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/Python/generating-random-secure-password-python.md"
+ },
+ {
+  "title": "Turning Emojis to site favicons",
+  "url": "https://github.com/Bhupesh-V/til/blob/master/WebDev/turning-emojis-into-site-favicons.md"
+ },
+ {
   "title": "Generate a RSS Feed of recent files inside a Git repository",
   "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-files-in-git-repo.md"
  },
@@ -26,17 +38,5 @@
  {
   "title": "Sum column values in Vim",
   "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md"
- },
- {
-  "title": "How to make Vim faster ⚡️",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-make-vim-faster.md"
- },
- {
-  "title": "Convert bulleted/unordered lists to numbered lists",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/convert-unordered-list-to-ordered-list.md"
- },
- {
-  "title": "Routines: Functions & Procedures",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Coding Practices/everything-about-functions-procedures.md"
  }
 ]

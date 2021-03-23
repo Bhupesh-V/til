@@ -26,10 +26,10 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`16`**]
-* [Python](#python) [**`10`**]
+* [Python](#python) [**`13`**]
 * [Shell](#shell) [**`23`**]
 * [Vim](#vim) [**`6`**]
-* [WebDev](#webdev) [**`4`**]
+* [WebDev](#webdev) [**`5`**]
 
 ---
 
@@ -92,12 +92,15 @@
 ### Python
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/abstract-base-classes-python.md"># Resources</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/check-indentation-errors-in-python.md">Check indentation errors in python 🐍</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/datetim-eobject-to-string-and-vice-versa.md">Converting 📅⏲ datetime object to string & vice-versa</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/difference-class-and-function-based-views-djnago.md">Difference b/w Class & Function Based Views in Django</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/dividing-time-deltas-python.md">Dividing Time deltas in python - Difference b/w 2 datetime values</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/functional-programming-in-python.md">Functional Programming in Python 🐍</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/generating-random-secure-password-python.md">Generate random secure password using python</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/pep8.md">PEP8 - the fashion 💃 police of Python</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/publishing-a-package-on-pypi.md">Publishing a Package on PyPI</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/specify-dev-dependencies-python-package-setup.md">Specify dev dependencies in setup.py</a>
@@ -158,6 +161,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/html-datalist-auto-complete.md">Auto-complete in plain HTML</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/OpenGraph.md">I learned about Open Graph protocol</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/live-edit-html.md">Live Editing HTML</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/turning-emojis-into-site-favicons.md">Turning Emojis to site favicons</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/async-defer-html-javascript.md">`async` & `defer` Attributes</a>
 </ul>
 
