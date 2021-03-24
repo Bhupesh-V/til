@@ -1,42 +1,42 @@
 [
  {
+  "title": "FZF: Tips and Tricks",
+  "url": "https://bhupesh.gitbook.io/notes/shell/fzf-tips-tricks"
+ },
+ {
   "title": "Dividing Time deltas in python - Difference b/w 2 datetime values",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Python/dividing-time-deltas-python.md"
+  "url": "https://bhupesh.gitbook.io/notes/python/dividing-time-deltas-python"
  },
  {
   "title": "Generate random secure password using python",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Python/generating-random-secure-password-python.md"
+  "url": "https://bhupesh.gitbook.io/notes/python/generating-random-secure-password-python"
  },
  {
   "title": "Turning Emojis to site favicons",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/WebDev/turning-emojis-into-site-favicons.md"
+  "url": "https://bhupesh.gitbook.io/notes/webdev/turning-emojis-into-site-favicons"
  },
  {
   "title": "Generate a RSS Feed of recent files inside a Git repository",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-files-in-git-repo.md"
+  "url": "https://bhupesh.gitbook.io/notes/shell/generate-feed-files-in-git-repo"
  },
  {
   "title": "Parsing `git status` for tracked & untracked changes",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/parsing-git-status-for-tracked-untracked-changes.md"
+  "url": "https://bhupesh.gitbook.io/notes/shell/parsing-git-status-for-tracked-untracked-changes"
  },
  {
   "title": "Get current branch name",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Shell/get-current-git-branch-name.md"
+  "url": "https://bhupesh.gitbook.io/notes/shell/get-current-git-branch-name"
  },
  {
   "title": "Chaos Engineering 🐒️",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md"
+  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/chaos-engineering-collected-notes"
  },
  {
   "title": "Collected notes on Database Sharding 🗃",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md"
+  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/database-sharding"
  },
  {
   "title": "SOLID: Design Principles",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Coding Practices/solid.md"
- },
- {
-  "title": "Sum column values in Vim",
-  "url": "https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md"
+  "url": "https://bhupesh.gitbook.io/notes/coding practices/soli"
  }
 ]

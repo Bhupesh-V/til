@@ -199,7 +199,8 @@ def get_recent_tils(categories):
     for til in valid_files[:10]:
         til_dict = {}
         til_dict["title"] = get_title(til)
-        til_dict["url"] = f"https://github.com/Bhupesh-V/til/blob/master/{til}"
+        til_path = pathlib.Path(til)
+        til_dict["url"] = f"https://bhupesh.gitbook.io/notes/{til.lower().strip('.md')}"
         recent_tils.append(til_dict)
 
     with open("recent_tils.json", "w") as json_file:
