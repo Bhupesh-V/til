@@ -3,6 +3,32 @@
 
 [fzf](https://github.com/junegunn/fzf) is a recent addition to my CLI utilities, below are some common use-cases.
 
+## Ignoring unnecessary directories
+
+Following [bash script](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/xfi) helps ignoring some directory paths while searching files via fzf.
+
+```bash
+#!/usr/bin/env bash
+
+EXCLUDE_DIRS=(
+    "! -path /*.git/*"
+    "! -path /*go/*"
+    "! -path /*.bundle/*"
+    "! -path /*.cache/*"
+    "! -path /*.local/*"
+    "! -path /*.themes/*"
+    "! -path /*.config/*"
+    "! -path /*.codeintel/*"
+    "! -path /*python2.7/*"
+    "! -path /*python3.6/*"
+    "! -path /*__pycache__/*"
+)
+
+find $HOME -type f ${EXCLUDE_DIRS[@]} | fzf --height 40% --reverse
+```
+
+> Note that for some reason you won't able to ignore `bin` directory paths (like in python venv's etc).
+
 ## Searching hidden files.
 
 ```bash
@@ -20,7 +46,7 @@ cd "$(locate "$PWD*" | fzf --height 40% --reverse)"
 cd "$(find ~ -maxdepth 5 -not -path '*/\.git/*' -type d | fzf --height 40% --reverse)"
 ```
 
-Save this in your `.bashrc` like this:
+Save this in your `.bashrc`:
 ```bash
 fcd() {
     cd "$(find ~ -maxdepth 5 -not -path '*/\.git/*' -type d | fzf --height 40% --reverse)"
@@ -29,7 +55,7 @@ fcd() {
 
 ## Switching Git branches
 
-fzf can be used as a nice prompt to quickly switch branches
+fzf can be used as a nice prompt for showing branches:
 
 ```bash
 #!/usr/bin/env sh
@@ -37,7 +63,6 @@ fzf can be used as a nice prompt to quickly switch branches
 header="Select a branch to switch to"
 
 choice=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
-  --header="$header [$flags]" \
   --prompt="Switch branch: " \
   --height 40% --reverse
 )
