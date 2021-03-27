@@ -45,6 +45,12 @@ Then run `sudo updatedb` to update the mlocate database. After that you can just
 locate -ei "$HOME" | fzf --height 40% --reverse
 ```
 
+In vim you can create a [custom command](https://github.com/junegunn/fzf/blob/master/README-VIM.md#fzfrun), make sure you have [fzf.vim](https://github.com/junegunn/fzf.vim) installed.
+
+```vim
+command! -nargs=1 -bang Locate call fzf#run(fzf#wrap({'source': 'locate -ei $HOME'}, <bang>0))
+```
+
 ## Changing Directories.
 
 If you followed the previous tip then using this is a no brainer
@@ -93,3 +99,30 @@ choice=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
 
 git switch $choice
 ```
+
+## Beautifying `fzf`?
+
+fzf offers very minimal but satisfying enough features to tweak around
+
+1. Changing pointers (default '>'). Below are some valid pointer styles
+   ```bash
+   fzf --prompt='Open File: ' --pointer='ᐅ'
+   fzf --prompt='Open File: ' --pointer='🡆'
+   fzf --prompt='Open File: ' --pointer='🠲'
+   fzf --prompt='Open File: ' --pointer='⮞'
+   fzf --prompt='Open File: ' --pointer='🢂'
+   fzf --prompt='Open File: ' --pointer='➡'
+   ```
+
+2. Colors 💅️ (WIP)
+   A full list of color rules can be found [here](https://www.mankier.com/1/fzf#Options-Display) or on `man fzf`.
+   Below are some nice colorscheme combinations you might like
+   ```bash
+   # Inspired from ayu colorscheme Vim
+   --color 'fg:#E6E1CF,fg+:#ddeeff,bg:#0F1419,pointer:#FF8400,header:#70B650,query:#FCD363'
+   # Inspired from afterglow theme Vim
+   --color 'fg:#E6E1CF,fg+:#ddeeff,bg:#1A1A1A,bg+:#393939,pointer:#FF8400,header:#717879'
+   # Inspired from sonokai theme Vim
+   --color 'fg:#E6E1CF,fg+:#ddeeff,bg:#2C2E34,bg+:#3C3E48,pointer:#EB4B48,header:#7F8490'
+   ```
+
