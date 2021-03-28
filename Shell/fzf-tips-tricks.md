@@ -123,7 +123,7 @@ read -erp "Issue / PR ref #: " issue_ref
 if [[ "$issue_ref" ]]; then
     git commit -m "$emoji $title (#$issue_ref)\n$msg"
 else
-    git commit -m "$emoji $title\n$msg"
+    git commit -m $'$emoji $title\n$msg'
 fi
 ```
 
