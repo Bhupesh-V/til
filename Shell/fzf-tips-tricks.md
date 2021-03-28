@@ -110,7 +110,9 @@ First download the [`gimojis.csv`](https://gist.github.com/Bhupesh-V/43bc0f2d8b8
 ```bash
 #!/usr/bin/env bash
 
-emoji=$(cat gitmojis.csv | fzf --prompt="Choose gitmoji: " --height 40% --reverse | awk '{print $1}')
+gitmoji_path="$HOME/.config/gitmojis.csv"
+
+emoji=$(cat $gitmoji_path | fzf --prompt="Choose gitmoji: " --height 40% --reverse | awk '{print $1}')
 printf "Emoji: %s\n" "$emoji"
 
 read -erp "Enter Commit Title: " title
@@ -118,10 +120,14 @@ echo -e "Enter Commit Message (Ctrl+d when done):"
 msg=$(</dev/stdin)
 echo
 read -erp "Issue / PR ref #: " issue_ref
-echo -e "$emoji $title (#$issue_ref)\n$msg"
+if [[ "$issue_ref" ]]; then
+    git commit -m "$emoji $title (#$issue_ref)\n$msg"
+else
+    git commit -m "$emoji $title\n$msg"
+fi
 ```
 
-Ofc the credits goes to [gitmoji](https://gitmoji.dev/) 💚️
+ofc the credits goes to [gitmoji](https://gitmoji.dev/) 💚️
 
 ## Beautifying `fzf`?
 
