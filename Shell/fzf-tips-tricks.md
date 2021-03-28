@@ -100,6 +100,29 @@ choice=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
 git switch $choice
 ```
 
+## Replacing [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) with `fzf`
+
+I like the idea of using emojis in commit messages but I am not ready to install node/npm and 10 other dependencies for a CLI.
+
+We can use fzf to create a nice gitmoji like prompt. Here is a simple bash script that does the job.
+First download the [`gimojis.csv`](https://gist.github.com/Bhupesh-V/43bc0f2d8b84ea6c2ce767de56260b34) file and change the path to the csv file in the script.
+
+```bash
+#!/usr/bin/env bash
+
+emoji=$(cat gitmojis.csv | fzf --prompt="Choose gitmoji: " --height 40% --reverse | awk '{print $1}')
+printf "Emoji: %s\n" "$emoji"
+
+read -erp "Enter Commit Title: " title
+echo -e "Enter Commit Message (Ctrl+d when done):"
+msg=$(</dev/stdin)
+echo
+read -erp "Issue / PR ref #: " issue_ref
+echo -e "$emoji $title (#$issue_ref)\n$msg"
+```
+
+Ofc the credits goes to [gitmoji](https://gitmoji.dev/) 💚️
+
 ## Beautifying `fzf`?
 
 fzf offers very minimal but satisfying enough features to tweak around
@@ -124,5 +147,7 @@ fzf offers very minimal but satisfying enough features to tweak around
    --color 'fg:#E6E1CF,fg+:#ddeeff,bg:#1A1A1A,bg+:#393939,pointer:#FF8400,header:#717879'
    # Inspired from sonokai theme Vim
    --color 'fg:#E6E1CF,fg+:#ddeeff,bg:#2C2E34,bg+:#3C3E48,pointer:#EB4B48,header:#7F8490'
+   # Inspired from Monokai Pro
+   --color 'fg:#E6E1CF,fg+:#ddeeff,bg:#2B292E,bg+:#3D3B40,prompt:#A9DC76,pointer:#FF6188,header:#AB9DF2,query:#FFD866'
    ```
 
