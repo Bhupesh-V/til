@@ -121,9 +121,9 @@ msg=$(</dev/stdin)
 echo
 read -erp "Issue / PR ref #: " issue_ref
 if [[ "$issue_ref" ]]; then
-    git commit -m "$emoji $title (#$issue_ref)\n$msg"
+    git commit -m "$emoji $title (#$issue_ref)" -m "$msg"
 else
-    git commit -m $'$emoji $title\n$msg'
+    git commit -m "$emoji $title" -m "$msg"
 fi
 ```
 
