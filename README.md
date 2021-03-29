@@ -24,10 +24,11 @@
 
 ## Categories
 * [Coding Practices](#coding-practices) [**`5`**]
+* [Git](#git) [**`4`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`16`**]
 * [Python](#python) [**`12`**]
-* [Shell](#shell) [**`24`**]
+* [Shell](#shell) [**`20`**]
 * [Vim](#vim) [**`6`**]
 * [WebDev](#webdev) [**`5`**]
 
@@ -44,6 +45,18 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/solid.md">SOLID: Design Principles</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/write-clean-comments.md">Writing Comments</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/cleancode-writing-functions.md">Writing Functions</a>
+</ul>
+
+
+
+
+### Git
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/find-default-git-branch-name.md">Find default git branch name</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/get-current-git-branch-name.md">Get current branch name</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/get-last-commit-date-of-file.md">Get last commit date of file</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/parsing-git-status-for-tracked-untracked-changes.md">Parsing `git status` for tracked & untracked changes</a>
 </ul>
 
 
@@ -118,7 +131,6 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/extract-file-id-from-drive-shareable-link.md">Extract file id from drive shareable link</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/fzf-tips-tricks.md">FZF: Tips and Tricks</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-bootup-time-in-linux.md">Find boot-up time in linux 🐧</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-default-git-branch-name.md">Find default git branch name</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-files-changed-7-days-ago.md">Find files changed 7 days ago</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-fonts-in-linux.md">Find fonts available in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a>
@@ -127,12 +139,9 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md">Get System info using Shell Commands</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-current-git-branch-name.md">Get current branch name</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-last-commit-date-of-file.md">Get last commit date of file</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md">Line Editors in Linux, Tips and Tricks</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/monitor-network-data-usage.md">Monitor network (data) usage</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/parsing-git-status-for-tracked-untracked-changes.md">Parsing `git status` for tracked & untracked changes</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/print-lines-between-two-words.md">Print lines between 2 words</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>

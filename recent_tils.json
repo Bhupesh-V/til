@@ -20,14 +20,6 @@
   "url": "https://bhupesh.gitbook.io/notes/shell/generate-feed-files-in-git-repo"
  },
  {
-  "title": "Parsing `git status` for tracked & untracked changes",
-  "url": "https://bhupesh.gitbook.io/notes/shell/parsing-git-status-for-tracked-untracked-changes"
- },
- {
-  "title": "Get current branch name",
-  "url": "https://bhupesh.gitbook.io/notes/shell/get-current-git-branch-name"
- },
- {
   "title": "Chaos Engineering 🐒️",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/chaos-engineering-collected-notes"
  },
@@ -38,5 +30,13 @@
  {
   "title": "SOLID: Design Principles",
   "url": "https://bhupesh.gitbook.io/notes/coding practices/soli"
+ },
+ {
+  "title": "Sum column values in Vim",
+  "url": "https://bhupesh.gitbook.io/notes/vim/how-to-add-sum-column-in-vi"
+ },
+ {
+  "title": "How to make Vim faster ⚡️",
+  "url": "https://bhupesh.gitbook.io/notes/vim/how-to-make-vim-faster"
  }
 ]

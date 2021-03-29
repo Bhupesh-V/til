@@ -57,7 +57,7 @@ If you followed the previous tip then using this is a no brainer
 
 ```bash
 # faster but limited
-browse "$(locate "$PWD*" | fzf --height 40% --reverse)"
+cd "$(locate "$HOME" | fzf --height 40% --reverse)"
 # bit slower but better
 cd "$(find ~ -maxdepth 5 -not -path '*/\.git/*' -type d | fzf --height 40% --reverse)"
 ```
@@ -144,6 +144,7 @@ fzf offers very minimal but satisfying enough features to tweak around
    ```
 
 2. Colors 💅️ (WIP)
+
    A full list of color rules can be found [here](https://www.mankier.com/1/fzf#Options-Display) or on `man fzf`.
    Below are some nice colorscheme combinations you might like
    ```bash
