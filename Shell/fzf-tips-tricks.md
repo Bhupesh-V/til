@@ -129,6 +129,29 @@ fi
 
 ofc the credits goes to [gitmoji](https://gitmoji.dev/) 💚️
 
+## Preview file info 📂️
+
+First create a bash function like this
+
+```bash
+fino () { 
+    declare filepath=${1:-$(</dev/stdin)};
+    if [[ -f "$filepath" ]]; then
+        echo -e "$(basename "$filepath")";
+        info=$(file "$filepath" | awk -F ":" '{print $2}');
+        echo -e "$info";
+        ls -alh "$filepath" | awk '{print $1 "\nSize: " $5 "\nLast Modify: " $6 " " $7 " " $8}';
+    fi
+}
+export -f fino
+```
+
+Now just use the `--preview` option in fzf.
+
+```bash
+locate -ei "$HOME" | fzf --preview "fino {}" --height 40% --reverse
+```
+
 ## Beautifying `fzf`?
 
 fzf offers very minimal but satisfying enough features to tweak around
