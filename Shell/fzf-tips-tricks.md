@@ -129,7 +129,9 @@ fi
 
 ofc the credits goes to [gitmoji](https://gitmoji.dev/) 💚️
 
-## Preview file info 📂️
+## Preview files & directories 📂️
+
+For files you may want to check the filetype, size & permissions.
 
 First create a bash function like this
 
@@ -150,6 +152,13 @@ Now just use the `--preview` option in fzf.
 
 ```bash
 locate -ei "$HOME" | fzf --preview "fino {}" --height 40% --reverse
+```
+
+Previewing directories may include listing its contents
+
+```bash
+# Notice the [[ -d ... ]] means only run when the path is a directory
+locate -ei "$HOME" | fzf --preview "[[ -d {} ]] && tree -C {} | head -200" --height 40% --reverse
 ```
 
 ## Beautifying `fzf`?
