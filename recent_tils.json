@@ -1,5 +1,9 @@
 [
  {
+  "title": "Get list of all branches",
+  "url": "https://bhupesh.gitbook.io/notes/git/get-list-of-all-branches"
+ },
+ {
   "title": "FZF: Tips and Tricks",
   "url": "https://bhupesh.gitbook.io/notes/shell/fzf-tips-tricks"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Sum column values in Vim",
   "url": "https://bhupesh.gitbook.io/notes/vim/how-to-add-sum-column-in-vi"
- },
- {
-  "title": "How to make Vim faster ⚡️",
-  "url": "https://bhupesh.gitbook.io/notes/vim/how-to-make-vim-faster"
  }
 ]

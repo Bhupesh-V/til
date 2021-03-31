@@ -25,5 +25,14 @@ echo $msg
 
 ## Redirecting both `stderr` & `stdout`
 
-1. With `bash`, use **`&>`**
-2. With `sh`, use **`> where-to-redirect 2>&1`**
+1. With `bash`, use `some_command &> /dev/null`
+2. With `sh`,
+   ```bash
+   some_command > where-to-redirect 2>&1
+   # or
+   some_command 2>&1 > stdout_and_err
+   ```
+3. If you want to capture standard output/error separately,
+   ```bash
+   $ some_command 1>output.txt 2>error.txt
+   ```
