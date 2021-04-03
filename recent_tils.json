@@ -1,5 +1,9 @@
 [
  {
+  "title": "Everything about date & time in python",
+  "url": "https://bhupesh.gitbook.io/notes/python/everything-about-date-and-time-in-python"
+ },
+ {
   "title": "Get list of all branches",
   "url": "https://bhupesh.gitbook.io/notes/git/get-list-of-all-branches"
  },
@@ -34,9 +38,5 @@
  {
   "title": "SOLID: Design Principles",
   "url": "https://bhupesh.gitbook.io/notes/coding practices/soli"
- },
- {
-  "title": "Sum column values in Vim",
-  "url": "https://bhupesh.gitbook.io/notes/vim/how-to-add-sum-column-in-vi"
  }
 ]

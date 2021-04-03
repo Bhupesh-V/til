@@ -24,7 +24,7 @@
 
 ## Categories
 * [Coding Practices](#coding-practices) [**`5`**]
-* [Git](#git) [**`5`**]
+* [Git](#git) [**`6`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`16`**]
 * [Python](#python) [**`13`**]
@@ -57,6 +57,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/get-current-git-branch-name.md">Get current branch name</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/get-last-commit-date-of-file.md">Get last commit date of file</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/get-list-of-all-branches.md">Get list of all branches</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/how-to-undo-anything-in-git.md">How to undo anything in Git</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/parsing-git-status-for-tracked-untracked-changes.md">Parsing `git status` for tracked & untracked changes</a>
 </ul>
 
