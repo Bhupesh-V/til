@@ -100,6 +100,21 @@ choice=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
 git switch $choice
 ```
 
+## Deleting unused branches interactively
+```bash
+#!/usr/bin/env sh
+
+header="Select branches to delete"
+
+choices=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
+  --prompt="Delete Branches: " --pointer='🡆'\
+  --header="Press TAB to select choices" \
+  --multi --height 30% --reverse
+)
+
+git branch -d $choices
+```
+
 ## Replacing [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) with `fzf`
 
 I like the idea of using emojis in commit messages but I am not ready to install node/npm and 10 other dependencies for a CLI.
