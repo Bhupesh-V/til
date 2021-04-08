@@ -27,7 +27,7 @@
 * [Git](#git) [**`6`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`16`**]
-* [Python](#python) [**`13`**]
+* [Python](#python) [**`12`**]
 * [Shell](#shell) [**`20`**]
 * [Vim](#vim) [**`6`**]
 * [WebDev](#webdev) [**`5`**]
@@ -108,7 +108,6 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/check-indentation-errors-in-python.md">Check indentation errors in python 🐍</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/datetim-eobject-to-string-and-vice-versa.md">Converting 📅⏲ datetime object to string & vice-versa</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/difference-class-and-function-based-views-djnago.md">Difference b/w Class & Function Based Views in Django</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/dividing-time-deltas-python.md">Dividing Time deltas in python - Difference b/w 2 datetime values</a>

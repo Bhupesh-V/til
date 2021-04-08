@@ -1,5 +1,9 @@
 [
  {
+  "title": "How to undo anything in Git",
+  "url": "https://bhupesh.gitbook.io/notes/git/how-to-undo-anything-in-git"
+ },
+ {
   "title": "Everything about date & time in python",
   "url": "https://bhupesh.gitbook.io/notes/python/everything-about-date-and-time-in-python"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Collected notes on Database Sharding 🗃",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/database-sharding"
- },
- {
-  "title": "SOLID: Design Principles",
-  "url": "https://bhupesh.gitbook.io/notes/coding practices/soli"
  }
 ]

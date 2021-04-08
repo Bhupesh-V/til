@@ -7,7 +7,7 @@ Let's take a quick look on them.
 - Anonymous functions
 - No function name, 
 - They can be passed as function arguments/objects.
-- No `return` statment, evaluated exrpession is returned automatically.
+- No `return` statement, evaluated expression is returned automatically.
 - Single line function.
 
 Example : 

@@ -49,11 +49,40 @@ $ git restore --staged index.html
 $ git checkout -
 ```
 
+## Undo `git pull`
+1. Get SHA1 of state before pull using `git reflog`
+2. Reset state using
+   ```bash
+   # WARNING: Uncommited changes will be lost
+   git reset --hard <SHA1>
+   ```
+
+Optionally you can go back in time using `git reset --hard master@{"5 minutes ago"}`
+
+## Undo accidental `git branch -D` delete
+
+1. Use `git reflog` to get the SHA before you delete the branch
+   ```bash
+   git reflog
+   ```
+2. Now if the change isn't pushed to remote, run
+   ```bash
+   git checkout -b branch_name <SHA1>
+   ```
+   Otherwise recreate branch
+   ```bash
+   git branch branchName <SHA1>
+   ```
+
 ## Stop a file from being tracked
+
 When you committed the file previously but now I realise it shouldn't have been
 ```bash
 git rm --cached application.log
 ```
+
+<!-- ## Undo accidental git tag delete -->
+<!-- https://dzone.com/articles/git-tip-restore-deleted-tag -->
 
 <!-- ## Most recent `git reset` -->
 <!-- ## Most recent `git stash pop` -->
