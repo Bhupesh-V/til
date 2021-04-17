@@ -3,6 +3,8 @@
 
 > Posting this as a reference for my future self, so I don't have to search every time.
 
+**Update**: Wrote a [tool to undo you last command in Git](https://github.com/Bhupesh-V/ugit)
+
 ## Undo `git commit`
 ```bash
 # undo last commit (unstage everything)
@@ -135,5 +137,21 @@ git stash show -p | git apply --reverse
 <!-- https://krishansubudhi.github.io/git/2020/01/20/git-rebase-undo.html -->
 <!-- https://medium.com/@shreyaWhiz/how-to-undo-a-mistaken-git-rebase-life-saver-2977ff0a0602 -->
 
-<!-- ## Undo accidental git tag delete -->
+## Undo accidental git tag delete 
+
+> Only works for annotated tags, tags created using `git tag -a`
 <!-- https://dzone.com/articles/git-tip-restore-deleted-tag -->
+
+1. Use `git fsck` to check for dangling/unreachable commits.
+   ```bash
+   git fsck --unreachable | grep tag
+   ```
+2. Verify that its the correct tag:
+   ```bash
+   git cat-file -p "COMMIT_HASH"
+   ```
+3. Update tag refs:
+   ```bash
+   git update-ref refs/tags/"TAG_NAME" --create-reflog "COMMIT_HASH"
+   ```
+4. Tag is now restored, run `git tag -l` to verify
