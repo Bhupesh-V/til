@@ -26,7 +26,7 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Git](#git) [**`6`**]
 * [Go](#go) [**`8`**]
-* [Miscellaneous](#miscellaneous) [**`16`**]
+* [Miscellaneous](#miscellaneous) [**`17`**]
 * [Python](#python) [**`12`**]
 * [Shell](#shell) [**`20`**]
 * [Vim](#vim) [**`6`**]
@@ -91,6 +91,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/docker-quick-guide.md">Docker 🐋 quick guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md">SEO Tools</a>
