@@ -6,7 +6,7 @@ This page is dedicated to things I try to follow as a tech writer and developer 
 
 ## Writing hooks: "Get 3 yes's in 30 seconds".
 
-> Credits: [David Perell](https://twitter.com/david_perell)
+> Credits: [David Peril](https://twitter.com/david_perell)
 
 Readers should nod their head yes to the headline, subheading, and first sentence.
 If they've made it to the third sentence, they're ready for an interesting and compelling story.
@@ -28,4 +28,5 @@ Some of the points that help me land a decision:
 
 - Are people not aware of this _idea_? Is it buried down in the messy internet?
 - Is it hard to understand?
-- What are the future implications after I write this post
+- What are the future implications after I write this post?
+

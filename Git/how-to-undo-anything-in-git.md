@@ -21,7 +21,7 @@ $ git commit --amend
 # or
 $ git commit --amend -m "Fixes bug #42"
 ```
-git commit --amend will update and replace the most recent commit with a new commit that combines any staged changes with the contents of the previous commit. With nothing currently staged, this just rewrites the previous commit message.
+`git commit --amend` will update and replace the most recent commit with a new commit that combines any staged changes with the contents of the previous commit. With nothing currently staged, this just rewrites the previous commit message.
 
 ## Undo `git merge`
 
@@ -85,7 +85,7 @@ Optionally you can go back in time using `git reset --hard master@{"5 minutes ag
 
 ## Undo accidental `git branch -D` delete
 
-1. Use `git reflog` to get the SHA before you delete the branch
+1. Use `git reflog` to get the commit SHA before you deleted the branch
    ```bash
    git reflog
    ```
@@ -93,14 +93,14 @@ Optionally you can go back in time using `git reset --hard master@{"5 minutes ag
    ```bash
    git checkout -b branch_name <SHA1>
    ```
-   Otherwise recreate branch
+   Otherwise recreate the branch
    ```bash
-   git branch branchName <SHA1>
+   git branch <branchName> <SHA1>
    ```
 
 ## Stop a file from being tracked
 
-When you committed the file previously but now I realise it shouldn't have been
+When you committed the file previously but now realise it shouldn't have been
 ```bash
 git rm --cached application.log
 ```
@@ -156,3 +156,33 @@ git stash show -p | git apply --reverse
    git update-ref refs/tags/"TAG_NAME" --create-reflog "COMMIT_HASH"
    ```
 4. Tag is now restored, run `git tag -l` to verify
+
+## Undo/Restore a file to a previous version
+
+1. Get the commit you want to restore the file to
+   ```bash
+   git log --oneline <FILE>
+   ```
+
+2. Use `git restore` to restore the file :)
+   ```bash
+   git restore --source=<COMMIT> <FILE>
+   ```
+
+## Undo accidental file delete
+
+**When you have not commited the changes yet**
+```bash
+git checkout HEAD <file-path>
+```
+
+**When commited the file delete**
+1. Choose commit that deleted the file
+   ```bash
+   git log --diff-filter=D --oneline
+   ```
+2. Checkout the file
+   ```bash
+   git checkout <COMMIT>~1 -- <FILE>
+   ```
+
