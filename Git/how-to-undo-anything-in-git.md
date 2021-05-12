@@ -186,3 +186,37 @@ git checkout HEAD <file-path>
    git checkout <COMMIT>~1 -- <FILE>
    ```
 
+## Undo a git merge 😟️
+> Undoing a git merge is a risky business. Please proceed with caution
+
+**When the merge has conflicts, and you want to give up**
+```bash
+git merge --abort
+```
+
+**When the merge is unpushed**
+```bash
+git reset --merge ORIG_HEAD
+```
+Reference `ORIG_HEAD` points to the original from before the merge. So we are just reseting that
+
+**When you pushed the merge commit**
+
+1. Switch to your main/default branch
+   ```bash
+   git checkout main
+   ```
+2. Get the merge commit from git log
+   ```bash
+   git log --oneline
+   ```
+3. Revert that merge commit
+   ```bash
+   git revert -m 1 <COMMIT>
+   ```
+
+### Resources
+
+- [undo-git-pull-how-to-bring-repos-to-old-state](https://stackoverflow.com/questions/1223354/undo-git-pull-how-to-bring-repos-to-old-state) 
+- [git revert docs](https://git-scm.com/docs/git-revert#Documentation/git-revert.txt--mparent-number)
+
