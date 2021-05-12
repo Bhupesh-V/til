@@ -3,7 +3,9 @@
 
 > Posting this as a reference for my future self, so I don't have to search every time.
 
-**Update**: Wrote a [tool to undo you last command in Git](https://github.com/Bhupesh-V/ugit)
+**Update**: Wrote [**ugit** to undo you last git command](https://github.com/Bhupesh-V/ugit)
+
+If the reader has a better way to undo something, please edit the page and send a PR. More than happy to correct myself.
 
 
 ## Undo `git commit`
