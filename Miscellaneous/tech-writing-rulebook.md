@@ -15,7 +15,7 @@ If they've made it to the third sentence, they're ready for an interesting and c
 
 - Great writers unlock the ELECTRICITY of sight. They give their readers a pair of Magic Binoculars.
 
-- "Facts alone aren’t enough. They’re too black-and-white. Readers yearn for stories, images, and anecdotes that make the information POP."
+- "Facts alone are’t enough. They’re too black-and-white. Readers yearn for stories, images, and anecdotes that make the information POP."
 
 ## Verbose thinking is necessary
 
@@ -30,3 +30,12 @@ Some of the points that help me land a decision:
 - Is it hard to understand?
 - What are the future implications after I write this post?
 
+## Know when to stop researching ✋️
+
+1. Quick internet search read top 5 results, then directly jump to 2nd page to see hidden gems
+2. Go through all the stackoverflow answers & comments (same with github issues)
+3. Ask only friends who might have good insights on the idea, no pinging random people.
+   Optionally check opinions of professionals on twitter (necessary evil).
+
+
+<!-- ## Owning an Idea -->
