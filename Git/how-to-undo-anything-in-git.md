@@ -200,7 +200,7 @@ git merge --abort
 ```bash
 git reset --merge ORIG_HEAD
 ```
-Reference `ORIG_HEAD` points to the original from before the merge. So we are just reseting that
+Reference `ORIG_HEAD` points to the original commit before the merge. So we are just reseting that
 
 **When you pushed the merge commit**
 
