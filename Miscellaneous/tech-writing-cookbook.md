@@ -1,4 +1,4 @@
-# Tech Writing Rulebook - Writing tips for you and my future self
+# Tech Writing Cookbook - Writing tips for you and my future self
 <!-- **_Posted on 09 May, 2021_** -->
 
 
@@ -15,27 +15,30 @@ If they've made it to the third sentence, they're ready for an interesting and c
 
 - Great writers unlock the ELECTRICITY of sight. They give their readers a pair of Magic Binoculars.
 
-- "Facts alone are’t enough. They’re too black-and-white. Readers yearn for stories, images, and anecdotes that make the information POP."
+- "Facts alone aren't enough. They’re too black-and-white. Readers yearn for stories, images, and anecdotes that make the information POP."
 
 ## Verbose thinking is necessary
 
 “It’s only by concentrating, sticking to the question, being patient, letting all the parts of my mind come into play, that I arrive at an original idea. By giving my brain a chance to make associations, draw connections, take me by surprise” — _William Deresiewicz_
 
-I usually  think about the layout of the post while doing boring chores (making food). Schedule time to think and hone your understanding of the problem.
+I usually think about the layout of the post while doing boring chores (making food). Schedule time to think and hone your understanding of the problem.
 
 ## Validating an Idea
 Some of the points that help me land a decision:
 
 - Are people not aware of this _idea_? Is it buried down in the messy internet?
 - Is it hard to understand?
+- Are the already available blogs outdated?
 - What are the future implications after I write this post?
 
 ## Know when to stop researching ✋️
 
 1. Quick internet search read top 5 results, then directly jump to 2nd page to see hidden gems
-2. Go through all the stackoverflow answers & comments (same with github issues)
+2. Go through all the StackOverflow answers & comments (same with GitHub issues)
 3. Ask only friends who might have good insights on the idea, no pinging random people.
-   Optionally check opinions of professionals on twitter (necessary evil).
+   Optionally check opinions of professionals on Twitter (a necessary evil).
 
 
 <!-- ## Owning an Idea -->
+
+  
