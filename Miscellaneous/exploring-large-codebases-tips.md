@@ -19,9 +19,8 @@ Usually picking a small task will help explore the codebase but ofc as a develop
 - [codetour](https://aka.ms/codetour)
 - [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
 - For Git add these aliases
-  ```git
-[alias]
-        wip = for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads
+  ```gitconfig
+  [alias]
         # find commits that changed a file: git his <filepath>
         his = log --follow --color=always --date=format:'%d %b, %Y' --pretty=format:'(%Cgreen%h%Creset)[%ad] %C(blue bold)%s%Creset'
         # search code in commit history: git wot :function_name:filepath
