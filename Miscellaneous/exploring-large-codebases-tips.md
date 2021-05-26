@@ -18,6 +18,17 @@ Usually picking a small task will help explore the codebase but ofc as a develop
 - [Sourcetrail](https://www.sourcetrail.com/)
 - [codetour](https://aka.ms/codetour)
 - [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
+- For Git add these aliases
+  ```git
+[alias]
+        wip = for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads
+        # find commits that changed a file: git his <filepath>
+        his = log --follow --color=always --date=format:'%d %b, %Y' --pretty=format:'(%Cgreen%h%Creset)[%ad] %C(blue bold)%s%Creset'
+        # search code in commit history: git wot :function_name:filepath
+        wot = log --date=format:'%d %b, %Y' --pretty='%n%C(yellow bold)📅️ %ad%Creset by (%C(green bold)%an%Creset) %C(cyan bold)%h%Creset' --graph -L
+        # top 10 most edited files
+        top10 = ! git log --pretty=format: --name-only | sort | uniq -c | sort -rg | head -10
+  ```
 
 
 ## Resources & Internet Threads
