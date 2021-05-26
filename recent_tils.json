@@ -1,5 +1,9 @@
 [
  {
+  "title": "Exploring Large Codebases",
+  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/exploring-large-codebases-tips"
+ },
+ {
   "title": "Navigating your way through Github API",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/navigating-your-way-through-github-rest-api"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Generate a RSS Feed of recent files inside a Git repository",
   "url": "https://bhupesh.gitbook.io/notes/shell/generate-feed-files-in-git-repo"
- },
- {
-  "title": "Chaos Engineering 🐒️",
-  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/chaos-engineering-collected-notes"
  }
 ]

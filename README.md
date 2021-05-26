@@ -29,7 +29,7 @@
 * [Miscellaneous](#miscellaneous) [**`19`**]
 * [Python](#python) [**`12`**]
 * [Shell](#shell) [**`20`**]
-* [Vim](#vim) [**`6`**]
+* [Vim](#vim) [**`7`**]
 * [WebDev](#webdev) [**`5`**]
 
 ---
@@ -163,6 +163,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md">My Vim Cheatsheet</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/searching-your-way-through-vim.md">Searching your way through vim</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-add-sum-column-in-vim.md">Sum column values in Vim</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/ctags-quick-setup-cheatsheet.md">ctags in Vim - Quick Cheatsheet</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/vim-surround-cheatsheet.md">vim surround: quick cheatsheet</a>
 </ul>
 
