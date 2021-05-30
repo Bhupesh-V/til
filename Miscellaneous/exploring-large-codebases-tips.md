@@ -18,7 +18,11 @@ Usually picking a small task will help explore the codebase but ofc as a develop
 - [Sourcetrail](https://www.sourcetrail.com/)
 - [codetour](https://aka.ms/codetour)
 - [vim-bookmarks](https://github.com/MattesGroeger/vim-bookmarks)
-- For Git add these aliases
+- When exploring a git repo add these aliases to find more insights like 
+  - `git top10`: most actively edited files.
+  - `git his`: Examples of commits that modify a file (helps in understanding what needs to be changed)
+  - `git wot`: See how a function evolved 
+
   ```gitconfig
   [alias]
         # find commits that changed a file: git his <filepath>

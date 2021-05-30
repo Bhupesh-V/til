@@ -1,5 +1,9 @@
 [
  {
+  "title": "ctags in Vim - Quick Cheatsheet",
+  "url": "https://bhupesh.gitbook.io/notes/vim/ctags-quick-setup-cheatsheet"
+ },
+ {
   "title": "Exploring Large Codebases",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/exploring-large-codebases-tips"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Turning Emojis to site favicons",
   "url": "https://bhupesh.gitbook.io/notes/webdev/turning-emojis-into-site-favicons"
- },
- {
-  "title": "Generate a RSS Feed of recent files inside a Git repository",
-  "url": "https://bhupesh.gitbook.io/notes/shell/generate-feed-files-in-git-repo"
  }
 ]

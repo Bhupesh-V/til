@@ -29,7 +29,7 @@
 * [Miscellaneous](#miscellaneous) [**`19`**]
 * [Python](#python) [**`12`**]
 * [Shell](#shell) [**`20`**]
-* [Vim](#vim) [**`7`**]
+* [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 
 ---
@@ -158,6 +158,7 @@
 ### Vim
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/configuring-lsp-neovim-guide.md">Configuring LSP on NeoVim</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/convert-unordered-list-to-ordered-list.md">Convert bulleted/unordered lists to numbered lists</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/how-to-make-vim-faster.md">How to make Vim faster ⚡️</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md">My Vim Cheatsheet</a>

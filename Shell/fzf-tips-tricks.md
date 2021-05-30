@@ -32,7 +32,7 @@ find $HOME -type f ${EXCLUDE_DIRS[@]} | fzf --height 40% --reverse
 If you prefer the `locate` command instead, make sure to update your `/etc/updatedb.conf` file with following `PRUNENAMES`
 ```
 PRUNE_BIND_MOUNTS="yes"
-PRUNENAMES=".git .cache .bundle .local .config node_modules __pycache__"
+PRUNENAMES=".git .cache .bundle .local .config node_modules __pycache__ python3.6 go"
 PRUNEPATHS="/tmp /var/spool /media /var/lib/os-prober /var/lib/ceph /home/.ecryptfs /var/lib/schroot"
 PRUNEFS="NFS nfs nfs4 rpc_pipefs afs binfmt_misc proc smbfs autofs iso9660 ncpfs coda devpts ftpfs devfs devtmpfs fuse.mfs shfs sysfs cifs lustre tmpfs usbfs udf fuse.glusterfs fuse.sshfs curlftpfs ceph fuse.ceph fuse.rozofs ecryptfs fusesmb"
 ```
@@ -142,7 +142,7 @@ else
 fi
 ```
 
-ofc the credits goes to [gitmoji](https://gitmoji.dev/) 💚️
+ofc credits goes to [gitmoji](https://gitmoji.dev/) 💚️
 
 ## Preview files & directories 📂️
 

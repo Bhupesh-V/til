@@ -135,6 +135,7 @@ git stash show -p | git apply --reverse
 
 <!-- ## Undo create `git tag` (rename a tag) -->
 <!-- https://stackoverflow.com/questions/1028649/how-do-you-rename-a-git-tag -->
+<!-- https://github.com/tj/git-extras/blob/master/Commands.md#git-rename-tag -->
 
 <!-- ## Undo `git rebase` -->
 <!-- https://krishansubudhi.github.io/git/2020/01/20/git-rebase-undo.html -->
