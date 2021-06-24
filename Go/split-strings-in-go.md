@@ -5,7 +5,7 @@ You need to import the `strings` standard library to use this.
 
 ## Demo
 
-```golang
+```go
 package main 
 
 import (

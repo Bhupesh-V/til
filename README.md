@@ -24,7 +24,7 @@
 
 ## Categories
 * [Coding Practices](#coding-practices) [**`5`**]
-* [Git](#git) [**`6`**]
+* [Git](#git) [**`7`**]
 * [Go](#go) [**`8`**]
 * [Miscellaneous](#miscellaneous) [**`19`**]
 * [Python](#python) [**`12`**]
@@ -53,6 +53,7 @@
 ### Git
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/autocorrect-git-commands.md">Auto-correct Git commands</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/find-default-git-branch-name.md">Find default git branch name</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/get-current-git-branch-name.md">Get current branch name</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Git/get-last-commit-date-of-file.md">Get last commit date of file</a>

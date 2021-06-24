@@ -1,5 +1,9 @@
 [
  {
+  "title": "Configuring LSP on NeoVim",
+  "url": "https://bhupesh.gitbook.io/notes/vim/configuring-lsp-neovim-guide"
+ },
+ {
   "title": "ctags in Vim - Quick Cheatsheet",
   "url": "https://bhupesh.gitbook.io/notes/vim/ctags-quick-setup-cheatsheet"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Generate random secure password using python",
   "url": "https://bhupesh.gitbook.io/notes/python/generating-random-secure-password-python"
- },
- {
-  "title": "Turning Emojis to site favicons",
-  "url": "https://bhupesh.gitbook.io/notes/webdev/turning-emojis-into-site-favicons"
  }
 ]
