@@ -1,5 +1,6 @@
 # Writing Functions
-<!-- 24 Jun 2019 -->
+**_Posted on 24 Jun, 2019_** 
+
 Got to learn some new points regarding functions() in CleanCode.
 
 1. Functions should be small.
@@ -7,7 +8,7 @@ Got to learn some new points regarding functions() in CleanCode.
    > FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL.
      THEY SHOULD DO IT ONLY.
 3. To know if a function is doing more than "one thing" see if you can extract another
-   funtion from it with a name that is not merely a restatement of its implementation.
+   function from it with a name that is not merely a restatement of its implementation.
 4. Function arguments should *NEVER* be greater than 3.
 5. We should never ignore any part of code.The parts we ignore are where the bugs will hide.
 

@@ -1,5 +1,7 @@
 # Writing Comments
-<!--24 Jun 2019 -->
+**_Posted on 24 Jun, 2019_** 
+
+
 1. The proper use of comments is to compensate for our _failure to express
    ourself in code_.
 2. Inaccurate comments are far worse than no comments at all.
@@ -8,13 +10,12 @@
    *MAKE IT LESS COMPLEX*.
 4. Short functions don't need much description. A well-chosen name for a small function
    that does one thing is usually better than a comment header.
-5. For example. In this code the comments are not needed bcoz the fucntion name describes what it is doing.
+5. For example. In this code the comments are not needed because the function name describes what it is doing.
    
 ```python
-def get_category_list():
-    ''' Walk the current directory and get a list of all subdirectories at that
-    level.  These are the "categories" in which there are TILs. '''
-    dirs = [x for x in os.listdir('.') if os.path.isdir(x) and '.git' not in x]
+def get_directories():
+    ''' Walk the current directory and get a list of all subdirectories at that level.'''
+    dirs = [x for x in os.listdir('.') if os.path.isdir(x)]
     return dirs
 ```
    
