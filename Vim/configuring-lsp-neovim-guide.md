@@ -1,63 +1,118 @@
 # Configuring LSP on NeoVim
 <!-- **_Posted on 26 May, 2021_** -->
 
-1. Instal [vim-lsc](https://github.com/natebosch/vim-lsc) client
-   ```vim
-   Plug 'natebosch/vim-lsc'
-   ```
+Make sure you have NeoVim version 0.5.5 or higher installed
 
-2. Install language server pack for python
+## Necessary stuff
+
+```vim
+" For language server configurations
+Plug 'neovim/nvim-lspconfig'
+" For autocompletion
+Plug 'hrsh7th/nvim-compe'
+```
+
+## Installing language servers
+
+You would have to manually install the language servers you need.
+
+1. Install language server pack for **python** (make sure you are running latest pip and Python 3.6+)
    ```bash
-   pip3 install python-lsp-server[all]
+   pip install 'python-language-server[all]'
    ```
 
-3. Install `vim-go` plug-in
+2. Language server pack for go is maintained by the go team itself. Use `go get` to [install **gopls**](https://github.com/golang/tools/blob/master/gopls/README.md#installation)
+   ```bash
+   GO111MODULE=on go get golang.org/x/tools/gopls@latest
+   ```
+
+   Or, You can also use the `vim-go` plug-in
    ```vim
    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
    " run :GoInstallBinaries if setting up first time
    " this will also install the languager server for go (gopls) automatically
    ```
-   [Read Docs](https://github.com/golang/tools/blob/master/gopls/README.md#installation)
 
+3. For bash, install [bash-language-server](https://github.com/bash-lsp/bash-language-server)
+   ```bash
+   # if you have npm installed
+   npm i -g bash-language-server
+   # snap
+   sudo snap install bash-language-server
+   ```
 
-## Setup `vimrc`
+- To install other language servers visit [**langserver.org**](https://langserver.org/) and choose accordingly.
+- After that check the [necessary config](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md) for neovim setup
+
+## Setup `init.vim` or `vimrc`
+
+The following boilerplate config can be used as it is
 
 ```vim
-set shortmess-=F
-let g:lsc_server_commands = {
-            \ 'python': 'pylsp',
-            \  "go": {
-            \    "command": "gopls serve",
-            \    "log_level": -1,
-            \    "suppress_stderr": v:true,
-            \  },
-            \}
+" make completion menu more rich
+set completeopt=menuone,noselect
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
-" Use all the defaults (recommended):
-let g:lsc_auto_map = v:true
+nnoremap <silent> gd <cmd>lua vim.lsp.buf.definition()<CR>
+nnoremap <silent> gD <cmd>lua vim.lsp.buf.declaration()<CR>
+nnoremap <silent> gr <cmd>lua vim.lsp.buf.references()<CR>
+nnoremap <silent> gi <cmd>lua vim.lsp.buf.implementation()<CR>
+nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
+nnoremap <silent> <C-k> <cmd>lua vim.lsp.buf.signature_help()<CR>
+nnoremap <silent> <C-n> <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
+nnoremap <silent> <C-p> <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 
-" Apply the defaults with a few overrides:
-let g:lsc_auto_map = {'defaults': v:true, 'FindReferences': '<leader>r'}
+autocmd BufWritePre *go,*.py lua vim.lsp.buf.formatting_sync(nil, 100)
 
-" Setting a value to a blank string leaves that command unmapped:
-let g:lsc_auto_map = {'defaults': v:true, 'FindImplementations': ''}
+" Initialise server packs
+lua <<EOF
+require'lspconfig'.gopls.setup{}
+require'lspconfig'.pyls.setup{}
+require'lspconfig'.bashls.setup{}
+EOF
 
-" ... or set only the commands you want mapped without defaults.
-" Complete default mappings are:
-let g:lsc_auto_map = {
-            \ 'GoToDefinition': '<C-]>',
-            \ 'GoToDefinitionSplit': ['<C-W>]', '<C-W><C-]>'],
-            \ 'FindReferences': 'gr',
-            \ 'NextReference': '<C-n>',
-            \ 'PreviousReference': '<C-p>',
-            \ 'FindImplementations': 'gI',
-            \ 'FindCodeActions': 'ga',
-            \ 'Rename': 'gR',
-            \ 'ShowHover': v:true,
-            \ 'DocumentSymbol': 'go',
-            \ 'WorkspaceSymbol': 'gS',
-            \ 'SignatureHelp': 'gm',
-            \ 'Completion': 'omnifunc',
-            \}
-" }}}
+" setup nvim-compe
+let g:compe = {}
+let g:compe.enabled = v:true
+let g:compe.autocomplete = v:true
+let g:compe.debug = v:false
+let g:compe.min_length = 1
+let g:compe.preselect = 'enable'
+let g:compe.throttle_time = 80
+let g:compe.source_timeout = 200
+let g:compe.resolve_timeout = 800
+let g:compe.incomplete_delay = 400
+let g:compe.max_abbr_width = 100
+let g:compe.max_kind_width = 100
+let g:compe.max_menu_width = 100
+let g:compe.documentation = v:true
+
+let g:compe.source = {}
+let g:compe.source.path = v:true
+let g:compe.source.buffer = v:true
+let g:compe.source.calc = v:true
+let g:compe.source.nvim_lsp = v:true
+let g:compe.source.nvim_lua = v:true
+let g:compe.source.vsnip = v:true
+let g:compe.source.ultisnips = v:true
+let g:compe.source.luasnip = v:true
+let g:compe.source.emoji = v:true
+
 ```
+
+> Notice: If you are embedding lua code in your vimscript config, use the following heredoc
+
+```
+lua <<EOF
+-- [[ this is lua comment ]]
+   lua dode
+   ...
+EOF
+```
+
+## Resources
+- [nvim-lspconfig github](https://github.com/neovim/nvim-lspconfig)
+- [nvim-compe github](https://github.com/hrsh7th/nvim-compe)
+- [Native LSP in NeoVim - Chris@Machine](https://www.chrisatmachine.com/Neovim/27-native-lsp/)
