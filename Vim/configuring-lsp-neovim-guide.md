@@ -112,6 +112,29 @@ lua <<EOF
 EOF
 ```
 
+## Spicy Stuff
+
+Below are some plugins which spice up the neovim lsp experience
+
+#### [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
+
+```vim
+" lsp provider to find the cursor word definition and reference
+nnoremap <silent> gh <cmd>lua require'lspsaga.provider'.lsp_finder()<CR>
+" preview definition
+nnoremap <silent> gd <cmd>lua require'lspsaga.provider'.preview_definition()<CR>
+" show hover doc
+nnoremap <silent> K <cmd>lua require('lspsaga.hover').render_hover_doc()<CR>
+" scroll down hover doc or scroll in definition preview
+nnoremap <silent> <C-f> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(1)<CR>
+" scroll up hover doc
+nnoremap <silent> <C-b> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1)<CR>
+" code action
+nnoremap <silent><leader>ca <cmd>lua require('lspsaga.codeaction').code_action()<CR>
+vnoremap <silent><leader>ca :<C-U>lua require('lspsaga.codeaction').range_code_action()<CR>
+```
+
+
 ## Resources
 - [nvim-lspconfig github](https://github.com/neovim/nvim-lspconfig)
 - [nvim-compe github](https://github.com/hrsh7th/nvim-compe)
