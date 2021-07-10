@@ -1,16 +1,27 @@
 # Configuring LSP on NeoVim
-<!-- **_Posted on 26 May, 2021_** -->
+**_Posted on 26 May, 2021_** 
 
-Make sure you have NeoVim version 0.5.5 or higher installed
+Make sure you have NeoVim version >=0.5.5 installed
 
 ## Necessary stuff
 
 ```vim
 " For language server configurations
 Plug 'neovim/nvim-lspconfig'
-" For autocompletion
+```
+
+For autocompletion choose either of these choices both seems to be equally good
+
+```vim
+Plug 'nvim-lua/completion-nvim'
+```
+Or
+
+```vim
 Plug 'hrsh7th/nvim-compe'
 ```
+
+For the sake of this guide I have chosen `nvim-compe`
 
 ## Installing language servers
 
@@ -26,7 +37,7 @@ You would have to manually install the language servers you need.
    GO111MODULE=on go get golang.org/x/tools/gopls@latest
    ```
 
-   Or, You can also use the `vim-go` plug-in
+   Or, You can also use the [`vim-go`](https://github.com/fatih/vim-go) plug-in
    ```vim
    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
    " run :GoInstallBinaries if setting up first time
@@ -107,7 +118,7 @@ let g:compe.source.emoji = v:true
 ```
 lua <<EOF
 -- [[ this is lua comment ]]
-   lua dode
+   lua code
    ...
 EOF
 ```
@@ -116,7 +127,9 @@ EOF
 
 Below are some plugins which spice up the neovim lsp experience
 
-#### [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
+### [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
+
+> Richer UI for LSP
 
 ```vim
 " lsp provider to find the cursor word definition and reference
@@ -134,6 +147,19 @@ nnoremap <silent><leader>ca <cmd>lua require('lspsaga.codeaction').code_action()
 vnoremap <silent><leader>ca :<C-U>lua require('lspsaga.codeaction').range_code_action()<CR>
 ```
 
+### [lsp_signature](https://github.com/ray-x/lsp_signature.nvim)
+
+> Show function signature help as you type
+
+```vim
+lua <<EOF
+require'lspconfig'.gopls.setup {
+    on_attach = function(client)
+    require 'lsp_signature'.on_attach(client)
+end,
+}
+EOF
+```
 
 ## Resources
 - [nvim-lspconfig github](https://github.com/neovim/nvim-lspconfig)

@@ -1,5 +1,6 @@
 # Docker 🐋 quick guide
-<!-- 18 Oct 2020 -->
+**_Posted on 18 Oct, 2020_** 
+
 
 1. Remove docker image.
    ```bash
