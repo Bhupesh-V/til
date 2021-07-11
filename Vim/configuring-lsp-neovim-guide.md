@@ -55,13 +55,14 @@ You would have to manually install the language servers you need.
 - To install other language servers visit [**langserver.org**](https://langserver.org/) and choose accordingly.
 - After that check the [necessary config](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md) for neovim setup
 
-## Setup `init.vim` or `vimrc`
+## Configure keybindings
 
 The following boilerplate config can be used as it is
 
 ```vim
 " make completion menu more rich
 set completeopt=menuone,noselect
+
 " Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
@@ -70,21 +71,28 @@ nnoremap <silent> gd <cmd>lua vim.lsp.buf.definition()<CR>
 nnoremap <silent> gD <cmd>lua vim.lsp.buf.declaration()<CR>
 nnoremap <silent> gr <cmd>lua vim.lsp.buf.references()<CR>
 nnoremap <silent> gi <cmd>lua vim.lsp.buf.implementation()<CR>
-nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
+nnoremap <silent> gh <cmd>lua vim.lsp.buf.hover()<CR>
 nnoremap <silent> <C-k> <cmd>lua vim.lsp.buf.signature_help()<CR>
 nnoremap <silent> <C-n> <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
 nnoremap <silent> <C-p> <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 
 autocmd BufWritePre *go,*.py lua vim.lsp.buf.formatting_sync(nil, 100)
+```
 
+## Setup `nvim-lspconfig`
+
+```vim
 " Initialise server packs
 lua <<EOF
 require'lspconfig'.gopls.setup{}
 require'lspconfig'.pyls.setup{}
 require'lspconfig'.bashls.setup{}
 EOF
+```
 
-" setup nvim-compe
+## Setup `nvim-compe`
+
+```vim
 let g:compe = {}
 let g:compe.enabled = v:true
 let g:compe.autocomplete = v:true

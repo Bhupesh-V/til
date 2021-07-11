@@ -174,12 +174,12 @@ git stash show -p | git apply --reverse
 
 ## Undo accidental file delete
 
-**When you have not commited the changes yet**
+**When you have not committed the changes yet**
 ```bash
 git checkout HEAD <file-path>
 ```
 
-**When commited the file delete**
+**When committed the file delete**
 1. Choose commit that deleted the file
    ```bash
    git log --diff-filter=D --oneline
@@ -201,7 +201,7 @@ git merge --abort
 ```bash
 git reset --merge ORIG_HEAD
 ```
-Reference `ORIG_HEAD` points to the original commit before the merge. So we are just reseting that
+Reference `ORIG_HEAD` points to the original commit before the merge. So we are just resetting that
 
 **When you pushed the merge commit**
 
@@ -224,4 +224,5 @@ Also must read: [How to revert a faulty merge](https://github.com/git/git/blob/m
 
 - [undo-git-pull-how-to-bring-repos-to-old-state](https://stackoverflow.com/questions/1223354/undo-git-pull-how-to-bring-repos-to-old-state) 
 - [git revert docs](https://git-scm.com/docs/git-revert#Documentation/git-revert.txt--mparent-number)
+- [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html)
 
