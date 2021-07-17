@@ -32,7 +32,7 @@ You would have to manually install the language servers you need.
    pip install 'python-language-server[all]'
    ```
 
-2. Language server pack for go is maintained by the go team itself. Use `go get` to [install **gopls**](https://github.com/golang/tools/blob/master/gopls/README.md#installation)
+2. Language server pack for **go** is maintained by the go team itself. Use `go get` to [install **gopls**](https://github.com/golang/tools/blob/master/gopls/README.md#installation)
    ```bash
    GO111MODULE=on go get golang.org/x/tools/gopls@latest
    ```
@@ -44,7 +44,7 @@ You would have to manually install the language servers you need.
    " this will also install the languager server for go (gopls) automatically
    ```
 
-3. For bash, install [bash-language-server](https://github.com/bash-lsp/bash-language-server)
+3. For **bash**, install [bash-language-server](https://github.com/bash-lsp/bash-language-server)
    ```bash
    # if you have npm installed
    npm i -g bash-language-server
@@ -60,7 +60,6 @@ You would have to manually install the language servers you need.
 The following boilerplate config can be used as it is
 
 ```vim
-" make completion menu more rich
 set completeopt=menuone,noselect
 
 " Use <Tab> and <S-Tab> to navigate through popup menu
@@ -76,6 +75,7 @@ nnoremap <silent> <C-k> <cmd>lua vim.lsp.buf.signature_help()<CR>
 nnoremap <silent> <C-n> <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
 nnoremap <silent> <C-p> <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 
+" Auto format using LSP on save
 autocmd BufWritePre *go,*.py lua vim.lsp.buf.formatting_sync(nil, 100)
 ```
 
@@ -131,13 +131,20 @@ lua <<EOF
 EOF
 ```
 
-## Spicy Stuff
+After setting up both the plugins open a file whose language server you installed and run `:LspInfo` to check server diagnostics
+
+## Spicy Stuff 🌶️
 
 Below are some plugins which spice up the neovim lsp experience
 
 ### [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 
 > Richer UI for LSP
+
+```vim
+Plug 'neovim/nvim-lspconfig'
+Plug 'glepnir/lspsaga.nvim'
+```
 
 ```vim
 " lsp provider to find the cursor word definition and reference
@@ -160,6 +167,10 @@ vnoremap <silent><leader>ca :<C-U>lua require('lspsaga.codeaction').range_code_a
 > Show function signature help as you type
 
 ```vim
+Plug 'ray-x/lsp_signature.nvim'
+```
+
+```vim
 lua <<EOF
 require'lspconfig'.gopls.setup {
     on_attach = function(client)
@@ -168,6 +179,22 @@ end,
 }
 EOF
 ```
+
+### [vim-illuminate](https://github.com/RRethy/vim-illuminate)
+
+> Highlighting other uses of the current word under the cursor
+
+```vim
+Plug 'RRethy/vim-illuminate'
+```
+
+After installing make sure you have a language server running, it should work out of the box
+You can manually enable what files to use illuminate on as well
+
+```vim
+let g:Illuminate_ftwhitelist = ['vim', 'sh', 'python']
+```
+
 
 ## Resources
 - [nvim-lspconfig github](https://github.com/neovim/nvim-lspconfig)
