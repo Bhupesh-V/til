@@ -1,5 +1,9 @@
 [
  {
+  "title": "Auto-correct Git commands",
+  "url": "https://bhupesh.gitbook.io/notes/git/autocorrect-git-commands"
+ },
+ {
   "title": "Configuring LSP on NeoVim",
   "url": "https://bhupesh.gitbook.io/notes/vim/configuring-lsp-neovim-guide"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Dividing Time deltas in python - Difference b/w 2 datetime values",
   "url": "https://bhupesh.gitbook.io/notes/python/dividing-time-deltas-python"
- },
- {
-  "title": "Generate random secure password using python",
-  "url": "https://bhupesh.gitbook.io/notes/python/generating-random-secure-password-python"
  }
 ]

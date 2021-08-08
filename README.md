@@ -25,7 +25,7 @@
 ## Categories
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Git](#git) [**`7`**]
-* [Go](#go) [**`8`**]
+* [Go](#go) [**`9`**]
 * [Miscellaneous](#miscellaneous) [**`19`**]
 * [Python](#python) [**`12`**]
 * [Shell](#shell) [**`20`**]
@@ -73,6 +73,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/split-strings-in-go.md">Splitting strings in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a>

@@ -220,6 +220,16 @@ Reference `ORIG_HEAD` points to the original commit before the merge. So we are 
 
 Also must read: [How to revert a faulty merge](https://github.com/git/git/blob/master/Documentation/howto/revert-a-faulty-merge.txt)
 
+## Undo all current uncommitted changes
+
+Storing everything in stash
+
+```
+# -a is for adding untracked changes
+git stash save -au "custom message"
+```
+
+
 ### Resources
 
 - [undo-git-pull-how-to-bring-repos-to-old-state](https://stackoverflow.com/questions/1223354/undo-git-pull-how-to-bring-repos-to-old-state) 
