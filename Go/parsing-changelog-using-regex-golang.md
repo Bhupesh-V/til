@@ -67,7 +67,7 @@ func main() {
 	enclosingPattern := `## [`
 	var submatchall []string
 	// prefixing verion number 0.6 with v won't work
-	ver := "0.6"
+	ver := "0.3"
 	// Every new version looks like this: ## [1.4.0] - Jan 12, 2069
 	// (?s) + <enclosing pattern> + <version-number> + .* + </enclosingPattern>
 
@@ -89,4 +89,18 @@ func main() {
 		os.Exit(1)
 	}
 }
+```
+
+Here is a sample output
+
+```
+$ go run changelog-parser.go
+## [0.3] - Nov 9, 2019
+
+### Added
+
+- Removed redundant imports
+- Added Module/Class docstrings for documentation
+- Formatted Code
+
 ```
