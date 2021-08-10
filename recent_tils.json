@@ -1,5 +1,13 @@
 [
  {
+  "title": "Changing string case in bash",
+  "url": "https://bhupesh.gitbook.io/notes/shell/changing-string-case-bash"
+ },
+ {
+  "title": "Print value of `$PATH` in readable format",
+  "url": "https://bhupesh.gitbook.io/notes/shell/print-value-of-path-readable-format"
+ },
+ {
   "title": "Parsing changelogs using regex with Go",
   "url": "https://bhupesh.gitbook.io/notes/go/parsing-changelog-using-regex-golang"
  },
@@ -30,13 +38,5 @@
  {
   "title": "Everything about date & time in python",
   "url": "https://bhupesh.gitbook.io/notes/python/everything-about-date-and-time-in-python"
- },
- {
-  "title": "Get list of all branches",
-  "url": "https://bhupesh.gitbook.io/notes/git/get-list-of-all-branches"
- },
- {
-  "title": "FZF: Tips and Tricks",
-  "url": "https://bhupesh.gitbook.io/notes/shell/fzf-tips-tricks"
  }
 ]
