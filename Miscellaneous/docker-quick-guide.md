@@ -69,22 +69,31 @@
 
 ## Docker Compose
 
+> Tip: Alias `docker-compose` to an alias like `dc` to make your life better
+
 1. Build and run containers.
+   ```bash
+   docker-compose up --build
+   ```
+
+2. Start compose in detached mode
    ```bash
    docker-compose up -d
    ```
 
-2. Stop containers.
+3. Stop containers.
    ```bash
    docker-compose stop
    ```
 
-3. Check logs/console messages.
+4. Check logs/console messages.
    ```bash
    docker-compose logs <image name>
+   # or better use docker
+   docker logs -f <image name>
    ```
 
-4. List all containers.
+5. List all containers.
    ```bash
    docker-compose ps
    ```
