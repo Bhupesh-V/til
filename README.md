@@ -25,7 +25,7 @@
 ## Categories
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Git](#git) [**`7`**]
-* [Go](#go) [**`9`**]
+* [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`19`**]
 * [Python](#python) [**`13`**]
 * [Shell](#shell) [**`22`**]
@@ -69,6 +69,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/adding-version-info-in-go-apps.md">Add version info in Go projects</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/anatomy-go-mod-file.md">Anatomy of `go.mod` file</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/clear-terminal-screen-in-go.md">Clearing terminal screen in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a>

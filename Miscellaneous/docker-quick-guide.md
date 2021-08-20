@@ -93,6 +93,8 @@
    docker logs -f <image name>
    ```
 
+   To clear log output, use `cmd + k`, or `ctrl + k`
+
 5. List all containers.
    ```bash
    docker-compose ps

@@ -1,5 +1,9 @@
 [
  {
+  "title": "Using difflib in Python for fuzzy string matching",
+  "url": "https://bhupesh.gitbook.io/notes/python/fuzzy-string-matching-using-difflib-python"
+ },
+ {
   "title": "Changing string case in bash",
   "url": "https://bhupesh.gitbook.io/notes/shell/changing-string-case-bash"
  },
@@ -34,9 +38,5 @@
  {
   "title": "How to undo anything in Git",
   "url": "https://bhupesh.gitbook.io/notes/git/how-to-undo-anything-in-git"
- },
- {
-  "title": "Everything about date & time in python",
-  "url": "https://bhupesh.gitbook.io/notes/python/everything-about-date-and-time-in-python"
  }
 ]
