@@ -1,5 +1,9 @@
 [
  {
+  "title": "Anatomy of `go.mod` file",
+  "url": "https://bhupesh.gitbook.io/notes/go/anatomy-go-mod-file"
+ },
+ {
   "title": "Using difflib in Python for fuzzy string matching",
   "url": "https://bhupesh.gitbook.io/notes/python/fuzzy-string-matching-using-difflib-python"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Navigating your way through Github API",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/navigating-your-way-through-github-rest-api"
- },
- {
-  "title": "How to undo anything in Git",
-  "url": "https://bhupesh.gitbook.io/notes/git/how-to-undo-anything-in-git"
  }
 ]

@@ -26,7 +26,7 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Git](#git) [**`7`**]
 * [Go](#go) [**`10`**]
-* [Miscellaneous](#miscellaneous) [**`19`**]
+* [Miscellaneous](#miscellaneous) [**`20`**]
 * [Python](#python) [**`13`**]
 * [Shell](#shell) [**`22`**]
 * [Vim](#vim) [**`8`**]
@@ -86,6 +86,7 @@
 ### Miscellaneous
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/blue-green-deployment.md">Blue-Green Deployment Strategy</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md">Chaos Engineering 🐒️</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md">Collected notes on Database Sharding 🗃</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
