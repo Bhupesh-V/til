@@ -29,10 +29,10 @@ The harder is to break the steady state, the more confidence we have in the beha
 
 - Netflix's [chaosmonkey](https://github.com/Netflix/chaosmonkey) is a resiliency tool that helps applications tolerate random instance failures.
 - [pumba](https://github.com/alexei-led/pumba) is a chaos testing, network emulation and stress testing tool for containers.
+- [Chaos Mesh](https://chaos-mesh.org/) is a chaos engineering platform under CNCF
 
 ## Resources & Credits
 
 - [Chaos Architecture](https://www.infoq.com/presentations/chaos-architecture-mindset/)
 - [Principles of chaos engineering](https://principlesofchaos.org/)
 - [Chaos Engineering - Gremlin](https://www.gremlin.com/chaos-engineering/)
-- [Chaos Mesh](https://chaos-mesh.org/)
