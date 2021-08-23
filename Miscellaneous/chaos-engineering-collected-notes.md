@@ -35,3 +35,4 @@ The harder is to break the steady state, the more confidence we have in the beha
 - [Chaos Architecture](https://www.infoq.com/presentations/chaos-architecture-mindset/)
 - [Principles of chaos engineering](https://principlesofchaos.org/)
 - [Chaos Engineering - Gremlin](https://www.gremlin.com/chaos-engineering/)
+- [Chaos Mesh](https://chaos-mesh.org/)
