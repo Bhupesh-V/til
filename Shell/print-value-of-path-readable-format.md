@@ -2,8 +2,10 @@
 **_Posted on 10 Aug, 2021_**
 
 ```bash
-# might only work in bash
+# for bash
 echo "${PATH//:/$'\n'}"
+# for zsh omit the $ char
+echo "${PATH//:/'\n'}"
 ```
 
 Substitute all occurrences of ":" in `$PATH` with a newline "\n"
