@@ -100,6 +100,21 @@ choice=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
 git switch $choice
 ```
 
+## interactively stage files in Git
+
+```bash
+#!/usr/bin/env bash
+
+readarray -t choices < <(git ls-files --other --modified --exclude-standard | fzf \
+  --prompt="Stage Files: " \
+  --height 40% --reverse --multi \
+  --header="Choose files to stage (TAB to select multiple files)"
+)
+
+git add "${choices[@]}"
+
+```
+
 ## Deleting unused branches interactively
 ```bash
 #!/usr/bin/env sh
