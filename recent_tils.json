@@ -1,5 +1,9 @@
 [
  {
+  "title": "Blue-Green Deployment Strategy",
+  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/blue-green-deployment"
+ },
+ {
   "title": "Anatomy of `go.mod` file",
   "url": "https://bhupesh.gitbook.io/notes/go/anatomy-go-mod-file"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Exploring Large Codebases",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/exploring-large-codebases-tips"
- },
- {
-  "title": "Navigating your way through Github API",
-  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/navigating-your-way-through-github-rest-api"
  }
 ]

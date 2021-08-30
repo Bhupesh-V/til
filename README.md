@@ -27,7 +27,7 @@
 * [Git](#git) [**`7`**]
 * [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`20`**]
-* [Python](#python) [**`13`**]
+* [Python](#python) [**`14`**]
 * [Shell](#shell) [**`22`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
@@ -118,6 +118,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/difference-class-and-function-based-views-djnago.md">Difference b/w Class & Function Based Views in Django</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/dividing-time-deltas-python.md">Dividing Time deltas in python - Difference b/w 2 datetime values</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/downloading-files-using-python-the-correct-way.md">Downloading files using python the correct way</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/everything-about-date-and-time-in-python.md">Everything about date & time in python</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/functional-programming-in-python.md">Functional Programming in Python 🐍</a>
