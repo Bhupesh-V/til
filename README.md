@@ -27,7 +27,7 @@
 * [Git](#git) [**`7`**]
 * [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`20`**]
-* [Python](#python) [**`14`**]
+* [Python](#python) [**`15`**]
 * [Shell](#shell) [**`22`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
@@ -123,6 +123,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/functional-programming-in-python.md">Functional Programming in Python 🐍</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/generating-random-secure-password-python.md">Generate random secure password using python</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/measure-code-execution-time-python.md">Measure code execution time using timer</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/pep8.md">PEP8 - the fashion 💃 police of Python</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/publishing-a-package-on-pypi.md">Publishing a Package on PyPI</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/specify-dev-dependencies-python-package-setup.md">Specify dev dependencies in setup.py</a>

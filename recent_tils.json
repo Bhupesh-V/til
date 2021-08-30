@@ -1,5 +1,9 @@
 [
  {
+  "title": "Downloading files using python the correct way",
+  "url": "https://bhupesh.gitbook.io/notes/python/downloading-files-using-python-the-correct-way"
+ },
+ {
   "title": "Blue-Green Deployment Strategy",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/blue-green-deployment"
  },
@@ -34,9 +38,5 @@
  {
   "title": "ctags in Vim - Quick Cheatsheet",
   "url": "https://bhupesh.gitbook.io/notes/vim/ctags-quick-setup-cheatsheet"
- },
- {
-  "title": "Exploring Large Codebases",
-  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/exploring-large-codebases-tips"
  }
 ]
