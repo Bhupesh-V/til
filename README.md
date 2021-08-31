@@ -27,7 +27,7 @@
 * [Git](#git) [**`7`**]
 * [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`20`**]
-* [Python](#python) [**`15`**]
+* [Python](#python) [**`16`**]
 * [Shell](#shell) [**`22`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
@@ -114,6 +114,7 @@
 ### Python
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/check-csv-has-header.md">Check if csv has header in python</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/check-indentation-errors-in-python.md">Check indentation errors in python 🐍</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/cryptographically-strong-random-string.md">Cryptographically strong random string</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/difference-class-and-function-based-views-djnago.md">Difference b/w Class & Function Based Views in Django</a>
