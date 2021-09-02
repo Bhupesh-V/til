@@ -27,7 +27,7 @@
 * [Git](#git) [**`7`**]
 * [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`20`**]
-* [Python](#python) [**`16`**]
+* [Python](#python) [**`17`**]
 * [Shell](#shell) [**`22`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
@@ -128,6 +128,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/pep8.md">PEP8 - the fashion 💃 police of Python</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/publishing-a-package-on-pypi.md">Publishing a Package on PyPI</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/specify-dev-dependencies-python-package-setup.md">Specify dev dependencies in setup.py</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/using-defaultdict-to-handle-key-not-in-dict-case.md">Using defaultdict to handle key not in dict</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/fuzzy-string-matching-using-difflib-python.md">Using difflib in Python for fuzzy string matching</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/writing-tests-in-python-using-unittest.md">Writing Unit Tests in Python ✅</a>
 </ul>

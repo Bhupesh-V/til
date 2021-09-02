@@ -1,5 +1,9 @@
 [
  {
+  "title": "Check if csv has header in python",
+  "url": "https://bhupesh.gitbook.io/notes/python/check-csv-has-header"
+ },
+ {
   "title": "Measure code execution time using timer",
   "url": "https://bhupesh.gitbook.io/notes/python/measure-code-execution-time-python"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Auto-correct Git commands",
   "url": "https://bhupesh.gitbook.io/notes/git/autocorrect-git-commands"
- },
- {
-  "title": "Configuring LSP on NeoVim",
-  "url": "https://bhupesh.gitbook.io/notes/vim/configuring-lsp-neovim-guide"
  }
 ]
