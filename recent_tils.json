@@ -1,5 +1,9 @@
 [
  {
+  "title": "Using defaultdict to handle key not in dict",
+  "url": "https://bhupesh.gitbook.io/notes/python/using-defaultdict-to-handle-key-not-in-dict-case"
+ },
+ {
   "title": "Check if csv has header in python",
   "url": "https://bhupesh.gitbook.io/notes/python/check-csv-has-header"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Parsing changelogs using regex with Go",
   "url": "https://bhupesh.gitbook.io/notes/go/parsing-changelog-using-regex-golang"
- },
- {
-  "title": "Auto-correct Git commands",
-  "url": "https://bhupesh.gitbook.io/notes/git/autocorrect-git-commands"
  }
 ]

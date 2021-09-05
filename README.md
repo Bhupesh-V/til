@@ -26,7 +26,7 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Git](#git) [**`7`**]
 * [Go](#go) [**`10`**]
-* [Miscellaneous](#miscellaneous) [**`20`**]
+* [Miscellaneous](#miscellaneous) [**`21`**]
 * [Python](#python) [**`17`**]
 * [Shell](#shell) [**`22`**]
 * [Vim](#vim) [**`8`**]
@@ -94,6 +94,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/docker-quick-guide.md">Docker 🐋 quick guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
