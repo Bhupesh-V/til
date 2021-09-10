@@ -47,6 +47,12 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   tr -s ' '
   ```
 
+- Remove unwanted characters from string.
+  ```bash
+  # will delete % and ;
+  echo "1;00%" | tr -d "%;"
+  ```
+
 ## `cut` ✂️
 
 - Print every 4th word (or field) from a space separated STDIN.
