@@ -100,7 +100,7 @@ choice=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
 git switch $choice
 ```
 
-## interactively stage files in Git
+## Interactively stage files in Git
 
 ```bash
 #!/usr/bin/env bash
@@ -128,6 +128,38 @@ choices=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
 )
 
 git branch -d $choices
+```
+
+## Diff(ing) files across branches
+
+Useful in cases when your working with multiple people and want to compare files that are changed while building a feature. 
+
+```bash
+#!/usr/bin/env bash
+
+# FZF Wrapper over git to interactively diff files across branches
+
+readarray -t git_files < <(git ls-files | fzf \
+  --prompt="Choose File(s): " \
+  --height 40% --reverse --multi \
+  --header="Choose files to diff (TAB to select multiple files)"
+)
+
+target_branch=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
+  --prompt="Select target branch: " \
+  --header="Select branch to compare the files against" \
+  --height 40% --reverse
+)
+
+# get current branch
+current_branch=$(git branch | grep \\* | cut -d ' ' -f2)
+
+printf "%s\n" "Viewing diff for following files against $(tput bold)$target_branch$(tput sgr0)"
+printf "$(tput bold)$(tput setaf 208)%s$(tput sgr0)\n" "${git_files[@]}"
+echo
+
+git diff "$current_branch".."$target_branch" -- "${git_files[@]}"
+
 ```
 
 ## Replacing [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) with `fzf`
