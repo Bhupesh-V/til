@@ -42,4 +42,5 @@ Some of the points that help me land a decision:
 
 <!-- ## Owning an Idea -->
 
-  
+### Resources
+- [MAKING WORLD-CLASS DOCS TAKES EFFORT](https://daniel.haxx.se/blog/2021/09/04/making-world-class-docs-takes-effort/)
