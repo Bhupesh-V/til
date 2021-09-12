@@ -1,5 +1,9 @@
 [
  {
+  "title": "Getting JSON data from PostgreSQL",
+  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/getting-json-data-in-postgresql"
+ },
+ {
   "title": "Using defaultdict to handle key not in dict",
   "url": "https://bhupesh.gitbook.io/notes/python/using-defaultdict-to-handle-key-not-in-dict-case"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Print value of `$PATH` in readable format",
   "url": "https://bhupesh.gitbook.io/notes/shell/print-value-of-path-readable-format"
- },
- {
-  "title": "Parsing changelogs using regex with Go",
-  "url": "https://bhupesh.gitbook.io/notes/go/parsing-changelog-using-regex-golang"
  }
 ]

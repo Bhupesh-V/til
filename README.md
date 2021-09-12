@@ -28,7 +28,7 @@
 * [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`21`**]
 * [Python](#python) [**`17`**]
-* [Shell](#shell) [**`22`**]
+* [Shell](#shell) [**`23`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 
@@ -142,6 +142,7 @@
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/alternative-to-ls-linux.md">Alternative to 'ls' commnand</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/changing-string-case-bash.md">Changing string case in bash</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-battery-status.md">Check battery status</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/colorize-output-in-terminal-bash.md">Colorize Output in Terminal</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/copy-one-file-to-multiple-files.md">Copy one file to multiple files in Bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/extract-file-id-from-drive-shareable-link.md">Extract file id from drive shareable link</a>
