@@ -90,10 +90,9 @@ fzf can be used as a nice prompt for showing git branches:
 ```bash
 #!/usr/bin/env sh
 
-header="Select a branch to switch to"
-
 choice=$(git for-each-ref --format='%(refname:short)' refs/heads/* | fzf \
   --prompt="Switch branch: " \
+  --header="Select a branch to switch to" \
   --height 40% --reverse
 )
 
