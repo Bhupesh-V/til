@@ -28,7 +28,7 @@
 * [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`21`**]
 * [Python](#python) [**`17`**]
-* [Shell](#shell) [**`23`**]
+* [Shell](#shell) [**`24`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 
@@ -154,6 +154,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md">Finding the file creation date/time on Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-files-in-git-repo.md">Generate a RSS Feed of recent files inside a Git repository</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-release-notes-github-api.md">Get Release notes from Github API</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md">Get System info using Shell Commands</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a>

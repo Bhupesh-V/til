@@ -1,5 +1,9 @@
 [
  {
+  "title": "Check battery status",
+  "url": "https://bhupesh.gitbook.io/notes/shell/get-battery-status"
+ },
+ {
   "title": "Getting JSON data from PostgreSQL",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/getting-json-data-in-postgresql"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Changing string case in bash",
   "url": "https://bhupesh.gitbook.io/notes/shell/changing-string-case-bash"
- },
- {
-  "title": "Print value of `$PATH` in readable format",
-  "url": "https://bhupesh.gitbook.io/notes/shell/print-value-of-path-readable-format"
  }
 ]
