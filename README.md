@@ -27,7 +27,7 @@
 * [Git](#git) [**`7`**]
 * [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`21`**]
-* [Python](#python) [**`17`**]
+* [Python](#python) [**`18`**]
 * [Shell](#shell) [**`24`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
@@ -127,6 +127,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/generating-random-secure-password-python.md">Generate random secure password using python</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/measure-code-execution-time-python.md">Measure code execution time using timer</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/pep8.md">PEP8 - the fashion 💃 police of Python</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/preventing-global-package-install.md">Preventing global package install with `PIP_REQUIRE_VIRTUALENV`</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/publishing-a-package-on-pypi.md">Publishing a Package on PyPI</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/specify-dev-dependencies-python-package-setup.md">Specify dev dependencies in setup.py</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/using-defaultdict-to-handle-key-not-in-dict-case.md">Using defaultdict to handle key not in dict</a>

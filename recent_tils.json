@@ -1,5 +1,9 @@
 [
  {
+  "title": "Get Release notes from Github API",
+  "url": "https://bhupesh.gitbook.io/notes/shell/get-release-notes-github-api"
+ },
+ {
   "title": "Check battery status",
   "url": "https://bhupesh.gitbook.io/notes/shell/get-battery-status"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Using difflib in Python for fuzzy string matching",
   "url": "https://bhupesh.gitbook.io/notes/python/fuzzy-string-matching-using-difflib-python"
- },
- {
-  "title": "Changing string case in bash",
-  "url": "https://bhupesh.gitbook.io/notes/shell/changing-string-case-bash"
  }
 ]
