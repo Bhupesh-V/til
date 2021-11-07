@@ -1,5 +1,9 @@
 [
  {
+  "title": "Preventing global package install with `PIP_REQUIRE_VIRTUALENV`",
+  "url": "https://bhupesh.gitbook.io/notes/python/preventing-global-package-install"
+ },
+ {
   "title": "Get Release notes from Github API",
   "url": "https://bhupesh.gitbook.io/notes/shell/get-release-notes-github-api"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Anatomy of `go.mod` file",
   "url": "https://bhupesh.gitbook.io/notes/go/anatomy-go-mod-file"
- },
- {
-  "title": "Using difflib in Python for fuzzy string matching",
-  "url": "https://bhupesh.gitbook.io/notes/python/fuzzy-string-matching-using-difflib-python"
  }
 ]
