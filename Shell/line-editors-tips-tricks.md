@@ -30,9 +30,24 @@ I will log various ways through which tools like `sed`, `cut` and `tr` can be us
   sed -n '1,/pattern/ p' file.txt
   ```
 
+- Print everything between two patterns
+  ```bash
+  sed -nE '/^foo/,/^bar/p' file.txt
+  ```
+
 - Avoid printing the searched pattern
   ```bash
   sed -n 's/^my_string//p' file.md
+  ```
+
+- Insert contents of file after a certain line
+  ```bash
+  sed '5 r newfile.txt' file.txt
+  ```
+
+- Change line containing regex/pattern match
+  ```bash
+  sed '/MATCH THIS/c\REPLACE WITH THIS' file.txt
   ```
 
 ## `tr` ➡️
