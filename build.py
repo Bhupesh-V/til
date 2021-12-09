@@ -126,6 +126,21 @@ def print_file(category_names, count, categories):
         data = {"count": count}
         json.dump(data, json_file, indent=" ")
 
+    # create summary for Gitbook
+    with open("SUMMARY.md", "w") as summary:
+        for category in sorted(category_names):
+            summary.write("\n\n## {0}\n\n".format(category))
+            tils = categories[category]
+            summary.write("<ul>")
+            for (title, filename) in sorted(tils):
+                summary.write("\n<li>")
+                summary.write(
+                    f"""<a href="{filename}">{title}</a>"""
+                )
+            summary.write("\n")
+            summary.write("</ul>")
+
+
     with open("README.md", "w") as file:
         file.write(HEADER)
         file.write("""\n\n## Categories\n""")

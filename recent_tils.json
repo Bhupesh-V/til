@@ -1,5 +1,9 @@
 [
  {
+  "title": "Easy & Lazy way to flatten a python list",
+  "url": "https://bhupesh.gitbook.io/notes/python/flatten-python-list"
+ },
+ {
   "title": "Null aware operators in Dart",
   "url": "https://bhupesh.gitbook.io/notes/flutter/null-aware-operators-dart"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Downloading files using python the correct way",
   "url": "https://bhupesh.gitbook.io/notes/python/downloading-files-using-python-the-correct-way"
- },
- {
-  "title": "Blue-Green Deployment Strategy",
-  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/blue-green-deployment"
  }
 ]
