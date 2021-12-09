@@ -131,14 +131,10 @@ def print_file(category_names, count, categories):
         for category in sorted(category_names):
             summary.write("\n\n## {0}\n\n".format(category))
             tils = categories[category]
-            summary.write("<ul>")
             for (title, filename) in sorted(tils):
-                summary.write("\n<li>")
                 summary.write(
-                    f"""<a href="{filename}">{title}</a>"""
+                    f"""- [{title}]({filename})\n"""
                 )
-            summary.write("\n")
-            summary.write("</ul>")
 
 
     with open("README.md", "w") as file:
