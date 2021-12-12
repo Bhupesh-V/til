@@ -20,7 +20,7 @@ printf "%s\n" "$(grep -o -P '(?<=def ).*?(?=\()' $choices)" | fzf \
 
 ```
 
-The actual trick is finding all python functions and methods in a given file using grep
+The actual trick is finding all python functions and methods names in a given file using `grep`
 
 ```bash
 $ grep -o -P '(?<=def ).*?(?=\()' rich/columns.py
@@ -29,6 +29,14 @@ add_renderable
 __rich_console__
 iter_renderables
 ```
+
+Next we plug the function name with filename in this `git` command
+
+```bash
+git log -L :funciton_name:relative_file_path
+```
+
+Read more about [git log searching](https://git-scm.com/book/en/v2/Git-Tools-Searching)
 
 Below is a screencast demoing the same for [rich](https://github.com/willmcgugan/rich) package
 
