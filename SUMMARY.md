@@ -26,6 +26,7 @@
 <li><a href="Git/get-list-of-all-branches.md">Get list of all branches</a>
 <li><a href="Git/how-to-undo-anything-in-git.md">How to undo anything in Git</a>
 <li><a href="Git/parsing-git-status-for-tracked-untracked-changes.md">Parsing `git status` for tracked & untracked changes</a>
+<li><a href="Git/view-python-function-git-history-with-fzf.md">View a python function's history over-time with Git & FZF</a>
 </ul>
 
 ## Go
