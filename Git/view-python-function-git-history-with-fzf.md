@@ -40,7 +40,7 @@ Read more about [git log searching](https://git-scm.com/book/en/v2/Git-Tools-Sea
 
 Below is a screencast demoing the same for [rich](https://github.com/willmcgugan/rich) package
 
-![git-search-demo-gif](https://ik.imagekit.io/bhupesh/blog_content_pics/git-search-demo__1Kr8lRP_.gif?updatedAt=1639324374192)
+[![git-search-demo-gif](https://ik.imagekit.io/bhupesh/blog_content_pics/git-search-demo__1Kr8lRP_.gif?updatedAt=1639324374192)](https://ik.imagekit.io/bhupesh/blog_content_pics/git-search-demo__1Kr8lRP_.gif?updatedAt=1639324374192)
 
 If you are still interested, [here is the script](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/git/git-search) to hack around.
 
