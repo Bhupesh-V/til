@@ -1,5 +1,9 @@
 [
  {
+  "title": "View a python function's history over-time with Git & FZF",
+  "url": "https://bhupesh.gitbook.io/notes/git/view-python-function-git-history-with-fzf"
+ },
+ {
   "title": "Easy & Lazy way to flatten a python list",
   "url": "https://bhupesh.gitbook.io/notes/python/flatten-python-list"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Measure code execution time using timer",
   "url": "https://bhupesh.gitbook.io/notes/python/measure-code-execution-time-python"
- },
- {
-  "title": "Downloading files using python the correct way",
-  "url": "https://bhupesh.gitbook.io/notes/python/downloading-files-using-python-the-correct-way"
  }
 ]

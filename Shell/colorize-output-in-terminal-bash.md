@@ -1,5 +1,6 @@
 # Colorize Output in Terminal
-<!-- 31 Jan 2020 -->
+**_Posted on 31 Jan, 2020_**
+
 The ANSI escape sequences help adding color to the terminal (Doesn't work on Windows I guess)
 
 Here is the format:

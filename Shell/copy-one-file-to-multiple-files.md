@@ -1,5 +1,6 @@
 # Copy one file to multiple files in Bash
-<!--24 Dec 2019 -->
+**_Posted on 24 Dec, 2019_**
+
 ```bash
 for f in file{1..10}.py; do cp main.py $f; done
 ```

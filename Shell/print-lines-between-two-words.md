@@ -1,5 +1,5 @@
 # Print lines between 2 words
-<!-- 24 Aug 2020 -->
+**_Posted on 24 Aug 2020_**
 
 You may arrive in a situation where you may want to "extract" out text between two words.
 For example to view the latest changelog (where `x.x.x` is the latest version) in a [CHANGELOG.md](https://github.com/Bhupesh-V/dotman/blob/master/CHANGELOG.md) file.

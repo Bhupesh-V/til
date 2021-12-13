@@ -29,7 +29,7 @@
 * [Go](#go) [**`10`**]
 * [Miscellaneous](#miscellaneous) [**`21`**]
 * [Python](#python) [**`19`**]
-* [Shell](#shell) [**`24`**]
+* [Shell](#shell) [**`25`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 
@@ -177,6 +177,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/print-value-of-path-readable-format.md">Print value of `$PATH` in readable format</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 </ul>
 
 

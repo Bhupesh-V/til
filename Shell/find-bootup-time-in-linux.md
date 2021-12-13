@@ -1,5 +1,6 @@
 # Find boot-up time in linux 🐧
-<!-- 18 Oct 2020 -->
+**_Posted on 18 Oct, 2020_**
+
 We can achieve this using the `systemd` service. Just run this
 
 ```bash
