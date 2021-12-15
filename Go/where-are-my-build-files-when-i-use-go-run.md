@@ -1,8 +1,13 @@
 # Where are my build files when I use `go run`
-<!-- 9 June 2020 -->
-By default, 'go run' runs the compiled binary directly.
-The binaries are stored in a `temp` work folder, to see where they are stored use the `-work` flag.
+**_9 June 2020__**
 
+By default, 'go run' runs the compiled binary directly.
+The binaries are stored in a `temp` work folder, to see where they are stored use the `-work` flag. This directory path is stored in the `GOCACHE` env variable.
+Use `go env` to check its value
+```
+$ go env GOCACHE
+/Users/username/Library/Caches/go-build
+```
 
 ## Demo
 
