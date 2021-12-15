@@ -1,6 +1,7 @@
 # Get current branch name
+**_29 March, 2021_**
 
 ```bash
-git branch | grep \\* | cut -d ' ' -f2
+git branch | cut -d ' ' -f2
 ```
 
