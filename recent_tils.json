@@ -1,5 +1,9 @@
 [
  {
+  "title": "Writing a simple file watcher using GNU Utils",
+  "url": "https://bhupesh.gitbook.io/notes/shell/writing-simple-file-watcher"
+ },
+ {
   "title": "View a python function's history over-time with Git & FZF",
   "url": "https://bhupesh.gitbook.io/notes/git/view-python-function-git-history-with-fzf"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Check if csv has header in python",
   "url": "https://bhupesh.gitbook.io/notes/python/check-csv-has-header"
- },
- {
-  "title": "Measure code execution time using timer",
-  "url": "https://bhupesh.gitbook.io/notes/python/measure-code-execution-time-python"
  }
 ]

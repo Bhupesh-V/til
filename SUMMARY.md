@@ -122,6 +122,7 @@
 <li><a href="Shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a>
 <li><a href="Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a href="Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
+<li><a href="Shell/grep-cheatsheet.md">grep cheatsheet</a>
 </ul>
 
 ## Vim
