@@ -21,7 +21,7 @@ HEADER = """
   <a href="https://bhupesh.gitbook.io">
     <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fbhupesh.gitbook.io">
   </a>
-  <a href="https://bhupesh.gitbook.io" title"As seen on GitBook">
+  <a href="https://bhupesh.gitbook.io" title="As seen on GitBook">
     <img alt="GitBook Monthly Analytics" src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/Bhupesh-V/e32f40010ce09c09919b04117bee2581/raw/analytics.json">
   </a>
   <a href="https://paypal.me/BhupeshVarshney">
