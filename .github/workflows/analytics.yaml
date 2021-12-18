@@ -11,12 +11,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Get Analytics Data
+        id: analytics-data
+        run: |
+          echo ::set-output name=views::$(curl -sH "Authorization: Bearer ${{ secrets.GITBOOK_API_TOKEN }}" https://api.gitbook.com/v1/spaces/${{ secrets.GITBOOK_SPACE }}/analytics/traffic?interval=monthly | jq .count)
       - name: Create Awesome Badge
         uses: schneegans/dynamic-badges-action@v1.1.0
         with:
           auth: ${{ secrets.GIST_TOKEN }}
           gistID: e32f40010ce09c09919b04117bee2581
           filename: analytics.json
-          label: Hello
-          message: World
+          label: ${{ steps.analytics-data.outputs.views }}
+          message: Monthly Views
           color: orange
