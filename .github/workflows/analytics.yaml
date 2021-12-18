@@ -14,7 +14,7 @@ jobs:
       - name: Get Analytics Data
         id: analytics-data
         run: |
-          echo ::set-output name=views::$(curl -sH "Authorization: Bearer ${{ secrets.GITBOOK_API_TOKEN }}" https://api.gitbook.com/v1/spaces/${{ secrets.GITBOOK_SPACE }}/analytics/traffic?interval=monthly | jq .count)
+          echo ::set-output name=views::$(curl -sH "Authorization: Bearer ${{ secrets.GITBOOK_API_TOKEN }}" https://api.gitbook.com/v1/spaces/${{ secrets.GITBOOK_SPACE }}/analytics/traffic?interval=monthly | jq .count | numfmt --to=si)
       - name: Create Awesome Badge
         uses: schneegans/dynamic-badges-action@v1.1.0
         with:
