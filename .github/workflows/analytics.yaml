@@ -23,4 +23,4 @@ jobs:
           filename: analytics.json
           label: ${{ steps.analytics-data.outputs.views }}
           message: Monthly Views
-          color: orange
+          color: bf155b
