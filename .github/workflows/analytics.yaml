@@ -1,0 +1,22 @@
+name: GitBook Analytics
+on:
+  workflow_dispatch:
+  schedule:
+    # every week
+    - cron:  '0 0 * * 0'
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create Awesome Badge
+        uses: schneegans/dynamic-badges-action@v1.1.0
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gistID: e32f40010ce09c09919b04117bee2581
+          filename: analytics.json
+          label: Hello
+          message: World
+          color: orange
