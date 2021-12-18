@@ -9,6 +9,9 @@
   <a href="https://bhupesh.gitbook.io">
     <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fbhupesh.gitbook.io">
   </a>
+  <a href="https://bhupesh.gitbook.io">
+    <img alt="GitBook Monthly Analytics" src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/Bhupesh-V/e32f40010ce09c09919b04117bee2581/raw/analytics.json">
+  </a>
   <a href="https://paypal.me/BhupeshVarshney">
     <img alt="PayPal-Bhupesh Varshney" src="https://camo.githubusercontent.com/4a35ad533ec57bf3c47c44dad7b9bd41c83a5fc132497acb2787973a2ae2feeb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f6e6174652d50617950616c2d3130343039382e7376673f6c6f676f3d50617950616c" target="_blank" />
   </a>
