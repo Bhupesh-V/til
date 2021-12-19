@@ -24,3 +24,4 @@ jobs:
           label: ${{ steps.analytics-data.outputs.views }}
           message: Monthly Views
           color: "#bf155b"
+          namedLogo: GitBook
