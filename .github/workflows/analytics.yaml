@@ -25,3 +25,4 @@ jobs:
           message: Monthly Views
           color: "#bf155b"
           namedLogo: gitbook
+          logoColor: white
