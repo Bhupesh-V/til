@@ -20,7 +20,7 @@
   </a>
 </p>
 
-> Personal Wiki of Interesting things I learn every day at the intersection of software development, computer science & stuff.
+> Welcome to my digital garden 🪴
 
 
 
@@ -253,20 +253,10 @@
 
 See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository.
 
-## Author [![bhupesh-twitter-image](https://kutt.it/bhupeshimself)](https://twitter.com/bhupeshimself)
-
-👤 **[Bhupesh Varshney](https://bhupesh-v.github.io)** 
-
 ## ☺️ Show your support
 
 Support me by giving a ⭐️ if this project helped you! or just [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2F)](https://twitter.com/intent/tweet?url=https://github.com/Bhupesh-V/til&text=til%20via%20@bhupeshimself)
 
-<a href="https://liberapay.com/bhupesh/donate">
-  <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" width="100">
-</a>
-<a href="https://ko-fi.com/bhupesh">
-  <img title="ko-fi/bhupesh" alt="Support on ko-fi" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="185">
-</a>
 
 ## About
 
