@@ -1,5 +1,11 @@
 
 
+## Career
+
+<ul>
+<li><a href="Career/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
+</ul>
+
 ## Coding Practices
 
 <ul>
@@ -8,6 +14,21 @@
 <li><a href="Coding Practices/solid.md">SOLID: Design Principles</a>
 <li><a href="Coding Practices/write-clean-comments.md">Writing Comments</a>
 <li><a href="Coding Practices/cleancode-writing-functions.md">Writing Functions</a>
+</ul>
+
+## Databases
+
+<ul>
+<li><a href="Databases/database-sharding.md">Collected notes on Database Sharding 🗃</a>
+<li><a href="Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
+</ul>
+
+## DevOps
+
+<ul>
+<li><a href="DevOps/blue-green-deployment.md">Blue-Green Deployment Strategy</a>
+<li><a href="DevOps/chaos-engineering-collected-notes.md">Chaos Engineering 🐒️</a>
+<li><a href="DevOps/docker-quick-guide.md">Docker 🐋 quick guide</a>
 </ul>
 
 ## Flutter
@@ -44,18 +65,19 @@
 <li><a href="Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a>
 </ul>
 
+## Meta
+
+<ul>
+<li><a href="Meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you and my future self</a>
+</ul>
+
 ## Miscellaneous
 
 <ul>
-<li><a href="Miscellaneous/blue-green-deployment.md">Blue-Green Deployment Strategy</a>
-<li><a href="Miscellaneous/chaos-engineering-collected-notes.md">Chaos Engineering 🐒️</a>
-<li><a href="Miscellaneous/database-sharding.md">Collected notes on Database Sharding 🗃</a>
 <li><a href="Miscellaneous/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
 <li><a href="Miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a>
 <li><a href="Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a>
-<li><a href="Miscellaneous/docker-quick-guide.md">Docker 🐋 quick guide</a>
 <li><a href="Miscellaneous/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
-<li><a href="Miscellaneous/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
 <li><a href="Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a href="Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a href="Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
@@ -64,10 +86,8 @@
 <li><a href="Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a href="Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
 <li><a href="Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a>
-<li><a href="Miscellaneous/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you and my future self</a>
 <li><a href="Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a>
 <li><a href="Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a>
-<li><a href="Miscellaneous/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
 </ul>
 
 ## Python

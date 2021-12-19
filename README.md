@@ -26,17 +26,30 @@
 
 
 ## Categories
+* [Career](#career) [**`1`**]
 * [Coding Practices](#coding-practices) [**`5`**]
+* [Databases](#databases) [**`2`**]
+* [DevOps](#devops) [**`3`**]
 * [Flutter](#flutter) [**`1`**]
 * [Git](#git) [**`8`**]
 * [Go](#go) [**`10`**]
-* [Miscellaneous](#miscellaneous) [**`21`**]
+* [Meta](#meta) [**`1`**]
+* [Miscellaneous](#miscellaneous) [**`14`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`26`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 
 ---
+
+
+
+
+### Career
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
+</ul>
 
 
 
@@ -49,6 +62,27 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/solid.md">SOLID: Design Principles</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/write-clean-comments.md">Writing Comments</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/cleancode-writing-functions.md">Writing Functions</a>
+</ul>
+
+
+
+
+### Databases
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/database-sharding.md">Collected notes on Database Sharding 🗃</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
+</ul>
+
+
+
+
+### DevOps
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/blue-green-deployment.md">Blue-Green Deployment Strategy</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/chaos-engineering-collected-notes.md">Chaos Engineering 🐒️</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/docker-quick-guide.md">Docker 🐋 quick guide</a>
 </ul>
 
 
@@ -97,18 +131,22 @@
 
 
 
+### Meta
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you and my future self</a>
+</ul>
+
+
+
+
 ### Miscellaneous
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/blue-green-deployment.md">Blue-Green Deployment Strategy</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/chaos-engineering-collected-notes.md">Chaos Engineering 🐒️</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/database-sharding.md">Collected notes on Database Sharding 🗃</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/docker-quick-guide.md">Docker 🐋 quick guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
@@ -117,10 +155,8 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you and my future self</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
 </ul>
 
 
