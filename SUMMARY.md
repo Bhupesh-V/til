@@ -3,6 +3,7 @@
 ## Career
 
 <ul>
+<li><a href="Career/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
 <li><a href="Career/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
 </ul>
 
@@ -77,7 +78,6 @@
 <li><a href="Miscellaneous/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
 <li><a href="Miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a>
 <li><a href="Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a>
-<li><a href="Miscellaneous/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
 <li><a href="Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a href="Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a href="Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
