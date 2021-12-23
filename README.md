@@ -28,7 +28,7 @@
 ## Categories
 * [Career](#career) [**`2`**]
 * [Coding Practices](#coding-practices) [**`5`**]
-* [Databases](#databases) [**`2`**]
+* [Databases](#databases) [**`3`**]
 * [DevOps](#devops) [**`3`**]
 * [Flutter](#flutter) [**`1`**]
 * [Git](#git) [**`8`**]
@@ -72,6 +72,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/database-sharding.md">Collected notes on Database Sharding 🗃</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/explain-postgresql-query.md">EXPLAIN queries in PostgreSQL</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
 </ul>
 
