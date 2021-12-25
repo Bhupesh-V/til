@@ -1,5 +1,9 @@
 [
  {
+  "title": "EXPLAIN queries in PostgreSQL",
+  "url": "https://bhupesh.gitbook.io/notes/atabases/explain-postgresql-query"
+ },
+ {
   "title": "grep cheatsheet",
   "url": "https://bhupesh.gitbook.io/notes/shell/grep-cheatsheet"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Using defaultdict to handle key not in dict",
   "url": "https://bhupesh.gitbook.io/notes/python/using-defaultdict-to-handle-key-not-in-dict-case"
- },
- {
-  "title": "Check if csv has header in python",
-  "url": "https://bhupesh.gitbook.io/notes/python/check-csv-has-header"
  }
 ]
