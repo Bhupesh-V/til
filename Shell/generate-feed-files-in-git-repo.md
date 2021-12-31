@@ -48,7 +48,7 @@ The magic here is done by the [`--diff-filter=A`](https://www.git-scm.com/docs/g
 
 > NOTE: We are assuming that the file creation date to be the _date of the commit that introduced the file_ and since its a Feed for a git repo, this should make sense (I was born when I was committed 😁️)
 
-Here is a python [script to generate a valid RSS feed](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/git-feed)
+Here is a python [script to generate a valid RSS feed](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/git/git-feed)
 
 
 ```python
