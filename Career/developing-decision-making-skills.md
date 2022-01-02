@@ -1,13 +1,15 @@
 # Invest in decision-making skills early in career
 **_Posted on 02 Jan, 2022_**
 
-**Current Situation**:
+## Current Situation
+
 Engineers are solution-oriented and often think in terms of how, rather than what & why?. This leads to
 - Stalled career growth as the work gets unpleasant.
 - In cases, it can lead to debate, followed by judging each other's character and skills.
 - Affects company's growth, since if engineers focus on how then there is a chance people move in different directions
 
-**Solution**:
+## Solution
+
 Develop decision-making skills by water-shedding method
 
 Now, wtf is water-shedding?
@@ -41,5 +43,5 @@ We can use the same pattern to make decisions,
 5. Diagnose when things are off-track & adjust (mitigate risk)
 
 
-## Resources
-- https://www.reforge.com/blog/technical-decision-making
+### Resources
+- [Why Engineers Should Invest in Decision-Making Skills Early](https://www.reforge.com/blog/technical-decision-making)
