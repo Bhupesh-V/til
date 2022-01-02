@@ -1,12 +1,13 @@
 # Converting videos to High quality GIFs
-<!-- Dec 6, 2020 -->
+**_Posted on Dec 6, 2020_**
 
-Converting videos to gifs using ffmpeg is a pain in the ass if you don't know what's happening.
+
+Converting videos to GIFs using ffmpeg is a pain in the ass if you don't know what's happening.
 GIF size getting 10x the size of original video ? Don't worry, I got you!
 
 1. Always create a custom palette
 2. Don't increase/decrease file dimensions
-3. Save unnecessary frame conversion by using `-t` to convert video until timestamp.
+3. Save unnecessary frame conversion by using `-t` to convert video until a timestamp.
 4. Experiment with `fps` (default value is 24)
 
 ```bash
@@ -18,7 +19,7 @@ ffmpeg -i video.mp4 -vf "fps=22,scale=1024:-1:flags=lanczos,palettegen" palette.
 ffmpeg -t 29 -i video.mp4 -i palette.png -filter_complex "fps=22,scale=1024:-1:flags=lanczos[x];[x][1:v]paletteuse" output.gif
 ```
 
-Download complete script [**here**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/convert-to-gif.sh)
+Download complete script [**here**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/gif)
 
 ### Resources
 

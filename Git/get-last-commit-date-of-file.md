@@ -1,6 +1,6 @@
 # Get last commit date of file
-<!-- 15 nov 2020 -->
-this can be done using the `git log` command
+**_Posted on 15 Nov, 2020_**
+
 
 ```bash
 git log --follow -p -- filename
@@ -39,5 +39,3 @@ for file in $(du --exclude='.git' -a . | awk '{ print $2 }'); do
     fi
 done
 ```
-
-A better version of the script is available in my [dotfiles](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/last-modify.sh)
