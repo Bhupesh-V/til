@@ -1,21 +1,21 @@
-# Invest in decision making skills early in career
+# Invest in decision-making skills early in career
 **_Posted on 02 Jan, 2022_**
 
 **Current Situation**:
-Engineers are solution oriented and often think in terms of how, rather than what & why?. This leads to
+Engineers are solution-oriented and often think in terms of how, rather than what & why?. This leads to
 - Stalled career growth as the work gets unpleasant.
-- In cases it can lead to debate, followed by judging each other's characted and skils.
-- Affects company's growth, since if engineers focus on how then there a chance people move in different directions
+- In cases, it can lead to debate, followed by judging each other's character and skills.
+- Affects company's growth, since if engineers focus on how then there is a chance people move in different directions
 
 **Solution**:
-Develop decision making skills by watershedding method
+Develop decision-making skills by water-shedding method
 
-Now, wtf is water shedding?
-> It is used to collect rain, watershedds is a large area of land (in slope) to collect the rain water.
+Now, wtf is water-shedding?
+> It is used to collect rain, a watershed is a large area of land (in slope) to collect the rainwater.
 
 1. *Upper Section* responsible for storing the bulk of water to prevent flooding.
 2. *Middle Section* for slowing down the flow of water & removing pollutants to ensure the water downstream is safe.
-3. *Lower Section* for utilising the water.
+3. *Lower Section* for utilizing the water.
 
 > Key Learning: Everything that happens downstream is connected to what happens upstream.
 
