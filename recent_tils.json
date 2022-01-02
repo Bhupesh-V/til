@@ -1,5 +1,9 @@
 [
  {
+  "title": "View git diff since the last git pull",
+  "url": "https://bhupesh.gitbook.io/notes/git/git-diff-since-last-git-pull"
+ },
+ {
   "title": "EXPLAIN queries in PostgreSQL",
   "url": "https://bhupesh.gitbook.io/notes/atabases/explain-postgresql-query"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Check battery status",
   "url": "https://bhupesh.gitbook.io/notes/shell/get-battery-status"
- },
- {
-  "title": "Using defaultdict to handle key not in dict",
-  "url": "https://bhupesh.gitbook.io/notes/python/using-defaultdict-to-handle-key-not-in-dict-case"
  }
 ]
