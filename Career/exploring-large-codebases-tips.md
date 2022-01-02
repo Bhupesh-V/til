@@ -1,5 +1,5 @@
 # Exploring Large Codebases
-<!-- **_Posted on 25 May, 2021_** -->
+**_Posted on 25 May, 2021_** 
 
 > Since more than 50% of the time developers spent reading & modifying existing source code rather then writing new one, reading code is an essential skill for a developer that's why I am maintaining a log of resources, tips etc. to explore unknown Codebases
 
