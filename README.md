@@ -30,7 +30,7 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Databases](#databases) [**`3`**]
 * [DevOps](#devops) [**`3`**]
-* [Flutter](#flutter) [**`1`**]
+* [Flutter](#flutter) [**`2`**]
 * [Git](#git) [**`9`**]
 * [Go](#go) [**`10`**]
 * [Meta](#meta) [**`1`**]
@@ -49,7 +49,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/developing-decision-making-skills.md">Invest in decision making skills early in career</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/developing-decision-making-skills.md">Invest in decision-making skills early in career</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
 </ul>
 
@@ -94,6 +94,7 @@
 ### Flutter
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Flutter/get-all-hive-boxes.md">Get all Hive 🐝 boxes</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Flutter/null-aware-operators-dart.md">Null aware operators in Dart</a>
 </ul>
 

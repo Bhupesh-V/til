@@ -14,7 +14,8 @@ myVar?.func();
 final value = myVar?.getValue()?.valueA;
 ```
 
-this is smiliar to following code
+This is similar to following code
+
 ```dart
 myVar = myVar == null ? null : myVar.func();
 ```

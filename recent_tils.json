@@ -1,5 +1,9 @@
 [
  {
+  "title": "Invest in decision-making skills early in career",
+  "url": "https://bhupesh.gitbook.io/notes/career/developing-decision-making-skills"
+ },
+ {
   "title": "View git diff since the last git pull",
   "url": "https://bhupesh.gitbook.io/notes/git/git-diff-since-last-git-pull"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Get Release notes from Github API",
   "url": "https://bhupesh.gitbook.io/notes/shell/get-release-notes-github-api"
- },
- {
-  "title": "Check battery status",
-  "url": "https://bhupesh.gitbook.io/notes/shell/get-battery-status"
  }
 ]
