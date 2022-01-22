@@ -50,3 +50,4 @@ Some of the points that help me land a decision:
 ### Resources
 - [Making World Class Docs Takes Effort](https://daniel.haxx.se/blog/2021/09/04/making-world-class-docs-takes-effort/)
 - [The documentation system](https://documentation.divio.com/)
+- [Becoming a Better Writer in Tech](https://blog.pragmaticengineer.com/becoming-a-better-writer-in-tech/)
