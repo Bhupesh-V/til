@@ -1,5 +1,9 @@
 [
  {
+  "title": "Questions to ask in an interview",
+  "url": "https://bhupesh.gitbook.io/notes/career/question-to-ask-interview"
+ },
+ {
   "title": "Get all Hive 🐝 boxes",
   "url": "https://bhupesh.gitbook.io/notes/flutter/get-all-hive-boxes"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Null aware operators in Dart",
   "url": "https://bhupesh.gitbook.io/notes/flutter/null-aware-operators-dart"
- },
- {
-  "title": "Preventing global package install with `PIP_REQUIRE_VIRTUALENV`",
-  "url": "https://bhupesh.gitbook.io/notes/python/preventing-global-package-install"
  }
 ]

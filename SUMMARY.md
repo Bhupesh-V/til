@@ -88,6 +88,7 @@
 <li><a href="Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
 <li><a href="Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
 <li><a href="Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
+<li><a href="Miscellaneous/running-headless-android-emulator.md">Running headless Android Emulator</a>
 <li><a href="Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a href="Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
 <li><a href="Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a>

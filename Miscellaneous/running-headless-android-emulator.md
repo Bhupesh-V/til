@@ -1,0 +1,53 @@
+# Running headless Android Emulator
+**_Posted on 09 Feb, 2022_**
+
+
+1. Create an AVD
+
+   ```bash
+   echo no | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/avdmanager create avd --force -n test --abi 'google_apis_playstore/x86' --package 'system-images;android-28;google_apis_playstore;x86' --device 'Nexus 6'
+   ```
+
+2. Boot the Emulator
+
+   ```bash
+   $ANDROID_SDK_ROOT/emulator/emulator -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+   ```
+   You will see an output similar like this
+
+   ```
+   emulator: Android emulator version 30.7.5.0 (build_id 7491168) (CL:N/A)
+   handleCpuAcceleration: feature check for hvf
+   emulator: feeding guest with passive gps data, in headless mode
+   cannot add library /Users/cs/Library/Android/sdk/emulator/qemu/darwin-x86_64/lib64/vulkan/libvulkan.dylib: failed
+   added library /Users/cs/Library/Android/sdk/emulator/lib64/vulkan/libvulkan.dylib
+   emulator: INFO: GrpcServices.cpp:315: Started GRPC server at 127.0.0.1:8554, security: Local
+   emulator: INFO: EmulatorAdvertisement.cpp:93: Advertising in: /Users/cs/Library/Caches/TemporaryItems/avd/running/pid_60753.ini
+   emulator: Cold boot: requested by the user
+   Your emulator is out of date, please update by launching Android Studio:
+    - Start Android Studio
+    - Select menu "Tools > Android > SDK Manager"
+    - Click "SDK Tools" tab
+    - Check "Android Emulator" checkbox
+    - Click "OK"
+
+   emulator: INFO: boot completed
+   emulator: INFO: boot time 26292 ms
+   emulator: Increasing screen off timeout, logcat buffer size to 2M.
+   emulator: Revoking microphone permissions for Google App.
+
+   ```
+
+3. Verify emulator is successfully booted (required in case if you run the above command in background)
+
+   ```bash
+   $ANDROID_SDK_ROOT/platform-tools/adb shell getprop sys.boot_completed
+   ```
+   This will return `1` if emulator is running.
+
+
+
+> Note: `ANDROID_SDK_ROOT` points to `/Users/user/Library/Android/sdk/`
+
+
+

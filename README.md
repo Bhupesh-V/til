@@ -34,7 +34,7 @@
 * [Git](#git) [**`9`**]
 * [Go](#go) [**`10`**]
 * [Meta](#meta) [**`1`**]
-* [Miscellaneous](#miscellaneous) [**`13`**]
+* [Miscellaneous](#miscellaneous) [**`14`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`26`**]
 * [Vim](#vim) [**`8`**]
@@ -157,6 +157,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/running-headless-android-emulator.md">Running headless Android Emulator</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a>
