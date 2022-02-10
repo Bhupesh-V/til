@@ -38,6 +38,11 @@
 
    ```
 
+   If you already have an AVD setup, use `-list-avds` flag to list available avds and provide that in argument to `-avd` above.
+   ```
+   $ANDROID_SDK_ROOT/emulator/emulator -list-avds
+   ```
+
 3. Verify emulator is successfully booted (required in case if you run the above command in background)
 
    ```bash

@@ -27,6 +27,7 @@
         <li>Creativity can get start depleting if the work becomes too hectic</li>
         <li>Depression can kick in if you are not able to work efficiently which may cause health problems</li>
         <li>If work is demanding, means less time for family, friends</li>
+        <li>If you are creative persion, then you get less time to work on side-hustles</li>
       </ol>
     </td>
   </tr>
