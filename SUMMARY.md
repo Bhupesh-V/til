@@ -5,6 +5,7 @@
 <ul>
 <li><a href="Career/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
 <li><a href="Career/developing-decision-making-skills.md">Invest in decision-making skills early in career</a>
+<li><a href="Career/pros-and-cons-of-working-professionally.md">Pros & Cons of working professionally</a>
 <li><a href="Career/question-to-ask-interview.md">Questions to ask in an interview</a>
 <li><a href="Career/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
 </ul>

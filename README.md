@@ -26,7 +26,7 @@
 
 
 ## Categories
-* [Career](#career) [**`4`**]
+* [Career](#career) [**`5`**]
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Databases](#databases) [**`3`**]
 * [DevOps](#devops) [**`3`**]
@@ -50,6 +50,7 @@
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/developing-decision-making-skills.md">Invest in decision-making skills early in career</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/pros-and-cons-of-working-professionally.md">Pros & Cons of working professionally</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/question-to-ask-interview.md">Questions to ask in an interview</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
 </ul>
