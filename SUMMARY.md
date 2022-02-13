@@ -39,6 +39,7 @@
 ## Flutter
 
 <ul>
+<li><a href="Flutter/decrease-lottie-size-dynamically.md">Decrease lottie size dynamically in flutter</a>
 <li><a href="Flutter/get-all-hive-boxes.md">Get all Hive 🐝 boxes</a>
 <li><a href="Flutter/null-aware-operators-dart.md">Null aware operators in Dart</a>
 </ul>

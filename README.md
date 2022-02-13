@@ -30,7 +30,7 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Databases](#databases) [**`3`**]
 * [DevOps](#devops) [**`3`**]
-* [Flutter](#flutter) [**`2`**]
+* [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`9`**]
 * [Go](#go) [**`10`**]
 * [Meta](#meta) [**`1`**]
@@ -96,6 +96,7 @@
 ### Flutter
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Flutter/decrease-lottie-size-dynamically.md">Decrease lottie size dynamically in flutter</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Flutter/get-all-hive-boxes.md">Get all Hive 🐝 boxes</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Flutter/null-aware-operators-dart.md">Null aware operators in Dart</a>
 </ul>
