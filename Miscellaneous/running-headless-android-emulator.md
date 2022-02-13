@@ -51,8 +51,12 @@
    This will return `1` if emulator is running.
 
 
-
 > Note: `ANDROID_SDK_ROOT` points to `/Users/user/Library/Android/sdk/`
 
 
+### Emulator CLI Tips
 
+1. You can also record the session/screen using the `-record-session` flag. Specially useful when running emulator in headless mode
+   ```bash
+   $ANDROID_SDK_ROOT/emulator/emulator -avd Pixel_2_API_27 -no-window -gpu swiftshader_indirect -no-snapshot -record-session filename.webm,7s
+   ```
