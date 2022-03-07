@@ -53,8 +53,29 @@
 
 > Note: `ANDROID_SDK_ROOT` points to `/Users/user/Library/Android/sdk/`
 
+## Runninng Emulator inside Github Actions
 
-### Emulator CLI Tips
+```yaml
+name: Emulator Test
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  integration_test:
+    runs-on: ubuntu-latest
+    name: "Android"
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Check android emulator"
+        run: |
+          $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --install 'build-tools;31.0.0' platform-tools 'platforms;android-29' > /dev/null
+          $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --install emulator --channel=0 > /dev/null
+          $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --install 'system-images;android-29;default;x86_64' --channel=0 > /dev/null
+          echo no | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/avdmanager create avd --force -n test --abi 'default/x86_64' --package 'system-images;android-29;default;x86_64' --device 'Nexus 6'
+```
+
+## Emulator CLI Tips
 
 1. You can also record the session/screen using the `-record-session` flag. Specially useful when running emulator in headless mode
    ```bash
