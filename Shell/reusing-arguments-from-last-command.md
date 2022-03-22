@@ -27,6 +27,23 @@ ls foo/ bar/ baz/
 ls !:1 # Gives the results of ls foo/
 ```
 
+**Index of shortcuts**:
+
+```
+!^      first argument
+!$      last argument
+!*      all arguments
+!:2     second argument
+
+!:2-3   second to third arguments
+!:2-$   second to last arguments
+!:2*    second to last arguments
+!:2-    second to next to last arguments
+
+!:0     the command
+!!      repeat the previous line
+```
+
 ## Keyboard shortcuts
 
 \<command\> <kbd>Esc</kbd><kbd>.</kbd>:  To get last argument of previous command
