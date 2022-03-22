@@ -1,5 +1,9 @@
 [
  {
+  "title": "Decrease lottie size dynamically in flutter",
+  "url": "https://bhupesh.gitbook.io/notes/flutter/decrease-lottie-size-dynamically"
+ },
+ {
   "title": "Pros & Cons of working professionally",
   "url": "https://bhupesh.gitbook.io/notes/career/pros-and-cons-of-working-professionally"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Writing a simple file watcher using GNU Utils",
   "url": "https://bhupesh.gitbook.io/notes/shell/writing-simple-file-watcher"
- },
- {
-  "title": "View a python function's history over-time with Git & FZF",
-  "url": "https://bhupesh.gitbook.io/notes/git/view-python-function-git-history-with-fzf"
  }
 ]
