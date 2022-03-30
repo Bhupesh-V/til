@@ -1,5 +1,9 @@
 [
  {
+  "title": "Reuse arguments from last command",
+  "url": "https://bhupesh.gitbook.io/notes/shell/reusing-arguments-from-last-comman"
+ },
+ {
   "title": "Decrease lottie size dynamically in flutter",
   "url": "https://bhupesh.gitbook.io/notes/flutter/decrease-lottie-size-dynamically"
  },
@@ -34,9 +38,5 @@
  {
   "title": "grep cheatsheet",
   "url": "https://bhupesh.gitbook.io/notes/shell/grep-cheatsheet"
- },
- {
-  "title": "Writing a simple file watcher using GNU Utils",
-  "url": "https://bhupesh.gitbook.io/notes/shell/writing-simple-file-watcher"
  }
 ]

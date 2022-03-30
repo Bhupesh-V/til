@@ -32,7 +32,7 @@
 * [DevOps](#devops) [**`3`**]
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`9`**]
-* [Go](#go) [**`10`**]
+* [Go](#go) [**`11`**]
 * [Meta](#meta) [**`1`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [Python](#python) [**`19`**]
@@ -132,6 +132,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/resolving-merge-conflicts-go-sum.md">Resolving merge conflicts in go.sum</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/split-strings-in-go.md">Splitting strings in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a>
 </ul>

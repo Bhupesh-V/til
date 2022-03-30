@@ -69,6 +69,7 @@
 <li><a href="Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>
 <li><a href="Go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a>
 <li><a href="Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a>
+<li><a href="Go/resolving-merge-conflicts-go-sum.md">Resolving merge conflicts in go.sum</a>
 <li><a href="Go/split-strings-in-go.md">Splitting strings in Go</a>
 <li><a href="Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a>
 </ul>
