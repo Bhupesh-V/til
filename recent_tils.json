@@ -1,5 +1,9 @@
 [
  {
+  "title": "Resolving merge conflicts in go.sum",
+  "url": "https://bhupesh.gitbook.io/notes/go/resolving-merge-conflicts-go-su"
+ },
+ {
   "title": "Reuse arguments from last command",
   "url": "https://bhupesh.gitbook.io/notes/shell/reusing-arguments-from-last-comman"
  },
@@ -34,9 +38,5 @@
  {
   "title": "EXPLAIN queries in PostgreSQL",
   "url": "https://bhupesh.gitbook.io/notes/atabases/explain-postgresql-query"
- },
- {
-  "title": "grep cheatsheet",
-  "url": "https://bhupesh.gitbook.io/notes/shell/grep-cheatsheet"
  }
 ]
