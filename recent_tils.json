@@ -1,5 +1,9 @@
 [
  {
+  "title": "Using local Go package path",
+  "url": "https://bhupesh.gitbook.io/notes/go/using-local-packages-using-require"
+ },
+ {
   "title": "Resolving merge conflicts in go.sum",
   "url": "https://bhupesh.gitbook.io/notes/go/resolving-merge-conflicts-go-su"
  },
@@ -34,9 +38,5 @@
  {
   "title": "View git diff since the last git pull",
   "url": "https://bhupesh.gitbook.io/notes/git/git-diff-since-last-git-pull"
- },
- {
-  "title": "EXPLAIN queries in PostgreSQL",
-  "url": "https://bhupesh.gitbook.io/notes/atabases/explain-postgresql-query"
  }
 ]

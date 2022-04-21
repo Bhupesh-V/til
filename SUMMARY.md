@@ -36,6 +36,12 @@
 <li><a href="DevOps/docker-quick-guide.md">Docker 🐋 quick guide</a>
 </ul>
 
+## Distributed Computing
+
+<ul>
+<li><a href="Distributed Computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a>
+</ul>
+
 ## Flutter
 
 <ul>
