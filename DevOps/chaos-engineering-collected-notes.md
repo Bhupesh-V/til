@@ -1,5 +1,6 @@
 # Chaos Engineering 🐒️
-<!-- 07 Mar, 2021 -->
+**_Posted on 07 Mar, 2021_**
+
 
 Act of studying a system so as to build confidence in its capability to withstand harsh conditions. This is done by literally breaking (experimenting with) the system.
 
@@ -24,15 +25,22 @@ The harder is to break the steady state, the more confidence we have in the beha
 3. **Minimize Blast Radius**:<br>
    Experimenting in production has the potential to cause unnecessary customer pain. 
 
+## Cons
+- Low Level Fault Injection
+  Difficult to simulate high-level fault types (e.g failure code, exceptions of a particular type)
+- Probabilistic
+  Random nature of approach provides few guarantees on application's tolerance to failure
 
 ## Tools
 
 - Netflix's [chaosmonkey](https://github.com/Netflix/chaosmonkey) is a resiliency tool that helps applications tolerate random instance failures.
 - [pumba](https://github.com/alexei-led/pumba) is a chaos testing, network emulation and stress testing tool for containers.
 - [Chaos Mesh](https://chaos-mesh.org/) is a chaos engineering platform under CNCF
+- [Filibuster](https://filibuster.cloud/) is a resiliency testing tool based on Service-level Fault Injection Testing.
 
 ## Resources & Credits
 
 - [Chaos Architecture](https://www.infoq.com/presentations/chaos-architecture-mindset/)
 - [Principles of chaos engineering](https://principlesofchaos.org/)
 - [Chaos Engineering - Gremlin](https://www.gremlin.com/chaos-engineering/)
+- [SFIT, ACM SoCC](https://www.youtube.com/watch?v=pyYh-vNspAI)
