@@ -1,5 +1,9 @@
 [
  {
+  "title": "8 Fallacies of Distributed Computing",
+  "url": "https://bhupesh.gitbook.io/notes/istributed computing/8-fallacies-of-distributed-computing"
+ },
+ {
   "title": "Using local Go package path",
   "url": "https://bhupesh.gitbook.io/notes/go/using-local-packages-using-require"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Invest in decision-making skills early in career",
   "url": "https://bhupesh.gitbook.io/notes/career/developing-decision-making-skills"
- },
- {
-  "title": "View git diff since the last git pull",
-  "url": "https://bhupesh.gitbook.io/notes/git/git-diff-since-last-git-pull"
  }
 ]

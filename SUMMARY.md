@@ -40,6 +40,7 @@
 
 <ul>
 <li><a href="Distributed Computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a>
+<li><a href="Distributed Computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a>
 </ul>
 
 ## Flutter

@@ -30,7 +30,7 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Databases](#databases) [**`3`**]
 * [DevOps](#devops) [**`3`**]
-* [Distributed Computing](#distributed-computing) [**`1`**]
+* [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`9`**]
 * [Go](#go) [**`12`**]
@@ -98,6 +98,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Distributed Computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Distributed Computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a>
 </ul>
 
 
