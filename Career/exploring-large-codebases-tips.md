@@ -38,3 +38,4 @@ Usually picking a small task will help explore the codebase but ofc as a develop
 - [Ask HN: How do you familiarize yourself with a new codebase?](https://news.ycombinator.com/item?id=9784008)
 - [General Guide For Exploring Large Open Source Codebases](https://pncnmnp.github.io/blogs/oss-guide.html)
 - [A better way to learn a new codebase](https://xdg.me/learn-a-new-codebase/)
+- [7 tools for visualizing a codebase](https://lmy.medium.com/7-tools-for-visualizing-a-codebase-41b7cddb1a14)

@@ -7,7 +7,7 @@ This might also help when you are cold-emailing a recruiter.
 1. Keep the letter to 2 paragraphs. The 1st para highlighting **WHY** do you want to work there & 2nd para highlighting **HOW** hiring you is going to benefit them.
 2. Do research about the company. Go through their social, blogs etc. Yes this is the time to be a stalker on internet
 3. Always add a personal touch while explaining why do you want to work with them. This is the time to be as "thoughtful" as you can. 
-4. Don't use any copy-paste templates, not worth it. If a company is asking for a cover letter means that they know a _Resume_ has limitations, they want to hear the WHY & HOW of hiring you is going to help them.
+4. Don't use any copy-paste templates, not worth it. If a company is asking for a cover letter means that they know a résumé has limitations, they want to hear the WHY & HOW of hiring you is going to help them.
 5. Explain something exceptional/cool you did.
 
 
