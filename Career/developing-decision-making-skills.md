@@ -24,11 +24,11 @@ Now, wtf is water-shedding?
 We can use the same pattern to make decisions,
 1. **Roots**, *(upper section)*
    - Define the goal and problem
-   - Establish shared priorties
+   - Establish shared priorities
    - Define decision criteria
 2. **Tributaries** *(middle section)*
    - Generate Solutions
-   - Evaluate solutins using the defined criteria
+   - Evaluate solutions using the defined criteria
    - Identify solution trade-off to minimize risk
 3. **Lakes** *(lower section)*
    - Documenting the decision
