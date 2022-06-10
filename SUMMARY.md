@@ -151,6 +151,7 @@
 <li><a href="Shell/get-release-notes-github-api.md">Get Release notes from Github API</a>
 <li><a href="Shell/get-system-info.md">Get System info using Shell Commands</a>
 <li><a href="Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a>
+<li><a href="Shell/get-download-stats-github-brew.md">Get total download stats from GitHub & Homebrew</a>
 <li><a href="Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a>
 <li><a href="Shell/line-editors-tips-tricks.md">Line Editors in Linux, Tips and Tricks</a>
 <li><a href="Shell/monitor-network-data-usage.md">Monitor network (data) usage</a>

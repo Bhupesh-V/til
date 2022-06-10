@@ -37,7 +37,7 @@
 * [Meta](#meta) [**`1`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [Python](#python) [**`19`**]
-* [Shell](#shell) [**`27`**]
+* [Shell](#shell) [**`28`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 
@@ -230,6 +230,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-release-notes-github-api.md">Get Release notes from Github API</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-system-info.md">Get System info using Shell Commands</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-download-stats-github-brew.md">Get total download stats from GitHub & Homebrew</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/line-editors-tips-tricks.md">Line Editors in Linux, Tips and Tricks</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/monitor-network-data-usage.md">Monitor network (data) usage</a>

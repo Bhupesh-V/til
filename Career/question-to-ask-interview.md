@@ -12,6 +12,9 @@
 9. Budget for conferences?
 10. Management style/structure? Frequent catch-ups aka one-on-ones? Something else?
 11. Learning opportunities?
+12. Ask about last employee who left, what was the reason?
+13. How managers/senior folks help coach employees through a weakness.
+14. How often feedback is given to you and collected from you.
 
 
 ## Resources

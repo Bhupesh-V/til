@@ -1,5 +1,9 @@
 [
  {
+  "title": "Distributed Hash Tables (DHT)",
+  "url": "https://bhupesh.gitbook.io/notes/istributed computing/distributed-hash-tables"
+ },
+ {
   "title": "8 Fallacies of Distributed Computing",
   "url": "https://bhupesh.gitbook.io/notes/istributed computing/8-fallacies-of-distributed-computing"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Get all Hive 🐝 boxes",
   "url": "https://bhupesh.gitbook.io/notes/flutter/get-all-hive-boxes"
- },
- {
-  "title": "Invest in decision-making skills early in career",
-  "url": "https://bhupesh.gitbook.io/notes/career/developing-decision-making-skills"
  }
 ]
