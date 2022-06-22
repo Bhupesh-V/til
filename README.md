@@ -33,7 +33,7 @@
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`9`**]
-* [Go](#go) [**`12`**]
+* [Go](#go) [**`13`**]
 * [Meta](#meta) [**`1`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [Python](#python) [**`19`**]
@@ -141,6 +141,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/memoization-using-golang-generics.md">Memoization using Golang Generics</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/resolving-merge-conflicts-go-sum.md">Resolving merge conflicts in go.sum</a>

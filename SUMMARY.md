@@ -74,6 +74,7 @@
 <li><a href="Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
 <li><a href="Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a>
 <li><a href="Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>
+<li><a href="Go/memoization-using-golang-generics.md">Memoization using Golang Generics</a>
 <li><a href="Go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a>
 <li><a href="Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a>
 <li><a href="Go/resolving-merge-conflicts-go-sum.md">Resolving merge conflicts in go.sum</a>
