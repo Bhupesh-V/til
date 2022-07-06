@@ -33,7 +33,7 @@
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`9`**]
-* [Go](#go) [**`13`**]
+* [Go](#go) [**`14`**]
 * [Meta](#meta) [**`1`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [Python](#python) [**`19`**]
@@ -146,6 +146,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/resolving-merge-conflicts-go-sum.md">Resolving merge conflicts in go.sum</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/split-strings-in-go.md">Splitting strings in Go</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/strategy-design-pattern-golang.md">Strategy Design Pattern in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/using-local-packages-using-require.md">Using local Go package path</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a>
 </ul>

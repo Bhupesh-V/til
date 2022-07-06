@@ -1,5 +1,9 @@
 [
  {
+  "title": "Memoization using Golang Generics",
+  "url": "https://bhupesh.gitbook.io/notes/go/memoization-using-golang-generics"
+ },
+ {
   "title": "Get total download stats from GitHub & Homebrew",
   "url": "https://bhupesh.gitbook.io/notes/shell/get-download-stats-github-brew"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Running headless Android Emulator",
   "url": "https://bhupesh.gitbook.io/notes/iscellaneous/running-headless-android-emulator"
- },
- {
-  "title": "Questions to ask in an interview",
-  "url": "https://bhupesh.gitbook.io/notes/career/question-to-ask-interview"
  }
 ]

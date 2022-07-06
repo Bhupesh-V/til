@@ -79,6 +79,7 @@
 <li><a href="Go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a>
 <li><a href="Go/resolving-merge-conflicts-go-sum.md">Resolving merge conflicts in go.sum</a>
 <li><a href="Go/split-strings-in-go.md">Splitting strings in Go</a>
+<li><a href="Go/strategy-design-pattern-golang.md">Strategy Design Pattern in Go</a>
 <li><a href="Go/using-local-packages-using-require.md">Using local Go package path</a>
 <li><a href="Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a>
 </ul>
