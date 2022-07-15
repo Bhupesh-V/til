@@ -1,42 +1,42 @@
 [
  {
+  "title": "SQLite db optimization with ROWID",
+  "url": "https://til.bhupesh.me/notes/atabases/sqlite-space-optimization-with-rowd-i"
+ },
+ {
   "title": "Strategy Design Pattern in Go",
-  "url": "https://bhupesh.gitbook.io/notes/go/strategy-design-pattern-golang"
+  "url": "https://til.bhupesh.me/notes/go/strategy-design-pattern-golang"
  },
  {
   "title": "Memoization using Golang Generics",
-  "url": "https://bhupesh.gitbook.io/notes/go/memoization-using-golang-generics"
+  "url": "https://til.bhupesh.me/notes/go/memoization-using-golang-generics"
  },
  {
   "title": "Get total download stats from GitHub & Homebrew",
-  "url": "https://bhupesh.gitbook.io/notes/shell/get-download-stats-github-brew"
+  "url": "https://til.bhupesh.me/notes/shell/get-download-stats-github-brew"
  },
  {
   "title": "Distributed Hash Tables (DHT)",
-  "url": "https://bhupesh.gitbook.io/notes/istributed computing/distributed-hash-tables"
+  "url": "https://til.bhupesh.me/notes/istributed computing/distributed-hash-tables"
  },
  {
   "title": "8 Fallacies of Distributed Computing",
-  "url": "https://bhupesh.gitbook.io/notes/istributed computing/8-fallacies-of-distributed-computing"
+  "url": "https://til.bhupesh.me/notes/istributed computing/8-fallacies-of-distributed-computing"
  },
  {
   "title": "Using local Go package path",
-  "url": "https://bhupesh.gitbook.io/notes/go/using-local-packages-using-require"
+  "url": "https://til.bhupesh.me/notes/go/using-local-packages-using-require"
  },
  {
   "title": "Resolving merge conflicts in go.sum",
-  "url": "https://bhupesh.gitbook.io/notes/go/resolving-merge-conflicts-go-su"
+  "url": "https://til.bhupesh.me/notes/go/resolving-merge-conflicts-go-su"
  },
  {
   "title": "Reuse arguments from last command",
-  "url": "https://bhupesh.gitbook.io/notes/shell/reusing-arguments-from-last-comman"
+  "url": "https://til.bhupesh.me/notes/shell/reusing-arguments-from-last-comman"
  },
  {
   "title": "Decrease lottie size dynamically in flutter",
-  "url": "https://bhupesh.gitbook.io/notes/flutter/decrease-lottie-size-dynamically"
- },
- {
-  "title": "Pros & Cons of working professionally",
-  "url": "https://bhupesh.gitbook.io/notes/career/pros-and-cons-of-working-professionally"
+  "url": "https://til.bhupesh.me/notes/flutter/decrease-lottie-size-dynamically"
  }
 ]
