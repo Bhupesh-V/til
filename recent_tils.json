@@ -1,5 +1,9 @@
 [
  {
+  "title": "Strategy Design Pattern in Go",
+  "url": "https://bhupesh.gitbook.io/notes/go/strategy-design-pattern-golang"
+ },
+ {
   "title": "Memoization using Golang Generics",
   "url": "https://bhupesh.gitbook.io/notes/go/memoization-using-golang-generics"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Pros & Cons of working professionally",
   "url": "https://bhupesh.gitbook.io/notes/career/pros-and-cons-of-working-professionally"
- },
- {
-  "title": "Running headless Android Emulator",
-  "url": "https://bhupesh.gitbook.io/notes/iscellaneous/running-headless-android-emulator"
  }
 ]

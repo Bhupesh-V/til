@@ -28,7 +28,7 @@
 ## Categories
 * [Career](#career) [**`5`**]
 * [Coding Practices](#coding-practices) [**`5`**]
-* [Databases](#databases) [**`3`**]
+* [Databases](#databases) [**`4`**]
 * [DevOps](#devops) [**`3`**]
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
@@ -78,6 +78,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/database-sharding.md">Collected notes on Database Sharding 🗃</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/explain-postgresql-query.md">EXPLAIN queries in PostgreSQL</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a>
 </ul>
 
 

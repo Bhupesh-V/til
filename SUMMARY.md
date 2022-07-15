@@ -26,6 +26,7 @@
 <li><a href="Databases/database-sharding.md">Collected notes on Database Sharding 🗃</a>
 <li><a href="Databases/explain-postgresql-query.md">EXPLAIN queries in PostgreSQL</a>
 <li><a href="Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
+<li><a href="Databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a>
 </ul>
 
 ## DevOps
