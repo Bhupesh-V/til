@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-""" Simple script to auto-generate the README.md file for a TIL project.
-"""
 import os
 import json
 import itertools
-import urllib.parse
 import subprocess as sp
 import pathlib
+import asyncio
 
 HEADER = """
 <h1 align="left">Today I Learned</h1>
@@ -53,8 +51,10 @@ Original Idea/Work [thoughtbot/til](https://github.com/thoughtbot/til).
 
 
 def get_category_list():
-    """Walk the current directory and get a list of all subdirectories at that
-    level.  These are the "categories" of TILs."""
+    """
+    Walk the current directory and get a list of all subdirectories at that
+    level.  These are the "categories" of TILs.
+    """
     avoid_dirs = [
         "images",
         "stylesheets",
@@ -72,9 +72,10 @@ def get_category_list():
 
 
 def get_title(til_file):
-    """Read the file until we hit the first line that starts with a #
-    indicating a title in markdown.  We'll use that as the title for this
-    entry."""
+    """
+    Read the file until we hit the first line that starts with a #
+    indicating a title in markdown.
+    """
     with open(til_file) as file:
         for line in file:
             line = line.strip()
@@ -84,7 +85,9 @@ def get_title(til_file):
 
 
 def get_tils(category):
-    """ For a given category, get the list of TIL titles. """
+    """
+    For a given category, get the list of TIL titles
+    """
     til_files = [x for x in os.listdir(category)]
     titles = []
     for filename in til_files:
@@ -112,14 +115,9 @@ def read_file(filename):
         return file.read()
 
 
-def print_file(category_names, count, categories):
-    host_url = "https://github.com/Bhupesh-V/til/blob/master/"
-    # used by shields.io for creating the TIL badge
-    with open("count.json", "w") as json_file:
-        data = {"count": count}
-        json.dump(data, json_file, indent=" ")
-
-    # create summary for Gitbook
+# Create SUMMARY.md for GitBooks site
+def create_gitbooks_summary(category_names, categories):
+    print("Generating SUMMARY.md")
     with open("SUMMARY.md", "w") as summary:
         for category in sorted(category_names):
             summary.write("\n\n## {0}\n\n".format(category))
@@ -127,12 +125,23 @@ def print_file(category_names, count, categories):
             summary.write("<ul>")
             for (title, filename) in sorted(tils):
                 summary.write("\n<li>")
-                summary.write(
-                    f"""<a href="{filename}">{title}</a>"""
-                )
+                summary.write(f"""<a href="{filename}">{title}</a>""")
             summary.write("\n")
             summary.write("</ul>")
 
+
+# Used by shields.io for generating the TILs count badge on GitHub
+def create_til_count_file(count):
+    print("Generating count.json")
+    with open("count.json", "w") as json_file:
+        data = {"count": count}
+        json.dump(data, json_file, indent=" ")
+
+
+# Generate the README.md for github repo
+def create_readme(category_names, categories):
+    host_url = "https://github.com/Bhupesh-V/til/blob/master/"
+    print("Generating README.md")
 
     with open("README.md", "w") as file:
         file.write(HEADER)
@@ -152,15 +161,6 @@ def print_file(category_names, count, categories):
             tils = categories[category]
             file.write("<ul>")
             for (title, filename) in sorted(tils):
-                root_file = urllib.parse.quote(host_url + filename)
-                urlsafe_twitter = (
-                    "https://twitter.com/intent/tweet?url="
-                    + urllib.parse.quote_plus(
-                        f"{title} by @bhupeshimself {host_url+filename}"
-                    )
-                )
-                urlsafe_reddit = f"https://www.reddit.com/submit?title={urllib.parse.quote(title)}&url={root_file}"
-                urlsafe_telegram = f"https://telegram.me/share/url?text={urllib.parse.quote(title)}&url={root_file}"
                 file.write("\n<li>")
                 file.write(
                     f"""<a target="_blank" href="{host_url+filename}">{title}</a>"""
@@ -171,7 +171,9 @@ def print_file(category_names, count, categories):
         file.write(FOOTER)
 
 
-def get_recent_tils(categories):
+# Generate recent_tils.json to be used by my website & github profile readme
+def create_recent_tils_file(categories):
+    print("Generating recent_tils.json")
     cmd = "git log --no-color --date=format:'%d %b, %Y' --diff-filter=A --name-status --pretty=''"
     recent_tils = []
 
@@ -198,15 +200,27 @@ def get_recent_tils(categories):
         json.dump(recent_tils, json_file, ensure_ascii=False, indent=" ")
 
 
-def create_README():
-    """Create a TIL README.md file with a nice index for using it directly
-    from GitHub."""
+def main():
+    """
+    TIL Build Script Algorithm:
+
+    1. Get list of directories
+    2. For each valid TIL category, find markdown files inside it
+    3. Generate recent_tils using git
+    4. Generate SUMMARY.md for gitbook
+    5. Generate README.md for GitHub
+    """
+
     category_names = get_category_list()
     count, categories = get_category_dict(category_names)
-    get_recent_tils(categories)
-    print_file(category_names, count, categories)
+
+    create_recent_tils_file(categories)
+    create_readme(category_names, categories)
+    create_gitbooks_summary(category_names, categories)
+    create_til_count_file(count)
+
     print("\n", count, "TILs read")
 
 
 if __name__ == "__main__":
-    create_README()
+    main()
