@@ -192,7 +192,7 @@ def get_recent_tils(categories):
         til_dict = {}
         til_dict["title"] = get_title(til)
         til_path = pathlib.Path(til)
-        til_dict["url"] = f"https://til.bhupesh.me/notes/{til.lower().strip('.md')}"
+        til_dict["url"] = f"https://til.bhupesh.me/{til.lower().strip('.md')}"
         recent_tils.append(til_dict)
 
     with open("recent_tils.json", "w") as json_file:
