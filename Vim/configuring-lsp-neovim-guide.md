@@ -32,6 +32,11 @@ You would have to manually install the language servers you need.
    pip install 'python-language-server[all]'
    ```
 
+   Another alternative to python-language-server is [pyright](https://github.com/microsoft/pyright)
+   ```bash
+   pip3 install pyright
+   ```
+
 2. Language server pack for **go** is maintained by the go team itself. Use `go get` to [install **gopls**](https://github.com/golang/tools/blob/master/gopls/README.md#installation)
    ```bash
    GO111MODULE=on go get golang.org/x/tools/gopls@latest
@@ -86,6 +91,7 @@ autocmd BufWritePre *go,*.py lua vim.lsp.buf.formatting_sync(nil, 100)
 lua <<EOF
 require'lspconfig'.gopls.setup{}
 require'lspconfig'.pyls.setup{}
+# or require'lspconfig'.pyright.setup{}
 require'lspconfig'.bashls.setup{}
 EOF
 ```
