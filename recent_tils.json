@@ -1,42 +1,42 @@
 [
  {
   "title": "SQLite db optimization with ROWID",
-  "url": "https://til.bhupesh.me/notes/atabases/sqlite-space-optimization-with-rowd-i"
+  "url": "https://til.bhupesh.me/databases/sqlite-space-optimization-with-rowd-id"
  },
  {
   "title": "Strategy Design Pattern in Go",
-  "url": "https://til.bhupesh.me/notes/go/strategy-design-pattern-golang"
+  "url": "https://til.bhupesh.me/go/strategy-design-pattern-golang"
  },
  {
   "title": "Memoization using Golang Generics",
-  "url": "https://til.bhupesh.me/notes/go/memoization-using-golang-generics"
+  "url": "https://til.bhupesh.me/go/memoization-using-golang-generics"
  },
  {
   "title": "Get total download stats from GitHub & Homebrew",
-  "url": "https://til.bhupesh.me/notes/shell/get-download-stats-github-brew"
+  "url": "https://til.bhupesh.me/shell/get-download-stats-github-brew"
  },
  {
   "title": "Distributed Hash Tables (DHT)",
-  "url": "https://til.bhupesh.me/notes/istributed computing/distributed-hash-tables"
+  "url": "https://til.bhupesh.me/distributed computing/distributed-hash-tables"
  },
  {
   "title": "8 Fallacies of Distributed Computing",
-  "url": "https://til.bhupesh.me/notes/istributed computing/8-fallacies-of-distributed-computing"
+  "url": "https://til.bhupesh.me/distributed computing/8-fallacies-of-distributed-computing"
  },
  {
   "title": "Using local Go package path",
-  "url": "https://til.bhupesh.me/notes/go/using-local-packages-using-require"
+  "url": "https://til.bhupesh.me/go/using-local-packages-using-require"
  },
  {
   "title": "Resolving merge conflicts in go.sum",
-  "url": "https://til.bhupesh.me/notes/go/resolving-merge-conflicts-go-su"
+  "url": "https://til.bhupesh.me/go/resolving-merge-conflicts-go-sum"
  },
  {
   "title": "Reuse arguments from last command",
-  "url": "https://til.bhupesh.me/notes/shell/reusing-arguments-from-last-comman"
+  "url": "https://til.bhupesh.me/shell/reusing-arguments-from-last-command"
  },
  {
   "title": "Decrease lottie size dynamically in flutter",
-  "url": "https://til.bhupesh.me/notes/flutter/decrease-lottie-size-dynamically"
+  "url": "https://til.bhupesh.me/flutter/decrease-lottie-size-dynamically"
  }
 ]
