@@ -50,7 +50,7 @@ Original Idea/Work [thoughtbot/til](https://github.com/thoughtbot/til).
 """
 
 
-def get_category_list():
+async def get_category_list():
     """
     Walk the current directory and get a list of all subdirectories at that
     level.  These are the "categories" of TILs.
@@ -115,8 +115,10 @@ def read_file(filename):
         return file.read()
 
 
-# Create SUMMARY.md for GitBooks site
-def create_gitbooks_summary(category_names, categories):
+async def create_gitbooks_summary(category_names, categories):
+    """
+    Create SUMMARY.md for GitBooks site
+    """
     print("Generating SUMMARY.md")
     with open("SUMMARY.md", "w") as summary:
         for category in sorted(category_names):
@@ -130,16 +132,20 @@ def create_gitbooks_summary(category_names, categories):
             summary.write("</ul>")
 
 
-# Used by shields.io for generating the TILs count badge on GitHub
-def create_til_count_file(count):
+async def create_til_count_file(count):
+    """
+    Used by shields.io for generating the TILs count badge on GitHub
+    """
     print("Generating count.json")
     with open("count.json", "w") as json_file:
         data = {"count": count}
         json.dump(data, json_file, indent=" ")
 
 
-# Generate the README.md for github repo
-def create_readme(category_names, categories):
+async def create_readme(category_names, categories):
+    """
+    Generate the README.md for github repo
+    """
     host_url = "https://github.com/Bhupesh-V/til/blob/master/"
     print("Generating README.md")
 
@@ -171,8 +177,11 @@ def create_readme(category_names, categories):
         file.write(FOOTER)
 
 
-# Generate recent_tils.json to be used by my website & github profile readme
-def create_recent_tils_file(categories):
+async def create_recent_tils_file(categories):
+    """
+    Generate recent_tils.json to be used by my website & github profile readme
+    """
+
     print("Generating recent_tils.json")
     cmd = "git log --no-color --date=format:'%d %b, %Y' --diff-filter=A --name-status --pretty=''"
     recent_tils = []
@@ -200,7 +209,7 @@ def create_recent_tils_file(categories):
         json.dump(recent_tils, json_file, ensure_ascii=False, indent=" ")
 
 
-def main():
+async def main():
     """
     TIL Build Script Algorithm:
 
@@ -211,16 +220,21 @@ def main():
     5. Generate README.md for GitHub
     """
 
-    category_names = get_category_list()
+    get_categories = asyncio.create_task(get_category_list())
+    category_names = await get_categories
     count, categories = get_category_dict(category_names)
 
-    create_recent_tils_file(categories)
-    create_readme(category_names, categories)
-    create_gitbooks_summary(category_names, categories)
-    create_til_count_file(count)
+    task1 = asyncio.create_task(create_recent_tils_file(categories))
+    task2 = asyncio.create_task(create_readme(category_names, categories))
+    task3 = asyncio.create_task(create_gitbooks_summary(category_names, categories))
+    task4 = asyncio.create_task(create_til_count_file(count))
 
-    print("\n", count, "TILs read")
+    await task1
+    await task2
+    await task3
+    await task4
+
+    print(count, "TILs read")
 
 
-if __name__ == "__main__":
-    main()
+asyncio.run(main())
