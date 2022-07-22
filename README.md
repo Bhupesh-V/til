@@ -37,7 +37,7 @@
 * [Meta](#meta) [**`1`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [Python](#python) [**`19`**]
-* [Shell](#shell) [**`28`**]
+* [Shell](#shell) [**`29`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 
@@ -229,6 +229,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-fonts-in-linux.md">Find fonts available in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md">Finding the file creation date/time on Linux</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-files-in-git-repo.md">Generate a RSS Feed of recent files inside a Git repository</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-release-notes-github-api.md">Get Release notes from Github API</a>

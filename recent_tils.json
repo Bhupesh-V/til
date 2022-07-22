@@ -1,5 +1,9 @@
 [
  {
+  "title": "CHECK constraint v/s EXCLUSION constraint",
+  "url": "https://til.bhupesh.me/databases/check-constraint-vs-exclusion-constraint"
+ },
+ {
   "title": "SQLite db optimization with ROWID",
   "url": "https://til.bhupesh.me/databases/sqlite-space-optimization-with-rowd-id"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Reuse arguments from last command",
   "url": "https://til.bhupesh.me/shell/reusing-arguments-from-last-command"
- },
- {
-  "title": "Decrease lottie size dynamically in flutter",
-  "url": "https://til.bhupesh.me/flutter/decrease-lottie-size-dynamically"
  }
 ]

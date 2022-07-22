@@ -150,6 +150,7 @@
 <li><a href="Shell/find-fonts-in-linux.md">Find fonts available in Linux</a>
 <li><a href="Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a>
 <li><a href="Shell/find-file-creation-date-time-in-linux.md">Finding the file creation date/time on Linux</a>
+<li><a href="Shell/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
 <li><a href="Shell/generate-feed-files-in-git-repo.md">Generate a RSS Feed of recent files inside a Git repository</a>
 <li><a href="Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a href="Shell/get-release-notes-github-api.md">Get Release notes from Github API</a>
