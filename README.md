@@ -35,7 +35,7 @@
 * [Git](#git) [**`9`**]
 * [Go](#go) [**`14`**]
 * [Meta](#meta) [**`1`**]
-* [Miscellaneous](#miscellaneous) [**`14`**]
+* [Miscellaneous](#miscellaneous) [**`15`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
 * [Vim](#vim) [**`8`**]
@@ -175,6 +175,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/running-headless-android-emulator.md">Running headless Android Emulator</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md">SEO Tools</a>

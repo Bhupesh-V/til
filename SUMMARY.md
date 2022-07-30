@@ -102,6 +102,7 @@
 <li><a href="Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a href="Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
 <li><a href="Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
+<li><a href="Miscellaneous/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 <li><a href="Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
 <li><a href="Miscellaneous/running-headless-android-emulator.md">Running headless Android Emulator</a>
 <li><a href="Miscellaneous/seo-tools.md">SEO Tools</a>

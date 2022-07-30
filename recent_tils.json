@@ -1,5 +1,9 @@
 [
  {
+  "title": "Generate Video thumbnail using ffmpeg",
+  "url": "https://til.bhupesh.me/shell/generate-video-thumbnail-using-ffmpeg"
+ },
+ {
   "title": "CHECK constraint v/s EXCLUSION constraint",
   "url": "https://til.bhupesh.me/databases/check-constraint-vs-exclusion-constraint"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Resolving merge conflicts in go.sum",
   "url": "https://til.bhupesh.me/go/resolving-merge-conflicts-go-sum"
- },
- {
-  "title": "Reuse arguments from last command",
-  "url": "https://til.bhupesh.me/shell/reusing-arguments-from-last-command"
  }
 ]
