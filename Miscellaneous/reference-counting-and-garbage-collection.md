@@ -11,6 +11,9 @@
 - Cyclic references `A->B->A`, and no reference count ever goes to zero.
 - A little overhead of updating reference counts[^1]
 
+### Examples
+- [Cpython](https://devguide.python.org/internals/garbage-collector/index.html)
+
 
 ## Garbage Collection (or Tracing GC)
 
@@ -23,5 +26,8 @@ A very barebones Tracing GC:
 - Pauses.
 - Requires large memory space.
 
+### Examples
+- Java
+- [Go](https://go.dev/doc/gc-guide)
 
 [^1]: This point seems to be debatable on the [internet](https://kevinlawler.com/refcount).
