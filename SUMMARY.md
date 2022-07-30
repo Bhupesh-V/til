@@ -1,5 +1,11 @@
 
 
+## Android
+
+<ul>
+<li><a href="Android/running-headless-android-emulator.md">Running headless Android Emulator</a>
+</ul>
+
 ## Career
 
 <ul>
@@ -95,16 +101,12 @@
 ## Miscellaneous
 
 <ul>
-<li><a href="Miscellaneous/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
 <li><a href="Miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a>
 <li><a href="Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a>
 <li><a href="Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a href="Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a href="Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
-<li><a href="Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
-<li><a href="Miscellaneous/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 <li><a href="Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
-<li><a href="Miscellaneous/running-headless-android-emulator.md">Running headless Android Emulator</a>
 <li><a href="Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a href="Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
 <li><a href="Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a>
@@ -151,7 +153,6 @@
 <li><a href="Shell/find-fonts-in-linux.md">Find fonts available in Linux</a>
 <li><a href="Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a>
 <li><a href="Shell/find-file-creation-date-time-in-linux.md">Finding the file creation date/time on Linux</a>
-<li><a href="Shell/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
 <li><a href="Shell/generate-feed-files-in-git-repo.md">Generate a RSS Feed of recent files inside a Git repository</a>
 <li><a href="Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a href="Shell/get-release-notes-github-api.md">Get Release notes from Github API</a>
@@ -168,6 +169,12 @@
 <li><a href="Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a href="Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a href="Shell/grep-cheatsheet.md">grep cheatsheet</a>
+</ul>
+
+## Software Design
+
+<ul>
+<li><a href="Software Design/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 </ul>
 
 ## Vim
@@ -191,4 +198,12 @@
 <li><a href="WebDev/live-edit-html.md">Live Editing HTML</a>
 <li><a href="WebDev/turning-emojis-into-site-favicons.md">Turning Emojis to site favicons</a>
 <li><a href="WebDev/async-defer-html-javascript.md">`async` & `defer` Attributes</a>
+</ul>
+
+## ffmpeg
+
+<ul>
+<li><a href="ffmpeg/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
+<li><a href="ffmpeg/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
+<li><a href="ffmpeg/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
 </ul>

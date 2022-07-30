@@ -26,6 +26,7 @@
 
 
 ## Categories
+* [Android](#android) [**`1`**]
 * [Career](#career) [**`5`**]
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Databases](#databases) [**`5`**]
@@ -35,13 +36,24 @@
 * [Git](#git) [**`9`**]
 * [Go](#go) [**`14`**]
 * [Meta](#meta) [**`1`**]
-* [Miscellaneous](#miscellaneous) [**`15`**]
+* [Miscellaneous](#miscellaneous) [**`11`**]
 * [Python](#python) [**`19`**]
-* [Shell](#shell) [**`29`**]
+* [Shell](#shell) [**`28`**]
+* [Software Design](#software-design) [**`1`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
+* [ffmpeg](#ffmpeg) [**`3`**]
 
 ---
+
+
+
+
+### Android
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Android/running-headless-android-emulator.md">Running headless Android Emulator</a>
+</ul>
 
 
 
@@ -168,16 +180,12 @@
 ### Miscellaneous
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/running-headless-android-emulator.md">Running headless Android Emulator</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a>
@@ -230,7 +238,6 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-fonts-in-linux.md">Find fonts available in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-all-python-virtual-environments-in-your-system.md">Finding all Python Virtual Environments in your system</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/find-file-creation-date-time-in-linux.md">Finding the file creation date/time on Linux</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-feed-files-in-git-repo.md">Generate a RSS Feed of recent files inside a Git repository</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-release-notes-github-api.md">Get Release notes from Github API</a>
@@ -247,6 +254,15 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/grep-cheatsheet.md">grep cheatsheet</a>
+</ul>
+
+
+
+
+### Software Design
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Software Design/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 </ul>
 
 
@@ -276,6 +292,17 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/live-edit-html.md">Live Editing HTML</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/turning-emojis-into-site-favicons.md">Turning Emojis to site favicons</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/async-defer-html-javascript.md">`async` & `defer` Attributes</a>
+</ul>
+
+
+
+
+### ffmpeg
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/ffmpeg/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/ffmpeg/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/ffmpeg/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
 </ul>
 
 ## Usage
