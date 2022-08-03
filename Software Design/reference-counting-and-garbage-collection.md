@@ -12,22 +12,34 @@
 - A little overhead of updating reference counts[^1]
 
 ### Examples
+
 - [Cpython](https://devguide.python.org/internals/garbage-collector/index.html)
+
+  ```
+  Python 3.8.10 (default, Jun 22 2022, 20:18:18)
+  [GCC 9.4.0] on linux
+  Type "help", "copyright", "credits" or "license" for more information.
+  >>> import sys
+  >>> a = "bhupesh"
+  >>> sys.getrefcount(a)
+  2
+  >>>
+  ```
 
 
 ## Garbage Collection (or Tracing GC)
-
-A very barebones Tracing GC:
 
 - Involves keeping a list of all root objects (global, local, function variables) & tracing which objects are unreachable
 - Once the GC has gone through all the objects referenced by the root objects, it goes through every allocated object, if it is marked as reachable it stays in memory, if not, it is deallocated, this is known as the **mark-and-sweep algorithm**
 
 ### Cons
-- Pauses.
+- GC Pauses.
 - Requires large memory space.
 
 ### Examples
-- Java
+
 - [Go](https://go.dev/doc/gc-guide)
+  - [In Go, when will a variable become unreachable?](https://stackoverflow.com/questions/37588639/in-go-when-will-a-variable-become-unreachable)
+  - [How Go GC detects if a memory object contains a pointer](https://www.sobyte.net/post/2022-03/how-gc-detect-pointer-in-mem-obj/)
 
 [^1]: This point seems to be debatable on the [internet](https://kevinlawler.com/refcount).
