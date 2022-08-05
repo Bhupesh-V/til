@@ -29,6 +29,7 @@
 * [Android](#android) [**`1`**]
 * [Career](#career) [**`5`**]
 * [Coding Practices](#coding-practices) [**`5`**]
+* [Compilers](#compilers) [**`1`**]
 * [Databases](#databases) [**`5`**]
 * [DevOps](#devops) [**`3`**]
 * [Distributed Computing](#distributed-computing) [**`2`**]
@@ -39,7 +40,6 @@
 * [Miscellaneous](#miscellaneous) [**`11`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`28`**]
-* [Software Design](#software-design) [**`1`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 * [ffmpeg](#ffmpeg) [**`3`**]
@@ -79,6 +79,15 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/solid.md">SOLID: Design Principles</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/write-clean-comments.md">Writing Comments</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/cleancode-writing-functions.md">Writing Functions</a>
+</ul>
+
+
+
+
+### Compilers
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Compilers/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 </ul>
 
 
@@ -254,15 +263,6 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/grep-cheatsheet.md">grep cheatsheet</a>
-</ul>
-
-
-
-
-### Software Design
-
-<ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Software Design/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 </ul>
 
 

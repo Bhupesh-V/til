@@ -26,6 +26,12 @@
 <li><a href="Coding Practices/cleancode-writing-functions.md">Writing Functions</a>
 </ul>
 
+## Compilers
+
+<ul>
+<li><a href="Compilers/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
+</ul>
+
 ## Databases
 
 <ul>
@@ -169,12 +175,6 @@
 <li><a href="Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a href="Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a href="Shell/grep-cheatsheet.md">grep cheatsheet</a>
-</ul>
-
-## Software Design
-
-<ul>
-<li><a href="Software Design/reference-counting-and-garbage-collection.md">Reference Counting v/s Garbage Collection</a>
 </ul>
 
 ## Vim
