@@ -15,6 +15,7 @@
 
 - [Cpython](https://devguide.python.org/internals/garbage-collector/index.html)
 - [Memory Management in Python](https://realpython.com/python-memory-management/#garbage-collection)
+- [Python Memory Management and Weak References](https://uwpce-pythoncert.github.io/SystemDevelopment/weak_references.html#python-memory-management-and-weak-references)
 
   ```
   Python 3.8.10 (default, Jun 22 2022, 20:18:18)
