@@ -14,6 +14,7 @@
 ### Examples
 
 - [Cpython](https://devguide.python.org/internals/garbage-collector/index.html)
+- [Memory Management in Python](https://realpython.com/python-memory-management/#garbage-collection)
 
   ```
   Python 3.8.10 (default, Jun 22 2022, 20:18:18)
