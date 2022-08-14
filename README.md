@@ -27,7 +27,7 @@
 
 ## Categories
 * [Android](#android) [**`1`**]
-* [Career](#career) [**`5`**]
+* [Career](#career) [**`6`**]
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Compilers](#compilers) [**`1`**]
 * [Databases](#databases) [**`5`**]
@@ -61,6 +61,7 @@
 ### Career
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/beating-burnout-resources-thoughts.md">Beating Burnout: Some Thoughts & Resources</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/developing-decision-making-skills.md">Invest in decision-making skills early in career</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/pros-and-cons-of-working-professionally.md">Pros & Cons of working professionally</a>

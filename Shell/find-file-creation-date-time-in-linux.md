@@ -1,6 +1,7 @@
 # Finding the file creation date/time on Linux
 **_Posted on 18 Dec, 2020_**
-### 1. Find inode number of file.
+
+### 1. Find `inode` number of file.
    ```bash
    $ ls -i myfile.md
    9344160 myfile.md
@@ -15,7 +16,7 @@
    tmpfs           954M  121M  833M  13% /dev/shm
    ...
    ```
-### 3. Use the inode no in `stat` & `debugfs`
+### 3. Use the `inode` no in `stat` & `debugfs`
    ```bash
    sudo debugfs -R 'stat <9344160>' /dev/sda1
    ```
