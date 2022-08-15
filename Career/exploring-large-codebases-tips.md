@@ -39,3 +39,4 @@ Usually picking a small task will help explore the codebase but ofc as a develop
 - [General Guide For Exploring Large Open Source Codebases](https://pncnmnp.github.io/blogs/oss-guide.html)
 - [A better way to learn a new codebase](https://xdg.me/learn-a-new-codebase/)
 - [7 tools for visualizing a codebase](https://lmy.medium.com/7-tools-for-visualizing-a-codebase-41b7cddb1a14)
+- [How to interrogate unfamiliar code](https://stackoverflow.blog/2022/08/15/how-to-interrogate-unfamiliar-code/?utm_source=linkedin&utm_medium=social&utm_campaign=so-blog&utm_content=unfamiliar-code)
