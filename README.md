@@ -31,7 +31,7 @@
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Compilers](#compilers) [**`1`**]
 * [Databases](#databases) [**`5`**]
-* [DevOps](#devops) [**`3`**]
+* [DevOps](#devops) [**`4`**]
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`9`**]
@@ -113,6 +113,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/blue-green-deployment.md">Blue-Green Deployment Strategy</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/chaos-engineering-collected-notes.md">Chaos Engineering 🐒️</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/docker-quick-guide.md">Docker 🐋 quick guide</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/set-up-sftp-server-using-aws.md">Set up a SFTP server using AWS Transfer Family</a>
 </ul>
 
 

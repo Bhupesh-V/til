@@ -49,6 +49,7 @@
 <li><a href="DevOps/blue-green-deployment.md">Blue-Green Deployment Strategy</a>
 <li><a href="DevOps/chaos-engineering-collected-notes.md">Chaos Engineering 🐒️</a>
 <li><a href="DevOps/docker-quick-guide.md">Docker 🐋 quick guide</a>
+<li><a href="DevOps/set-up-sftp-server-using-aws.md">Set up a SFTP server using AWS Transfer Family</a>
 </ul>
 
 ## Distributed Computing
