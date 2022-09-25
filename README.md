@@ -30,7 +30,7 @@
 * [Career](#career) [**`6`**]
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Compilers](#compilers) [**`1`**]
-* [Databases](#databases) [**`5`**]
+* [Databases](#databases) [**`6`**]
 * [DevOps](#devops) [**`4`**]
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
@@ -98,6 +98,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/check-constraint-vs-exclusion-constraint.md">CHECK constraint v/s EXCLUSION constraint</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/clustered-non-clustered-indexes.md">Clustered & Non-clustered Indexes</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/database-sharding.md">Collected notes on Database Sharding 🗃</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/explain-postgresql-query.md">EXPLAIN queries in PostgreSQL</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>

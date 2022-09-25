@@ -1,5 +1,9 @@
 [
  {
+  "title": "Set up a SFTP server using AWS Transfer Family",
+  "url": "https://til.bhupesh.me/devops/set-up-sftp-server-using-aws"
+ },
+ {
   "title": "Beating Burnout: Some Thoughts & Resources",
   "url": "https://til.bhupesh.me/career/beating-burnout-resources-thoughts"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Using local Go package path",
   "url": "https://til.bhupesh.me/go/using-local-packages-using-require"
- },
- {
-  "title": "Resolving merge conflicts in go.sum",
-  "url": "https://til.bhupesh.me/go/resolving-merge-conflicts-go-sum"
  }
 ]
