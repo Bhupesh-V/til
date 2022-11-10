@@ -1,6 +1,7 @@
 # Set up a SFTP server using AWS Transfer Family
 **_Posted on 04 Aug, 2022_**
 
+> NOTE: AWS Transfer Family Service DOES NOT come under AWS Free Tier. I got a huge fricking bill after using it. So proceed with caution ☠️ .
 
 ## Step 1: Set up a SFTP server (optional)
 

@@ -1,5 +1,9 @@
 [
  {
+  "title": "Clustered & Non-clustered Indexes",
+  "url": "https://til.bhupesh.me/databases/clustered-non-clustered-indexes"
+ },
+ {
   "title": "Set up a SFTP server using AWS Transfer Family",
   "url": "https://til.bhupesh.me/devops/set-up-sftp-server-using-aws"
  },
@@ -34,9 +38,5 @@
  {
   "title": "8 Fallacies of Distributed Computing",
   "url": "https://til.bhupesh.me/distributed computing/8-fallacies-of-distributed-computing"
- },
- {
-  "title": "Using local Go package path",
-  "url": "https://til.bhupesh.me/go/using-local-packages-using-require"
  }
 ]

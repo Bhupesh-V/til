@@ -65,7 +65,11 @@
     ```bash
     docker history <IMAGE>
     ```
-   
+
+12. Connect to local port inside container.
+    ```bash
+    docker run -d --network=host --add-host=host.docker.internal:127.0.0.1
+    ```
 
 ## Docker Compose
 
