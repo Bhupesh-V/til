@@ -34,6 +34,12 @@ HEADER = """<h1 align="left">Today I Learned</h1>
 
 """
 
+SUMMARY_HEADER = """# Table of contents
+
+* [Today I Learned](README.md)
+
+"""
+
 FOOTER = """## Usage
 
 See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository.
@@ -120,6 +126,7 @@ async def create_gitbooks_summary(category_names, categories):
     """
     print("Generating SUMMARY.md")
     with open("SUMMARY.md", "w") as summary:
+        summary.write(SUMMARY_HEADER)
         for category in sorted(category_names):
             summary.write("\n\n## {0}\n\n".format(category))
             tils = categories[category]
