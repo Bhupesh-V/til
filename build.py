@@ -8,8 +8,7 @@ import subprocess as sp
 import pathlib
 import asyncio
 
-HEADER = """
-<h1 align="left">Today I Learned</h1>
+HEADER = """<h1 align="left">Today I Learned</h1>
 <p align="center">
   <img alt="TILs Count" src="https://img.shields.io/badge/dynamic/json.svg?color=black&label=TILs&query=count&url=https%3A%2F%2Fraw.githubusercontent.com%2FBhupesh-V%2Ftil%2Fmaster%2Fcount.json">
   <img alt="last commit" src="https://img.shields.io/github/last-commit/bhupesh-V/TIL?color=purple">
