@@ -103,3 +103,14 @@
    ```bash
    docker-compose ps
    ```
+
+## Docker Quick Steals
+
+1. Run a postgres container.
+   ```bash
+   docker run --name postgres --rm -p 5438:5432 -e POSTGRES_PASSWORD=pass -e POSTGRES_DB=test -d postgres
+   ```
+   Get psql using
+   ```
+   docker container exec -it postgres psql -U postgres -d test
+   ```
