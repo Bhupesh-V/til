@@ -155,6 +155,7 @@
 
 <ul>
 <li><a href="Shell/alternative-to-ls-linux.md">Alternative to 'ls' commnand</a>
+<li><a href="Shell/changing-display-configuration-using-xrandr.md">Changing Display Configuration using xrandr</a>
 <li><a href="Shell/changing-string-case-bash.md">Changing string case in bash</a>
 <li><a href="Shell/get-battery-status.md">Check battery status</a>
 <li><a href="Shell/colorize-output-in-terminal-bash.md">Colorize Output in Terminal</a>

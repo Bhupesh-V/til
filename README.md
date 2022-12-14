@@ -38,7 +38,7 @@
 * [Meta](#meta) [**`1`**]
 * [Miscellaneous](#miscellaneous) [**`11`**]
 * [Python](#python) [**`19`**]
-* [Shell](#shell) [**`28`**]
+* [Shell](#shell) [**`29`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 * [ffmpeg](#ffmpeg) [**`3`**]
@@ -238,6 +238,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/alternative-to-ls-linux.md">Alternative to 'ls' commnand</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/changing-display-configuration-using-xrandr.md">Changing Display Configuration using xrandr</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/changing-string-case-bash.md">Changing string case in bash</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/get-battery-status.md">Check battery status</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/colorize-output-in-terminal-bash.md">Colorize Output in Terminal</a>
