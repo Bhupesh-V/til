@@ -1,5 +1,9 @@
 [
  {
+  "title": "Concurrency Comparison: Go v/s Elixir",
+  "url": "https://til.bhupesh.me/go/concurrency-difference-go-vs-elixir"
+ },
+ {
   "title": "Changing Display Configuration using xrandr",
   "url": "https://til.bhupesh.me/shell/changing-display-configuration-using-xrandr"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Get total download stats from GitHub & Homebrew",
   "url": "https://til.bhupesh.me/shell/get-download-stats-github-brew"
- },
- {
-  "title": "Distributed Hash Tables (DHT)",
-  "url": "https://til.bhupesh.me/distributed computing/distributed-hash-tables"
  }
 ]
