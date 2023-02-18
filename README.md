@@ -34,7 +34,7 @@
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`9`**]
-* [Go](#go) [**`14`**]
+* [Go](#go) [**`15`**]
 * [Meta](#meta) [**`1`**]
 * [Miscellaneous](#miscellaneous) [**`11`**]
 * [Python](#python) [**`19`**]
@@ -163,6 +163,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/adding-version-info-in-go-apps.md">Add version info in Go projects</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/anatomy-go-mod-file.md">Anatomy of `go.mod` file</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/clear-terminal-screen-in-go.md">Clearing terminal screen in Go</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/concurrency-difference-go-vs-elixir.md">Concurrency Comparison: Go v/s Elixir</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>

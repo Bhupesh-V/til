@@ -92,6 +92,7 @@
 <li><a href="Go/adding-version-info-in-go-apps.md">Add version info in Go projects</a>
 <li><a href="Go/anatomy-go-mod-file.md">Anatomy of `go.mod` file</a>
 <li><a href="Go/clear-terminal-screen-in-go.md">Clearing terminal screen in Go</a>
+<li><a href="Go/concurrency-difference-go-vs-elixir.md">Concurrency Comparison: Go v/s Elixir</a>
 <li><a href="Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
 <li><a href="Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a>
 <li><a href="Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>

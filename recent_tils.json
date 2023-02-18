@@ -1,5 +1,9 @@
 [
  {
+  "title": "Changing Display Configuration using xrandr",
+  "url": "https://til.bhupesh.me/shell/changing-display-configuration-using-xrandr"
+ },
+ {
   "title": "Clustered & Non-clustered Indexes",
   "url": "https://til.bhupesh.me/databases/clustered-non-clustered-indexes"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Distributed Hash Tables (DHT)",
   "url": "https://til.bhupesh.me/distributed computing/distributed-hash-tables"
- },
- {
-  "title": "8 Fallacies of Distributed Computing",
-  "url": "https://til.bhupesh.me/distributed computing/8-fallacies-of-distributed-computing"
  }
 ]
