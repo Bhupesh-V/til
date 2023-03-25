@@ -1,5 +1,9 @@
 [
  {
+  "title": "Using multiple git user configs with credentials store (multiple github accounts)",
+  "url": "https://til.bhupesh.me/git/using-multiple-git-accounts-with-git-credentials"
+ },
+ {
   "title": "Concurrency Comparison: Go v/s Elixir",
   "url": "https://til.bhupesh.me/go/concurrency-difference-go-vs-elixir"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Memoization using Golang Generics",
   "url": "https://til.bhupesh.me/go/memoization-using-golang-generics"
- },
- {
-  "title": "Get total download stats from GitHub & Homebrew",
-  "url": "https://til.bhupesh.me/shell/get-download-stats-github-brew"
  }
 ]
