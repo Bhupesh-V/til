@@ -193,6 +193,12 @@
 <li><a href="Shell/grep-cheatsheet.md">grep cheatsheet</a>
 </ul>
 
+## Startups
+
+<ul>
+<li><a href="Startups/pitchdeck-resources.md">Pitchdeck Resources</a>
+</ul>
+
 ## Vim
 
 <ul>

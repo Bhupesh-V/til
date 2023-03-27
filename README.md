@@ -40,6 +40,7 @@
 * [Miscellaneous](#miscellaneous) [**`11`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
+* [Startups](#startups) [**`1`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
 * [ffmpeg](#ffmpeg) [**`3`**]
@@ -278,6 +279,15 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/grep-cheatsheet.md">grep cheatsheet</a>
+</ul>
+
+
+
+
+### Startups
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Startups/pitchdeck-resources.md">Pitchdeck Resources</a>
 </ul>
 
 
