@@ -8,3 +8,4 @@ Some list of tools, resources to find pitch decks of startups, good for getting 
 - [PitchDeckHunt - 1000+ Pitch Deck Examples From the Most Successful Startups](https://www.pitchdeckhunt.com/).
 - [SearchTheDeck - Search inside 15,000+ pitch deck slides](https://www.searchthedeck.com/)
 - [joelparkerhenderson/pitch-deck - Pitch deck advice for startup founders who want to raise venture capital investment](https://github.com/joelparkerhenderson/pitch-deck)
+- [Twitter thread by @adcock_brett](https://twitter.com/adcock_brett/status/1640000828907077632)
