@@ -1,5 +1,9 @@
 [
  {
+  "title": "Pitchdeck Resources",
+  "url": "https://til.bhupesh.me/startups/pitchdeck-resources"
+ },
+ {
   "title": "AWS Elastic Container Registry & Elastic Container Service",
   "url": "https://til.bhupesh.me/aws/ecr-ecs"
  },
@@ -34,9 +38,5 @@
  {
   "title": "SQLite db optimization with ROWID",
   "url": "https://til.bhupesh.me/databases/sqlite-space-optimization-with-rowd-id"
- },
- {
-  "title": "Strategy Design Pattern in Go",
-  "url": "https://til.bhupesh.me/go/strategy-design-pattern-golang"
  }
 ]
