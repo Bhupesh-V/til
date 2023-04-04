@@ -1,0 +1,13 @@
+# Fundamentals of LLMs
+
+**_Posted on 04 Apr, 2023_**
+
+A bunch of resources to refer for understanding LLMs
+
+- [Neural Networks - Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+- [How ChatGPT really works, explained for non-technical people](https://bootcamp.uxdesign.cc/how-chatgpt-really-works-explained-for-non-technical-people-71efb078a5c9)
+- [If you are curious about large language models.](http://www.iasylum.net/writings/2023-03-29-if-you-are-curious-about-LLMs.html).
+- [LLM Introduction: Learn Language Models](https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d)
+- [What Is ChatGPT Doing … and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+
+> PS I have started maintaing a [github list](https://github.com/stars/Bhupesh-V/lists/llms-and-ai) on interesting projects coming up in this space.

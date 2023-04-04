@@ -27,6 +27,7 @@
 ## Categories
 * [AWS](#aws) [**`1`**]
 * [Android](#android) [**`1`**]
+* [Artificial Intelligence](#artificial-intelligence) [**`1`**]
 * [Career](#career) [**`6`**]
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Compilers](#compilers) [**`1`**]
@@ -64,6 +65,15 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Android/running-headless-android-emulator.md">Running headless Android Emulator</a>
+</ul>
+
+
+
+
+### Artificial Intelligence
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Artificial Intelligence/fundamentals-of-llms.md">Fundamentals of LLMs</a>
 </ul>
 
 

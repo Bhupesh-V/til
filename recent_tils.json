@@ -1,5 +1,9 @@
 [
  {
+  "title": "Why Reverse ETL",
+  "url": "https://til.bhupesh.me/data warehouse/why-reverse-ctl"
+ },
+ {
   "title": "Pitchdeck Resources",
   "url": "https://til.bhupesh.me/startups/pitchdeck-resources"
  },
@@ -34,9 +38,5 @@
  {
   "title": "CHECK constraint v/s EXCLUSION constraint",
   "url": "https://til.bhupesh.me/databases/check-constraint-vs-exclusion-constraint"
- },
- {
-  "title": "SQLite db optimization with ROWID",
-  "url": "https://til.bhupesh.me/databases/sqlite-space-optimization-with-rowd-id"
  }
 ]
