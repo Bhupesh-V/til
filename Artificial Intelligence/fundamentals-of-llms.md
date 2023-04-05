@@ -9,5 +9,8 @@ A bunch of resources to refer for understanding LLMs
 - [If you are curious about large language models.](http://www.iasylum.net/writings/2023-03-29-if-you-are-curious-about-LLMs.html).
 - [LLM Introduction: Learn Language Models](https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d)
 - [What Is ChatGPT Doing … and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+- [Eight Things to Know about Large Language Models](https://cims.nyu.edu/~sbowman/eightthings.pdf) from [@sleepinyourhat](https://twitter.com/sleepinyourhat/status/1642614846796734464?s=20)
+
+---
 
 > PS I have started maintaing a [github list](https://github.com/stars/Bhupesh-V/lists/llms-and-ai) on interesting projects coming up in this space.
