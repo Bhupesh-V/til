@@ -44,4 +44,5 @@ Different approaches exist to create a sharded architecture:
 
 - [Shared Nothing Architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture)
 - [Performance & Scalability](https://www.infoq.com/performance-scalability/)
+- [How does database sharding work?](https://planetscale.com/blog/how-does-database-sharding-work)
 
