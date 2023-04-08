@@ -11,6 +11,7 @@ A bunch of resources to refer for understanding LLMs
 - [What Is ChatGPT Doing … and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 - [Eight Things to Know about Large Language Models](https://cims.nyu.edu/~sbowman/eightthings.pdf) from [@sleepinyourhat](https://twitter.com/sleepinyourhat/status/1642614846796734464?s=20)
 - [BLOOM Is the Most Important AI Model of the Decade](https://thealgorithmicbridge.substack.com/p/bloom-is-the-most-important-ai-model)
+- [Vinija's AI Notes - 🤓 AI Models](https://vinija.ai/models/)
 
 ---
 
