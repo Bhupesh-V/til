@@ -1,5 +1,9 @@
 [
  {
+  "title": "Fundamentals of LLMs",
+  "url": "https://til.bhupesh.me/artificial intelligence/fundamentals-of-llms"
+ },
+ {
   "title": "Why Reverse ETL",
   "url": "https://til.bhupesh.me/data warehouse/why-reverse-ctl"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Beating Burnout: Some Thoughts & Resources",
   "url": "https://til.bhupesh.me/career/beating-burnout-resources-thoughts"
- },
- {
-  "title": "CHECK constraint v/s EXCLUSION constraint",
-  "url": "https://til.bhupesh.me/databases/check-constraint-vs-exclusion-constraint"
  }
 ]

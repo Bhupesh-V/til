@@ -43,6 +43,12 @@
 <li><a href="Coding Practices/cleancode-writing-functions.md">Writing Functions</a>
 </ul>
 
+## Community Building
+
+<ul>
+<li><a href="Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
+</ul>
+
 ## Compilers
 
 <ul>
@@ -63,6 +69,7 @@
 <li><a href="Databases/database-sharding.md">Collected notes on Database Sharding 🗃</a>
 <li><a href="Databases/explain-postgresql-query.md">EXPLAIN queries in PostgreSQL</a>
 <li><a href="Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
+<li><a href="Databases/inserting-null-everywhere.md">Inserting NULL wherever possible on Postgres</a>
 <li><a href="Databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a>
 </ul>
 

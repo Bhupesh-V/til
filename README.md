@@ -30,9 +30,10 @@
 * [Artificial Intelligence](#artificial-intelligence) [**`1`**]
 * [Career](#career) [**`6`**]
 * [Coding Practices](#coding-practices) [**`5`**]
+* [Community Building](#community-building) [**`1`**]
 * [Compilers](#compilers) [**`1`**]
 * [Data Warehouse](#data-warehouse) [**`1`**]
-* [Databases](#databases) [**`6`**]
+* [Databases](#databases) [**`7`**]
 * [DevOps](#devops) [**`4`**]
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
@@ -106,6 +107,15 @@
 
 
 
+### Community Building
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
+</ul>
+
+
+
+
 ### Compilers
 
 <ul>
@@ -132,6 +142,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/database-sharding.md">Collected notes on Database Sharding 🗃</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/explain-postgresql-query.md">EXPLAIN queries in PostgreSQL</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/inserting-null-everywhere.md">Inserting NULL wherever possible on Postgres</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a>
 </ul>
 
