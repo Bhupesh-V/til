@@ -1,5 +1,6 @@
 # Streaming videos, things behind the curtain
-<!-- 17 Dec, 2020 -->
+
+**_Posted on 17 Dec, 2020_**
 
 > This is a log of things I learn on how streaming "videos" works & what are the modern ways companies do it and possibly everything about it.
 

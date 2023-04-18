@@ -1,5 +1,7 @@
 # Releases on GitHub
-<!-- 2 Jul 2019 -->
+
+**_Posted on 2 Jul, 2019_**
+
 Git tagging is generally used to release software on github.
 Here are some basic git commands for tagging.
 

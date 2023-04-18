@@ -151,6 +151,7 @@
 <li><a href="Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a href="Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
 <li><a href="Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a>
+<li><a href="Miscellaneous/ui-ux-tools.md">UI-UX Tools to ease your life</a>
 <li><a href="Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a>
 <li><a href="Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a>
 </ul>

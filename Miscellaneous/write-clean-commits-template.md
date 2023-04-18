@@ -1,5 +1,7 @@
 # Writing Cleaner Commits - Template
-<!--20 Nov 2019 -->
+
+**_Posted on 20 Nov, 2019_**
+
 Writing cleaner commits is hard, so I use this template which makes me a pro 😅
 
 ```text

@@ -40,7 +40,7 @@
 * [Git](#git) [**`10`**]
 * [Go](#go) [**`15`**]
 * [Meta](#meta) [**`1`**]
-* [Miscellaneous](#miscellaneous) [**`11`**]
+* [Miscellaneous](#miscellaneous) [**`12`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
 * [Startups](#startups) [**`1`**]
@@ -245,6 +245,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/streaming-videos-collected-information-regarding-everything.md">Streaming videos, things behind the curtain</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/ui-ux-tools.md">UI-UX Tools to ease your life</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a>
 </ul>
