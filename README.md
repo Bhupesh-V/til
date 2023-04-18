@@ -30,7 +30,7 @@
 * [Artificial Intelligence](#artificial-intelligence) [**`1`**]
 * [Career](#career) [**`6`**]
 * [Coding Practices](#coding-practices) [**`5`**]
-* [Community Building](#community-building) [**`1`**]
+* [Community Building](#community-building) [**`2`**]
 * [Compilers](#compilers) [**`1`**]
 * [Data Warehouse](#data-warehouse) [**`1`**]
 * [Databases](#databases) [**`7`**]
@@ -111,6 +111,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-to-ask-to-a-community-builder.md">Questions to Ask to a Community Builder</a>
 </ul>
 
 

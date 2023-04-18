@@ -1,5 +1,13 @@
 [
  {
+  "title": "How to motivate and encourage volunteers",
+  "url": "https://til.bhupesh.me/community building/how-to-motivate-and-encourage-volunteers"
+ },
+ {
+  "title": "Inserting NULL wherever possible on Postgres",
+  "url": "https://til.bhupesh.me/databases/inserting-null-everywhere"
+ },
+ {
   "title": "Fundamentals of LLMs",
   "url": "https://til.bhupesh.me/artificial intelligence/fundamentals-of-llms"
  },
@@ -30,13 +38,5 @@
  {
   "title": "Clustered & Non-clustered Indexes",
   "url": "https://til.bhupesh.me/databases/clustered-non-clustered-indexes"
- },
- {
-  "title": "Set up a SFTP server using AWS Transfer Family",
-  "url": "https://til.bhupesh.me/devops/set-up-sftp-server-using-aws"
- },
- {
-  "title": "Beating Burnout: Some Thoughts & Resources",
-  "url": "https://til.bhupesh.me/career/beating-burnout-resources-thoughts"
  }
 ]
