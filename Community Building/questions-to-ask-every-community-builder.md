@@ -1,4 +1,4 @@
-# Questions to Ask to a Community Builder
+# Questions to ask every Community Builder
 
 **_Posted on 18 Apr, 2023_**
 

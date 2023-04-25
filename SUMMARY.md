@@ -47,8 +47,8 @@
 
 <ul>
 <li><a href="Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
-<li><a href="Community Building/questions-to-ask-to-a-community-builder.md">Questions to Ask to a Community Builder</a>
-<li><a href="Community Building/questions-to-ask-every-volunteer.md">Questions to Ask to every volunteer</a>
+<li><a href="Community Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
+<li><a href="Community Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
 </ul>
 
 ## Compilers
