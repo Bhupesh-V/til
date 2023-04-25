@@ -1,5 +1,9 @@
 [
  {
+  "title": "UI-UX Tools to ease your life",
+  "url": "https://til.bhupesh.me/miscellaneous/ui-ux-tools"
+ },
+ {
   "title": "Questions to Ask to a Community Builder",
   "url": "https://til.bhupesh.me/community building/questions-to-ask-to-a-community-builder"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Concurrency Comparison: Go v/s Elixir",
   "url": "https://til.bhupesh.me/go/concurrency-difference-go-vs-elixir"
- },
- {
-  "title": "Changing Display Configuration using xrandr",
-  "url": "https://til.bhupesh.me/shell/changing-display-configuration-using-xrandr"
  }
 ]
