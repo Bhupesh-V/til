@@ -3,12 +3,15 @@
 **_Posted on 18 Apr, 2023_**
 
 - [Cool Backgrounds](https://coolbackgrounds.io/)
+- [Wicked Backgrounds](https://wickedbackgrounds.com/app)
+- [ssshape](https://fffuel.co/ssshape)
 - [Trianglify](https://trianglify.io/)
 - [Hero Patterns](https://www.heropatterns.com/)
 - [Blob Maker](https://passionhacks.com/blob-maker/?n=3&e=20&gw=5&se=3&g=3ca55c|b5ac49&o=0)
 - [Illustrations](https://illlustrations.co/)
 - [Story Set](https://storyset.com/)
 - [Storytale](https://storytale.io/)
+- [Craftwork Illustrations](https://craftwork.design/downloads/control-illustrations/)
 
 ## CSS Tools
 
