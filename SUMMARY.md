@@ -72,6 +72,7 @@
 <li><a href="Databases/explain-postgresql-query.md">EXPLAIN queries in PostgreSQL</a>
 <li><a href="Databases/getting-json-data-in-postgresql.md">Getting JSON data from PostgreSQL</a>
 <li><a href="Databases/inserting-null-everywhere.md">Inserting NULL wherever possible on Postgres</a>
+<li><a href="Databases/list-all-values-for-custom-enum-postgres.md">List all values of a custom enum in Postgres</a>
 <li><a href="Databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a>
 </ul>
 
