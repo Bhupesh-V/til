@@ -58,3 +58,4 @@ Actually executes the command, returning the execution plan and real statistics.
 - https://www.postgresql.org/docs/current/sql-explain.html
 - https://www.postgresql.org/docs/9.4/using-explain.html
 - https://planetscale.com/blog/how-read-mysql-explains
+- [Tool to EXPLAIN for MySQL](https://explainmysql.com/)
