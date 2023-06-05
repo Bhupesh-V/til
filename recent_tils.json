@@ -1,5 +1,9 @@
 [
  {
+  "title": "List all values of a custom enum in Postgres",
+  "url": "https://til.bhupesh.me/databases/list-all-values-for-custom-enum-postgres"
+ },
+ {
   "title": "Questions to ask every community volunteer",
   "url": "https://til.bhupesh.me/community building/questions-to-ask-every-volunteer"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Using multiple git user configs with credentials store (multiple github accounts)",
   "url": "https://til.bhupesh.me/git/using-multiple-git-accounts-with-git-credentials"
- },
- {
-  "title": "Concurrency Comparison: Go v/s Elixir",
-  "url": "https://til.bhupesh.me/go/concurrency-difference-go-vs-elixir"
  }
 ]
