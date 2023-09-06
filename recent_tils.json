@@ -1,5 +1,9 @@
 [
  {
+  "title": "Postgres 14 Internals: Data Organisation",
+  "url": "https://til.bhupesh.me/databases/postgres-internals-data-organisation"
+ },
+ {
   "title": "List all values of a custom enum in Postgres",
   "url": "https://til.bhupesh.me/databases/list-all-values-for-custom-enum-postgres"
  },
@@ -34,9 +38,5 @@
  {
   "title": "AWS Elastic Container Registry & Elastic Container Service",
   "url": "https://til.bhupesh.me/aws/ecr-ecs"
- },
- {
-  "title": "Using multiple git user configs with credentials store (multiple github accounts)",
-  "url": "https://til.bhupesh.me/git/using-multiple-git-accounts-with-git-credentials"
  }
 ]

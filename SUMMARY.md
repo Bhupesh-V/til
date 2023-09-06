@@ -28,6 +28,7 @@
 <li><a href="Career/beating-burnout-resources-thoughts.md">Beating Burnout: Some Thoughts & Resources</a>
 <li><a href="Career/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
 <li><a href="Career/developing-decision-making-skills.md">Invest in decision-making skills early in career</a>
+<li><a href="Career/leveling-up-from-software-engineer-to-senior-software-engineer.md">Leveling up from Software Engineer to Senior Software Engineer</a>
 <li><a href="Career/pros-and-cons-of-working-professionally.md">Pros & Cons of working professionally</a>
 <li><a href="Career/question-to-ask-interview.md">Questions to ask in an interview</a>
 <li><a href="Career/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
