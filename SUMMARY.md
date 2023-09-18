@@ -146,6 +146,7 @@
 ## Miscellaneous
 
 <ul>
+<li><a href="Miscellaneous/all-odp-files-are-zip-archives.md">All .odp files are zip archives</a>
 <li><a href="Miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a>
 <li><a href="Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a>
 <li><a href="Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>

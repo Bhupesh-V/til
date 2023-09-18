@@ -40,7 +40,7 @@
 * [Git](#git) [**`10`**]
 * [Go](#go) [**`15`**]
 * [Meta](#meta) [**`1`**]
-* [Miscellaneous](#miscellaneous) [**`12`**]
+* [Miscellaneous](#miscellaneous) [**`13`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
 * [Startups](#startups) [**`1`**]
@@ -240,6 +240,7 @@
 ### Miscellaneous
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/all-odp-files-are-zip-archives.md">All .odp files are zip archives</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>

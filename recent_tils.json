@@ -1,5 +1,9 @@
 [
  {
+  "title": "Leveling up from Software Engineer to Senior Software Engineer",
+  "url": "https://til.bhupesh.me/career/leveling-up-from-software-engineer-to-senior-software-engineer"
+ },
+ {
   "title": "Postgres 14 Internals: Data Organisation",
   "url": "https://til.bhupesh.me/databases/postgres-internals-data-organisation"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Pitchdeck Resources",
   "url": "https://til.bhupesh.me/startups/pitchdeck-resources"
- },
- {
-  "title": "AWS Elastic Container Registry & Elastic Container Service",
-  "url": "https://til.bhupesh.me/aws/ecr-ecs"
  }
 ]
