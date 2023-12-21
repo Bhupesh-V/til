@@ -64,16 +64,16 @@ If you notice, this piece of code would look bugy at the first glance.
 	uuidStrings := strings.Split(strValue, ",") // Assuming UUIDs are stored as a comma-separated string
 	result := make(UUIDArray, len(uuidStrings))
 
+	for i, uuidStr := range uuidStrings {
+		parsedUUID, err := uuid.Parse(uuidStr)
+		if err != nil {
+			return err
+		}
+	...
+	}
 ```
 
-What happens if the `strValue` is `{5d80b766-7b0b-4638-8315-e1d58cd42996}`? I forgot to strip the curly braces from the string, right?. So the `len(uuidStrings)` will return `2` and ideally this code should fail. But it doesn't.
-
-```go
-	parsedUUID, err := uuid.Parse(uuidStr)
-    if err != nil {
-        return err
-    }
-```
+What happens if the `strValue` is `{5d80b766-7b0b-4638-8315-e1d58cd42996}`? I forgot to strip the curly braces from the string, right?. So the `len(uuidStrings)` will return `36 + 2` and ideally this code should fail while parsing the UUID on `uuid.Parse(uuidStr)`. But it doesn't.
 
 The reason is that `uuid.Parse()` method assumes it's a ["Microsoft GUID"](https://learn.microsoft.com/en-us/dynamicsax-2012/developer/guids#string-representations-of-a-guid) and parses it accordingly. So the above code will work even if the curly braces are not stripped from the string, and you will get a `uuid.UUID` type.
 
