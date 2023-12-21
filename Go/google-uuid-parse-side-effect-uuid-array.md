@@ -78,3 +78,5 @@ What happens if the `strValue` is `{5d80b766-7b0b-4638-8315-e1d58cd42996}`? I fo
 The reason is that `uuid.Parse()` method assumes it's a ["Microsoft GUID"](https://learn.microsoft.com/en-us/dynamicsax-2012/developer/guids#string-representations-of-a-guid) and parses it accordingly. So the above code will work even if the curly braces are not stripped from the string, and you will get a `uuid.UUID` type.
 
 See `uuid.Parse()` method's implementation [here](https://github.com/google/uuid/blob/master/uuid.go#L81-L83)
+
+So bottom line, its a side-effect we are assuming to be a feature. But it's a nice side-effect to have. Isn't it (or hell, maybe we will wait till it breaks)?
