@@ -1,5 +1,9 @@
 [
  {
+  "title": "All .odp files are zip archives",
+  "url": "https://til.bhupesh.me/miscellaneous/all-odp-files-are-zip-archives"
+ },
+ {
   "title": "Leveling up from Software Engineer to Senior Software Engineer",
   "url": "https://til.bhupesh.me/career/leveling-up-from-software-engineer-to-senior-software-engineer"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Why Reverse ETL",
   "url": "https://til.bhupesh.me/data warehouse/why-reverse-ctl"
- },
- {
-  "title": "Pitchdeck Resources",
-  "url": "https://til.bhupesh.me/startups/pitchdeck-resources"
  }
 ]

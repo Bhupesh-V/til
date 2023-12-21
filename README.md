@@ -38,7 +38,7 @@
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`10`**]
-* [Go](#go) [**`15`**]
+* [Go](#go) [**`16`**]
 * [Meta](#meta) [**`1`**]
 * [Miscellaneous](#miscellaneous) [**`13`**]
 * [Python](#python) [**`19`**]
@@ -214,6 +214,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/concurrency-difference-go-vs-elixir.md">Concurrency Comparison: Go v/s Elixir</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/google-uuid-parse-side-effect-uuid-array.md">Google's Golang UUID package has a nice side effect for handling UUID Arrays on PostgreSQL</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/memoization-using-golang-generics.md">Memoization using Golang Generics</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a>
