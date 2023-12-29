@@ -20,6 +20,7 @@
 
 <ul>
 <li><a href="Artificial Intelligence/fundamentals-of-llms.md">Fundamentals of LLMs</a>
+<li><a href="Artificial Intelligence/retrieval-augmented-generative-rag.md">Retrieval-Augmented Generation (RAG)</a>
 </ul>
 
 ## Career

@@ -27,7 +27,7 @@
 ## Categories
 * [AWS](#aws) [**`1`**]
 * [Android](#android) [**`1`**]
-* [Artificial Intelligence](#artificial-intelligence) [**`1`**]
+* [Artificial Intelligence](#artificial-intelligence) [**`2`**]
 * [Career](#career) [**`7`**]
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Community Building](#community-building) [**`3`**]
@@ -75,6 +75,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Artificial Intelligence/fundamentals-of-llms.md">Fundamentals of LLMs</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Artificial Intelligence/retrieval-augmented-generative-rag.md">Retrieval-Augmented Generation (RAG)</a>
 </ul>
 
 
