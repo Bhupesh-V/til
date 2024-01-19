@@ -1,6 +1,7 @@
 # Retrieval-Augmented Generation (RAG)
 
 Currently LLMs have these 2 problems:
+
 1. They lack valid source while generating text.
 2. They are often out-of date.
 

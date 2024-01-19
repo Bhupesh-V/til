@@ -1,5 +1,9 @@
 [
  {
+  "title": "Retrieval-Augmented Generation (RAG)",
+  "url": "https://til.bhupesh.me/artificial intelligence/retrieval-augmented-generative-rag"
+ },
+ {
   "title": "All .odp files are zip archives",
   "url": "https://til.bhupesh.me/miscellaneous/all-odp-files-are-zip-archives"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Fundamentals of LLMs",
   "url": "https://til.bhupesh.me/artificial intelligence/fundamentals-of-llms"
- },
- {
-  "title": "Why Reverse ETL",
-  "url": "https://til.bhupesh.me/data warehouse/why-reverse-ctl"
  }
 ]
