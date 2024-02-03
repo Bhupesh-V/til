@@ -143,6 +143,7 @@
 ## Meta
 
 <ul>
+<li><a href="Meta/checklist-documenting-medium-scale-system-architecture.md">Checklist for documenting a medium to large scale system architecture</a>
 <li><a href="Meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you and my future self</a>
 </ul>
 

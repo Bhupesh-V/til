@@ -39,7 +39,7 @@
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`10`**]
 * [Go](#go) [**`15`**]
-* [Meta](#meta) [**`1`**]
+* [Meta](#meta) [**`2`**]
 * [Miscellaneous](#miscellaneous) [**`13`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
@@ -234,6 +234,7 @@
 ### Meta
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Meta/checklist-documenting-medium-scale-system-architecture.md">Checklist for documenting a medium to large scale system architecture</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you and my future self</a>
 </ul>
 
