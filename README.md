@@ -41,6 +41,7 @@
 * [Go](#go) [**`15`**]
 * [Meta](#meta) [**`2`**]
 * [Miscellaneous](#miscellaneous) [**`13`**]
+* [People](#people) [**`1`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
 * [Startups](#startups) [**`1`**]
@@ -257,6 +258,15 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/ui-ux-tools.md">UI-UX Tools to ease your life</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a>
+</ul>
+
+
+
+
+### People
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/People/tech-hiring-interesting-finds.md">Interesting Views on Tech Hiring</a>
 </ul>
 
 

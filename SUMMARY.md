@@ -165,6 +165,12 @@
 <li><a href="Miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a>
 </ul>
 
+## People
+
+<ul>
+<li><a href="People/tech-hiring-interesting-finds.md">Interesting Views on Tech Hiring</a>
+</ul>
+
 ## Python
 
 <ul>

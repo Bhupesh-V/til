@@ -1,0 +1,8 @@
+# Interesting Views on Tech Hiring
+
+**_Posted on 07 Feb, 2024_**
+
+A collection of views around the internet that I found interesting and useful for tech hiring.
+
+- [How to hire low experience, high potential people](https://worktopia.substack.com/p/how-to-hire-low-experience-high-potential)
+- [Hiring and the market for lemons](https://danluu.com/hiring-lemons/)
