@@ -12,6 +12,7 @@ A bunch of resources to refer for understanding LLMs
 - [Eight Things to Know about Large Language Models](https://cims.nyu.edu/~sbowman/eightthings.pdf) from [@sleepinyourhat](https://twitter.com/sleepinyourhat/status/1642614846796734464?s=20)
 - [BLOOM Is the Most Important AI Model of the Decade](https://thealgorithmicbridge.substack.com/p/bloom-is-the-most-important-ai-model)
 - [Vinija's AI Notes - 🤓 AI Models](https://vinija.ai/models/)
+- [Normcore LLM Reads - resource links that are reasonable with good explanations of how stuff works!](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e#llm-inference-and-k-v-cache)
 
 ---
 
