@@ -55,3 +55,4 @@ Some of the points that help me land a decision:
 - [How do you explain the details of something technical to a non-technical audience?](https://writing.stackexchange.com/questions/33500/how-do-you-explain-the-details-of-something-technical-to-a-non-technical-audienc/33505#33505)
 - [Writing for Engineers](https://www.heinrichhartmann.com/posts/writing/)
 - [Using "will" and "should" in technical writing](https://jamesg.blog/2024/01/17/will-should/)
+- [Ask HN: How to level up your technical writing?](https://news.ycombinator.com/item?id=31859040)

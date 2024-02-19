@@ -1,5 +1,9 @@
 [
  {
+  "title": "Interesting Views on Tech Hiring",
+  "url": "https://til.bhupesh.me/people/tech-hiring-interesting-finds"
+ },
+ {
   "title": "Checklist for documenting a medium to large scale system architecture",
   "url": "https://til.bhupesh.me/meta/checklist-documenting-medium-scale-system-architecture"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Questions to ask every community volunteer",
   "url": "https://til.bhupesh.me/community building/questions-to-ask-every-volunteer"
- },
- {
-  "title": "UI-UX Tools to ease your life",
-  "url": "https://til.bhupesh.me/miscellaneous/ui-ux-tools"
  }
 ]
