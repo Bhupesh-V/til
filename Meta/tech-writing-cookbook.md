@@ -56,3 +56,4 @@ Some of the points that help me land a decision:
 - [Writing for Engineers](https://www.heinrichhartmann.com/posts/writing/)
 - [Using "will" and "should" in technical writing](https://jamesg.blog/2024/01/17/will-should/)
 - [Ask HN: How to level up your technical writing?](https://news.ycombinator.com/item?id=31859040)
+- [GitHub - charlax/professional-programming](https://github.com/charlax/professional-programming?tab=readme-ov-file#writing-communication-blogging)
