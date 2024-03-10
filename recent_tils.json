@@ -1,5 +1,9 @@
 [
  {
+  "title": "The good that comes with maintaining blogs",
+  "url": "https://til.bhupesh.me/meta/the-good-that-comes-with-maintaining-blogs"
+ },
+ {
   "title": "Interesting Views on Tech Hiring",
   "url": "https://til.bhupesh.me/people/tech-hiring-interesting-finds"
  },
@@ -34,9 +38,5 @@
  {
   "title": "List all values of a custom enum in Postgres",
   "url": "https://til.bhupesh.me/databases/list-all-values-for-custom-enum-postgres"
- },
- {
-  "title": "Questions to ask every community volunteer",
-  "url": "https://til.bhupesh.me/community building/questions-to-ask-every-volunteer"
  }
 ]

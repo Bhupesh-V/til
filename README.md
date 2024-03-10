@@ -28,7 +28,7 @@
 * [AWS](#aws) [**`1`**]
 * [Android](#android) [**`1`**]
 * [Artificial Intelligence](#artificial-intelligence) [**`2`**]
-* [Career](#career) [**`7`**]
+* [Career](#career) [**`8`**]
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Community Building](#community-building) [**`3`**]
 * [Compilers](#compilers) [**`1`**]
@@ -87,6 +87,7 @@
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/beating-burnout-resources-thoughts.md">Beating Burnout: Some Thoughts & Resources</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/full-employment-theorem.md">Full employment theorem</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/developing-decision-making-skills.md">Invest in decision-making skills early in career</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/leveling-up-from-software-engineer-to-senior-software-engineer.md">Leveling up from Software Engineer to Senior Software Engineer</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/pros-and-cons-of-working-professionally.md">Pros & Cons of working professionally</a>

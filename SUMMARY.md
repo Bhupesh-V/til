@@ -28,6 +28,7 @@
 <ul>
 <li><a href="Career/beating-burnout-resources-thoughts.md">Beating Burnout: Some Thoughts & Resources</a>
 <li><a href="Career/exploring-large-codebases-tips.md">Exploring Large Codebases</a>
+<li><a href="Career/full-employment-theorem.md">Full employment theorem</a>
 <li><a href="Career/developing-decision-making-skills.md">Invest in decision-making skills early in career</a>
 <li><a href="Career/leveling-up-from-software-engineer-to-senior-software-engineer.md">Leveling up from Software Engineer to Senior Software Engineer</a>
 <li><a href="Career/pros-and-cons-of-working-professionally.md">Pros & Cons of working professionally</a>
