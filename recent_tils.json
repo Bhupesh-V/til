@@ -1,5 +1,9 @@
 [
  {
+  "title": "Full employment theorem",
+  "url": "https://til.bhupesh.me/career/full-employment-theorem"
+ },
+ {
   "title": "The good that comes with maintaining blogs",
   "url": "https://til.bhupesh.me/meta/the-good-that-comes-with-maintaining-blogs"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Postgres 14 Internals: Data Organisation",
   "url": "https://til.bhupesh.me/databases/postgres-internals-data-organisation"
- },
- {
-  "title": "List all values of a custom enum in Postgres",
-  "url": "https://til.bhupesh.me/databases/list-all-values-for-custom-enum-postgres"
  }
 ]

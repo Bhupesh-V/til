@@ -43,7 +43,11 @@ Some of the points that help me land a decision:
 3. Ask only friends who might have good insights on the idea, no pinging random people.
    Optionally check opinions of professionals on Twitter (a necessary evil).
 
+## Accepting your inner critic
 
+- As you are writing you will realise the gapping knowledge holes in your understanding. Your Inner self will prompt you on areas which you not good at.
+- The point is to not supress it, its helping you grow.
+- You can tie this with [Socratic questioning](https://en.wikipedia.org/wiki/Socratic_questioning)
 
 <!-- ## Owning an Idea -->
 
