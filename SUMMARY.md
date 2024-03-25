@@ -129,7 +129,7 @@
 <li><a href="Go/clear-terminal-screen-in-go.md">Clearing terminal screen in Go</a>
 <li><a href="Go/concurrency-difference-go-vs-elixir.md">Concurrency Comparison: Go v/s Elixir</a>
 <li><a href="Go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
-<li><a href="Go/python-next-alternative-go-clousers.md">Creating Python's `next()` alternative using Go Closures</a>
+<li><a href="Go/python-next-alternative-go-clousers.md">Creating Python's next() alternative using Go Closures</a>
 <li><a href="Go/measure-execution-time-in-go.md">Measure Exection time in Go</a>
 <li><a href="Go/memoization-using-golang-generics.md">Memoization using Golang Generics</a>
 <li><a href="Go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a>
@@ -217,7 +217,7 @@
 <li><a href="Shell/generate-random-numbers-in-bash.md">Generate random numbers in bash</a>
 <li><a href="Shell/get-release-notes-github-api.md">Get Release notes from Github API</a>
 <li><a href="Shell/get-system-info.md">Get System info using Shell Commands</a>
-<li><a href="Shell/total-memory-using-vmstat.md">Get Total System Memory using `vmstat` command</a>
+<li><a href="Shell/total-memory-using-vmstat.md">Get Total System Memory using vmstat command</a>
 <li><a href="Shell/get-download-stats-github-brew.md">Get total download stats from GitHub & Homebrew</a>
 <li><a href="Shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a>
 <li><a href="Shell/line-editors-tips-tricks.md">Line Editors in Linux, Tips and Tricks</a>

@@ -1,4 +1,5 @@
 # Converting videos to High quality GIFs
+
 **_Posted on Dec 6, 2020_**
 
 
@@ -21,6 +22,6 @@ ffmpeg -t 29 -i video.mp4 -i palette.png -filter_complex "fps=22,scale=1024:-1:f
 
 Download complete script [**here**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/gif)
 
-### Resources
+## Resources
 
 - [High quality GIF from video](https://d12frosted.io/posts/2018-10-13-gifify.html)

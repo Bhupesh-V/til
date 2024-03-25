@@ -1,4 +1,5 @@
-# Get Total System Memory using `vmstat` command
+# Get Total System Memory using vmstat command
+
 **_Posted on 31 May 2020_**
 
 ```bash

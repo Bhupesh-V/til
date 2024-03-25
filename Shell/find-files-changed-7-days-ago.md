@@ -1,15 +1,21 @@
 # Find files changed 7 days ago
 
+**_Posted on 07 Jun, 2020_**
+
 To find last modified file
+
 ```bash
 find Documents/ -mtime -1
 ```
+
 where `mtime` means "Last Modification Time"
 
 To find files Accessed (read operation)
+
 ```bash
 find Documents/ -atime -7
 ```
+
 where `atime` means "Last Access Time"
 
 **-7** signifies anything changed 7 days or less.

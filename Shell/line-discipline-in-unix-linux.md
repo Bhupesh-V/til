@@ -1,5 +1,7 @@
 # Line Discipline in Unix/Linux Machines
 
+**_Posted on 06 July, 2020_**
+
 Line discipline handles things like <kbd>backspace</kbd> and also generates various signals for special characters like <kbd>Ctrl + C/Z</kbd> etc.
 
 `stty -a` will display all these settings.

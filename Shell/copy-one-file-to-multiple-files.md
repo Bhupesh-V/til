@@ -1,4 +1,5 @@
 # Copy one file to multiple files in Bash
+
 **_Posted on 24 Dec, 2019_**
 
 ```bash

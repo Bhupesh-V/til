@@ -1,5 +1,7 @@
 # Monitor network (data) usage
 
+**_Posted on 09 Aug, 2020_**
+
 The amount of data sent(uploaded) & received (downloaded) can be found out
 using the following bash script.
 

@@ -1,5 +1,7 @@
 # Clearing terminal screen in Go
-<!-- 5 June 2020 -->
+
+**_Posted on 5 June, 2020_**
+
 There are two ways I like (without any external dependency)
 
 ### Using `os/exec` package

@@ -1,9 +1,12 @@
 # Functional Programming in Python 🐍
-<!--3 Jul 2019 -->
+
+**_Posted on 3 Jul, 2019_**
+
 Features like `lambda`, `map`, `filter`, `reduce` are generally used to perform functional programming related tasks in Python.
 Let's take a quick look on them.
 
-### Lambdas
+## Lambdas
+
 - Anonymous functions
 - No function name, 
 - They can be passed as function arguments/objects.
@@ -21,7 +24,8 @@ doubleList = lambda elementList: [e*e for e in elementList]
 print(doubleList(elementList))
 ```
 
-### Map
+## Map
+
 - applies a function to all the items in an input list.
 - `map(function_to_apply, list_of_inputs)`.
 
@@ -34,7 +38,8 @@ capitalize = list(map(lambda x: x.upper(), myList))
 print(capitalize)
 ```
 
-### Filter
+## Filter
+
 - creates a list of elements for which a function returns `True`.
 
 Example :
@@ -45,7 +50,8 @@ evenList = list(filter(lambda x: x%2 == 0, mylist))
 print(evenList)
 ```
 
-### Reduce
+## Reduce
+
 - accepts a function and a sequence(list/set *etc*) and returns a single value calculated.
 - Initially, the function is called with the first two items from the sequence and the result is returned.
 - The function is then called again with the result obtained in step 1 and the next value in the sequence. This process keeps repeating until there are items in the sequence.
