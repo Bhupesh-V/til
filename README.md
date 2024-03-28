@@ -30,7 +30,7 @@
 * [Artificial Intelligence](#artificial-intelligence) [**`2`**]
 * [Career](#career) [**`8`**]
 * [Coding Practices](#coding-practices) [**`5`**]
-* [Community Building](#community-building) [**`3`**]
+* [Community Building](#community-building) [**`4`**]
 * [Compilers](#compilers) [**`1`**]
 * [Data Warehouse](#data-warehouse) [**`1`**]
 * [Databases](#databases) [**`9`**]
@@ -117,6 +117,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/what-does-a-community-lead-organiser-do.md">What does a Community Lead (or Organiser) do?</a>
 </ul>
 
 
@@ -237,7 +238,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Meta/checklist-documenting-medium-scale-system-architecture.md">Checklist for documenting a medium to large scale system architecture</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you and my future self</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you & my future self</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Meta/the-good-that-comes-with-maintaining-blogs.md">The good that comes with maintaining blogs</a>
 </ul>
 

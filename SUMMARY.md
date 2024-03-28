@@ -52,6 +52,7 @@
 <li><a href="Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
 <li><a href="Community Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
 <li><a href="Community Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
+<li><a href="Community Building/what-does-a-community-lead-organiser-do.md">What does a Community Lead (or Organiser) do?</a>
 </ul>
 
 ## Compilers
@@ -145,7 +146,7 @@
 
 <ul>
 <li><a href="Meta/checklist-documenting-medium-scale-system-architecture.md">Checklist for documenting a medium to large scale system architecture</a>
-<li><a href="Meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you and my future self</a>
+<li><a href="Meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you & my future self</a>
 <li><a href="Meta/the-good-that-comes-with-maintaining-blogs.md">The good that comes with maintaining blogs</a>
 </ul>
 

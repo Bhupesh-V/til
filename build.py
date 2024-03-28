@@ -64,6 +64,7 @@ async def get_category_list():
         "images",
         "stylesheets",
         "javascripts",
+        "temp",
         "_layouts",
         ".sass-cache",
         "_site",

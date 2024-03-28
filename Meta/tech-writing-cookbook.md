@@ -1,4 +1,5 @@
-# Tech Writing Cookbook - Writing tips for you and my future self
+# Tech Writing Cookbook - Writing tips for you & my future self
+
 **_Posted on 09 May, 2021_**
 
 
@@ -52,6 +53,7 @@ Some of the points that help me land a decision:
 <!-- ## Owning an Idea -->
 
 ### Resources
+
 - [Making World Class Docs Takes Effort](https://daniel.haxx.se/blog/2021/09/04/making-world-class-docs-takes-effort/)
 - [Diátaxis Framework](https://diataxis.fr/)
 - [Becoming a Better Writer in Tech](https://blog.pragmaticengineer.com/becoming-a-better-writer-in-tech/)
@@ -61,3 +63,4 @@ Some of the points that help me land a decision:
 - [Using "will" and "should" in technical writing](https://jamesg.blog/2024/01/17/will-should/)
 - [Ask HN: How to level up your technical writing?](https://news.ycombinator.com/item?id=31859040)
 - [GitHub - charlax/professional-programming](https://github.com/charlax/professional-programming?tab=readme-ov-file#writing-communication-blogging)
+- [When Do Stories Work? Evidence & Illustration in the Social Sciences](http://www.stat.columbia.edu/~gelman/research/published/storytelling.pdf)
