@@ -1,5 +1,9 @@
 [
  {
+  "title": "What does a Community Lead (or Organiser) do?",
+  "url": "https://til.bhupesh.me/community building/what-does-a-community-lead-organiser-do"
+ },
+ {
   "title": "Full employment theorem",
   "url": "https://til.bhupesh.me/career/full-employment-theorem"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Leveling up from Software Engineer to Senior Software Engineer",
   "url": "https://til.bhupesh.me/career/leveling-up-from-software-engineer-to-senior-software-engineer"
- },
- {
-  "title": "Postgres 14 Internals: Data Organisation",
-  "url": "https://til.bhupesh.me/databases/postgres-internals-data-organisation"
  }
 ]

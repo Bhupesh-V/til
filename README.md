@@ -40,7 +40,7 @@
 * [Git](#git) [**`10`**]
 * [Go](#go) [**`15`**]
 * [Meta](#meta) [**`3`**]
-* [Miscellaneous](#miscellaneous) [**`13`**]
+* [Miscellaneous](#miscellaneous) [**`14`**]
 * [People](#people) [**`1`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
@@ -254,6 +254,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/net-promoter-score.md">Net Promoter Score (NPS)</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/semantic-versioning.md">Semantic Versioning</a>

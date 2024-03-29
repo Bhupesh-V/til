@@ -159,6 +159,7 @@
 <li><a href="Miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a>
 <li><a href="Miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a>
 <li><a href="Miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a>
+<li><a href="Miscellaneous/net-promoter-score.md">Net Promoter Score (NPS)</a>
 <li><a href="Miscellaneous/making-releases-github-gittag.md">Releases on GitHub</a>
 <li><a href="Miscellaneous/seo-tools.md">SEO Tools</a>
 <li><a href="Miscellaneous/semantic-versioning.md">Semantic Versioning</a>
