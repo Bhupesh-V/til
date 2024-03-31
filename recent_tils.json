@@ -1,5 +1,9 @@
 [
  {
+  "title": "Net Promoter Score (NPS)",
+  "url": "https://til.bhupesh.me/miscellaneous/net-promoter-score"
+ },
+ {
   "title": "What does a Community Lead (or Organiser) do?",
   "url": "https://til.bhupesh.me/community building/what-does-a-community-lead-organiser-do"
  },
@@ -34,9 +38,5 @@
  {
   "title": "All .odp files are zip archives",
   "url": "https://til.bhupesh.me/miscellaneous/all-odp-files-are-zip-archives"
- },
- {
-  "title": "Leveling up from Software Engineer to Senior Software Engineer",
-  "url": "https://til.bhupesh.me/career/leveling-up-from-software-engineer-to-senior-software-engineer"
  }
 ]

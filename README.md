@@ -28,7 +28,7 @@
 * [AWS](#aws) [**`1`**]
 * [Android](#android) [**`1`**]
 * [Artificial Intelligence](#artificial-intelligence) [**`2`**]
-* [Career](#career) [**`8`**]
+* [Career](#career) [**`9`**]
 * [Coding Practices](#coding-practices) [**`5`**]
 * [Community Building](#community-building) [**`4`**]
 * [Compilers](#compilers) [**`1`**]
@@ -90,6 +90,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/full-employment-theorem.md">Full employment theorem</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/developing-decision-making-skills.md">Invest in decision-making skills early in career</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/leveling-up-from-software-engineer-to-senior-software-engineer.md">Leveling up from Software Engineer to Senior Software Engineer</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/mentoring.md">Mentoring</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/pros-and-cons-of-working-professionally.md">Pros & Cons of working professionally</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/question-to-ask-interview.md">Questions to ask in an interview</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Career/writing-cover-letter-tips.md">Writing Cover letter - Tips</a>
