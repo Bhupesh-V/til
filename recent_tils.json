@@ -1,5 +1,9 @@
 [
  {
+  "title": "Mentoring",
+  "url": "https://til.bhupesh.me/career/mentoring"
+ },
+ {
   "title": "Net Promoter Score (NPS)",
   "url": "https://til.bhupesh.me/miscellaneous/net-promoter-score"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Retrieval-Augmented Generation (RAG)",
   "url": "https://til.bhupesh.me/artificial intelligence/retrieval-augmented-generative-rag"
- },
- {
-  "title": "All .odp files are zip archives",
-  "url": "https://til.bhupesh.me/miscellaneous/all-odp-files-are-zip-archives"
  }
 ]
