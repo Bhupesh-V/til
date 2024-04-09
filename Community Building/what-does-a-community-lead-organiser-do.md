@@ -11,3 +11,13 @@
 5. If possible, regularly sync with other team members to make sure everyone is on the same page. This is necessary to build trust.
 6. If possible, stengthen cross-community relationships. I am talking partnerships, collaborations, etc.
 7. Obviously you are responsible for setting out any fires that might come up i.e, setting up disputes, etc.
+
+## Things to figure out
+
+> Things I am not sure about and need to figure out.
+
+1. How do you build trust among the team members?
+  - In a professional setting this might be straightforward since there's some sort of monetary (getting fired if you dont work with the team) incentive. But what about communities where there's no monetary benefit?
+  - Saying "do it for the community" is not enough. People have their own lives and priorities. So what to do?
+2. A follow up on above point, how do you build leverage for team members to want to work you? i.e "how to build stake so that people feel FOMO (in a good way) to contribute?".
+3. How to deal with in-responsive team members? i.e, people who are not contributing to the community but are still part of the team.
