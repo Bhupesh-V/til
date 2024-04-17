@@ -31,6 +31,14 @@ Thoughts on what a community lead/organiser/moderator does (or supposed to). Thi
    1. Literally no idea on this, in terms of tech we definitley have the problem of less women representation. How to solve this?
    2. At the moment, I believe that more leaders need to imerge from the women in tech, that can inspire more folks. But how to make that happen?
    3. So far, I have seen separate communities altogether to fix this, which works but I believe its a duct taped solution. Mainstream communities should become more diverse, thats when you will see some real change.
+5. The role of a "community manager"
+   1. https://news.ycombinator.com/item?id=8318199
+6. Is it bad that the community leads/admins make all the rules?
+   1. https://www.nytimes.com/2018/04/17/magazine/what-good-is-community-when-someone-else-makes-all-the-rules.html
+7. Issues with pedantry in communities
+   1. https://news.ycombinator.com/item?id=33175839
+8. If a community grows big enough, will it see a downfall?
+   1. https://news.ycombinator.com/item?id=31363153
 
 
 ## Resources

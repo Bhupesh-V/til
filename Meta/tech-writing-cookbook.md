@@ -64,3 +64,6 @@ Some of the points that help me land a decision:
 - [Ask HN: How to level up your technical writing?](https://news.ycombinator.com/item?id=31859040)
 - [GitHub - charlax/professional-programming](https://github.com/charlax/professional-programming?tab=readme-ov-file#writing-communication-blogging)
 - [When Do Stories Work? Evidence & Illustration in the Social Sciences](http://www.stat.columbia.edu/~gelman/research/published/storytelling.pdf)
+- [What makes a great technical blog](https://notes.eatonphil.com/2024-04-10-what-makes-a-great-tech-blog.html)
+- [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/)
+- [Writing maketh the 10x Developer. More so the 10x development team.](https://www.evalapply.org/posts/writing-maketh-the-10x-developer/)
