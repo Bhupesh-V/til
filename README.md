@@ -44,6 +44,7 @@
 * [Meta](#meta) [**`3`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [People](#people) [**`1`**]
+* [Psychology](#psychology) [**`1`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
 * [Startups](#startups) [**`1`**]
@@ -274,6 +275,15 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/People/tech-hiring-interesting-finds.md">Interesting Views on Tech Hiring</a>
+</ul>
+
+
+
+
+### Psychology
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Psychology/einstellung-effect.md">Einstellung effect</a>
 </ul>
 
 

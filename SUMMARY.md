@@ -176,6 +176,12 @@
 <li><a href="People/tech-hiring-interesting-finds.md">Interesting Views on Tech Hiring</a>
 </ul>
 
+## Psychology
+
+<ul>
+<li><a href="Psychology/einstellung-effect.md">Einstellung effect</a>
+</ul>
+
 ## Python
 
 <ul>
