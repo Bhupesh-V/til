@@ -44,7 +44,7 @@
 * [Meta](#meta) [**`3`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [People](#people) [**`1`**]
-* [Psychology](#psychology) [**`1`**]
+* [Psychology](#psychology) [**`2`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
 * [Startups](#startups) [**`1`**]
@@ -284,6 +284,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Psychology/einstellung-effect.md">Einstellung effect</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Psychology/interference-theory.md">Interference theory</a>
 </ul>
 
 

@@ -1,5 +1,9 @@
 [
  {
+  "title": "Einstellung effect",
+  "url": "https://til.bhupesh.me/psychology/einstellung-effect"
+ },
+ {
   "title": "Mentoring",
   "url": "https://til.bhupesh.me/career/mentoring"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Docker multi-platform build using buildx",
   "url": "https://til.bhupesh.me/devops/docker-multiplatform-build"
- },
- {
-  "title": "Retrieval-Augmented Generation (RAG)",
-  "url": "https://til.bhupesh.me/artificial intelligence/retrieval-augmented-generative-rag"
  }
 ]

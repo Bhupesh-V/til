@@ -180,6 +180,7 @@
 
 <ul>
 <li><a href="Psychology/einstellung-effect.md">Einstellung effect</a>
+<li><a href="Psychology/interference-theory.md">Interference theory</a>
 </ul>
 
 ## Python
