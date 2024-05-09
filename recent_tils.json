@@ -1,5 +1,9 @@
 [
  {
+  "title": "Interference theory",
+  "url": "https://til.bhupesh.me/psychology/interference-theory"
+ },
+ {
   "title": "Einstellung effect",
   "url": "https://til.bhupesh.me/psychology/einstellung-effect"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Docker image load & save",
   "url": "https://til.bhupesh.me/devops/docker-image-load-save"
- },
- {
-  "title": "Docker multi-platform build using buildx",
-  "url": "https://til.bhupesh.me/devops/docker-multiplatform-build"
  }
 ]

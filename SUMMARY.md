@@ -51,6 +51,7 @@
 
 <ul>
 <li><a href="Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
+<li><a href="Community Building/questions-for-women-in-tech.md">Questions for Women in Tech</a>
 <li><a href="Community Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
 <li><a href="Community Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
 <li><a href="Community Building/what-does-a-community-lead-organiser-do.md">What does a Community Lead (or Organiser) do?</a>
@@ -239,6 +240,12 @@
 <li><a href="Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a href="Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a href="Shell/grep-cheatsheet.md">grep cheatsheet</a>
+</ul>
+
+## Software Design
+
+<ul>
+<li><a href="Software Design/design-by-contract.md">Design by contract (DbC)</a>
 </ul>
 
 ## Startups

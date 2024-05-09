@@ -32,7 +32,7 @@
 * [Artificial Intelligence](#artificial-intelligence) [**`2`**]
 * [Career](#career) [**`9`**]
 * [Coding Practices](#coding-practices) [**`5`**]
-* [Community Building](#community-building) [**`4`**]
+* [Community Building](#community-building) [**`5`**]
 * [Compilers](#compilers) [**`1`**]
 * [Data Warehouse](#data-warehouse) [**`1`**]
 * [Databases](#databases) [**`9`**]
@@ -47,6 +47,7 @@
 * [Psychology](#psychology) [**`2`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
+* [Software Design](#software-design) [**`1`**]
 * [Startups](#startups) [**`1`**]
 * [Vim](#vim) [**`8`**]
 * [WebDev](#webdev) [**`5`**]
@@ -119,6 +120,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-for-women-in-tech.md">Questions for Women in Tech</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/what-does-a-community-lead-organiser-do.md">What does a Community Lead (or Organiser) do?</a>
@@ -349,6 +351,15 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/grep-cheatsheet.md">grep cheatsheet</a>
+</ul>
+
+
+
+
+### Software Design
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Software Design/design-by-contract.md">Design by contract (DbC)</a>
 </ul>
 
 
