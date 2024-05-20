@@ -1,5 +1,13 @@
 [
  {
+  "title": "Questions for Women in Tech",
+  "url": "https://til.bhupesh.me/community building/questions-for-women-in-tech"
+ },
+ {
+  "title": "Design by contract (DbC)",
+  "url": "https://til.bhupesh.me/software design/design-by-contract"
+ },
+ {
   "title": "Interference theory",
   "url": "https://til.bhupesh.me/psychology/interference-theory"
  },
@@ -30,13 +38,5 @@
  {
   "title": "Interesting Views on Tech Hiring",
   "url": "https://til.bhupesh.me/people/tech-hiring-interesting-finds"
- },
- {
-  "title": "Checklist for documenting a medium to large scale system architecture",
-  "url": "https://til.bhupesh.me/meta/checklist-documenting-medium-scale-system-architecture"
- },
- {
-  "title": "Docker image load & save",
-  "url": "https://til.bhupesh.me/devops/docker-image-load-save"
  }
 ]

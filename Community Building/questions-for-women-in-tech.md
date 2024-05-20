@@ -13,3 +13,10 @@
 3. Do you think diversity programs help as an entry gate to large organisations and there should be more of them?
 4. Do you think there's a lack of mentorship for women in core tech domains?
 5. Hyothetically, assume you are a leader in some programming domain (Very senior enginneer with decades of exp), do you have any inititatives in your mind that you would like to execute?
+
+
+## Resources
+
+Stuff to read and watch
+
+- [Diversity in Tech – An Asian Perspective](https://openmainframeproject.org/blog/diversity-in-tech-an-asian-perspective/?utm_campaign=Open%20Mainframe%20Project%20Diversity%20&utm_content=293612633&utm_medium=social&utm_source=linkedin&hss_channel=lcp-35545633)
