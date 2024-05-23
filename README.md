@@ -43,7 +43,7 @@
 * [Go](#go) [**`15`**]
 * [Meta](#meta) [**`3`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
-* [People](#people) [**`1`**]
+* [People](#people) [**`2`**]
 * [Psychology](#psychology) [**`2`**]
 * [Python](#python) [**`19`**]
 * [Shell](#shell) [**`29`**]
@@ -277,6 +277,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/People/tech-hiring-interesting-finds.md">Interesting Views on Tech Hiring</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/People/questions-for-you-tech-worker.md">Questions for you as a tech worker</a>
 </ul>
 
 

@@ -175,6 +175,7 @@
 
 <ul>
 <li><a href="People/tech-hiring-interesting-finds.md">Interesting Views on Tech Hiring</a>
+<li><a href="People/questions-for-you-tech-worker.md">Questions for you as a tech worker</a>
 </ul>
 
 ## Psychology
