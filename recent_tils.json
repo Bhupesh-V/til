@@ -1,11 +1,15 @@
 [
  {
+  "title": "Questions for you as a tech worker",
+  "url": "https://til.bhupesh.me/people/questions-for-you-tech-worker"
+ },
+ {
   "title": "Questions for Women in Tech",
-  "url": "https://til.bhupesh.me/community building/questions-for-women-in-tech"
+  "url": "https://til.bhupesh.me/community-building/questions-for-women-in-tech"
  },
  {
   "title": "Design by contract (DbC)",
-  "url": "https://til.bhupesh.me/software design/design-by-contract"
+  "url": "https://til.bhupesh.me/software-design/design-by-contract"
  },
  {
   "title": "Interference theory",
@@ -25,7 +29,7 @@
  },
  {
   "title": "What does a Community Lead (or Organiser) do?",
-  "url": "https://til.bhupesh.me/community building/what-does-a-community-lead-organiser-do"
+  "url": "https://til.bhupesh.me/community-building/what-does-a-community-lead-organiser-do"
  },
  {
   "title": "Full employment theorem",
@@ -34,9 +38,5 @@
  {
   "title": "The good that comes with maintaining blogs",
   "url": "https://til.bhupesh.me/meta/the-good-that-comes-with-maintaining-blogs"
- },
- {
-  "title": "Interesting Views on Tech Hiring",
-  "url": "https://til.bhupesh.me/people/tech-hiring-interesting-finds"
  }
 ]
