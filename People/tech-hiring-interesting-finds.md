@@ -9,3 +9,4 @@ A collection of views around the internet that I found interesting and useful fo
 - [Ten years of experience, still failing phone screens](https://kevin.burke.dev/kevin/phone-screens-broken/)
 - [HN: Leetcode has taught me that I'm a bad engineer](https://news.ycombinator.com/item?id=29804607)
 - [If you know all the things a candidate can't do, you have failed as an interviewer](https://news.ycombinator.com/item?id=40285940)
+- [We only hire the trendiest](https://danluu.com/programmer-moneyball/)
