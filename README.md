@@ -36,7 +36,7 @@
 * [Compilers](#compilers) [**`1`**]
 * [Data Warehouse](#data-warehouse) [**`1`**]
 * [Databases](#databases) [**`9`**]
-* [DevOps](#devops) [**`6`**]
+* [DevOps](#devops) [**`7`**]
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`10`**]
@@ -173,6 +173,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/docker-multiplatform-build.md">Docker multi-platform build using buildx</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/docker-quick-guide.md">Docker 🐋 quick guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/set-up-sftp-server-using-aws.md">Set up a SFTP server using AWS Transfer Family</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/DevOps/simulating-aws-lambda-localstack.md">Simulating AWS Lambda locally using LocalStack</a>
 </ul>
 
 

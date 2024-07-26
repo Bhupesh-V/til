@@ -92,6 +92,7 @@
 <li><a href="DevOps/docker-multiplatform-build.md">Docker multi-platform build using buildx</a>
 <li><a href="DevOps/docker-quick-guide.md">Docker 🐋 quick guide</a>
 <li><a href="DevOps/set-up-sftp-server-using-aws.md">Set up a SFTP server using AWS Transfer Family</a>
+<li><a href="DevOps/simulating-aws-lambda-localstack.md">Simulating AWS Lambda locally using LocalStack</a>
 </ul>
 
 ## Distributed Computing
