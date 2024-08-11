@@ -145,6 +145,12 @@
 <li><a href="Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a>
 </ul>
 
+## HotWheels
+
+<ul>
+<li><a href="HotWheels/find-when-a-car-was-manufactured.md">Find when a car was manufactured</a>
+</ul>
+
 ## Meta
 
 <ul>

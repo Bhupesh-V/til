@@ -41,6 +41,7 @@
 * [Flutter](#flutter) [**`3`**]
 * [Git](#git) [**`10`**]
 * [Go](#go) [**`15`**]
+* [HotWheels](#hotwheels) [**`1`**]
 * [Meta](#meta) [**`3`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [People](#people) [**`2`**]
@@ -236,6 +237,15 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/strategy-design-pattern-golang.md">Strategy Design Pattern in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/using-local-packages-using-require.md">Using local Go package path</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a>
+</ul>
+
+
+
+
+### HotWheels
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/HotWheels/find-when-a-car-was-manufactured.md">Find when a car was manufactured</a>
 </ul>
 
 

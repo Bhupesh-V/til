@@ -1,5 +1,9 @@
 [
  {
+  "title": "Simulating AWS Lambda locally using LocalStack",
+  "url": "https://til.bhupesh.me/devops/simulating-aws-lambda-localstack"
+ },
+ {
   "title": "Questions for you as a tech worker",
   "url": "https://til.bhupesh.me/people/questions-for-you-tech-worker"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Full employment theorem",
   "url": "https://til.bhupesh.me/career/full-employment-theorem"
- },
- {
-  "title": "The good that comes with maintaining blogs",
-  "url": "https://til.bhupesh.me/meta/the-good-that-comes-with-maintaining-blogs"
  }
 ]
