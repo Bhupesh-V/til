@@ -52,6 +52,15 @@ Some of the points that help me land a decision:
 
 <!-- ## Owning an Idea -->
 
+## Editing
+
+Three questions to ask yourself while editing:
+
+1. Is this correct?
+2. Is this complete?
+3. Is this convincing?
+
+
 ### Resources
 
 - [Making World Class Docs Takes Effort](https://daniel.haxx.se/blog/2021/09/04/making-world-class-docs-takes-effort/)
