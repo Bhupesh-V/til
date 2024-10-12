@@ -1,5 +1,9 @@
 [
  {
+  "title": "Find when a car was manufactured",
+  "url": "https://til.bhupesh.me/hotwheels/find-when-a-car-was-manufactured"
+ },
+ {
   "title": "Simulating AWS Lambda locally using LocalStack",
   "url": "https://til.bhupesh.me/devops/simulating-aws-lambda-localstack"
  },
@@ -34,9 +38,5 @@
  {
   "title": "What does a Community Lead (or Organiser) do?",
   "url": "https://til.bhupesh.me/community-building/what-does-a-community-lead-organiser-do"
- },
- {
-  "title": "Full employment theorem",
-  "url": "https://til.bhupesh.me/career/full-employment-theorem"
  }
 ]

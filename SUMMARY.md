@@ -216,6 +216,12 @@
 <li><a href="Python/writing-tests-in-python-using-unittest.md">Writing Unit Tests in Python ✅</a>
 </ul>
 
+## Sales
+
+<ul>
+<li><a href="Sales/consultative-selling-solution-selling.md">Consultative Selling / Solution Selling</a>
+</ul>
+
 ## Shell
 
 <ul>

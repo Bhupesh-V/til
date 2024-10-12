@@ -47,6 +47,7 @@
 * [People](#people) [**`2`**]
 * [Psychology](#psychology) [**`2`**]
 * [Python](#python) [**`19`**]
+* [Sales](#sales) [**`1`**]
 * [Shell](#shell) [**`29`**]
 * [Software Design](#software-design) [**`1`**]
 * [Startups](#startups) [**`1`**]
@@ -326,6 +327,15 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/using-defaultdict-to-handle-key-not-in-dict-case.md">Using defaultdict to handle key not in dict</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/fuzzy-string-matching-using-difflib-python.md">Using difflib in Python for fuzzy string matching</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Python/writing-tests-in-python-using-unittest.md">Writing Unit Tests in Python ✅</a>
+</ul>
+
+
+
+
+### Sales
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Sales/consultative-selling-solution-selling.md">Consultative Selling / Solution Selling</a>
 </ul>
 
 
