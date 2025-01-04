@@ -80,6 +80,7 @@
 <li><a href="Databases/inserting-null-everywhere.md">Inserting NULL wherever possible on Postgres</a>
 <li><a href="Databases/list-all-values-for-custom-enum-postgres.md">List all values of a custom enum in Postgres</a>
 <li><a href="Databases/postgres-internals-data-organisation.md">Postgres 14 Internals: Data Organisation</a>
+<li><a href="Databases/postgres-tips-megalist.md">Postgres Tips & Tricks</a>
 <li><a href="Databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a>
 </ul>
 
@@ -189,6 +190,7 @@
 
 <ul>
 <li><a href="Psychology/einstellung-effect.md">Einstellung effect</a>
+<li><a href="Psychology/eustress.md">Eustress: The Good Stress</a>
 <li><a href="Psychology/interference-theory.md">Interference theory</a>
 </ul>
 

@@ -35,7 +35,7 @@
 * [Community Building](#community-building) [**`5`**]
 * [Compilers](#compilers) [**`1`**]
 * [Data Warehouse](#data-warehouse) [**`1`**]
-* [Databases](#databases) [**`9`**]
+* [Databases](#databases) [**`10`**]
 * [DevOps](#devops) [**`7`**]
 * [Distributed Computing](#distributed-computing) [**`2`**]
 * [Flutter](#flutter) [**`3`**]
@@ -45,7 +45,7 @@
 * [Meta](#meta) [**`3`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [People](#people) [**`2`**]
-* [Psychology](#psychology) [**`2`**]
+* [Psychology](#psychology) [**`3`**]
 * [Python](#python) [**`19`**]
 * [Sales](#sales) [**`1`**]
 * [Shell](#shell) [**`29`**]
@@ -160,6 +160,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/inserting-null-everywhere.md">Inserting NULL wherever possible on Postgres</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/list-all-values-for-custom-enum-postgres.md">List all values of a custom enum in Postgres</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/postgres-internals-data-organisation.md">Postgres 14 Internals: Data Organisation</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/postgres-tips-megalist.md">Postgres Tips & Tricks</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a>
 </ul>
 
@@ -299,6 +300,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Psychology/einstellung-effect.md">Einstellung effect</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Psychology/eustress.md">Eustress: The Good Stress</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Psychology/interference-theory.md">Interference theory</a>
 </ul>
 
