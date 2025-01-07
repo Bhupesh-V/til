@@ -42,6 +42,7 @@
 * [Git](#git) [**`10`**]
 * [Go](#go) [**`15`**]
 * [HotWheels](#hotwheels) [**`1`**]
+* [Management](#management) [**`1`**]
 * [Meta](#meta) [**`3`**]
 * [Miscellaneous](#miscellaneous) [**`14`**]
 * [People](#people) [**`2`**]
@@ -248,6 +249,15 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/HotWheels/find-when-a-car-was-manufactured.md">Find when a car was manufactured</a>
+</ul>
+
+
+
+
+### Management
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Management/the-art-and-science-mess-management.md">The art and science of mess management</a>
 </ul>
 
 

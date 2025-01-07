@@ -152,6 +152,12 @@
 <li><a href="HotWheels/find-when-a-car-was-manufactured.md">Find when a car was manufactured</a>
 </ul>
 
+## Management
+
+<ul>
+<li><a href="Management/the-art-and-science-mess-management.md">The art and science of mess management</a>
+</ul>
+
 ## Meta
 
 <ul>

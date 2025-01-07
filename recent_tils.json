@@ -1,5 +1,13 @@
 [
  {
+  "title": "Postgres Tips & Tricks",
+  "url": "https://til.bhupesh.me/databases/postgres-tips-megalist"
+ },
+ {
+  "title": "Eustress: The Good Stress",
+  "url": "https://til.bhupesh.me/psychology/eustress"
+ },
+ {
   "title": "Consultative Selling / Solution Selling",
   "url": "https://til.bhupesh.me/sales/consultative-selling-solution-selling"
  },
@@ -30,13 +38,5 @@
  {
   "title": "Einstellung effect",
   "url": "https://til.bhupesh.me/psychology/einstellung-effect"
- },
- {
-  "title": "Mentoring",
-  "url": "https://til.bhupesh.me/career/mentoring"
- },
- {
-  "title": "Net Promoter Score (NPS)",
-  "url": "https://til.bhupesh.me/miscellaneous/net-promoter-score"
  }
 ]
