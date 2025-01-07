@@ -1,5 +1,9 @@
 [
  {
+  "title": "The art and science of mess management",
+  "url": "https://til.bhupesh.me/management/the-art-and-science-mess-management"
+ },
+ {
   "title": "Postgres Tips & Tricks",
   "url": "https://til.bhupesh.me/databases/postgres-tips-megalist"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Interference theory",
   "url": "https://til.bhupesh.me/psychology/interference-theory"
- },
- {
-  "title": "Einstellung effect",
-  "url": "https://til.bhupesh.me/psychology/einstellung-effect"
  }
 ]
