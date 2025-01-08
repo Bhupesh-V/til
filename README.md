@@ -49,7 +49,7 @@
 * [Psychology](#psychology) [**`3`**]
 * [Python](#python) [**`19`**]
 * [Sales](#sales) [**`1`**]
-* [Shell](#shell) [**`29`**]
+* [Shell](#shell) [**`30`**]
 * [Software Design](#software-design) [**`1`**]
 * [Startups](#startups) [**`1`**]
 * [Vim](#vim) [**`8`**]
@@ -382,6 +382,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/print-value-of-path-readable-format.md">Print value of `$PATH` in readable format</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/reusing-arguments-from-last-command.md">Reuse arguments from last command</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/exporting-environment-variables-shell-and-vscode.md">Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Shell/grep-cheatsheet.md">grep cheatsheet</a>

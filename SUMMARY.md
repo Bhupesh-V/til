@@ -259,6 +259,7 @@
 <li><a href="Shell/print-value-of-path-readable-format.md">Print value of `$PATH` in readable format</a>
 <li><a href="Shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a>
 <li><a href="Shell/reusing-arguments-from-last-command.md">Reuse arguments from last command</a>
+<li><a href="Shell/exporting-environment-variables-shell-and-vscode.md">Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger</a>
 <li><a href="Shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a>
 <li><a href="Shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a>
 <li><a href="Shell/grep-cheatsheet.md">grep cheatsheet</a>
