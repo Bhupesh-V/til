@@ -103,6 +103,14 @@
 <li><a href="Distributed Computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a>
 </ul>
 
+## Ffmpeg
+
+<ul>
+<li><a href="Ffmpeg/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
+<li><a href="Ffmpeg/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
+<li><a href="Ffmpeg/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
+</ul>
+
 ## Flutter
 
 <ul>
@@ -298,12 +306,4 @@
 <li><a href="WebDev/live-edit-html.md">Live Editing HTML</a>
 <li><a href="WebDev/turning-emojis-into-site-favicons.md">Turning Emojis to site favicons</a>
 <li><a href="WebDev/async-defer-html-javascript.md">`async` & `defer` Attributes</a>
-</ul>
-
-## ffmpeg
-
-<ul>
-<li><a href="ffmpeg/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
-<li><a href="ffmpeg/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
-<li><a href="ffmpeg/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
 </ul>

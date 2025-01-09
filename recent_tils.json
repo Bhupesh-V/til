@@ -1,5 +1,9 @@
 [
  {
+  "title": "Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger",
+  "url": "https://til.bhupesh.me/shell/exporting-environment-variables-shell-and-vscode"
+ },
+ {
   "title": "The art and science of mess management",
   "url": "https://til.bhupesh.me/management/the-art-and-science-mess-management"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Design by contract (DbC)",
   "url": "https://til.bhupesh.me/software-design/design-by-contract"
- },
- {
-  "title": "Interference theory",
-  "url": "https://til.bhupesh.me/psychology/interference-theory"
  }
 ]

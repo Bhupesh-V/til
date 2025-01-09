@@ -18,14 +18,6 @@ HEADER = """<h1 align="left">Today I Learned</h1>
   <a href="https://til.bhupesh.me">
     <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Ftil.bhupesh.me">
   </a>
-  <!--
-  <a href="https://bhupesh.gitbook.io" title="As seen on GitBook">
-    <img alt="GitBook Monthly Analytics" src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/Bhupesh-V/e32f40010ce09c09919b04117bee2581/raw/analytics.json">
-  </a>
-  <a href="https://paypal.me/BhupeshVarshney">
-    <img alt="PayPal-Bhupesh Varshney" src="https://camo.githubusercontent.com/4a35ad533ec57bf3c47c44dad7b9bd41c83a5fc132497acb2787973a2ae2feeb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f6e6174652d50617950616c2d3130343039382e7376673f6c6f676f3d50617950616c" target="_blank" />
-  </a>
-  -->
   <a href="https://twitter.com/bhupeshimself">
     <img alt="Twitter: Bhupesh Varshney" src="https://img.shields.io/twitter/follow/bhupeshimself.svg?style=social" target="_blank" />
   </a>
@@ -158,15 +150,32 @@ async def create_readme(category_names, categories):
     host_url = "https://github.com/Bhupesh-V/til/blob/master/"
     print("Generating README.md")
 
+    num_columns = 3  # Number of columns for the grid
+    num_rows = (len(category_names) + num_columns - 1) // num_columns  # Calculate the number of rows
+
+    category_names = sorted(category_names)
+
     with open("README.md", "w") as file:
         file.write(HEADER)
         file.write("""\n\n## Categories\n""")
-        # print the list of categories with links
-        for category in sorted(category_names):
-            tils = categories[category]
-            file.write(
-                f"""* [{category}](#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n"""
-            )
+
+        # Generate the table header
+        file.write('<table align="center">\n')
+
+        # Generate the table rows
+        for row in range(num_rows):
+            file.write("<tr>\n")
+            for col in range(num_columns):
+                index = row * num_columns + col
+                if index < len(category_names):
+                    category = category_names[index]
+                    tils = categories[category]
+                    file.write(f"""<td><a href="#{category.replace(' ', '-').lower()}">{category}</a><sup><strong>[{len(tils)}]</strong></sup></td>\n""")
+                else:
+                    file.write("<td></td>\n")  # Empty cell if no category
+            file.write("</tr>\n")
+
+        file.write("</table>\n")
 
         if len(category_names) > 0:
             file.write("""\n---\n\n""")

@@ -8,14 +8,6 @@
   <a href="https://til.bhupesh.me">
     <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Ftil.bhupesh.me">
   </a>
-  <!--
-  <a href="https://bhupesh.gitbook.io" title="As seen on GitBook">
-    <img alt="GitBook Monthly Analytics" src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/Bhupesh-V/e32f40010ce09c09919b04117bee2581/raw/analytics.json">
-  </a>
-  <a href="https://paypal.me/BhupeshVarshney">
-    <img alt="PayPal-Bhupesh Varshney" src="https://camo.githubusercontent.com/4a35ad533ec57bf3c47c44dad7b9bd41c83a5fc132497acb2787973a2ae2feeb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f6e6174652d50617950616c2d3130343039382e7376673f6c6f676f3d50617950616c" target="_blank" />
-  </a>
-  -->
   <a href="https://twitter.com/bhupeshimself">
     <img alt="Twitter: Bhupesh Varshney" src="https://img.shields.io/twitter/follow/bhupeshimself.svg?style=social" target="_blank" />
   </a>
@@ -27,34 +19,58 @@
 
 
 ## Categories
-* [AWS](#aws) [**`1`**]
-* [Android](#android) [**`1`**]
-* [Artificial Intelligence](#artificial-intelligence) [**`2`**]
-* [Career](#career) [**`9`**]
-* [Coding Practices](#coding-practices) [**`5`**]
-* [Community Building](#community-building) [**`5`**]
-* [Compilers](#compilers) [**`1`**]
-* [Data Warehouse](#data-warehouse) [**`1`**]
-* [Databases](#databases) [**`10`**]
-* [DevOps](#devops) [**`7`**]
-* [Distributed Computing](#distributed-computing) [**`2`**]
-* [Flutter](#flutter) [**`3`**]
-* [Git](#git) [**`10`**]
-* [Go](#go) [**`15`**]
-* [HotWheels](#hotwheels) [**`1`**]
-* [Management](#management) [**`1`**]
-* [Meta](#meta) [**`3`**]
-* [Miscellaneous](#miscellaneous) [**`14`**]
-* [People](#people) [**`2`**]
-* [Psychology](#psychology) [**`3`**]
-* [Python](#python) [**`19`**]
-* [Sales](#sales) [**`1`**]
-* [Shell](#shell) [**`30`**]
-* [Software Design](#software-design) [**`1`**]
-* [Startups](#startups) [**`1`**]
-* [Vim](#vim) [**`8`**]
-* [WebDev](#webdev) [**`5`**]
-* [ffmpeg](#ffmpeg) [**`3`**]
+<table align="center">
+<tr>
+<td><a href="#aws">AWS</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#android">Android</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#artificial-intelligence">Artificial Intelligence</a><sup><strong>[2]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#career">Career</a><sup><strong>[9]</strong></sup></td>
+<td><a href="#coding-practices">Coding Practices</a><sup><strong>[5]</strong></sup></td>
+<td><a href="#community-building">Community Building</a><sup><strong>[5]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#compilers">Compilers</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#data-warehouse">Data Warehouse</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#databases">Databases</a><sup><strong>[10]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#devops">DevOps</a><sup><strong>[7]</strong></sup></td>
+<td><a href="#distributed-computing">Distributed Computing</a><sup><strong>[2]</strong></sup></td>
+<td><a href="#ffmpeg">Ffmpeg</a><sup><strong>[3]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#flutter">Flutter</a><sup><strong>[3]</strong></sup></td>
+<td><a href="#git">Git</a><sup><strong>[10]</strong></sup></td>
+<td><a href="#go">Go</a><sup><strong>[15]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#hotwheels">HotWheels</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#management">Management</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#meta">Meta</a><sup><strong>[3]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#miscellaneous">Miscellaneous</a><sup><strong>[14]</strong></sup></td>
+<td><a href="#people">People</a><sup><strong>[2]</strong></sup></td>
+<td><a href="#psychology">Psychology</a><sup><strong>[3]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#python">Python</a><sup><strong>[19]</strong></sup></td>
+<td><a href="#sales">Sales</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#shell">Shell</a><sup><strong>[30]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#software-design">Software Design</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#startups">Startups</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#vim">Vim</a><sup><strong>[8]</strong></sup></td>
+</tr>
+<tr>
+<td><a href="#webdev">WebDev</a><sup><strong>[5]</strong></sup></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 ---
 
@@ -188,6 +204,17 @@
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Distributed Computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Distributed Computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a>
+</ul>
+
+
+
+
+### Ffmpeg
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Ffmpeg/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Ffmpeg/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Ffmpeg/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
 </ul>
 
 
@@ -433,17 +460,6 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/live-edit-html.md">Live Editing HTML</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/turning-emojis-into-site-favicons.md">Turning Emojis to site favicons</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/WebDev/async-defer-html-javascript.md">`async` & `defer` Attributes</a>
-</ul>
-
-
-
-
-### ffmpeg
-
-<ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/ffmpeg/converting-videos-to-high-quality-gif.md">Converting videos to High quality GIFs</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/ffmpeg/generate-video-thumbnail-using-ffmpeg.md">Generate Video thumbnail using ffmpeg</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/ffmpeg/record-your-desktop-using-ffmpeg-on-linux.md">Record your Desktop using `ffmpeg`</a>
 </ul>
 
 ## Usage
