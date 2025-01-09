@@ -61,4 +61,4 @@ $(shell export $$(grep --color=never -v '^#' .env | xargs))
 
 The above command dynamically exports the environment variables to the shell & to any child processes.
 
-In the library approach to load the variables dynamically in your app, you will always need the `.env` file to be present in the directory, whereas in the dynamic approach we rely on the shell to export the variables, the vanilla way!
+In the library approach to load the variables dynamically in your app, you will always need a `.env` file to be present in the directory, whereas in the dynamic approach we can rely on the shell to export the variables, the vanilla way. This gives us some flexibility during development cycles.
