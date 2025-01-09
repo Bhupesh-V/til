@@ -19,8 +19,8 @@
 ## Artificial Intelligence
 
 <ul>
-<li><a href="Artificial Intelligence/fundamentals-of-llms.md">Fundamentals of LLMs</a>
-<li><a href="Artificial Intelligence/retrieval-augmented-generative-rag.md">Retrieval-Augmented Generation (RAG)</a>
+<li><a href="Artificial-Intelligence/fundamentals-of-llms.md">Fundamentals of LLMs</a>
+<li><a href="Artificial-Intelligence/retrieval-augmented-generative-rag.md">Retrieval-Augmented Generation (RAG)</a>
 </ul>
 
 ## Career
@@ -40,21 +40,21 @@
 ## Coding Practices
 
 <ul>
-<li><a href="Coding Practices/cleancode-naming.md">Naming Variables & Functions</a>
-<li><a href="Coding Practices/everything-about-functions-procedures.md">Routines: Functions & Procedures</a>
-<li><a href="Coding Practices/solid.md">SOLID: Design Principles</a>
-<li><a href="Coding Practices/write-clean-comments.md">Writing Comments</a>
-<li><a href="Coding Practices/cleancode-writing-functions.md">Writing Functions</a>
+<li><a href="Coding-Practices/cleancode-naming.md">Naming Variables & Functions</a>
+<li><a href="Coding-Practices/everything-about-functions-procedures.md">Routines: Functions & Procedures</a>
+<li><a href="Coding-Practices/solid.md">SOLID: Design Principles</a>
+<li><a href="Coding-Practices/write-clean-comments.md">Writing Comments</a>
+<li><a href="Coding-Practices/cleancode-writing-functions.md">Writing Functions</a>
 </ul>
 
 ## Community Building
 
 <ul>
-<li><a href="Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
-<li><a href="Community Building/questions-for-women-in-tech.md">Questions for Women in Tech</a>
-<li><a href="Community Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
-<li><a href="Community Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
-<li><a href="Community Building/what-does-a-community-lead-organiser-do.md">What does a Community Lead (or Organiser) do?</a>
+<li><a href="Community-Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
+<li><a href="Community-Building/questions-for-women-in-tech.md">Questions for Women in Tech</a>
+<li><a href="Community-Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
+<li><a href="Community-Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
+<li><a href="Community-Building/what-does-a-community-lead-organiser-do.md">What does a Community Lead (or Organiser) do?</a>
 </ul>
 
 ## Compilers
@@ -66,7 +66,7 @@
 ## Data Warehouse
 
 <ul>
-<li><a href="Data Warehouse/why-reverse-ctl.md">Why Reverse ETL</a>
+<li><a href="Data-Warehouse/why-reverse-ctl.md">Why Reverse ETL</a>
 </ul>
 
 ## Databases
@@ -99,8 +99,8 @@
 ## Distributed Computing
 
 <ul>
-<li><a href="Distributed Computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a>
-<li><a href="Distributed Computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a>
+<li><a href="Distributed-Computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a>
+<li><a href="Distributed-Computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a>
 </ul>
 
 ## Ffmpeg
@@ -276,7 +276,7 @@
 ## Software Design
 
 <ul>
-<li><a href="Software Design/design-by-contract.md">Design by contract (DbC)</a>
+<li><a href="Software-Design/design-by-contract.md">Design by contract (DbC)</a>
 </ul>
 
 ## Startups

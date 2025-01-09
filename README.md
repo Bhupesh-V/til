@@ -23,21 +23,21 @@
 <tr>
 <td><a href="#aws">AWS</a><sup><strong>[1]</strong></sup></td>
 <td><a href="#android">Android</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#artificial-intelligence">Artificial Intelligence</a><sup><strong>[2]</strong></sup></td>
+<td><a href="#artificial-intelligence">Artificial-Intelligence</a><sup><strong>[2]</strong></sup></td>
 </tr>
 <tr>
 <td><a href="#career">Career</a><sup><strong>[9]</strong></sup></td>
-<td><a href="#coding-practices">Coding Practices</a><sup><strong>[5]</strong></sup></td>
-<td><a href="#community-building">Community Building</a><sup><strong>[5]</strong></sup></td>
+<td><a href="#coding-practices">Coding-Practices</a><sup><strong>[5]</strong></sup></td>
+<td><a href="#community-building">Community-Building</a><sup><strong>[5]</strong></sup></td>
 </tr>
 <tr>
 <td><a href="#compilers">Compilers</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#data-warehouse">Data Warehouse</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#data-warehouse">Data-Warehouse</a><sup><strong>[1]</strong></sup></td>
 <td><a href="#databases">Databases</a><sup><strong>[10]</strong></sup></td>
 </tr>
 <tr>
 <td><a href="#devops">DevOps</a><sup><strong>[7]</strong></sup></td>
-<td><a href="#distributed-computing">Distributed Computing</a><sup><strong>[2]</strong></sup></td>
+<td><a href="#distributed-computing">Distributed-Computing</a><sup><strong>[2]</strong></sup></td>
 <td><a href="#ffmpeg">Ffmpeg</a><sup><strong>[3]</strong></sup></td>
 </tr>
 <tr>
@@ -61,7 +61,7 @@
 <td><a href="#shell">Shell</a><sup><strong>[30]</strong></sup></td>
 </tr>
 <tr>
-<td><a href="#software-design">Software Design</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#software-design">Software-Design</a><sup><strong>[1]</strong></sup></td>
 <td><a href="#startups">Startups</a><sup><strong>[1]</strong></sup></td>
 <td><a href="#vim">Vim</a><sup><strong>[8]</strong></sup></td>
 </tr>
@@ -98,8 +98,8 @@
 ### Artificial Intelligence
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Artificial Intelligence/fundamentals-of-llms.md">Fundamentals of LLMs</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Artificial Intelligence/retrieval-augmented-generative-rag.md">Retrieval-Augmented Generation (RAG)</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Artificial-Intelligence/fundamentals-of-llms.md">Fundamentals of LLMs</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Artificial-Intelligence/retrieval-augmented-generative-rag.md">Retrieval-Augmented Generation (RAG)</a>
 </ul>
 
 
@@ -125,11 +125,11 @@
 ### Coding Practices
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/cleancode-naming.md">Naming Variables & Functions</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/everything-about-functions-procedures.md">Routines: Functions & Procedures</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/solid.md">SOLID: Design Principles</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/write-clean-comments.md">Writing Comments</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding Practices/cleancode-writing-functions.md">Writing Functions</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding-Practices/cleancode-naming.md">Naming Variables & Functions</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding-Practices/everything-about-functions-procedures.md">Routines: Functions & Procedures</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding-Practices/solid.md">SOLID: Design Principles</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding-Practices/write-clean-comments.md">Writing Comments</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Coding-Practices/cleancode-writing-functions.md">Writing Functions</a>
 </ul>
 
 
@@ -138,11 +138,11 @@
 ### Community Building
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-for-women-in-tech.md">Questions for Women in Tech</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community Building/what-does-a-community-lead-organiser-do.md">What does a Community Lead (or Organiser) do?</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community-Building/how-to-motivate-and-encourage-volunteers.md">How to motivate and encourage volunteers</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community-Building/questions-for-women-in-tech.md">Questions for Women in Tech</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community-Building/questions-to-ask-every-community-builder.md">Questions to ask every Community Builder</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community-Building/questions-to-ask-every-volunteer.md">Questions to ask every community volunteer</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Community-Building/what-does-a-community-lead-organiser-do.md">What does a Community Lead (or Organiser) do?</a>
 </ul>
 
 
@@ -160,7 +160,7 @@
 ### Data Warehouse
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Data Warehouse/why-reverse-ctl.md">Why Reverse ETL</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Data-Warehouse/why-reverse-ctl.md">Why Reverse ETL</a>
 </ul>
 
 
@@ -202,8 +202,8 @@
 ### Distributed Computing
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Distributed Computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Distributed Computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Distributed-Computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Distributed-Computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a>
 </ul>
 
 
@@ -421,7 +421,7 @@
 ### Software Design
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Software Design/design-by-contract.md">Design by contract (DbC)</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/Software-Design/design-by-contract.md">Design by contract (DbC)</a>
 </ul>
 
 

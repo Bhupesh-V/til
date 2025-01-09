@@ -123,7 +123,7 @@ async def create_gitbooks_summary(category_names, categories):
     with open("SUMMARY.md", "w") as summary:
         summary.write(SUMMARY_HEADER)
         for category in sorted(category_names):
-            summary.write("\n\n## {0}\n\n".format(category))
+            summary.write("\n\n## {0}\n\n".format(category.replace("-", " ")))
             tils = categories[category]
             summary.write("<ul>")
             for (title, filename) in sorted(tils):
@@ -181,7 +181,7 @@ async def create_readme(category_names, categories):
             file.write("""\n---\n\n""")
             # print the section for each category
         for category in sorted(category_names):
-            file.write("\n\n\n### {0}\n\n".format(category))
+            file.write("\n\n\n### {0}\n\n".format(category.replace("-", " ")))
             tils = categories[category]
             file.write("<ul>")
             for (title, filename) in sorted(tils):
