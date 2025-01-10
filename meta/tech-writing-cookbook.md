@@ -76,3 +76,4 @@ Three questions to ask yourself while editing:
 - [What makes a great technical blog](https://notes.eatonphil.com/2024-04-10-what-makes-a-great-tech-blog.html)
 - [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/)
 - [Writing maketh the 10x Developer. More so the 10x development team.](https://www.evalapply.org/posts/writing-maketh-the-10x-developer/)
+- [What I think about when I edit](https://evaparish.com/blog/how-i-edit)

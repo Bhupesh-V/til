@@ -123,7 +123,7 @@ async def create_gitbooks_summary(category_names, categories):
     with open("SUMMARY.md", "w") as summary:
         summary.write(SUMMARY_HEADER)
         for category in sorted(category_names):
-            summary.write("\n\n## {0}\n\n".format(category.replace("-", " ")))
+            summary.write("\n\n## {0}\n\n".format(category.replace("-", " ").title()))
             tils = categories[category]
             summary.write("<ul>")
             for (title, filename) in sorted(tils):
@@ -170,7 +170,7 @@ async def create_readme(category_names, categories):
                 if index < len(category_names):
                     category = category_names[index]
                     tils = categories[category]
-                    file.write(f"""<td><a href="#{category.replace(' ', '-').lower()}">{category}</a><sup><strong>[{len(tils)}]</strong></sup></td>\n""")
+                    file.write(f"""<td><a href="#{category.replace(' ', '-').lower()}">{category.title()}</a><sup><strong>[{len(tils)}]</strong></sup></td>\n""")
                 else:
                     file.write("<td></td>\n")  # Empty cell if no category
             file.write("</tr>\n")
@@ -181,7 +181,7 @@ async def create_readme(category_names, categories):
             file.write("""\n---\n\n""")
             # print the section for each category
         for category in sorted(category_names):
-            file.write("\n\n\n### {0}\n\n".format(category.replace("-", " ")))
+            file.write("\n\n\n### {0}\n\n".format(category.replace("-", " ").title()))
             tils = categories[category]
             file.write("<ul>")
             for (title, filename) in sorted(tils):
