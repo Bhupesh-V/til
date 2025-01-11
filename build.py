@@ -123,7 +123,7 @@ async def create_gitbooks_summary(category_names, categories):
             summary.write("<ul>")
             for (title, filename) in sorted(tils):
                 summary.write("\n<li>")
-                summary.write(f"""<a href="{filename}">{title}</a>""")
+                summary.write(f"""<a href="{filename}">{title}</a></li>""")
             summary.write("\n")
             summary.write("</ul>")
 
