@@ -38,11 +38,6 @@ FOOTER = """## Usage
 
 See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository.
 
-## ☺️ Show your support
-
-Support me by giving a ⭐️ if this project helped you! or just [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2F)](https://twitter.com/intent/tweet?url=https://github.com/Bhupesh-V/til&text=til%20via%20@bhupeshimself)
-
-
 ## About
 
 Original Idea/Work [thoughtbot/til](https://github.com/thoughtbot/til).
@@ -170,7 +165,7 @@ async def create_readme(category_names, categories):
                 if index < len(category_names):
                     category = category_names[index]
                     tils = categories[category]
-                    file.write(f"""<td><a href="#{category.replace(' ', '-').lower()}">{category.title()}</a><sup><strong>[{len(tils)}]</strong></sup></td>\n""")
+                    file.write(f"""<td><a href="#{category.replace(' ', '-').lower()}">{category.replace("-", " ").title()}</a><sup>[{len(tils)}]</sup></td>\n""")
                 else:
                     file.write("<td></td>\n")  # Empty cell if no category
             file.write("</tr>\n")

@@ -21,52 +21,52 @@
 ## Categories
 <table align="center">
 <tr>
-<td><a href="#android">Android</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#artificial-intelligence">Artificial-Intelligence</a><sup><strong>[2]</strong></sup></td>
-<td><a href="#aws">Aws</a><sup><strong>[1]</strong></sup></td>
+<td><a href="#android">Android</a><sup>[1]</sup></td>
+<td><a href="#artificial-intelligence">Artificial Intelligence</a><sup>[2]</sup></td>
+<td><a href="#aws">Aws</a><sup>[1]</sup></td>
 </tr>
 <tr>
-<td><a href="#career">Career</a><sup><strong>[9]</strong></sup></td>
-<td><a href="#coding-practices">Coding-Practices</a><sup><strong>[5]</strong></sup></td>
-<td><a href="#community-building">Community-Building</a><sup><strong>[5]</strong></sup></td>
+<td><a href="#career">Career</a><sup>[9]</sup></td>
+<td><a href="#coding-practices">Coding Practices</a><sup>[5]</sup></td>
+<td><a href="#community-building">Community Building</a><sup>[5]</sup></td>
 </tr>
 <tr>
-<td><a href="#compilers">Compilers</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#data-warehouse">Data-Warehouse</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#databases">Databases</a><sup><strong>[11]</strong></sup></td>
+<td><a href="#compilers">Compilers</a><sup>[1]</sup></td>
+<td><a href="#data-warehouse">Data Warehouse</a><sup>[1]</sup></td>
+<td><a href="#databases">Databases</a><sup>[11]</sup></td>
 </tr>
 <tr>
-<td><a href="#devops">Devops</a><sup><strong>[7]</strong></sup></td>
-<td><a href="#distributed-computing">Distributed-Computing</a><sup><strong>[2]</strong></sup></td>
-<td><a href="#ffmpeg">Ffmpeg</a><sup><strong>[3]</strong></sup></td>
+<td><a href="#devops">Devops</a><sup>[7]</sup></td>
+<td><a href="#distributed-computing">Distributed Computing</a><sup>[2]</sup></td>
+<td><a href="#ffmpeg">Ffmpeg</a><sup>[3]</sup></td>
 </tr>
 <tr>
-<td><a href="#flutter">Flutter</a><sup><strong>[3]</strong></sup></td>
-<td><a href="#git">Git</a><sup><strong>[10]</strong></sup></td>
-<td><a href="#go">Go</a><sup><strong>[15]</strong></sup></td>
+<td><a href="#flutter">Flutter</a><sup>[3]</sup></td>
+<td><a href="#git">Git</a><sup>[10]</sup></td>
+<td><a href="#go">Go</a><sup>[15]</sup></td>
 </tr>
 <tr>
-<td><a href="#hotwheels">Hotwheels</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#management">Management</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#meta">Meta</a><sup><strong>[3]</strong></sup></td>
+<td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
+<td><a href="#management">Management</a><sup>[1]</sup></td>
+<td><a href="#meta">Meta</a><sup>[3]</sup></td>
 </tr>
 <tr>
-<td><a href="#miscellaneous">Miscellaneous</a><sup><strong>[14]</strong></sup></td>
-<td><a href="#people">People</a><sup><strong>[2]</strong></sup></td>
-<td><a href="#psychology">Psychology</a><sup><strong>[3]</strong></sup></td>
+<td><a href="#miscellaneous">Miscellaneous</a><sup>[14]</sup></td>
+<td><a href="#people">People</a><sup>[2]</sup></td>
+<td><a href="#psychology">Psychology</a><sup>[3]</sup></td>
 </tr>
 <tr>
-<td><a href="#python">Python</a><sup><strong>[19]</strong></sup></td>
-<td><a href="#sales">Sales</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#shell">Shell</a><sup><strong>[30]</strong></sup></td>
+<td><a href="#python">Python</a><sup>[19]</sup></td>
+<td><a href="#sales">Sales</a><sup>[1]</sup></td>
+<td><a href="#shell">Shell</a><sup>[30]</sup></td>
 </tr>
 <tr>
-<td><a href="#software-design">Software-Design</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#startups">Startups</a><sup><strong>[1]</strong></sup></td>
-<td><a href="#vim">Vim</a><sup><strong>[8]</strong></sup></td>
+<td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
+<td><a href="#startups">Startups</a><sup>[1]</sup></td>
+<td><a href="#vim">Vim</a><sup>[8]</sup></td>
 </tr>
 <tr>
-<td><a href="#webdev">Webdev</a><sup><strong>[5]</strong></sup></td>
+<td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
 <td></td>
 <td></td>
 </tr>
@@ -466,11 +466,6 @@
 ## Usage
 
 See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository.
-
-## ☺️ Show your support
-
-Support me by giving a ⭐️ if this project helped you! or just [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FBhupesh-V%2Ftil%2F)](https://twitter.com/intent/tweet?url=https://github.com/Bhupesh-V/til&text=til%20via%20@bhupeshimself)
-
 
 ## About
 
