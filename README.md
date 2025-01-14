@@ -43,7 +43,7 @@
 <tr>
 <td><a href="#flutter">Flutter</a><sup>[3]</sup></td>
 <td><a href="#git">Git</a><sup>[10]</sup></td>
-<td><a href="#go">Go</a><sup>[15]</sup></td>
+<td><a href="#go">Go</a><sup>[16]</sup></td>
 </tr>
 <tr>
 <td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
@@ -260,6 +260,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/python-next-alternative-go-clousers.md">Creating Python's next() alternative using Go Closures</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/measure-execution-time-in-go.md">Measure Exection time in Go</a>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/writing-performant-go-code-megalist.md">Mega List of Tips for Writing Performant Go Code</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/memoization-using-golang-generics.md">Memoization using Golang Generics</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a>
