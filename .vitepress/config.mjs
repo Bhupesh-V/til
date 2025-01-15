@@ -8,6 +8,10 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://til.bhupesh.me'
   },
+  head: [
+    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-7M5P7006XV' }],
+    ['script', {}, ` window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-7M5P7006XV');`]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
