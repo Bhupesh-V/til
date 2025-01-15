@@ -1,9 +1,9 @@
 name: Audit Links using AreYouOk
 on:
   workflow_dispatch:
-  schedule:
+  # schedule:
     # At 06:00 AM, every 30 days
-    - cron:  '0 6 */30 * *'
+    # - cron:  '0 6 */30 * *'
       
 jobs:
   build:
