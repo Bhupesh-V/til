@@ -1,9 +1,9 @@
 name: GitBook Analytics
 on:
   workflow_dispatch:
-  schedule:
+  # schedule:
     # every week
-    - cron:  '0 0 * * 0'
+    # - cron:  '0 0 * * 0'
       
 jobs:
   build:

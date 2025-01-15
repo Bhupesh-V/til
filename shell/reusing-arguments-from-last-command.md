@@ -5,18 +5,18 @@
 ### Get all of the arguments:
 
 ```
-<command> !*
+command !*
 ```
 
 ### Get only the last argument: 
 
 ```
-<command> !$
+command !$
 ```
 
 ### Get `n`th arguments
 
-If you want a single argument from a list of arguments from the previous command, you can use <command> !!:<argNumber>
+If you want a single argument from a list of arguments from the previous command, you can use `command` !!:`<argNumber>`
 
 Example:
 

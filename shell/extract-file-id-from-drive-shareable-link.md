@@ -10,7 +10,7 @@ Instead this is :
 
 `INSERT_ID` is the file id (in the shareable link)which is higlighted below
 
-[https://drive.google.com/file/d/**1ifRiquoNw3awVTX6geyNoDp8FW6tafOE**/view?usp=sharing]()
+`https://drive.google.com/file/d/**1ifRiquoNw3awVTX6geyNoDp8FW6tafOE**/view?usp=sharing`
 
 here is a bash script to convert the link.
 

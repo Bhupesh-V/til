@@ -28,6 +28,13 @@ HEADER = """<h1 align="left">Today I Learned</h1>
 
 """
 
+INDEX_HEADER = """<h1 align="left">Today I Learned</h1>
+
+> Welcome to my digital garden/second brain where I try to dump everything I learn in its most raw form 🌱
+
+
+"""
+
 SUMMARY_HEADER = """# Table of contents
 
 * [Today I Learned](README.md)
@@ -57,6 +64,8 @@ async def get_category_list():
         "_layouts",
         ".sass-cache",
         "_site",
+        ".vitepress",
+        "node_modules",
     ]
     dirs = [
         x
@@ -182,7 +191,7 @@ async def create_readme(category_names, categories):
             for (title, filename) in sorted(tils):
                 file.write("\n<li>")
                 file.write(
-                    f"""<a target="_blank" href="{host_url+filename}">{title}</a>"""
+                    f"""<a target="_blank" href="{host_url+filename}">{title}</a></li>"""
                 )
             file.write("\n")
             file.write("</ul>\n\n")
@@ -222,6 +231,80 @@ async def create_recent_tils_file(categories):
     with open("recent_tils.json", "w") as json_file:
         json.dump(recent_tils, json_file, ensure_ascii=False, indent=" ")
 
+async def create_index_md(category_names, categories):
+    """
+    Generate the index.md for the VitePress site
+    """
+    host_url = "/"
+    print("Generating index.md")
+
+    num_columns = 3  # Number of columns for the grid
+    num_rows = (len(category_names) + num_columns - 1) // num_columns  # Calculate the number of rows
+
+    category_names = sorted(category_names)
+
+    with open("index.md", "w") as file:
+        file.write(INDEX_HEADER)
+        file.write("""\n\n## Categories\n""")
+
+        # Generate the table header
+        file.write('<table align="center">\n')
+
+        # Generate the table rows
+        for row in range(num_rows):
+            file.write("<tr>\n")
+            for col in range(num_columns):
+                index = row * num_columns + col
+                if index < len(category_names):
+                    category = category_names[index]
+                    tils = categories[category]
+                    file.write(f"""<td><a href="#{category.replace(' ', '-').lower()}">{category.replace("-", " ").title()}</a><sup>[{len(tils)}]</sup></td>\n""")
+                else:
+                    file.write("<td></td>\n")  # Empty cell if no category
+            file.write("</tr>\n")
+
+        file.write("</table>\n")
+
+        if len(category_names) > 0:
+            file.write("""\n---\n\n""")
+            # print the section for each category
+        for category in sorted(category_names):
+            file.write("\n\n\n### {0}\n\n".format(category.replace("-", " ").title()))
+            tils = categories[category]
+            file.write("<ul>")
+            for (title, filename) in sorted(tils):
+                file.write("\n<li>")
+                file.write(
+                    f"""<a href="{host_url+filename.replace('.md', '')}">{title}</a></li>"""
+                )
+            file.write("\n")
+            file.write("</ul>\n\n")
+
+        file.write(FOOTER)
+
+async def create_sidebar_config(category_names):
+    """
+    Generate the sidebar configuration for VitePress
+    """
+    print("Generating sidebar configuration")
+    sidebar_config = []
+
+    for category in sorted(category_names):
+        items = []
+        tils = get_tils(category)
+        for (title, filename) in sorted(tils):
+            items.append({
+                "text": title,
+                "link": f"/{filename.replace('.md', '')}"
+            })
+        sidebar_config.append({
+            "text": category.replace("-", " ").title(),
+            "items": items
+        })
+
+    with open(".vitepress/sidebar.js", "w") as sidebar_file:
+        sidebar_file.write("export const sidebar = ")
+        json.dump(sidebar_config, sidebar_file, indent=2)
 
 async def main():
     """
@@ -242,11 +325,15 @@ async def main():
     task2 = asyncio.create_task(create_readme(category_names, categories))
     task3 = asyncio.create_task(create_gitbooks_summary(category_names, categories))
     task4 = asyncio.create_task(create_til_count_file(count))
+    task5 = asyncio.create_task(create_index_md(category_names, categories))
+    task6 = asyncio.create_task(create_sidebar_config(category_names))
 
     await task1
     await task2
     await task3
     await task4
+    await task5
+    await task6
 
     print(count, "TILs read")
 

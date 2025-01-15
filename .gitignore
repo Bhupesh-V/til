@@ -3,3 +3,6 @@ _site/
 Gemfile.lock
 *.gem
 draft*
+.vitepress/dist
+.vitepress/cache
+node_modules

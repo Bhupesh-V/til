@@ -11,7 +11,7 @@ All of the below mentioned tips works in both DuckDuckGo & Google (i use both :w
 2. **`inurl:docs.djangoproject.com templates`**
 
    > Use it to look for occurence of some phrases in the URL of the website mentioned.
-   `inurl` [docs.djangoproject.com](docs.djangoproject.com) look for `templates` phrase.
+   `inurl` [docs.djangoproject.com](https://docs.djangoproject.com) look for `templates` phrase.
 
 3. **`site:github.com synatx error`**
 
@@ -23,7 +23,7 @@ All of the below mentioned tips works in both DuckDuckGo & Google (i use both :w
 
 5. **`related:http://freecodecamp.org`**
 
-   > Related specifier, "related:<domain>" returns the root domain of similar websites
+   > Related specifier, "related:_DOMAIN_" returns the root domain of similar websites
 
 6. **`intitle:best vim plugins`** 
 
