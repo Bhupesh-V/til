@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar.js'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base: '/til/',
   title: "Today I Learned",
   description: "Personal Wiki of Interesting things I learn every day at the intersection of software, life & stuff a.k.a my second brain 🧠️",
   sitemap: {
