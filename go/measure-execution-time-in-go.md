@@ -6,7 +6,7 @@ To know who how long your go code executes you can use the `time.Now()` and `tim
 
 ## Demo
 
-```golang
+```go
 
 package main
 

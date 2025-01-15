@@ -6,7 +6,7 @@ Use `os.Getenv()` and `os.Setenv()` for reading and setting environment variable
 
 ## Demo
 
-```golang
+```go
 package main
 
 import (

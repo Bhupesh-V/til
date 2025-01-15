@@ -8,7 +8,7 @@ There are two ways I like (without any external dependency)
 
 I have added some boilerplate code to make sure you see whats happening. I think this is probably the best way to do this.
 
-```golang
+```go
 package main
  
 import (
@@ -41,7 +41,7 @@ func main() {
 
 Not a good way but may come in handy for some situations.
 
-```golang
+```go
 
 package main
  

@@ -23,7 +23,7 @@ Usually picking a small task will help explore the codebase but ofc as a develop
   - `git his`: Examples of commits that modify a file (helps in understanding what needs to be changed)
   - `git wot`: See how a function evolved 
 
-  ```gitconfig
+  ```
   [alias]
         # find commits that changed a file: git his <filepath>
         his = log --follow --color=always --date=format:'%d %b, %Y' --pretty=format:'(%Cgreen%h%Creset)[%ad] %C(blue bold)%s%Creset'

@@ -23,7 +23,7 @@ Create a `work` and a `personsal` directory in your Documents folder. Use these 
 
 - Create `.gitconfig-personal` in the `personal` dir.
 
-  ```gitconfig
+  ```
   [credential]
     helper = store
   [user]
@@ -36,7 +36,7 @@ Create a `work` and a `personsal` directory in your Documents folder. Use these 
 
 - Create `.gitconfig-work` in the `work` dir.
 
-  ```gitconfig
+  ```
   [credential]
     helper = store
   [user]

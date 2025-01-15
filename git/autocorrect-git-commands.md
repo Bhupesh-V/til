@@ -13,7 +13,7 @@ git config --global help.autocorrect 7
 
 Or in your global `.gitconfig`
 
-```gitconfig
+```
 [help]
         # default 0
         # negative value to run correct command immediately

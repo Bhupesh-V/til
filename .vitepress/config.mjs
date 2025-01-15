@@ -9,10 +9,12 @@ export default defineConfig({
     hostname: 'https://til.bhupesh.me'
   },
   head: [
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.png" }],
     ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-7M5P7006XV' }],
     ['script', {}, ` window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-7M5P7006XV');`]
   ],
   themeConfig: {
+    logo: '/favicon.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { text: 'Home', link: '/' },

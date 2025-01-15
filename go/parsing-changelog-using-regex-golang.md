@@ -44,7 +44,7 @@ All notable changes to this project will be documented in this file.
 The following golang code can be used to extract the changelog for a requested version
 
 
-```golang
+```go
 // Parse a changelog.md file and display changelog for a requested version
 
 package main

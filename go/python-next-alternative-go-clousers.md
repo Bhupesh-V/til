@@ -34,7 +34,7 @@ Go doesn't have a next method (nor the concept of iterators actually) so we will
 
 Below is a naive implementation of how this could look in Go. Ping me if you have a better way to do this ;)
 
-```golang
+```go
 
 package main
 

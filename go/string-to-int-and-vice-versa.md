@@ -7,7 +7,7 @@ There are basically 2-3 methods to convert integer to string and back to integer
 
 ## Demo
 
-```golang
+```go
 package main
 
 import (
