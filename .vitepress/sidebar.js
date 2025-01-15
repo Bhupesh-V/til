@@ -345,6 +345,10 @@ export const sidebar = [
         "link": "/go/measure-execution-time-in-go"
       },
       {
+        "text": "Mega List of Tips for Writing Performant Go Code",
+        "link": "/go/writing-performant-go-code-megalist"
+      },
+      {
         "text": "Memoization using Golang Generics",
         "link": "/go/memoization-using-golang-generics"
       },

@@ -30,7 +30,7 @@
 <tr>
 <td><a href="#flutter">Flutter</a><sup>[3]</sup></td>
 <td><a href="#git">Git</a><sup>[10]</sup></td>
-<td><a href="#go">Go</a><sup>[15]</sup></td>
+<td><a href="#go">Go</a><sup>[16]</sup></td>
 </tr>
 <tr>
 <td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
@@ -247,6 +247,7 @@
 <li><a href="/go/string-to-int-and-vice-versa">Convert `string` to `int` and vice-versa in Go</a></li>
 <li><a href="/go/python-next-alternative-go-clousers">Creating Python's next() alternative using Go Closures</a></li>
 <li><a href="/go/measure-execution-time-in-go">Measure Exection time in Go</a></li>
+<li><a href="/go/writing-performant-go-code-megalist">Mega List of Tips for Writing Performant Go Code</a></li>
 <li><a href="/go/memoization-using-golang-generics">Memoization using Golang Generics</a></li>
 <li><a href="/go/parsing-changelog-using-regex-golang">Parsing changelogs using regex with Go</a></li>
 <li><a href="/go/reading-and-setting-environment-variables-in-go">Reading & Setting Environment variables in Go</a></li>
@@ -449,10 +450,6 @@
 <li><a href="/webdev/turning-emojis-into-site-favicons">Turning Emojis to site favicons</a></li>
 <li><a href="/webdev/async-defer-html-javascript">`async` & `defer` Attributes</a></li>
 </ul>
-
-## Usage
-
-See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository.
 
 ## About
 

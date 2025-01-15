@@ -1,5 +1,9 @@
 [
  {
+  "title": "Mega List of Tips for Writing Performant Go Code",
+  "url": "https://til.bhupesh.me/go/writing-performant-go-code-megalist"
+ },
+ {
   "title": "Slowly Changing Dimensions (SCD)",
   "url": "https://til.bhupesh.me/databases/slowly-changing-dimensions"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Questions for you as a tech worker",
   "url": "https://til.bhupesh.me/people/questions-for-you-tech-worker"
- },
- {
-  "title": "Interference theory",
-  "url": "https://til.bhupesh.me/psychology/interference-theory"
  }
 ]

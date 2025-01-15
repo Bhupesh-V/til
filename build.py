@@ -41,11 +41,7 @@ SUMMARY_HEADER = """# Table of contents
 
 """
 
-FOOTER = """## Usage
-
-See [USAGE.md](https://github.com/Bhupesh-V/til/blob/master/USAGE.md) to know how I use this repository.
-
-## About
+FOOTER = """## About
 
 Original Idea/Work [thoughtbot/til](https://github.com/thoughtbot/til).
 """
@@ -236,7 +232,7 @@ async def create_index_md(category_names, categories):
     Generate the index.md for the VitePress site
     """
     host_url = "/"
-    print("Generating index.md")
+    print("Generating vitepress index.md")
 
     num_columns = 3  # Number of columns for the grid
     num_rows = (len(category_names) + num_columns - 1) // num_columns  # Calculate the number of rows
@@ -286,7 +282,7 @@ async def create_sidebar_config(category_names):
     """
     Generate the sidebar configuration for VitePress
     """
-    print("Generating sidebar configuration")
+    print("Generating vitepress sidebar config")
     sidebar_config = []
 
     for category in sorted(category_names):
@@ -323,14 +319,14 @@ async def main():
 
     task1 = asyncio.create_task(create_recent_tils_file(categories))
     task2 = asyncio.create_task(create_readme(category_names, categories))
-    task3 = asyncio.create_task(create_gitbooks_summary(category_names, categories))
+    # task3 = asyncio.create_task(create_gitbooks_summary(category_names, categories))
     task4 = asyncio.create_task(create_til_count_file(count))
     task5 = asyncio.create_task(create_index_md(category_names, categories))
     task6 = asyncio.create_task(create_sidebar_config(category_names))
 
     await task1
     await task2
-    await task3
+    # await task3
     await task4
     await task5
     await task6
