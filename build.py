@@ -212,11 +212,12 @@ async def create_recent_tils_file(categories):
     out, err = result.communicate()
     clean_output = out.decode("utf-8").strip("\n").replace("A\t", "").split("\n")
     # filter filepaths that don't exist
+    clean_output = [path.lower() for path in clean_output]
     flattened_list = list(itertools.chain(*list(categories.values())))
     flattened_list = [item[1] for item in flattened_list]
     valid_files = list(
         filter(
-            lambda path: pathlib.Path(path).exists() and path in flattened_list,
+            lambda path: pathlib.Path(path.lower()).exists() and path in flattened_list,
             clean_output,
         )
     )

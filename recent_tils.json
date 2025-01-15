@@ -1,1 +1,42 @@
-[]
+[
+ {
+  "title": "Slowly Changing Dimensions (SCD)",
+  "url": "https://til.bhupesh.me/databases/slowly-changing-dimensions"
+ },
+ {
+  "title": "Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger",
+  "url": "https://til.bhupesh.me/shell/exporting-environment-variables-shell-and-vscode"
+ },
+ {
+  "title": "The art and science of mess management",
+  "url": "https://til.bhupesh.me/management/the-art-and-science-mess-management"
+ },
+ {
+  "title": "Postgres Tips & Tricks",
+  "url": "https://til.bhupesh.me/databases/postgres-tips-megalist"
+ },
+ {
+  "title": "Eustress: The Good Stress",
+  "url": "https://til.bhupesh.me/psychology/eustress"
+ },
+ {
+  "title": "Consultative Selling / Solution Selling",
+  "url": "https://til.bhupesh.me/sales/consultative-selling-solution-selling"
+ },
+ {
+  "title": "Find when a hotwheels car was manufactured",
+  "url": "https://til.bhupesh.me/hotwheels/find-when-a-car-was-manufactured"
+ },
+ {
+  "title": "Simulating AWS Lambda locally using LocalStack",
+  "url": "https://til.bhupesh.me/devops/simulating-aws-lambda-localstack"
+ },
+ {
+  "title": "Questions for you as a tech worker",
+  "url": "https://til.bhupesh.me/people/questions-for-you-tech-worker"
+ },
+ {
+  "title": "Interference theory",
+  "url": "https://til.bhupesh.me/psychology/interference-theory"
+ }
+]

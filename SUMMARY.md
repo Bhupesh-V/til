@@ -145,6 +145,7 @@
 <li><a href="go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a></li>
 <li><a href="go/python-next-alternative-go-clousers.md">Creating Python's next() alternative using Go Closures</a></li>
 <li><a href="go/measure-execution-time-in-go.md">Measure Exection time in Go</a></li>
+<li><a href="go/writing-performant-go-code-megalist.md">Mega List of Tips for Writing Performant Go Code</a></li>
 <li><a href="go/memoization-using-golang-generics.md">Memoization using Golang Generics</a></li>
 <li><a href="go/parsing-changelog-using-regex-golang.md">Parsing changelogs using regex with Go</a></li>
 <li><a href="go/reading-and-setting-environment-variables-in-go.md">Reading & Setting Environment variables in Go</a></li>

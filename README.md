@@ -43,7 +43,7 @@
 <tr>
 <td><a href="#flutter">Flutter</a><sup>[3]</sup></td>
 <td><a href="#git">Git</a><sup>[10]</sup></td>
-<td><a href="#go">Go</a><sup>[15]</sup></td>
+<td><a href="#go">Go</a><sup>[16]</sup></td>
 </tr>
 <tr>
 <td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
