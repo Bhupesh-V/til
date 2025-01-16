@@ -137,3 +137,11 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+footer.VPFooter {
+  display: block !important;
+}
+
+p.message {
+  font-size: 16px;
+}

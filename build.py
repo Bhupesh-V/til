@@ -245,7 +245,7 @@ async def create_index_md(category_names, categories):
 
         # Generate the table header
         file.write('<table align="center">\n')
-
+        file.write('<tbody>\n')
         # Generate the table rows
         for row in range(num_rows):
             file.write("<tr>\n")
@@ -259,6 +259,7 @@ async def create_index_md(category_names, categories):
                     file.write("<td></td>\n")  # Empty cell if no category
             file.write("</tr>\n")
 
+        file.write("</tbody>\n")
         file.write("</table>\n")
 
         if len(category_names) > 0:

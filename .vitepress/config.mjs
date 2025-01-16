@@ -19,7 +19,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { text: 'Home', link: '/' },
-      { text: 'Work with me!', link: 'https://bhupesh.me/hire' },
+      {
+        component: 'HighlightedLink',
+        props: {
+          text: 'Work with me!',
+          link: 'https://bhupesh.me/hire',
+        },
+      },
+      // { text: 'Work with me!', link: 'https://bhupesh.me/hire' },
       { text: 'Blog', link: 'https://bhupesh.me' },
       { text: 'Bookshelf', link: 'https://bookshelf.bhupesh.me/' },
     ],
@@ -32,9 +39,9 @@ export default defineConfig({
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/bhupesh-v' },
     ],
 
-    // footer: {
-    //   message: 'Written while 🙇🏽‍♀️',
-    // },
+    footer: {
+      message: 'Written while 🤔 & 🙇🏽‍♂️ & 🧐',
+    },
 
     search: {
       provider: 'local'
