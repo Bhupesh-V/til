@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar.js'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // base: '/til/',
-  title: "Today I Learned",
-  description: "Personal Wiki of Interesting things I learn every day at the intersection of software, life & stuff a.k.a my second brain 🧠️",
+  title: "Bhupesh's TIL",
+  description: "Personal Wiki of Interesting things I learn every day at the intersection of career, life & stuff aka my second brain 🧠️",
   sitemap: {
     hostname: 'https://til.bhupesh.me'
   },
@@ -28,15 +29,17 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/bhupesh-v' },
       { icon: 'x', link: 'https://x.com/bhupeshimself' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/bhupesh-v' },
     ],
 
-    footer: {
-      message: 'Written while 🙇🏽‍♀️',
-    },
+    // footer: {
+    //   message: 'Written while 🙇🏽‍♀️',
+    // },
 
     search: {
       provider: 'local'
     },
   },
   cleanUrls: true,
+  lastUpdated: true
 })
