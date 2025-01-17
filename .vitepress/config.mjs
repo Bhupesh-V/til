@@ -40,7 +40,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Written while 🤔 & 🙇🏽‍♂️ & 🧐',
+      message: 'Written while 🤔 & 🙇🏽‍♂️ & 🧐<br><i>Need a <a target="_blank" href="https://bhupesh.me/hire/#domain-b-as-a-technical-writer">technical writer</a> for your dev tools? Maybe I can help!</i>',
     },
 
     search: {
