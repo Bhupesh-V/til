@@ -14,6 +14,9 @@ export default defineConfig({
     ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-7M5P7006XV' }],
     ['script', {}, ` window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-7M5P7006XV');`]
   ],
+  appearance: {
+    initialValue: 'light'
+  },
   themeConfig: {
     logo: '/favicon.png',
     // https://vitepress.dev/reference/default-theme-config
@@ -40,7 +43,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Written while 🤔 & 🙇🏽‍♂️ & 🧐<br><i>Need a <a target="_blank" href="https://bhupesh.me/hire/#domain-b-as-a-technical-writer">technical writer</a> for your dev tools? Maybe I can help!</i>',
+      message: 'Written while 🤔 & 🙇🏽‍♂️ & 🧐<br><i><b>Need a nerdy, research oriented tech writer for your dev tools? <a target="_blank" href="https://bhupesh.me/hire/#domain-b-as-a-technical-writer">Maybe, I can help!</a></b></i>',
     },
 
     search: {
