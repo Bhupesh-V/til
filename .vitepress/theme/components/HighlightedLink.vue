@@ -25,6 +25,7 @@ defineProps({
   display: flex;
     align-items: center;
     font-size: 14px;
+    padding-right: 12px;
     font-weight: 500;
     color: var(--vp-c-text-1);
     transition: color 0.25s;

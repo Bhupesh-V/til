@@ -20,6 +20,7 @@
 
 ## Categories
 <table align="center">
+<tbody>
 <tr>
 <td><a href="#android">Android</a><sup>[1]</sup></td>
 <td><a href="#artificial-intelligence">Artificial Intelligence</a><sup>[2]</sup></td>
@@ -70,6 +71,7 @@
 <td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
 <td></td>
 </tr>
+</tbody>
 </table>
 
 ---

@@ -47,7 +47,19 @@ export default defineConfig({
     },
 
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: "Search knowledge base",
+                buttonAriaLabel: "Search knowledge base",
+              },
+            }
+          }
+        }
+      },
     },
   },
   cleanUrls: true,

@@ -46,6 +46,7 @@
 :root {
   --vp-c-bg: floralwhite;
   --vp-sidebar-bg-color: floralwhite;
+  --vp-c-bg-alt: #eeebe4;
 
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -156,4 +157,14 @@ footer.VPFooter {
 
 p.message {
   font-size: 16px;
+}
+
+#local-search{
+  width: 100%;
+  padding: 15px;
+}
+
+.DocSearch-Button-Keys {
+  flex: 1;
+  justify-content: flex-end;
 }
