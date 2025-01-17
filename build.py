@@ -243,7 +243,7 @@ async def create_index_md(category_names, categories):
 
     with open("index.md", "w") as file:
         file.write(INDEX_HEADER)
-        file.write("""\n\n## Categories\n""")
+        file.write("""\n\n## All Categories\n""")
 
         # Generate the table header
         file.write('<table align="center">\n')
@@ -263,6 +263,19 @@ async def create_index_md(category_names, categories):
 
         file.write("</tbody>\n")
         file.write("</table>\n")
+
+        # Add recent TILs section
+        file.write("\n\n## Recent TILs 🆕\n\n")
+        with open("recent_tils.json", "r") as recent_tils_file:
+            recent_tils = json.load(recent_tils_file)
+            file.write('<table align="center">\n')
+            file.write('<tbody>\n')
+            for til in recent_tils:
+                file.write("<tr>\n")
+                file.write(f"""<td><a href="{til['url']}">{til['title']}</a></td>\n""")
+                file.write("</tr>\n")
+            file.write("</tbody>\n")
+            file.write("</table>\n")
 
         if len(category_names) > 0:
             file.write("""\n---\n\n""")

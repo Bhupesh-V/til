@@ -5,7 +5,7 @@
 
 
 
-## Categories
+## All Categories
 <table align="center">
 <tbody>
 <tr>
@@ -57,6 +57,44 @@
 <td><a href="#vim">Vim</a><sup>[8]</sup></td>
 <td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
 <td></td>
+</tr>
+</tbody>
+</table>
+
+
+## Recent TILs 🆕
+
+<table align="center">
+<tbody>
+<tr>
+<td><a href="https://til.bhupesh.me/go/writing-performant-go-code-megalist">Mega List of Tips for Writing Performant Go Code</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/databases/slowly-changing-dimensions">Slowly Changing Dimensions (SCD)</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/shell/exporting-environment-variables-shell-and-vscode">Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/management/the-art-and-science-mess-management">The art and science of mess management</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/databases/postgres-tips-megalist">Postgres Tips & Tricks</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/psychology/eustress">Eustress: The Good Stress</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/sales/consultative-selling-solution-selling">Consultative Selling / Solution Selling</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/hotwheels/find-when-a-car-was-manufactured">Find when a hotwheels car was manufactured</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/devops/simulating-aws-lambda-localstack">Simulating AWS Lambda locally using LocalStack</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/people/questions-for-you-tech-worker">Questions for you as a tech worker</a></td>
 </tr>
 </tbody>
 </table>
