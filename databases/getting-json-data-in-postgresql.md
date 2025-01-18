@@ -1,6 +1,6 @@
 # Getting JSON data from PostgreSQL
 
-**_Posted on 04 Sep, 2021_**
+
 
 To extract data in json from a table without specifying column names
 

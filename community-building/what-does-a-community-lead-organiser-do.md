@@ -1,6 +1,6 @@
 # What does a Community Lead (or Organiser) do?
 
-**_Posted on 28 Mar, 2024_**
+
 
 Thoughts on what a community lead/organiser/moderator does (or supposed to). This is a list of things I have found myself doing or have thought about doing.
 

@@ -1,5 +1,5 @@
 # Blue-Green Deployment Strategy
-**_Posted on 21 Aug, 2021_**
+
 
 > Useful in case you need to continuously roll out updates with almost no downtime
 

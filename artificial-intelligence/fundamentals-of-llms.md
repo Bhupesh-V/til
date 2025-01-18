@@ -1,6 +1,6 @@
 # Fundamentals of LLMs
 
-**_Posted on 04 Apr, 2023_**
+
 
 A bunch of resources to refer for understanding LLMs
 

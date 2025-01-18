@@ -1,5 +1,5 @@
 # Using defaultdict to handle key not in dict
-**_Posted on 02 Sep, 2021_**
+
 
 We can use `defauldict` to eliminate the use of an if condition when looking up keys
 

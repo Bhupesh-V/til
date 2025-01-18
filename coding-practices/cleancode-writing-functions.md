@@ -1,5 +1,5 @@
 # Writing Functions
-**_Posted on 24 Jun, 2019_** 
+ 
 
 Got to learn some new points regarding functions() in CleanCode.
 

@@ -1,5 +1,5 @@
 # Get all Hive 🐝 boxes
-**_Posted on 05 Jan, 2022_**
+
 
 
 ```dart

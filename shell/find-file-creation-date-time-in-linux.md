@@ -1,5 +1,5 @@
 # Finding the file creation date/time on Linux
-**_Posted on 18 Dec, 2020_**
+
 
 ### 1. Find `inode` number of file.
    ```bash

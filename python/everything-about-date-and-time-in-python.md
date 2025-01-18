@@ -1,5 +1,5 @@
 # Everything about date & time in python
-**_Posted on 02 Apr, 2021_** 
+ 
 
 > Earth rotates just like my head trying to understand dates and time-zones.
 

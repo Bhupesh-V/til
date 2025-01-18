@@ -1,5 +1,5 @@
 # Downloading files using python the correct way
-**_Posted on 30 Aug, 2021_**
+
 
 
 ```python

@@ -1,5 +1,5 @@
 # Writing Cover letter - Tips
-**_Posted on Dec 8, 2020_**
+
 
 I am not a hiring expert but I think these tips can help someone stand ahead of the crowd.
 This might also help when you are cold-emailing a recruiter.

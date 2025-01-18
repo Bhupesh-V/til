@@ -1,5 +1,5 @@
 # Measure code execution time using timer
-**_Posted on 30 Aug, 2021_**
+
 
 ```python
 from timeit import default_timer

@@ -1,5 +1,5 @@
 # Get Release notes from Github API
-**_Posted on 18 Sep, 2021_**
+
 
 Getting release notes for your favourite tool is a piece of cake using the [GitHub Releases API](https://docs.github.com/en/rest/reference/repos#releases)
 

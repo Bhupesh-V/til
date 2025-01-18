@@ -1,5 +1,5 @@
 # Docker 🐋 quick guide
-**_Posted on 18 Oct, 2020_** 
+ 
 
 
 1. Remove docker image.

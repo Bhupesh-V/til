@@ -1,5 +1,5 @@
 # Reference Counting v/s Garbage Collection
-**_Posted on 30 Jul, 2022_**
+
 
 ## Reference Counting (or ARC - Automatic Garbage Collection)
 

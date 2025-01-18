@@ -1,5 +1,5 @@
 # Decrease lottie size dynamically in flutter
-**_Posted on 08 Jan, 2022_**
+
 
 ```dart
 SizedBox(

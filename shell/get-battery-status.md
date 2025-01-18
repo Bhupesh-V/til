@@ -1,5 +1,5 @@
 # Check battery status
-**_Posted on 11 Sep, 2021_**
+
 
 ### Linux
 

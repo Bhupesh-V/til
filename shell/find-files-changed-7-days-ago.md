@@ -1,6 +1,6 @@
 # Find files changed 7 days ago
 
-**_Posted on 07 Jun, 2020_**
+
 
 To find last modified file
 

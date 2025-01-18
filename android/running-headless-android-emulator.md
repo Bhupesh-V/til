@@ -1,5 +1,5 @@
 # Running headless Android Emulator
-**_Posted on 09 Feb, 2022_**
+
 
 
 1. Create an AVD

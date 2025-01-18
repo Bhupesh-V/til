@@ -1,5 +1,5 @@
 # Anatomy of `go.mod` file
-**_Posted on 20 Aug, 2021_**
+
 
 Consider a hypothetical `go.mod` file
 

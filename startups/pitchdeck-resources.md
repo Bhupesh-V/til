@@ -1,6 +1,6 @@
 # Pitchdeck Resources
 
-**_Posted on 27 March, 2023_**
+
 
 Some list of tools, resources to find pitch decks of startups, good for getting inspiration on marketing copies, ideas etc.
 

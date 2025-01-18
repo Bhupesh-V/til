@@ -1,6 +1,6 @@
 # SEO Tools
 
-**_Posted on 15 Oct, 2019_**
+
 
 Here is a list of some tools to test your website for SEO, Rich Snippets and Social Media.
 

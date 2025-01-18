@@ -1,6 +1,6 @@
 # Postgres 14 Internals: Data Organisation
 
-**_Posted on 5 June, 2023_**
+
 
 - A single PostgreSQL instance can serve several databases at a time; together they are called a database cluster.
 - The directory that contains all the files related to the cluster is usually called `PGDATA`.

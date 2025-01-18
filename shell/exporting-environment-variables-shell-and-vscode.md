@@ -1,5 +1,5 @@
 # Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger
-**_Posted on 08 Jan, 2025_**
+
 
 ## The Problem
 

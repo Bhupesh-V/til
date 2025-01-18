@@ -1,6 +1,6 @@
 # Consultative Selling / Solution Selling
 
-**_Posted on 12 Oct, 2024_**
+
 
 ## Consultative Selling
 

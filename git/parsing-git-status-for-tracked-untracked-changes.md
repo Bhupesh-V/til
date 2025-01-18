@@ -1,5 +1,5 @@
 # Parsing `git status` for tracked & untracked changes
-**_Posted on 15 Mar, 2021_**
+
 
 ## Get count of untracked changes ➕️ (new files)
 

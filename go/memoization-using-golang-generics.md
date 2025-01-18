@@ -1,5 +1,5 @@
 # Memoization using Golang Generics
-**_Posted on 22 Jun, 2022_**
+
 
 Memoization helps save computation of things that have already been computed by saving them for future use. In this example we use golang generics to implement a `Memoized()` function that can handle use-case.
 

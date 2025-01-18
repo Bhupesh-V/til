@@ -1,6 +1,6 @@
 # Internet search tips & tricks for developers
 
-**_Posted on 7 June, 2020_**
+
 
 All of the below mentioned tips works in both DuckDuckGo & Google (i use both :wink:), it should work fine in other search engines too.
 

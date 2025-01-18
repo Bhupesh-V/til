@@ -1,5 +1,5 @@
 # Invest in decision-making skills early in career
-**_Posted on 02 Jan, 2022_**
+
 
 ## Current Situation
 

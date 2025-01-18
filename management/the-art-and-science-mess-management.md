@@ -1,5 +1,5 @@
 # The art and science of mess management
-**_07 Jan, 2025_**
+
 
 > The following piece of knowledge is (humanly) summarised & gathered from the paper ["The Art and Science of Mess Management"](https://www.systemswisdom.com/sites/default/files/Ackoff-1981-Mess-Management_0.pdf) by Russell L. Ackoff.
 

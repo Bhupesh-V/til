@@ -1,5 +1,5 @@
 # Random emoji 😲 in one line
-**_Posted on 30 July 2020_**
+
 
 ```bash
 printf "%b\n" "\U1F$(shuf -i600-700 -n1)"

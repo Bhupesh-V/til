@@ -1,6 +1,6 @@
 # Get Total System Memory using vmstat command
 
-**_Posted on 31 May 2020_**
+
 
 ```bash
 vmstat -s | grep "total memory" | grep -Eo '[0-9]{1,}'

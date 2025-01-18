@@ -1,5 +1,5 @@
 # Auto-correct Git commands
-**_Posted on 24 Jun, 2021_** 
+ 
 
 
 > [**help.autocorrect**](https://git-scm.com/docs/git-config#Documentation/git-config.txt-helpautoCorrect) docs

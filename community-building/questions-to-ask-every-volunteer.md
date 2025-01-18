@@ -1,6 +1,6 @@
 # Questions to ask every community volunteer
 
-**_Posted on 25 Apr, 2023_**
+
 
 - What are some things that you don't like about the community?
 - Do you have any ideas to fix them? How?

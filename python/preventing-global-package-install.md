@@ -1,5 +1,5 @@
 # Preventing global package install with `PIP_REQUIRE_VIRTUALENV`
-**_Posted on 05 Nov, 2021_**
+
 
 To make sure you have an virtual env activated whenever you do `pip install`, add the following line to your `.bashrc`
 

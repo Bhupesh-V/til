@@ -1,6 +1,6 @@
 # Creating Python's next() alternative using Go Closures
 
-**_Posted on 4 June, 2020_**
+
 
 If you don't know what next() in python means, the below code illustrates it.
 

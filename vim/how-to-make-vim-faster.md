@@ -1,6 +1,6 @@
 # How to make Vim faster ⚡️
 
-**_Posted on 30 Jan, 2021_**
+
 
 Apart from not loading shit ton of plugins, there are some other tricks that can be used to make the Vim more faster:
 

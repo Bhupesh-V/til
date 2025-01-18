@@ -1,5 +1,5 @@
 # Add version info in Go projects
-**_08 Jan, 2021_**
+
 Go offers a nice way to specify version information at compile time using the `-ldflags` flag in go build command.
 
 ## How to use it effectively ?

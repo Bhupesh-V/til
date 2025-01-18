@@ -1,6 +1,6 @@
 # Design by contract (DbC)
 
-**_Posted on 09 May, 2024_**
+
 
 - First introduced native support was in [Eiffel programming language](https://www.eiffel.com/values/design-by-contract/introduction/).
 - Think of [DbC](https://en.wikipedia.org/wiki/Design_by_contract) as having `if` checks before and after you manipulate data inside live code. Yes they are basically _assertions_.

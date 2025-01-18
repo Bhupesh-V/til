@@ -1,5 +1,5 @@
 # Pros & Cons of working professionally
-**_Posted on 10 Feb, 2022_**
+
 
 > Thoughts on this page are entirely personal, might not match with your opiniions.
 

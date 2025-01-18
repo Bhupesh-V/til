@@ -1,5 +1,5 @@
 # Clustered & Non-clustered Indexes
-**_Posted on 25 Sep, 2022_**
+
 
 ## Clustered
 - Organises data "physically" on disk.

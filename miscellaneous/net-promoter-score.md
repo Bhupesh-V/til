@@ -1,6 +1,6 @@
 # Net Promoter Score (NPS)
 
-**_Posted on 29 Mar, 2024_**
+
 
 https://www.netpromotersystem.com/
 

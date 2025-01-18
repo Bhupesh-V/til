@@ -1,6 +1,6 @@
 # Extract file id from drive shareable link
 
-**_Posted on 09 Sep, 2020_**
+
 
 I host my blog images on Google Drive sometimes, the normal shareable link is not
 the actual image source.

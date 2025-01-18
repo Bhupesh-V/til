@@ -1,6 +1,6 @@
 # Reading & Setting Environment variables in Go
 
-**_9 June, 2020_**
+
 
 Use `os.Getenv()` and `os.Setenv()` for reading and setting environment variables.
 

@@ -1,5 +1,5 @@
 # FZF: Tips and Tricks
-**_Posted on 23 Mar, 2021_** 
+ 
 
 [fzf](https://github.com/junegunn/fzf) is a recent addition to my CLI utilities, below are some common use-cases.
 

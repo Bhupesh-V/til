@@ -1,6 +1,6 @@
 # Tech Writing Cookbook - Writing tips for you & my future self
 
-**_Posted on 09 May, 2021_**
+
 
 
 This page is dedicated to things I try to follow as a tech writer and developer & how one can learn to do the same.

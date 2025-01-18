@@ -1,6 +1,6 @@
 # PEP8 - the fashion 💃 police of Python
 
-**_Posted on 22 Jun, 2019_**
+
 
 Well basically PEP8 is a style guide which provides guidelines and best practices
 for writing python code.

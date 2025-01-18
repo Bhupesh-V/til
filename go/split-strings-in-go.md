@@ -1,6 +1,6 @@
 # Splitting strings in Go
 
-**_Posted on 31 May, 2020_**
+
 
 Splitting strings in Go is done by using the `Split()` method.
 You need to import the `strings` standard library to use this.

@@ -1,6 +1,6 @@
 # Slowly Changing Dimensions (SCD)
 
-**_Posted on 26 March, 2024_**
+
 
 Slowly Changing Dimensions (SCD) are dimensions that change slowly over time, rather than changing on a regular schedule.
 

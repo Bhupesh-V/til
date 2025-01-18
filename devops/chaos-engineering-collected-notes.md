@@ -1,5 +1,5 @@
 # Chaos Engineering 🐒️
-**_Posted on 07 Mar, 2021_**
+
 
 
 Act of studying a system so as to build confidence in its capability to withstand harsh conditions. This is done by literally breaking (experimenting with) the system.

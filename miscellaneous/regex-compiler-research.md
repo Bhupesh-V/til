@@ -1,6 +1,6 @@
 # Creating a Regex Compiler/Parser - Research
 
-**_Posted on 18 Dec, 2020_**
+
 
 Making a regex parser/compiler is not simple as it sounds, here is the overview of the steps:
 

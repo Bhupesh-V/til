@@ -1,5 +1,5 @@
 # Full employment theorem
-**_Posted on 10 March, 2024_** 
+ 
 
 No matter how good someone is at their job, there will always be more work for them because there's no way to make everything perfect. So, people in fields where the **full-employment theorem can be proved** will always have something to do because there's always something that can be made better or improved upon.
 

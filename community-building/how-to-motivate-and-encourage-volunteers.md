@@ -1,6 +1,6 @@
 # How to motivate and encourage volunteers
 
-**_Posted on 11 Apr, 2023_**
+
 
 > Jotting down tips on "how to help volunteers, so that they help the community".
 

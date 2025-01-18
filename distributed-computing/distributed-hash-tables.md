@@ -1,5 +1,5 @@
 # Distributed Hash Tables (DHT)
-**_Posted on 26 Apr, 2022_**
+
 
 ## DHT Structure
 Components include:

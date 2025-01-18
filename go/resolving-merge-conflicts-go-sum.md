@@ -1,5 +1,5 @@
 # Resolving merge conflicts in go.sum
-**_Posted on 30 Mar, 2022_**
+
 
 1. Accept all the changes from any one branch (preferably the one you want to merge)
 2. Re-download all dependencies via `go get -u .`

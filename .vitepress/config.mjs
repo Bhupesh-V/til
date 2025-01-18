@@ -1,5 +1,25 @@
 import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar.js'
+import { execSync } from 'child_process'
+import path from 'path'
+import fs from 'fs'
+
+function getGitCreationDate(filePath) {
+  try {
+    // Extract file name from path
+    const fileName = path.basename(filePath);
+    
+    // Use case-insensitive search for the file name
+    const cmd = `git log --diff-filter=A --format=%at -- "*${fileName}"`
+    const timestamp = execSync(cmd, { encoding: 'utf-8' }).trim();
+    
+    // Convert git timestamp to Date
+    return new Date(parseInt(timestamp) * 1000);
+  } catch (e) {
+    console.error(`Failed to get git creation date for ${filePath}:`, e);
+    return null;
+  }
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -61,7 +81,59 @@ export default defineConfig({
         }
       },
     },
+
+    lastUpdated: {
+      text: 'Laste updated',
+      formatOptions: {
+        dateStyle: 'medium',
+      }
+    }
   },
   cleanUrls: true,
-  lastUpdated: true
+  lastUpdated: true,
+  markdown: {
+    config(md) {
+      // Add a hook to process the markdown content
+      const render = md.render
+      md.render = (...args) => {
+        const html = render.call(md, ...args)
+        return `<PostDate />\n${html}`
+      }
+    },
+  },
+  transformPageData(pageData) {
+    const relativePath = pageData.relativePath
+    
+    if (!relativePath) {
+      console.log('No relative path found for page')
+      return
+    }
+
+    // Get absolute path
+    const filePath = path.resolve(process.cwd(), relativePath)
+
+    if (!fs.existsSync(filePath)) {
+      console.log('File not found:', filePath)
+      return
+    }
+
+    try {
+      const createdAt = getGitCreationDate(filePath)
+      // Ensure frontmatter exists
+      pageData.frontmatter = pageData.frontmatter || {}
+      
+      // Add both timestamp and formatted date
+      pageData.frontmatter.createdAt = createdAt
+      pageData.frontmatter.createdAtFormatted = createdAt.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      })
+
+      // Debug log
+      // console.log('Updated frontmatter:', pageData.frontmatter)
+    } catch (error) {
+      console.error('Error processing', relativePath, ':', error)
+    }
+  }
 })

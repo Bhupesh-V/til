@@ -1,6 +1,6 @@
 # Questions for Women in Tech
 
-**_Posted on 25 Apr, 2024_**
+
 
 > Collecting some questions & thoughts to figure out how to make the tech community more inclusive.
 

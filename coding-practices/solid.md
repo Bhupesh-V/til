@@ -1,5 +1,5 @@
 # SOLID: Design Principles
-**_Posted on 05 Feb, 2021_** 
+ 
 
 1. **S**ingle Responsibility Principle
    - An object should do exactly one thing, and should be the only object in the codebase that does that one thing.

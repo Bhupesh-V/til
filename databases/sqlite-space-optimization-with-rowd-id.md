@@ -1,5 +1,5 @@
 # SQLite db optimization with ROWID
-**_Posted on 04 Jul, 2022_**
+
 
 SQLite lets you improve your database performance by using a phrase "WITHOUT ROWID" in create table command
 

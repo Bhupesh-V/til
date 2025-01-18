@@ -1,6 +1,6 @@
 # Checklist for documenting a medium to large scale system architecture
 
-**_Posted on 03 Feb, 2024_**
+
 
 Some items that can help you document a undocumented legacy system.
 

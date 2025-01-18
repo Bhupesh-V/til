@@ -1,6 +1,6 @@
 # Get System info using Shell Commands
 
-**_Posted on 19 July, 2020_**
+
 
 ## Memory Used/Total
 

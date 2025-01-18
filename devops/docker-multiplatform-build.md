@@ -1,6 +1,6 @@
 # Docker multi-platform build using buildx
 
-**_Posted on 01 Feb, 2024_**
+
 
 ## Build for different platforms
 

@@ -1,6 +1,6 @@
 # Using multiple git user configs with credentials store (multiple github accounts)
 
-**_Posted on 18 Feb, 2023_**
+
 
 So, you have decided to have 2 separate accounts for work and personal.
 Here are steps to follow to use both git configurations simultaneously with same `.git-credentials`.

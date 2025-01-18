@@ -1,5 +1,5 @@
 # Generate random numbers in bash
-**_Posted on July 29, 2020_**
+
 
 Easiest way is to use the `$RANDOM` variable.
 

@@ -1,6 +1,6 @@
 # Leveling up from Software Engineer to Senior Software Engineer
 
-**_Posted on 06 Sep, 2023_** 
+ 
 
 I recently had a 1-1 conversation with my manager about my career growth and what I need to do to level up from Software Engineer to Senior Software Engineer. I am sharing my notes from the conversation here.
 

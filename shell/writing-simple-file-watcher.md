@@ -1,5 +1,5 @@
 # Writing a simple file watcher using GNU Utils
-**_Posted on 13 Dec, 2021_**
+
 
 This simple file change watching script requires these two key utilities:
 

@@ -1,5 +1,5 @@
 # Configuring LSP on NeoVim
-**_Posted on 26 May, 2021_** 
+ 
 
 Make sure you have NeoVim version >=0.5.5 installed
 

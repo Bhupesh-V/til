@@ -1,6 +1,6 @@
 # 8 Fallacies of Distributed Computing
 
-**_Posted on 21 Apr, 2022_**
+
 
 Originally formulated by L. Peter Deutsch & Colleagues at Sun Microsystems in 1994. No 8 was added by James Gosling in 1997
 

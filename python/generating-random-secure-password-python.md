@@ -1,5 +1,5 @@
 # Generate random secure password using python
-**_Posted on 23 Mar, 2021_** 
+ 
 
 ```python
 >>> import string, random

@@ -1,6 +1,6 @@
 # Interesting Views on Tech Hiring
 
-**_Posted on 07 Feb, 2024_**
+
 
 A collection of views around the internet that I found interesting and useful for tech hiring.
 

@@ -1,5 +1,5 @@
 # Check indentation errors in python 🐍
-**_Posted on 18 Oct 2020_**
+
 
 Use `tabnanny` in python standard library for this.
 

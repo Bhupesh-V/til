@@ -1,5 +1,5 @@
 # Get last commit date of file
-**_Posted on 15 Nov, 2020_**
+
 
 
 ```bash

@@ -1,5 +1,5 @@
 # ctags in Vim - Quick Cheatsheet
-<!-- **_Posted on 26 May, 2021_** -->
+<!--  -->
 
 > Consider using modern stuff like LSP over ctags
 

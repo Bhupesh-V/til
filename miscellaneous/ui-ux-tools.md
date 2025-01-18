@@ -1,6 +1,6 @@
 # UI-UX Tools to ease your life
 
-**_Posted on 18 Apr, 2023_**
+
 
 - [Cool Backgrounds](https://coolbackgrounds.io/)
 - [Wicked Backgrounds](https://wickedbackgrounds.com/app)

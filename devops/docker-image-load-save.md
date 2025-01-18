@@ -1,6 +1,6 @@
 # Docker image load & save
 
-**_Posted on 01 Feb, 2024_**
+
 
 
 Short guide on how to export and import docker images across different machines.

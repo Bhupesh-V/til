@@ -1,5 +1,5 @@
 # Postgres Tips & Tricks
-**_Posted on 05 Jan, 2025_**
+
 
 ## List all table indexes
 

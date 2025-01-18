@@ -1,5 +1,5 @@
 # CHECK constraint v/s EXCLUSION constraint
-**_Posted on 22 Jul, 2022_**
+
 
 ## `CHECK` constraint
 

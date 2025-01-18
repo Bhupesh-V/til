@@ -1,6 +1,6 @@
 # All .odp files are zip archives
 
-**_Posted on 18 Sep, 2023_**
+
 
 The OpenDocument Presentation format is a zip archive containing XML files. You can unzip it using the `unzip` command.
 

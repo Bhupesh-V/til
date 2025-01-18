@@ -1,6 +1,6 @@
 # Record your Desktop using ffmpeg
 
-**_24 June 2020_**
+
 
 Make sure you have ffmpeg installed, by checking `ffmpeg -version`. If not install use `sudo apt-get install ffmpeg`.
 

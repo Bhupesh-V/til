@@ -1,6 +1,6 @@
 # Inserting NULL wherever possible on Postgres
 
-**_Posted on 11 Apr, 2023_**
+
 
 ### UUID
 

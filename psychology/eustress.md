@@ -1,5 +1,5 @@
 # Eustress: The Good Stress
-**_Posted on 05 Jan, 2025_**
+
 
 Opposite of distress, i.e., positive stress. Enough stress to keep you motivated and focused on the task at hand but not too much that it becomes overwhelming.
 

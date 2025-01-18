@@ -1,5 +1,5 @@
 # Easy & Lazy way to flatten a python list
-**_Posted on 13 Nov, 2021_**
+
 
 ```python
 from itertools import chain

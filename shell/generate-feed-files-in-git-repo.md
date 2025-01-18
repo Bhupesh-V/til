@@ -1,5 +1,5 @@
 # Generate a RSS Feed of recent files inside a Git repository
-**_Posted on 16 Mar, 2021_**
+
 
 I like to log my notes & [TILs](https://github.com/Bhupesh-V/til) in a git repository and recently I had an idea to showcase (& automate) my most recent learnings on my [github profile](https://github.com/Bhupesh-V/#recent-works).
 

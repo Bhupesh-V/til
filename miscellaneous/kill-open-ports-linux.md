@@ -1,6 +1,6 @@
 # Killing Open Ports in Linux
 
-**_Posted on 27 Jan, 2020_**
+
 
 I had this weird error while running Django Development Server.
 

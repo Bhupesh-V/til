@@ -1,5 +1,5 @@
 # Questions to ask in an interview
-**_Posted on 22 Jan, 2022_**
+
 
 1. What’s the biggest priority for the team right now?
 2. Why is this role open?

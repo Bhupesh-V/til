@@ -1,5 +1,5 @@
 # How to undo anything in Git
-**_Posted on 03 Apr, 2021_** 
+ 
 
 > Posting this as a reference for my future self, so I don't have to search every time.
 

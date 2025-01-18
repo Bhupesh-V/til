@@ -1,6 +1,6 @@
 # Fastest Python First: Tips and Tricks 🏃
 
-**_27 Jun, 2019_**
+
 
 Here are some tips that I learned to make Python Programs faster (_WIP_).
 

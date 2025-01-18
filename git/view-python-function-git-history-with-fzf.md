@@ -1,5 +1,5 @@
 # View a python function's history over-time with Git & FZF
-**_Posted on 12 Dec, 2021_**
+
 
 I am kinda hooked up on modifying my git terminal workflow and integrate FZF wherever I can, this is such an example script to see changes in a python function overtime in your git history. And yes, its interesting (& stupid) 
 

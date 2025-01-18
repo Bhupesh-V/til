@@ -1,6 +1,6 @@
 # Concurrency Comparison: Go v/s Elixir
 
-**_Posted on 30 Jan, 2023_**
+
 
 
 ## Goroutines = [CSP Process](https://en.wikipedia.org/wiki/Communicating_sequential_processes)

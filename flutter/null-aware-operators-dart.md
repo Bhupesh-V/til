@@ -1,5 +1,5 @@
 # Null aware operators in Dart
-**_Posted on 7 Nov, 2021_** 
+ 
 
 Null aware operators makes handling real world data very intuitive & easy. Let's have a brief overview of all the 4 null aware operators in Dart.
 

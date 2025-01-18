@@ -1,5 +1,5 @@
 # Parsing changelogs using regex with Go
-**_Posted on 08 Aug, 2021_**
+
 
 Consider a sample `CHANGELOG.md` file like this
 

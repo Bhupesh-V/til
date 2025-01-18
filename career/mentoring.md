@@ -1,6 +1,6 @@
 # Mentoring
 
-**_Posted on 31 Mar, 2024_**
+
 
 Collected in-progress thoughts on mentoring (both sides).
 

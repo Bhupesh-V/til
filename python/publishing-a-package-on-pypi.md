@@ -1,6 +1,6 @@
 # Publishing a Package on PyPI
 
-**_Posted on 31 Oct, 2019_**
+
 
 I just published my first package on pypi 😍
 I used the following steps to do it :

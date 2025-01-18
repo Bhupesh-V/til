@@ -1,5 +1,5 @@
 # Beating Burnout: Some Thoughts & Resources
-**_Posted on 14 Aug, 2022_**
+
 
 ## Understanding Burnout
 

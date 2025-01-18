@@ -1,5 +1,5 @@
 # Using local Go package path
-**_Posted on 30 Mar, 2022_**
+
 
 A bunch of times you might find yourself working with private Go packages that need to be tested locally.
 Go let's us do that with `replace` in `go.mod` file

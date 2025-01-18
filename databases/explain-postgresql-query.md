@@ -1,5 +1,5 @@
 # EXPLAIN queries in PostgreSQL
-**_Posted on 20 Dec, 2021_**
+
 
 PostgreSQL devises multiple "query plans" for executing a query in the most optimized & best possible way. You can use `EXPLAIN` command to see what query plan a planner creates
 

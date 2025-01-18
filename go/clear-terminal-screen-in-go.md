@@ -1,6 +1,6 @@
 # Clearing terminal screen in Go
 
-**_Posted on 5 June, 2020_**
+
 
 There are two ways I like (without any external dependency)
 

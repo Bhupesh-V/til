@@ -1,5 +1,5 @@
 # grep cheatsheet
-**_Posted on 15 Dec, 2021_**
+
 
 Will be logging here various uses-cases of `grep`
 

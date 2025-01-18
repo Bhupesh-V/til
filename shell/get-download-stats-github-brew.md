@@ -1,5 +1,5 @@
 # Get total download stats from GitHub & Homebrew
-**_Posted on 03 Jun, 2022_**
+
 
 
 ## Get 365 download stats from homebrew

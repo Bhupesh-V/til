@@ -1,5 +1,5 @@
 # Using difflib in Python for fuzzy string matching
-**_Posted on 10 Aug, 2021_**
+
 
 ```
 >>> from difflib import get_close_matches                                  

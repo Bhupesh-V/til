@@ -1,5 +1,5 @@
 # Strategy Design Pattern in Go
-**_Posted on 06 Jul, 2022_**
+
 
 ```go
 // modified version of https://play.golang.org/p/VH-IvOgH1qw

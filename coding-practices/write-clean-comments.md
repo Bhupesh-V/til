@@ -1,5 +1,5 @@
 # Writing Comments
-**_Posted on 24 Jun, 2019_** 
+ 
 
 
 1. The proper use of comments is to compensate for our _failure to express

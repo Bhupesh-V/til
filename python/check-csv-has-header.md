@@ -1,5 +1,5 @@
 # Check if csv has header in python
-**_Posted on 31 Aug, 2021_**
+
 
 Consider the following csv data
 

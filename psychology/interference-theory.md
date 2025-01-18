@@ -1,6 +1,6 @@
 # Interference theory
 
-**_Posted on 19 Apr, 2024_**
+
 
 I made a meme to [explain this theory](https://en.wikipedia.org/wiki/Interference_theory)
 

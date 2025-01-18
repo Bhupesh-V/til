@@ -1,6 +1,6 @@
 # Converting videos to High quality GIFs
 
-**_Posted on Dec 6, 2020_**
+
 
 
 Converting videos to GIFs using ffmpeg is a pain in the ass if you don't know what's happening.

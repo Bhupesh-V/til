@@ -1,6 +1,6 @@
 # Deploying to Heroku
 
-**_Posted on 15 Oct, 2019_**
+
 ## List of steps to follow when you are deployihg a **new** repository/project (Python).
 
 1. `heroku login`

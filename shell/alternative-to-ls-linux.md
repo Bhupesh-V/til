@@ -1,5 +1,5 @@
 # Alternative to 'ls' commnand
-**_Posted on 22 July, 2020_**
+
 
 the bash builtin `echo` can be used to list contents of a directory.
 
