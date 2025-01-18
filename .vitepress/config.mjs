@@ -8,11 +8,11 @@ function getGitCreationDate(filePath) {
   try {
     // Extract file name from path
     const fileName = path.basename(filePath);
-    
+
     // Use case-insensitive search for the file name
     const cmd = `git log --diff-filter=A --format=%at -- "*${fileName}"`
     const timestamp = execSync(cmd, { encoding: 'utf-8' }).trim();
-    
+
     // Convert git timestamp to Date
     return new Date(parseInt(timestamp) * 1000);
   } catch (e) {
@@ -103,9 +103,15 @@ export default defineConfig({
   },
   transformPageData(pageData) {
     const relativePath = pageData.relativePath
-    
+
     if (!relativePath) {
       console.log('No relative path found for page')
+      return
+    }
+
+    // Ignore file creation date for index.md
+    if (relativePath === 'index.md') {
+      // console.log('Ignoring file creation date for index.md')
       return
     }
 
@@ -121,7 +127,7 @@ export default defineConfig({
       const createdAt = getGitCreationDate(filePath)
       // Ensure frontmatter exists
       pageData.frontmatter = pageData.frontmatter || {}
-      
+
       // Add both timestamp and formatted date
       pageData.frontmatter.createdAt = createdAt
       pageData.frontmatter.createdAtFormatted = createdAt.toLocaleDateString('en-US', {
