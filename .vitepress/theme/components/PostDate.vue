@@ -1,7 +1,7 @@
 <template>
   <div class="post-metadata" v-if="createdDate">
     <div class="created-date">
-      Posted on: {{ createdDate }}
+      Posted on {{ createdDate }}
     </div>
   </div>
 </template>
