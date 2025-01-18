@@ -13,6 +13,12 @@ function getGitCreationDate(filePath) {
     const cmd = `git log --diff-filter=A --format=%at -- "*${fileName}"`
     const timestamp = execSync(cmd, { encoding: 'utf-8' }).trim();
 
+    if (!timestamp) {
+      // No git creation date found (probably a non-committed new file)
+      // The date will appear in the next build
+      return null;
+    }
+
     // Convert git timestamp to Date
     return new Date(parseInt(timestamp) * 1000);
   } catch (e) {
@@ -125,6 +131,9 @@ export default defineConfig({
 
     try {
       const createdAt = getGitCreationDate(filePath)
+      if (!createdAt) {
+        return
+      }
       // Ensure frontmatter exists
       pageData.frontmatter = pageData.frontmatter || {}
 
