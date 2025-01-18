@@ -62,6 +62,7 @@ async def get_category_list():
         "_site",
         ".vitepress",
         "node_modules",
+        "public"
     ]
     dirs = [
         x

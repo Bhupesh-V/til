@@ -509,10 +509,6 @@ export const sidebar = [
     ]
   },
   {
-    "text": "Public",
-    "items": []
-  },
-  {
     "text": "Python",
     "items": [
       {

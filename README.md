@@ -57,18 +57,18 @@
 <td><a href="#psychology">Psychology</a><sup>[3]</sup></td>
 </tr>
 <tr>
-<td><a href="#public">Public</a><sup>[0]</sup></td>
 <td><a href="#python">Python</a><sup>[19]</sup></td>
 <td><a href="#sales">Sales</a><sup>[1]</sup></td>
+<td><a href="#shell">Shell</a><sup>[30]</sup></td>
 </tr>
 <tr>
-<td><a href="#shell">Shell</a><sup>[30]</sup></td>
 <td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
 <td><a href="#startups">Startups</a><sup>[1]</sup></td>
+<td><a href="#vim">Vim</a><sup>[8]</sup></td>
 </tr>
 <tr>
-<td><a href="#vim">Vim</a><sup>[8]</sup></td>
 <td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -343,14 +343,6 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/einstellung-effect.md">Einstellung effect</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/eustress.md">Eustress: The Good Stress</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/interference-theory.md">Interference theory</a></li>
-</ul>
-
-
-
-
-### Public
-
-<ul>
 </ul>
 
 
