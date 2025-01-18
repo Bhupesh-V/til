@@ -83,7 +83,7 @@ export default defineConfig({
     },
 
     lastUpdated: {
-      text: 'Laste updated',
+      text: 'Last updated',
       formatOptions: {
         dateStyle: 'medium',
       }
