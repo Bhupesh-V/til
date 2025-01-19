@@ -1,5 +1,9 @@
 [
  {
+  "title": "The 3NF Oath ✋🏼",
+  "url": "https://til.bhupesh.me/databases/oath-for-3-normal-forms"
+ },
+ {
   "title": "Mega List of Tips for Writing Performant Go Code",
   "url": "https://til.bhupesh.me/go/writing-performant-go-code-megalist"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Simulating AWS Lambda locally using LocalStack",
   "url": "https://til.bhupesh.me/devops/simulating-aws-lambda-localstack"
- },
- {
-  "title": "Questions for you as a tech worker",
-  "url": "https://til.bhupesh.me/people/questions-for-you-tech-worker"
  }
 ]

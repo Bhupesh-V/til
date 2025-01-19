@@ -185,6 +185,10 @@ export const sidebar = [
       {
         "text": "Slowly Changing Dimensions (SCD)",
         "link": "/databases/slowly-changing-dimensions"
+      },
+      {
+        "text": "The 3NF Oath \u270b\ud83c\udffc",
+        "link": "/databases/oath-for-3-normal-forms"
       }
     ]
   },

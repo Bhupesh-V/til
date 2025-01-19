@@ -21,7 +21,7 @@
 <tr>
 <td><a href="#compilers">Compilers</a><sup>[1]</sup></td>
 <td><a href="#data-warehouse">Data Warehouse</a><sup>[1]</sup></td>
-<td><a href="#databases">Databases</a><sup>[11]</sup></td>
+<td><a href="#databases">Databases</a><sup>[12]</sup></td>
 </tr>
 <tr>
 <td><a href="#devops">Devops</a><sup>[7]</sup></td>
@@ -67,6 +67,9 @@
 <table align="center">
 <tbody>
 <tr>
+<td><a href="https://til.bhupesh.me/databases/oath-for-3-normal-forms">The 3NF Oath ✋🏼</a></td>
+</tr>
+<tr>
 <td><a href="https://til.bhupesh.me/go/writing-performant-go-code-megalist">Mega List of Tips for Writing Performant Go Code</a></td>
 </tr>
 <tr>
@@ -92,9 +95,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/devops/simulating-aws-lambda-localstack">Simulating AWS Lambda locally using LocalStack</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/people/questions-for-you-tech-worker">Questions for you as a tech worker</a></td>
 </tr>
 </tbody>
 </table>
@@ -207,6 +207,7 @@
 <li><a href="/databases/postgres-tips-megalist">Postgres Tips & Tricks</a></li>
 <li><a href="/databases/sqlite-space-optimization-with-rowd-id">SQLite db optimization with ROWID</a></li>
 <li><a href="/databases/slowly-changing-dimensions">Slowly Changing Dimensions (SCD)</a></li>
+<li><a href="/databases/oath-for-3-normal-forms">The 3NF Oath ✋🏼</a></li>
 </ul>
 
 
