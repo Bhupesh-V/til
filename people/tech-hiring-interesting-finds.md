@@ -10,8 +10,10 @@ A collection of views around the internet that I found interesting and useful fo
   - By solving meaningless puzzles.
 
   Both of which do not work in favor of the candidate, majority of the time.
+- Tech workers, don't know how to interview, its an acquired skill. And the only way to get better at it is to interview more which means that there's no guarantee that you are being "judged" fairly or by the right person.
+- An engineering team member knows best on what kind of people their team needs, the team itself in that case can be a good gatekeeper in that regard.
 
-## External Links
+## Interesting Takes
 
 - [How to hire low experience, high potential people](https://worktopia.substack.com/p/how-to-hire-low-experience-high-potential)
 - [Hiring and the market for lemons](https://danluu.com/hiring-lemons/)
