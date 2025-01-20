@@ -27,6 +27,38 @@ function getGitCreationDate(filePath) {
   }
 }
 
+function extractDescription(content) {
+  // Remove HTML comments
+  content = content.replace(/<!--[\s\S]*?-->/g, '');
+
+  // Remove front matter
+  content = content.replace(/^---[\s\S]*?---/, '');
+
+  // Remove HTML tags
+  content = content.replace(/<[^>]*>/g, '');
+
+  // Remove markdown links but keep text
+  content = content.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+
+  // Remove markdown headings symbols
+  content = content.replace(/#{1,6}\s/g, '');
+
+  // Get first paragraph of content (non-empty lines until first empty line)
+  const firstParagraph = content
+    .split('\n')
+    .map(line => line.trim())
+    .join(' ')
+    .split(/\n\s*\n/)[0]
+    .trim();
+
+  // Limit to ~160 characters for SEO best practices
+  const description = firstParagraph.length > 160
+    ? firstParagraph.substring(0, 157) + '...'
+    : firstParagraph;
+
+  return description;
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // base: '/til/',
@@ -107,23 +139,16 @@ export default defineConfig({
       }
     },
   },
-  transformPageData(pageData) {
+  async transformPageData(pageData) {
     const relativePath = pageData.relativePath
 
-    if (!relativePath) {
-      console.log('No relative path found for page')
-      return
-    }
-
-    // Ignore file creation date for index.md
-    if (relativePath === 'index.md') {
-      // console.log('Ignoring file creation date for index.md')
-      return
+    // Fast return for no path or index
+    if (!relativePath || relativePath === 'index.md') {
+      return;
     }
 
     // Get absolute path
     const filePath = path.resolve(process.cwd(), relativePath)
-
     if (!fs.existsSync(filePath)) {
       console.log('File not found:', filePath)
       return
@@ -131,19 +156,36 @@ export default defineConfig({
 
     try {
       const createdAt = getGitCreationDate(filePath)
-      if (!createdAt) {
-        return
+      if (createdAt) {
+        pageData.frontmatter = pageData.frontmatter || {};
+        pageData.frontmatter.createdAt = createdAt;
+        pageData.frontmatter.createdAtFormatted = createdAt.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        });
       }
-      // Ensure frontmatter exists
-      pageData.frontmatter = pageData.frontmatter || {}
 
-      // Add both timestamp and formatted date
-      pageData.frontmatter.createdAt = createdAt
-      pageData.frontmatter.createdAtFormatted = createdAt.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-      })
+      // Read and process the markdown file for description
+      const content = fs.readFileSync(filePath, 'utf-8')
+      const description = extractDescription(content)
+
+      // Set the description in frontmatter and head
+      if (description) {
+        pageData.frontmatter = pageData.frontmatter || {}
+        pageData.frontmatter.description = description
+        pageData.description = description
+
+        // Add meta description tag
+        pageData.head = pageData.head || []
+        pageData.head.push(['meta', { name: 'description', content: description }])
+
+        // Add Open Graph description
+        pageData.head.push(['meta', { property: 'og:description', content: description }])
+
+        // Add Twitter description
+        pageData.head.push(['meta', { name: 'twitter:description', content: description }])
+      }
 
       // Debug log
       // console.log('Updated frontmatter:', pageData.frontmatter)
