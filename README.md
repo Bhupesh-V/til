@@ -461,7 +461,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/webdev/html-datalist-auto-complete.md">Auto-complete in plain HTML</a></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/webdev/OpenGraph.md">I learned about Open Graph protocol</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/webdev/opengraph.md">I learned about Open Graph protocol</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/webdev/live-edit-html.md">Live Editing HTML</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/webdev/turning-emojis-into-site-favicons.md">Turning Emojis to site favicons</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/webdev/async-defer-html-javascript.md">`async` & `defer` Attributes</a></li>

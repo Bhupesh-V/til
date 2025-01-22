@@ -1,8 +1,5 @@
 # Concurrency Comparison: Go v/s Elixir
 
-
-
-
 ## Goroutines = [CSP Process](https://en.wikipedia.org/wiki/Communicating_sequential_processes)
 
 - One goroutine only knows about channels, its not aware about other goroutines.
@@ -36,4 +33,9 @@ spawn(fn -> ... end)
 - [Anna Neyzberg & Hannah Howard - Go vs Elixir: A concurrency comparison | Code BEAM SF 19](https://www.youtube.com/watch?v=SbRvX1CQ9ic)
 - [Discussion on r/elixir about Go v/s Elixir](https://www.reddit.com/r/elixir/comments/kx4pyr/i_need_some_help_fully_understanding_the/)
 - [The Soul of Erlang and Elixir • Sasa Juric • GOTO 2019](https://www.youtube.com/watch?v=JvBT4XBdoUE) - MUST WATCH!
-- [](https://www.cloudbees.com/blog/comparing-elixir-go)
+- [Comparing Elixir and Go](https://www.cloudbees.com/blog/comparing-elixir-go)
+
+## Concurrency
+
+- [What Every Dev Must Know About Multithreaded Apps](https://learn.microsoft.com/en-us/archive/msdn-magazine/2005/august/concurrency-what-every-dev-must-know-about-multithreaded-apps)
+- [MIT - Software Construction - Reading 17: Concurrency](https://web.mit.edu/6.005/www/fa14/classes/17-concurrency/)

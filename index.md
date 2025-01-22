@@ -486,7 +486,7 @@
 
 <ul>
 <li><a href="/webdev/html-datalist-auto-complete">Auto-complete in plain HTML</a></li>
-<li><a href="/webdev/OpenGraph">I learned about Open Graph protocol</a></li>
+<li><a href="/webdev/opengraph">I learned about Open Graph protocol</a></li>
 <li><a href="/webdev/live-edit-html">Live Editing HTML</a></li>
 <li><a href="/webdev/turning-emojis-into-site-favicons">Turning Emojis to site favicons</a></li>
 <li><a href="/webdev/async-defer-html-javascript">`async` & `defer` Attributes</a></li>

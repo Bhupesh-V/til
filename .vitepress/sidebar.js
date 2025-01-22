@@ -791,7 +791,7 @@ export const sidebar = [
       },
       {
         "text": "I learned about Open Graph protocol",
-        "link": "/webdev/OpenGraph"
+        "link": "/webdev/opengraph"
       },
       {
         "text": "Live Editing HTML",
