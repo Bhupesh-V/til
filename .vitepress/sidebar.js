@@ -175,7 +175,7 @@ export const sidebar = [
         "link": "/databases/postgres-internals-data-organisation"
       },
       {
-        "text": "Postgres Tips & Tricks",
+        "text": "Postgres Tips & Tricks - Megalist of Secret SQL Queries",
         "link": "/databases/postgres-tips-megalist"
       },
       {

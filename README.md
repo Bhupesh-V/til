@@ -179,7 +179,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/inserting-null-everywhere.md">Inserting NULL wherever possible on Postgres</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/list-all-values-for-custom-enum-postgres.md">List all values of a custom enum in Postgres</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/postgres-internals-data-organisation.md">Postgres 14 Internals: Data Organisation</a></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/postgres-tips-megalist.md">Postgres Tips & Tricks</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/postgres-tips-megalist.md">Postgres Tips & Tricks - Megalist of Secret SQL Queries</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/slowly-changing-dimensions.md">Slowly Changing Dimensions (SCD)</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/oath-for-3-normal-forms.md">The 3NF Oath ✋🏼</a></li>

@@ -82,7 +82,7 @@
 <td><a href="https://til.bhupesh.me/management/the-art-and-science-mess-management">The art and science of mess management</a></td>
 </tr>
 <tr>
-<td><a href="https://til.bhupesh.me/databases/postgres-tips-megalist">Postgres Tips & Tricks</a></td>
+<td><a href="https://til.bhupesh.me/databases/postgres-tips-megalist">Postgres Tips & Tricks - Megalist of Secret SQL Queries</a></td>
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/psychology/eustress">Eustress: The Good Stress</a></td>
@@ -204,7 +204,7 @@
 <li><a href="/databases/inserting-null-everywhere">Inserting NULL wherever possible on Postgres</a></li>
 <li><a href="/databases/list-all-values-for-custom-enum-postgres">List all values of a custom enum in Postgres</a></li>
 <li><a href="/databases/postgres-internals-data-organisation">Postgres 14 Internals: Data Organisation</a></li>
-<li><a href="/databases/postgres-tips-megalist">Postgres Tips & Tricks</a></li>
+<li><a href="/databases/postgres-tips-megalist">Postgres Tips & Tricks - Megalist of Secret SQL Queries</a></li>
 <li><a href="/databases/sqlite-space-optimization-with-rowd-id">SQLite db optimization with ROWID</a></li>
 <li><a href="/databases/slowly-changing-dimensions">Slowly Changing Dimensions (SCD)</a></li>
 <li><a href="/databases/oath-for-3-normal-forms">The 3NF Oath ✋🏼</a></li>

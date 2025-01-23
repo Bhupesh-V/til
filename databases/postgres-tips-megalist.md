@@ -1,5 +1,10 @@
-# Postgres Tips & Tricks
+<!-- omit from toc -->
+# Postgres Tips & Tricks - Megalist of Secret SQL Queries
 
+- [List all table indexes](#list-all-table-indexes)
+- [List all column types across the schema](#list-all-column-types-across-the-schema)
+- [List history of sequential \& index scans across all tables](#list-history-of-sequential--index-scans-across-all-tables)
+- [Show table size](#show-table-size)
 
 ## List all table indexes
 
@@ -16,12 +21,6 @@ where c.relname = 'TABLE_NAME'
 
 ```
 
-List all indexes for a table
-
-```sql
-select * from pg_indexes where tablename = 'TABLE_NAME'
-```
-
 ## List all column types across the schema
 
 ```sql
@@ -33,4 +32,25 @@ FROM pg_type t
 JOIN pg_namespace n ON t.typnamespace = n.oid
 WHERE n.nspname NOT IN ('pg_catalog', 'information_schema')
   AND t.typtype IN ('e', 'c'); -- 'e' for ENUM, 'c' for composite types
+```
+
+## List history of sequential & index scans across all tables
+
+```sql
+SELECT
+    relname AS table_name,
+    seq_scan,
+    last_seq_scan,
+    idx_scan,
+    last_idx_scan,
+    seq_scan + idx_scan AS total_accesses
+FROM pg_stat_all_tables
+WHERE schemaname = 'public'
+ORDER BY total_accesses DESC;
+```
+
+## Show table size
+
+```sql
+SELECT pg_size_pretty(pg_relation_size('table'));
 ```
