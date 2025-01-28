@@ -34,6 +34,7 @@ spawn(fn -> ... end)
 - [Discussion on r/elixir about Go v/s Elixir](https://www.reddit.com/r/elixir/comments/kx4pyr/i_need_some_help_fully_understanding_the/)
 - [The Soul of Erlang and Elixir • Sasa Juric • GOTO 2019](https://www.youtube.com/watch?v=JvBT4XBdoUE) - MUST WATCH!
 - [Comparing Elixir and Go](https://www.cloudbees.com/blog/comparing-elixir-go)
+- [Elixir and The Beam: How Concurrency Really Works](https://medium.com/flatiron-labs/elixir-and-the-beam-how-concurrency-really-works-3cc151cddd61)
 
 ## Concurrency
 
