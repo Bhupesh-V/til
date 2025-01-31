@@ -235,6 +235,10 @@ export const sidebar = [
       {
         "text": "Distributed Hash Tables (DHT)",
         "link": "/distributed-computing/distributed-hash-tables"
+      },
+      {
+        "text": "Resilience Engineering",
+        "link": "/distributed-computing/resilience-engineering"
       }
     ]
   },
@@ -383,6 +387,10 @@ export const sidebar = [
       {
         "text": "Where are my build files when I use `go run`",
         "link": "/go/where-are-my-build-files-when-i-use-go-run"
+      },
+      {
+        "text": "Writing benchmarks for Go apps",
+        "link": "/go/writing-benchmarks"
       }
     ]
   },
@@ -509,6 +517,10 @@ export const sidebar = [
       {
         "text": "Interference theory",
         "link": "/psychology/interference-theory"
+      },
+      {
+        "text": "Unconscious Thought Theory",
+        "link": "/psychology/unconsious-thought-theory"
       }
     ]
   },

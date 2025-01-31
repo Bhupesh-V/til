@@ -25,13 +25,13 @@
 </tr>
 <tr>
 <td><a href="#devops">Devops</a><sup>[7]</sup></td>
-<td><a href="#distributed-computing">Distributed Computing</a><sup>[2]</sup></td>
+<td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
 <td><a href="#ffmpeg">Ffmpeg</a><sup>[3]</sup></td>
 </tr>
 <tr>
 <td><a href="#flutter">Flutter</a><sup>[3]</sup></td>
 <td><a href="#git">Git</a><sup>[10]</sup></td>
-<td><a href="#go">Go</a><sup>[16]</sup></td>
+<td><a href="#go">Go</a><sup>[17]</sup></td>
 </tr>
 <tr>
 <td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
@@ -41,7 +41,7 @@
 <tr>
 <td><a href="#miscellaneous">Miscellaneous</a><sup>[14]</sup></td>
 <td><a href="#people">People</a><sup>[2]</sup></td>
-<td><a href="#psychology">Psychology</a><sup>[3]</sup></td>
+<td><a href="#psychology">Psychology</a><sup>[4]</sup></td>
 </tr>
 <tr>
 <td><a href="#python">Python</a><sup>[19]</sup></td>
@@ -233,6 +233,7 @@
 <ul>
 <li><a href="/distributed-computing/8-fallacies-of-distributed-computing">8 Fallacies of Distributed Computing</a></li>
 <li><a href="/distributed-computing/distributed-hash-tables">Distributed Hash Tables (DHT)</a></li>
+<li><a href="/distributed-computing/resilience-engineering">Resilience Engineering</a></li>
 </ul>
 
 
@@ -297,6 +298,7 @@
 <li><a href="/go/strategy-design-pattern-golang">Strategy Design Pattern in Go</a></li>
 <li><a href="/go/using-local-packages-using-require">Using local Go package path</a></li>
 <li><a href="/go/where-are-my-build-files-when-i-use-go-run">Where are my build files when I use `go run`</a></li>
+<li><a href="/go/writing-benchmarks">Writing benchmarks for Go apps</a></li>
 </ul>
 
 
@@ -369,6 +371,7 @@
 <li><a href="/psychology/einstellung-effect">Einstellung effect</a></li>
 <li><a href="/psychology/eustress">Eustress: The Good Stress</a></li>
 <li><a href="/psychology/interference-theory">Interference theory</a></li>
+<li><a href="/psychology/unconsious-thought-theory">Unconscious Thought Theory</a></li>
 </ul>
 
 

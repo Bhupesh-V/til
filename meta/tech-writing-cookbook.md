@@ -1,8 +1,5 @@
 # Tech Writing Cookbook - Writing tips for you & my future self
 
-
-
-
 This page is dedicated to things I try to follow as a tech writer and developer & how one can learn to do the same.
 
 ## Writing hooks: "Get 3 yes's in 30 seconds".
@@ -60,7 +57,6 @@ Three questions to ask yourself while editing:
 2. Is this complete?
 3. Is this convincing?
 
-
 ### Resources
 
 - [Making World Class Docs Takes Effort](https://daniel.haxx.se/blog/2021/09/04/making-world-class-docs-takes-effort/)
@@ -77,3 +73,4 @@ Three questions to ask yourself while editing:
 - [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/)
 - [Writing maketh the 10x Developer. More so the 10x development team.](https://www.evalapply.org/posts/writing-maketh-the-10x-developer/)
 - [What I think about when I edit](https://evaparish.com/blog/how-i-edit)
+- [Advice for a friend who wants to start a blog](https://www.henrikkarlsson.xyz/p/start-a-blog)

@@ -38,13 +38,13 @@
 </tr>
 <tr>
 <td><a href="#devops">Devops</a><sup>[7]</sup></td>
-<td><a href="#distributed-computing">Distributed Computing</a><sup>[2]</sup></td>
+<td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
 <td><a href="#ffmpeg">Ffmpeg</a><sup>[3]</sup></td>
 </tr>
 <tr>
 <td><a href="#flutter">Flutter</a><sup>[3]</sup></td>
 <td><a href="#git">Git</a><sup>[10]</sup></td>
-<td><a href="#go">Go</a><sup>[16]</sup></td>
+<td><a href="#go">Go</a><sup>[17]</sup></td>
 </tr>
 <tr>
 <td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
@@ -54,7 +54,7 @@
 <tr>
 <td><a href="#miscellaneous">Miscellaneous</a><sup>[14]</sup></td>
 <td><a href="#people">People</a><sup>[2]</sup></td>
-<td><a href="#psychology">Psychology</a><sup>[3]</sup></td>
+<td><a href="#psychology">Psychology</a><sup>[4]</sup></td>
 </tr>
 <tr>
 <td><a href="#python">Python</a><sup>[19]</sup></td>
@@ -208,6 +208,7 @@
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/distributed-computing/8-fallacies-of-distributed-computing.md">8 Fallacies of Distributed Computing</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/distributed-computing/distributed-hash-tables.md">Distributed Hash Tables (DHT)</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/distributed-computing/resilience-engineering.md">Resilience Engineering</a></li>
 </ul>
 
 
@@ -272,6 +273,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/strategy-design-pattern-golang.md">Strategy Design Pattern in Go</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/using-local-packages-using-require.md">Using local Go package path</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/where-are-my-build-files-when-i-use-go-run.md">Where are my build files when I use `go run`</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/writing-benchmarks.md">Writing benchmarks for Go apps</a></li>
 </ul>
 
 
@@ -344,6 +346,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/einstellung-effect.md">Einstellung effect</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/eustress.md">Eustress: The Good Stress</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/interference-theory.md">Interference theory</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/unconsious-thought-theory.md">Unconscious Thought Theory</a></li>
 </ul>
 
 
