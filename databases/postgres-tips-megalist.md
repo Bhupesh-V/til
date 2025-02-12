@@ -4,6 +4,7 @@
 - [List all table indexes](#list-all-table-indexes)
 - [List all column types across the schema](#list-all-column-types-across-the-schema)
 - [List history of sequential \& index scans across all tables](#list-history-of-sequential--index-scans-across-all-tables)
+- [Show index usage across all tables](#show-index-usage-across-all-tables)
 - [Show table size](#show-table-size)
 
 ## List all table indexes
@@ -38,15 +39,33 @@ WHERE n.nspname NOT IN ('pg_catalog', 'information_schema')
 
 ```sql
 SELECT
-    relname AS table_name,
-    seq_scan,
-    last_seq_scan,
-    idx_scan,
-    last_idx_scan,
-    seq_scan + idx_scan AS total_accesses
-FROM pg_stat_all_tables
-WHERE schemaname = 'public'
-ORDER BY total_accesses DESC;
+  relname AS table_name,
+  seq_scan,
+  last_seq_scan,
+  idx_scan,
+  last_idx_scan,
+  seq_scan + idx_scan AS total_accesses
+FROM
+  pg_stat_all_tables
+WHERE
+  schemaname = 'public'
+  and seq_scan + idx_scan is not null
+ORDER BY
+  total_accesses DESC;
+```
+
+## Show index usage across all tables
+
+```sql
+SELECT
+  relname AS table_name,
+  indexrelname AS index_name,
+  idx_scan AS index_scans
+FROM
+  pg_stat_user_indexes
+  JOIN pg_index ON pg_stat_user_indexes.indexrelid = pg_index.indexrelid
+ORDER BY
+  idx_scan DESC;
 ```
 
 ## Show table size
