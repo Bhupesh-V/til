@@ -37,6 +37,8 @@ WHERE n.nspname NOT IN ('pg_catalog', 'information_schema')
 
 ## List history of sequential & index scans across all tables
 
+- Handy to identify tables that are being scanned frequently.
+
 ```sql
 SELECT
   relname AS table_name,
@@ -55,6 +57,8 @@ ORDER BY
 ```
 
 ## Show index usage across all tables
+
+- Handy to identify indexes that are being used frequently.
 
 ```sql
 SELECT
