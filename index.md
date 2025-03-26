@@ -39,9 +39,9 @@
 <td><a href="#meta">Meta</a><sup>[3]</sup></td>
 </tr>
 <tr>
-<td><a href="#miscellaneous">Miscellaneous</a><sup>[14]</sup></td>
+<td><a href="#miscellaneous">Miscellaneous</a><sup>[15]</sup></td>
 <td><a href="#people">People</a><sup>[2]</sup></td>
-<td><a href="#psychology">Psychology</a><sup>[4]</sup></td>
+<td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
 </tr>
 <tr>
 <td><a href="#python">Python</a><sup>[19]</sup></td>
@@ -67,6 +67,21 @@
 <table align="center">
 <tbody>
 <tr>
+<td><a href="https://til.bhupesh.me/miscellaneous/green-software">How I think about Green Software</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/psychology/ikea-effect">The IKEA Effect</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/distributed-computing/resilience-engineering">Resilience Engineering</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/go/writing-benchmarks">Writing benchmarks for Go apps</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/psychology/unconsious-thought-theory">Unconscious Thought Theory</a></td>
+</tr>
+<tr>
 <td><a href="https://til.bhupesh.me/databases/oath-for-3-normal-forms">The 3NF Oath ✋🏼</a></td>
 </tr>
 <tr>
@@ -80,21 +95,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/management/the-art-and-science-mess-management">The art and science of mess management</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/databases/postgres-tips-megalist">Postgres Tips & Tricks - Megalist of Secret SQL Queries</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/psychology/eustress">Eustress: The Good Stress</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/sales/consultative-selling-solution-selling">Consultative Selling / Solution Selling</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/hotwheels/find-when-a-car-was-manufactured">Find when a hotwheels car was manufactured</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/devops/simulating-aws-lambda-localstack">Simulating AWS Lambda locally using LocalStack</a></td>
 </tr>
 </tbody>
 </table>
@@ -339,6 +339,7 @@
 <li><a href="/miscellaneous/all-odp-files-are-zip-archives">All .odp files are zip archives</a></li>
 <li><a href="/miscellaneous/regex-compiler-research">Creating a Regex Compiler/Parser - Research</a></li>
 <li><a href="/miscellaneous/deploy-to-heroku">Deploying to Heroku</a></li>
+<li><a href="/miscellaneous/green-software">How I think about Green Software</a></li>
 <li><a href="/miscellaneous/internet-search-tricks-tips-for-developers">Internet search tips & tricks for developers</a></li>
 <li><a href="/miscellaneous/kill-open-ports-linux">Killing Open Ports in Linux</a></li>
 <li><a href="/miscellaneous/navigating-your-way-through-github-rest-api">Navigating your way through Github API</a></li>
@@ -371,6 +372,7 @@
 <li><a href="/psychology/einstellung-effect">Einstellung effect</a></li>
 <li><a href="/psychology/eustress">Eustress: The Good Stress</a></li>
 <li><a href="/psychology/interference-theory">Interference theory</a></li>
+<li><a href="/psychology/ikea-effect">The IKEA Effect</a></li>
 <li><a href="/psychology/unconsious-thought-theory">Unconscious Thought Theory</a></li>
 </ul>
 

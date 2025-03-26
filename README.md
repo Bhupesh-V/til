@@ -52,9 +52,9 @@
 <td><a href="#meta">Meta</a><sup>[3]</sup></td>
 </tr>
 <tr>
-<td><a href="#miscellaneous">Miscellaneous</a><sup>[14]</sup></td>
+<td><a href="#miscellaneous">Miscellaneous</a><sup>[15]</sup></td>
 <td><a href="#people">People</a><sup>[2]</sup></td>
-<td><a href="#psychology">Psychology</a><sup>[4]</sup></td>
+<td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
 </tr>
 <tr>
 <td><a href="#python">Python</a><sup>[19]</sup></td>
@@ -314,6 +314,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/all-odp-files-are-zip-archives.md">All .odp files are zip archives</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/green-software.md">How I think about Green Software</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/navigating-your-way-through-github-rest-api.md">Navigating your way through Github API</a></li>
@@ -346,6 +347,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/einstellung-effect.md">Einstellung effect</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/eustress.md">Eustress: The Good Stress</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/interference-theory.md">Interference theory</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/ikea-effect.md">The IKEA Effect</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/psychology/unconsious-thought-theory.md">Unconscious Thought Theory</a></li>
 </ul>
 

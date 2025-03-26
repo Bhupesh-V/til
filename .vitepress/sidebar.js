@@ -445,6 +445,10 @@ export const sidebar = [
         "link": "/miscellaneous/deploy-to-heroku"
       },
       {
+        "text": "How I think about Green Software",
+        "link": "/miscellaneous/green-software"
+      },
+      {
         "text": "Internet search tips & tricks for developers",
         "link": "/miscellaneous/internet-search-tricks-tips-for-developers"
       },
@@ -517,6 +521,10 @@ export const sidebar = [
       {
         "text": "Interference theory",
         "link": "/psychology/interference-theory"
+      },
+      {
+        "text": "The IKEA Effect",
+        "link": "/psychology/ikea-effect"
       },
       {
         "text": "Unconscious Thought Theory",

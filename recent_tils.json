@@ -1,5 +1,25 @@
 [
  {
+  "title": "How I think about Green Software",
+  "url": "https://til.bhupesh.me/miscellaneous/green-software"
+ },
+ {
+  "title": "The IKEA Effect",
+  "url": "https://til.bhupesh.me/psychology/ikea-effect"
+ },
+ {
+  "title": "Resilience Engineering",
+  "url": "https://til.bhupesh.me/distributed-computing/resilience-engineering"
+ },
+ {
+  "title": "Writing benchmarks for Go apps",
+  "url": "https://til.bhupesh.me/go/writing-benchmarks"
+ },
+ {
+  "title": "Unconscious Thought Theory",
+  "url": "https://til.bhupesh.me/psychology/unconsious-thought-theory"
+ },
+ {
   "title": "The 3NF Oath ✋🏼",
   "url": "https://til.bhupesh.me/databases/oath-for-3-normal-forms"
  },
@@ -18,25 +38,5 @@
  {
   "title": "The art and science of mess management",
   "url": "https://til.bhupesh.me/management/the-art-and-science-mess-management"
- },
- {
-  "title": "Postgres Tips & Tricks - Megalist of Secret SQL Queries",
-  "url": "https://til.bhupesh.me/databases/postgres-tips-megalist"
- },
- {
-  "title": "Eustress: The Good Stress",
-  "url": "https://til.bhupesh.me/psychology/eustress"
- },
- {
-  "title": "Consultative Selling / Solution Selling",
-  "url": "https://til.bhupesh.me/sales/consultative-selling-solution-selling"
- },
- {
-  "title": "Find when a hotwheels car was manufactured",
-  "url": "https://til.bhupesh.me/hotwheels/find-when-a-car-was-manufactured"
- },
- {
-  "title": "Simulating AWS Lambda locally using LocalStack",
-  "url": "https://til.bhupesh.me/devops/simulating-aws-lambda-localstack"
  }
 ]
