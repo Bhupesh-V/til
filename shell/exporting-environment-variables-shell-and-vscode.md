@@ -1,4 +1,4 @@
-# Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger
+# Seamlessly Exporting Environment Variables for Shell, VSCode Debugger & Makefile
 
 
 ## The Problem
@@ -55,8 +55,8 @@ Since this format is already compatible with VS Code, all we need to do is to ex
 export $(grep --color=never -v '^#' .env | xargs)
 
 # Makefile safe version
-
-$(shell export $$(grep --color=never -v '^#' .env | xargs))
+run:
+  @export $(shell grep --color=never -v '^#' .env | xargs) && ./main app
 ```
 
 The above command dynamically exports the environment variables to the shell & to any child processes.
