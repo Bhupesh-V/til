@@ -15,8 +15,30 @@ then use the function `uuid_nil()`.
 To insert null JSONB, use the `to_jsonb` function:
 
 ```sql
-insert into my_table (my_jsonb_column) values (to_jsonb(null));
-update my_table set my_jsonb_column = to_jsonb(null) where id = 1;
+UPDATE
+  table_name
+SET
+  my_jsonb_column = to_jsonb(null)
+WHERE
+  id = 1;
+
+-- or
+
+UPDATE
+  table_name
+SET
+  my_jsonb_column = 'null'::jsonb
+WHERE
+  id = '1';
 ```
 
-> Fair warning: JSONB `null` is different from SQL `null`.
+Fair warning: JSONB `null` is different from SQL `null`.
+
+```sql
+SELECT
+  pg_typeof(NULL) AS sql_null_type,
+  pg_typeof('null'::jsonb) AS jsonb_null_type;
+
+-- "sql_null_type"	"jsonb_null_type"
+-- "unknown"	"jsonb"
+```
