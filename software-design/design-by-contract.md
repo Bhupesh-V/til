@@ -1,7 +1,5 @@
 # Design by contract (DbC)
 
-
-
 - First introduced native support was in [Eiffel programming language](https://www.eiffel.com/values/design-by-contract/introduction/).
 - Think of [DbC](https://en.wikipedia.org/wiki/Design_by_contract) as having `if` checks before and after you manipulate data inside live code. Yes they are basically _assertions_.
 - Major components of DbC:
@@ -21,3 +19,4 @@
   - TDD is external to business logic, DbC is internal.
 - [Code Contracts in `.NET`](https://learn.microsoft.com/en-us/dotnet/framework/debug-trace-profile/code-contracts)
 - [Design by Contract and Assertions](https://www.eiffel.org/doc/solutions/Design_by_Contract_and_Assertions)
+- [Design by Contract in C3 (a successor to C)](https://c3-lang.org/language-common/contracts/)
