@@ -97,6 +97,7 @@ export default defineConfig({
   },
   cleanUrls: true,
   lastUpdated: true,
+  ignoreDeadLinks: true,
   markdown: {
     config(md) {
       // Add a hook to process the markdown content
