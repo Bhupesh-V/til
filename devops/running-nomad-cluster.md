@@ -46,7 +46,7 @@ or verbose version with detailed breakdown
 nomad node status -self -verbose
 ```
 
-Check Web UI for more info: [http://localhost:4646/ui](http://localhost:4646/ui)
+Check Web UI for more info: http://localhost:4646/ui
 
 ## Start Consul Agent
 

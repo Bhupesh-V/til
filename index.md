@@ -67,6 +67,9 @@
 <table align="center">
 <tbody>
 <tr>
+<td><a href="https://til.bhupesh.me/devops/running-nomad-cluster">How to run a Local Nomad Cluster</a></td>
+</tr>
+<tr>
 <td><a href="https://til.bhupesh.me/miscellaneous/green-software">How I think about Green Software</a></td>
 </tr>
 <tr>
@@ -92,9 +95,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/shell/exporting-environment-variables-shell-and-vscode">Seamlessly Exporting Environment Variables for Shell, VSCode Debugger & Makefile</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/management/the-art-and-science-mess-management">The art and science of mess management</a></td>
 </tr>
 </tbody>
 </table>

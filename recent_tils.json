@@ -1,5 +1,9 @@
 [
  {
+  "title": "How to run a Local Nomad Cluster",
+  "url": "https://til.bhupesh.me/devops/running-nomad-cluster"
+ },
+ {
   "title": "How I think about Green Software",
   "url": "https://til.bhupesh.me/miscellaneous/green-software"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Seamlessly Exporting Environment Variables for Shell, VSCode Debugger & Makefile",
   "url": "https://til.bhupesh.me/shell/exporting-environment-variables-shell-and-vscode"
- },
- {
-  "title": "The art and science of mess management",
-  "url": "https://til.bhupesh.me/management/the-art-and-science-mess-management"
  }
 ]
