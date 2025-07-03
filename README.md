@@ -37,7 +37,7 @@
 <td><a href="#databases">Databases</a><sup>[12]</sup></td>
 </tr>
 <tr>
-<td><a href="#devops">Devops</a><sup>[7]</sup></td>
+<td><a href="#devops">Devops</a><sup>[8]</sup></td>
 <td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
 <td><a href="#ffmpeg">Ffmpeg</a><sup>[3]</sup></td>
 </tr>
@@ -162,7 +162,7 @@
 ### Data Warehouse
 
 <ul>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/data-warehouse/why-reverse-ctl.md">Why Reverse ETL</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/data-warehouse/why-reverse-etl.md">Why Reverse ETL</a></li>
 </ul>
 
 
@@ -196,6 +196,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/devops/docker-image-load-save.md">Docker image load & save</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/devops/docker-multiplatform-build.md">Docker multi-platform build using buildx</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/devops/docker-quick-guide.md">Docker 🐋 quick guide</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/devops/running-nomad-cluster.md">How to run a Local Nomad Cluster</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/devops/set-up-sftp-server-using-aws.md">Set up a SFTP server using AWS Transfer Family</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/devops/simulating-aws-lambda-localstack.md">Simulating AWS Lambda locally using LocalStack</a></li>
 </ul>
@@ -419,7 +420,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/print-value-of-path-readable-format.md">Print value of `$PATH` in readable format</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/reusing-arguments-from-last-command.md">Reuse arguments from last command</a></li>
-<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/exporting-environment-variables-shell-and-vscode.md">Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/exporting-environment-variables-shell-and-vscode.md">Seamlessly Exporting Environment Variables for Shell, VSCode Debugger & Makefile</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/shell-redirections-quick-guide.md">Shell Redirections ↔ Quick Guide</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/writing-simple-file-watcher.md">Writing a simple file watcher using GNU Utils</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/grep-cheatsheet.md">grep cheatsheet</a></li>

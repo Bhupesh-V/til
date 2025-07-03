@@ -135,7 +135,7 @@ export const sidebar = [
     "items": [
       {
         "text": "Why Reverse ETL",
-        "link": "/data-warehouse/why-reverse-ctl"
+        "link": "/data-warehouse/why-reverse-etl"
       }
     ]
   },
@@ -214,6 +214,10 @@ export const sidebar = [
       {
         "text": "Docker \ud83d\udc0b quick guide",
         "link": "/devops/docker-quick-guide"
+      },
+      {
+        "text": "How to run a Local Nomad Cluster",
+        "link": "/devops/running-nomad-cluster"
       },
       {
         "text": "Set up a SFTP server using AWS Transfer Family",
@@ -730,7 +734,7 @@ export const sidebar = [
         "link": "/shell/reusing-arguments-from-last-command"
       },
       {
-        "text": "Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger",
+        "text": "Seamlessly Exporting Environment Variables for Shell, VSCode Debugger & Makefile",
         "link": "/shell/exporting-environment-variables-shell-and-vscode"
       },
       {

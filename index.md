@@ -24,7 +24,7 @@
 <td><a href="#databases">Databases</a><sup>[12]</sup></td>
 </tr>
 <tr>
-<td><a href="#devops">Devops</a><sup>[7]</sup></td>
+<td><a href="#devops">Devops</a><sup>[8]</sup></td>
 <td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
 <td><a href="#ffmpeg">Ffmpeg</a><sup>[3]</sup></td>
 </tr>
@@ -91,7 +91,7 @@
 <td><a href="https://til.bhupesh.me/databases/slowly-changing-dimensions">Slowly Changing Dimensions (SCD)</a></td>
 </tr>
 <tr>
-<td><a href="https://til.bhupesh.me/shell/exporting-environment-variables-shell-and-vscode">Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger</a></td>
+<td><a href="https://til.bhupesh.me/shell/exporting-environment-variables-shell-and-vscode">Seamlessly Exporting Environment Variables for Shell, VSCode Debugger & Makefile</a></td>
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/management/the-art-and-science-mess-management">The art and science of mess management</a></td>
@@ -187,7 +187,7 @@
 ### Data Warehouse
 
 <ul>
-<li><a href="/data-warehouse/why-reverse-ctl">Why Reverse ETL</a></li>
+<li><a href="/data-warehouse/why-reverse-etl">Why Reverse ETL</a></li>
 </ul>
 
 
@@ -221,6 +221,7 @@
 <li><a href="/devops/docker-image-load-save">Docker image load & save</a></li>
 <li><a href="/devops/docker-multiplatform-build">Docker multi-platform build using buildx</a></li>
 <li><a href="/devops/docker-quick-guide">Docker 🐋 quick guide</a></li>
+<li><a href="/devops/running-nomad-cluster">How to run a Local Nomad Cluster</a></li>
 <li><a href="/devops/set-up-sftp-server-using-aws">Set up a SFTP server using AWS Transfer Family</a></li>
 <li><a href="/devops/simulating-aws-lambda-localstack">Simulating AWS Lambda locally using LocalStack</a></li>
 </ul>
@@ -444,7 +445,7 @@
 <li><a href="/shell/print-value-of-path-readable-format">Print value of `$PATH` in readable format</a></li>
 <li><a href="/shell/random-emoji-one-liner">Random emoji 😲 in one line</a></li>
 <li><a href="/shell/reusing-arguments-from-last-command">Reuse arguments from last command</a></li>
-<li><a href="/shell/exporting-environment-variables-shell-and-vscode">Seamlessly Exporting Environment Variables for both Shell & VS Code Debugger</a></li>
+<li><a href="/shell/exporting-environment-variables-shell-and-vscode">Seamlessly Exporting Environment Variables for Shell, VSCode Debugger & Makefile</a></li>
 <li><a href="/shell/shell-redirections-quick-guide">Shell Redirections ↔ Quick Guide</a></li>
 <li><a href="/shell/writing-simple-file-watcher">Writing a simple file watcher using GNU Utils</a></li>
 <li><a href="/shell/grep-cheatsheet">grep cheatsheet</a></li>
