@@ -1,31 +1,9 @@
 import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar.js'
-import { execSync } from 'child_process'
+import { generateRSSFeed } from './rss.js'
+import { getGitFileCreationDate } from './git.js'
 import path from 'path'
 import fs from 'fs'
-
-function getGitCreationDate(filePath) {
-  try {
-    // Extract file name from path
-    const fileName = path.basename(filePath);
-
-    // Use case-insensitive search for the file name
-    const cmd = `git log --diff-filter=A --format=%at -- "*${fileName}"`
-    const timestamp = execSync(cmd, { encoding: 'utf-8' }).trim();
-
-    if (!timestamp) {
-      // No git creation date found (probably a non-committed new file)
-      // The date will appear in the next build
-      return null;
-    }
-
-    // Convert git timestamp to Date
-    return new Date(parseInt(timestamp) * 1000);
-  } catch (e) {
-    console.error(`Failed to get git creation date for ${filePath}:`, e);
-    return null;
-  }
-}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -37,6 +15,8 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.png" }],
+    ['link', { rel: "alternate", type: "application/rss+xml", title: "RSS Feed", href: "/feed.xml" }],
+    ['link', { rel: "alternate", type: "application/atom+xml", title: "Atom Feed", href: "/atom.xml" }],
     ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-7M5P7006XV' }],
     ['script', {}, ` window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-7M5P7006XV');`]
   ],
@@ -58,6 +38,7 @@ export default defineConfig({
       // { text: 'Work with me!', link: 'https://bhupesh.me/hire' },
       { text: 'Blog', link: 'https://bhupesh.me' },
       { text: 'Bookshelf', link: 'https://bookshelf.bhupesh.me/' },
+      { text: 'RSS', link: '/feed.xml' },
     ],
 
     sidebar: sidebar,
@@ -131,7 +112,7 @@ export default defineConfig({
     }
 
     try {
-      const createdAt = getGitCreationDate(filePath)
+      const createdAt = getGitFileCreationDate(filePath)
       if (!createdAt) {
         return
       }
@@ -151,5 +132,8 @@ export default defineConfig({
     } catch (error) {
       console.error('Error processing', relativePath, ':', error)
     }
-  }
+  },
+  buildEnd: async (config) => {
+    generateRSSFeed(config)
+  },
 })
