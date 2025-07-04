@@ -21,7 +21,7 @@
 <tr>
 <td><a href="#compilers">Compilers</a><sup>[1]</sup></td>
 <td><a href="#data-warehouse">Data Warehouse</a><sup>[1]</sup></td>
-<td><a href="#databases">Databases</a><sup>[12]</sup></td>
+<td><a href="#databases">Databases</a><sup>[13]</sup></td>
 </tr>
 <tr>
 <td><a href="#devops">Devops</a><sup>[8]</sup></td>
@@ -207,6 +207,7 @@
 <li><a href="/databases/postgres-tips-megalist">Postgres Tips & Tricks - Megalist of Secret SQL Queries</a></li>
 <li><a href="/databases/sqlite-space-optimization-with-rowd-id">SQLite db optimization with ROWID</a></li>
 <li><a href="/databases/slowly-changing-dimensions">Slowly Changing Dimensions (SCD)</a></li>
+<li><a href="/databases/postgres-backup-restore">Taking & Restoring Postgres Backups</a></li>
 <li><a href="/databases/oath-for-3-normal-forms">The 3NF Oath ✋🏼</a></li>
 </ul>
 

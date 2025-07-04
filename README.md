@@ -34,7 +34,7 @@
 <tr>
 <td><a href="#compilers">Compilers</a><sup>[1]</sup></td>
 <td><a href="#data-warehouse">Data Warehouse</a><sup>[1]</sup></td>
-<td><a href="#databases">Databases</a><sup>[12]</sup></td>
+<td><a href="#databases">Databases</a><sup>[13]</sup></td>
 </tr>
 <tr>
 <td><a href="#devops">Devops</a><sup>[8]</sup></td>
@@ -182,6 +182,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/postgres-tips-megalist.md">Postgres Tips & Tricks - Megalist of Secret SQL Queries</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/sqlite-space-optimization-with-rowd-id.md">SQLite db optimization with ROWID</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/slowly-changing-dimensions.md">Slowly Changing Dimensions (SCD)</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/postgres-backup-restore.md">Taking & Restoring Postgres Backups</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/oath-for-3-normal-forms.md">The 3NF Oath ✋🏼</a></li>
 </ul>
 

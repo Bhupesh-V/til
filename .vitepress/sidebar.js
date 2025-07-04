@@ -187,6 +187,10 @@ export const sidebar = [
         "link": "/databases/slowly-changing-dimensions"
       },
       {
+        "text": "Taking & Restoring Postgres Backups",
+        "link": "/databases/postgres-backup-restore"
+      },
+      {
         "text": "The 3NF Oath \u270b\ud83c\udffc",
         "link": "/databases/oath-for-3-normal-forms"
       }
