@@ -7,6 +7,10 @@
   - [Example](#example)
 - [Restoring from Backup](#restoring-from-backup)
   - [Example](#example-1)
+- [Verifying Backup Restores](#verifying-backup-restores)
+  - [Check all Indexes across `public` schema](#check-all-indexes-across-public-schema)
+  - [Check all ENUM types across `public` schema](#check-all-enum-types-across-public-schema)
+  - [Check total count of rows for critical tables](#check-total-count-of-rows-for-critical-tables)
 - [Tips](#tips)
 
 
@@ -114,6 +118,60 @@ Assuming the new db is running at port `5492` with a name `db_2`
 
 ```
 PGPASSWORD='123' pg_restore -h localhost -p 5492 -U db -d db_2 --exit-on-error --single-transaction source.dump
+```
+
+## Verifying Backup Restores
+
+To perform a High level verification of the backups restored (other than the functional tests).
+
+### Check all Indexes across `public` schema
+
+```
+select
+  n.nspname as schema_name,
+  t.relname as table_name,
+  i.relname as index_name,
+  ix.indisprimary as is_pk,
+  ix.indisunique as is_unique
+from
+  pg_index ix
+  join pg_class i on i.oid = ix.indexrelid
+  join pg_class t on t.oid = ix.indrelid
+  join pg_namespace n on n.oid = t.relnamespace
+where
+  t.relkind = 'r' -- regular tables
+  and n.nspname = 'public'
+order by
+  t.relname,
+  i.relname;
+```
+
+### Check all ENUM types across `public` schema
+
+```sql
+SELECT
+  n.nspname AS schema,
+  t.typname AS enum_type,
+  e.enumlabel AS enum_value,
+  e.enumsortorder
+FROM
+  pg_type t
+  JOIN pg_enum e ON t.oid = e.enumtypid
+  JOIN pg_namespace n ON n.oid = t.typnamespace
+WHERE
+  n.nspname = 'public'
+ORDER BY
+  enum_type,
+  enumsortorder;
+```
+
+### Check total count of rows for critical tables
+
+```sql
+SELECT
+  (SELECT COUNT(*) FROM users) AS user_count,
+  (SELECT COUNT(*) FROM gorp_migrations) AS migrations_count;
+  ...
 ```
 
 ## Tips
