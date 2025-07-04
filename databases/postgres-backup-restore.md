@@ -16,7 +16,7 @@
 
 ## Pre-requisites
 
-- We primarily need `pg_dump` & `pg_restore`.
+- We primarily need [`pg_dump`](https://www.postgresql.org/docs/16/app-pgrestore.html) & [`pg_restore`](https://www.postgresql.org/docs/16/app-pgdump.html).
   - On Mac: `brew install postgresql@16`
 
 > Note: It's important that the Postgres CLI tools version should match the Postgres database version.
@@ -122,11 +122,11 @@ PGPASSWORD='123' pg_restore -h localhost -p 5492 -U db -d db_2 --exit-on-error -
 
 ## Verifying Backup Restores
 
-To perform a High level verification of the backups restored (other than the functional tests).
+Different way to perform a High level verification of the backups restored (other than the application level functional tests).
 
 ### Check all Indexes across `public` schema
 
-```
+```sql
 select
   n.nspname as schema_name,
   t.relname as table_name,
