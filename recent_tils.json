@@ -1,5 +1,9 @@
 [
  {
+  "title": "Taking & Restoring Postgres Backups",
+  "url": "https://til.bhupesh.me/databases/postgres-backup-restore"
+ },
+ {
   "title": "How to run a Local Nomad Cluster",
   "url": "https://til.bhupesh.me/devops/running-nomad-cluster"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Slowly Changing Dimensions (SCD)",
   "url": "https://til.bhupesh.me/databases/slowly-changing-dimensions"
- },
- {
-  "title": "Seamlessly Exporting Environment Variables for Shell, VSCode Debugger & Makefile",
-  "url": "https://til.bhupesh.me/shell/exporting-environment-variables-shell-and-vscode"
  }
 ]
