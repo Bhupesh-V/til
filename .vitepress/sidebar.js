@@ -72,6 +72,15 @@ export const sidebar = [
     ]
   },
   {
+    "text": "Citizen",
+    "items": [
+      {
+        "text": "Grievance Sites for Indian Citizens",
+        "link": "/citizen/grievances"
+      }
+    ]
+  },
+  {
     "text": "Coding Practices",
     "items": [
       {
