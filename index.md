@@ -15,7 +15,7 @@
 </tr>
 <tr>
 <td><a href="#career">Career</a><sup>[9]</sup></td>
-<td><a href="#citizen">Citizen</a><sup>[1]</sup></td>
+<td><a href="#citizen">Citizen</a><sup>[2]</sup></td>
 <td><a href="#coding-practices">Coding Practices</a><sup>[5]</sup></td>
 </tr>
 <tr>
@@ -152,6 +152,7 @@
 ### Citizen
 
 <ul>
+<li><a href="/citizen/scam-spam">Figthing Scams</a></li>
 <li><a href="/citizen/grievances">Grievance Sites for Indian Citizens</a></li>
 </ul>
 

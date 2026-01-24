@@ -75,6 +75,10 @@ export const sidebar = [
     "text": "Citizen",
     "items": [
       {
+        "text": "Figthing Scams",
+        "link": "/citizen/scam-spam"
+      },
+      {
         "text": "Grievance Sites for Indian Citizens",
         "link": "/citizen/grievances"
       }

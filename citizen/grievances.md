@@ -8,6 +8,8 @@ How I deal with complaints in my nation ☹️
 - [CPGRAMS (Nation Wide)](#cpgrams-nation-wide)
 - [Grieveance Formats](#grieveance-formats)
   - [DJB Mutation](#djb-mutation)
+- [Claming seat in train](#claming-seat-in-train)
+- [Cleanliness](#cleanliness)
 
 
 ## PGMS (Delhi)
@@ -58,3 +60,15 @@ Thanks & Regards,
 Name: Your Name
 Mobile No: Your mobile
 ```
+
+## Claming seat in train
+
+1. Send SMS: `SEAT <PNR Number> <Seat Number> OCCUPIED BY UNKNOWN PASSENGER` to 139
+2. Use RailMaded [App](https://play.google.com/store/apps/details?id=org.cris.aikyam) or [Website](https://railmadad.indianrailways.gov.in/madad/final/home.jsp)
+
+
+## Cleanliness
+
+For complaints related to unclean public toilets, garbage dumps, potholes etc.
+
+[Swachhata-MoHUA](https://play.google.com/store/apps/details?id=com.ichangemycity.swachhbharat&hl=en_IN)
