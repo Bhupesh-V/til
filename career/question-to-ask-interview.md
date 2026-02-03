@@ -1,21 +1,26 @@
 # Questions to ask in an interview
 
+## Questions for immediate colleagues
 
-1. What’s the biggest priority for the team right now?
-2. Why is this role open?
-3. What’s the biggest challenge for someone stepping into this role?
-4. How does the org structure on the team work?
-5. What a typical day is like?
-6. Is the product live in production? If not, what's the schedule for developing it? (Particularly valid for early stage & stealth startups)
-7. How often are releases done?
-8. Do you have a favorite part of the job? Least favorite?
-9. Budget for conferences?
-10. Management style/structure? Frequent catch-ups aka one-on-ones? Something else?
-11. Learning opportunities?
-12. Ask about last employee who left, what was the reason?
-13. How managers/senior folks help coach employees through a weakness.
-14. How often feedback is given to you and collected from you.
+1. What’s the biggest **priority** for the team right now? OR Why is this role open?
+2. What’s the biggest **challenge** for someone stepping into this role?
+3. What a typical day is like?
+4. Is the product live in production? If not, what's the schedule for developing it? (Particularly valid for early stage & stealth startups)
+5. How often are releases done?
+6. Do you have a **favorite part of the job**? Least favorite?
+7. Budget for conferences.
+8. Learning opportunities.
 
+## Questions for Founders/HRs
+
+1. List of tools that are absolutely necessary for the job (check for documentation tools, tools that require you to be available online all the time).
+2. Explain how the process for resolving a team dispute would look like?
+3. Is there any micro-management?
+4. Are employees [psychologically safe](https://psychsafety.com/about-psychological-safety/)?
+5. Ask about last employee who left or got laid-off, what was the reason?
+6. How often feedback is given to you and collected from you?
+7. KPIs for employees OR How managers/senior folks help coach employees through a weakness.
+8. How does the org. structure look like?
 
 ## Resources
 - [Interview Questions to Ask Your Interviewer](https://daveceddia.com/interview-questions-to-ask-company/?utm_content=197408362&utm_medium=social&utm_source=twitter&hss_channel=tw-4083531)
