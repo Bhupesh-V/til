@@ -1,5 +1,9 @@
 [
  {
+  "title": "Figthing Scams",
+  "url": "https://til.bhupesh.me/citizen/scam-spam"
+ },
+ {
   "title": "Grievance Sites for Indian Citizens",
   "url": "https://til.bhupesh.me/citizen/grievances"
  },
@@ -34,9 +38,5 @@
  {
   "title": "The 3NF Oath ✋🏼",
   "url": "https://til.bhupesh.me/databases/oath-for-3-normal-forms"
- },
- {
-  "title": "Mega List of Tips for Writing Performant Go Code",
-  "url": "https://til.bhupesh.me/go/writing-performant-go-code-megalist"
  }
 ]

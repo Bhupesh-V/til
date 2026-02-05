@@ -28,7 +28,7 @@
 </tr>
 <tr>
 <td><a href="#career">Career</a><sup>[9]</sup></td>
-<td><a href="#citizen">Citizen</a><sup>[2]</sup></td>
+<td><a href="#citizen">Citizen</a><sup>[3]</sup></td>
 <td><a href="#coding-practices">Coding Practices</a><sup>[5]</sup></td>
 </tr>
 <tr>
@@ -52,7 +52,7 @@
 <td><a href="#management">Management</a><sup>[1]</sup></td>
 </tr>
 <tr>
-<td><a href="#meta">Meta</a><sup>[3]</sup></td>
+<td><a href="#meta">Meta</a><sup>[4]</sup></td>
 <td><a href="#miscellaneous">Miscellaneous</a><sup>[15]</sup></td>
 <td><a href="#people">People</a><sup>[2]</sup></td>
 </tr>
@@ -127,6 +127,7 @@
 ### Citizen
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/citizen/property.md">Accquiring properties in India</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/citizen/scam-spam.md">Figthing Scams</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/citizen/grievances.md">Grievance Sites for Indian Citizens</a></li>
 </ul>
@@ -313,6 +314,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/meta/checklist-documenting-medium-scale-system-architecture.md">Checklist for documenting a medium to large scale system architecture</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/meta/creative-writing.md">Creative Writing</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/meta/tech-writing-cookbook.md">Tech Writing Cookbook - Writing tips for you & my future self</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/meta/the-good-that-comes-with-maintaining-blogs.md">The good that comes with maintaining blogs</a></li>
 </ul>

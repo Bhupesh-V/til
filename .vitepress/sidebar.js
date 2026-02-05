@@ -75,6 +75,10 @@ export const sidebar = [
     "text": "Citizen",
     "items": [
       {
+        "text": "Accquiring properties in India",
+        "link": "/citizen/property"
+      },
+      {
         "text": "Figthing Scams",
         "link": "/citizen/scam-spam"
       },
@@ -439,6 +443,10 @@ export const sidebar = [
       {
         "text": "Checklist for documenting a medium to large scale system architecture",
         "link": "/meta/checklist-documenting-medium-scale-system-architecture"
+      },
+      {
+        "text": "Creative Writing",
+        "link": "/meta/creative-writing"
       },
       {
         "text": "Tech Writing Cookbook - Writing tips for you & my future self",

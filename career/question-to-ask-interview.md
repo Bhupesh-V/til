@@ -21,6 +21,7 @@
 6. How often feedback is given to you and collected from you?
 7. KPIs for employees OR How managers/senior folks help coach employees through a weakness.
 8. How does the org. structure look like?
+9. What types of skills is the team missing that you’re looking to fill with a new hire?
 
 ## Resources
 - [Interview Questions to Ask Your Interviewer](https://daveceddia.com/interview-questions-to-ask-company/?utm_content=197408362&utm_medium=social&utm_source=twitter&hss_channel=tw-4083531)
