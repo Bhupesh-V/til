@@ -29,6 +29,34 @@ A story consists of following items glued together by conflict,
    - Make good on all the build-up of plot and characters.
    - Should flow naturally, should give readers everything they were promised and more.
 
+**Viewpoints**
+
+1. Omniscient
+   1. Present Narrative
+   2. True Omniscient
+   3. Limited (narrator foollows one person at a time.)
+2. 1st Person (Memoir)
+   1. Epistolary (story told via letters, diary entries, emails etc.)
+   2. Flashback (retrospective)
+   3. Cinematic (observational, more focus on environment)
+3. 2nd Person (mostly seen in self-help books)
+
+### Characters
+
+How to make people emotionally invested in a character.
+
+1. Establish empathy
+   - Show they are like us.
+   - Make them nice.
+   - Show people liking them.
+2. Establish routing interest
+   - Show character motivations.
+   - What do they want & what can't they have it.
+   - Personal connection of character with the plot.
+3. Establish the pogress.
+   - Show the flaw.
+   - Set-up the journey.
+
 ## Formats
 
 ### Short Stories
@@ -90,7 +118,6 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
    1. Ant man - small crew heist.
    2. Thor - epic fantasy.
    3. Captain America (Winter Soldier) - spy thriller.
-2. Genre is main
 
 ## Resources
 
