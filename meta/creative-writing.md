@@ -1,14 +1,17 @@
 # Creative Writing
 
-**Story**
+Collected notes on practicing creative writiing, its an art form we have been using to tell stories for centuries now, it makes sense to learn some versions of the existing theory, the following TIL post is an attempt at that.
 
-A story consists of tied together by conflict,
-1. Plot/Idea
-2. Characters
-3. Setting
+> I might relate creative writing to computer programming throughout the text (in a lot of way its similar).
 
-- Short stories can be based on one idea, however a book will usually be a collection of ideas.
-- Setting is the least important.
+## Basics
+
+A story consists of following items glued together by conflict,
+1. Plot/Idea (motion)
+2. Characters (motivation)
+3. Setting (environment)
+
+### Plot
 
 1. Promise
    - Stories make one or more (tone) promises.
@@ -20,19 +23,19 @@ A story consists of tied together by conflict,
 2. Progress
    - Hardest.
    - There's a time clock that a reader feels when reading a story (page numbers, chapters, visual maps) that makes the story compelling.
-   - Page turner indicates that "progress" in happening (gives the illusion of progress to the reader).
    - Can be done by indentifying the type of plot.
    - Do mini-plots (nested code).
 3. Payoff
-   - Make good on all of it.
-   - Should flow naturally, should give readers everything they were promised.
-   - Try to give people more than they expected.
+   - Make good on all the build-up of plot and characters.
+   - Should flow naturally, should give readers everything they were promised and more.
 
-## Short Stories
+## Formats
 
-Reader Experience: delievering a specific emotional "punch" (can be correlated to watching short videos, reels).
+### Short Stories
 
-### Techniques
+- Short stories can be based on one idea/plot and a minimum of 1-2 characters.
+- Setting is the not that important.
+- Reader Experience: delievering a specific emotional "punch" (can be correlated to watching short videos, reels).
 
 #### MICE Quotient (Organisational theory)
 
@@ -50,7 +53,7 @@ Reader Experience: delievering a specific emotional "punch" (can be correlated t
 
 Most stories are made by multiple variations of above (mice) threads. Can be modelled using HTML DOM.
 
-### Flash Fiction
+#### A structured process for writing flash fiction
 
 1. **Opening** (first 3 sentences)
    - Make promises.
@@ -76,6 +79,18 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
      - **no-but** (didn't move towards goal but something good happens)
 5. **Wrap up** (next 3 sentences)
    - Close out mice threads.
+
+### Books
+
+- Multiple ideas mashed together.
+
+## Interesting insights from public media
+
+1. A lot of marvel movies are of different genre with a common theme of _superhero_.
+   1. Ant man - small crew heist.
+   2. Thor - epic fantasy.
+   3. Captain America (Winter Soldier) - spy thriller.
+2. Genre is main
 
 ## Resources
 
