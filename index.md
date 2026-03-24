@@ -34,29 +34,29 @@
 <td><a href="#git">Git</a><sup>[10]</sup></td>
 </tr>
 <tr>
-<td><a href="#go">Go</a><sup>[17]</sup></td>
+<td><a href="#go">Go</a><sup>[18]</sup></td>
 <td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
-<td><a href="#management">Management</a><sup>[1]</sup></td>
+<td><a href="#infra">Infra</a><sup>[1]</sup></td>
 </tr>
 <tr>
+<td><a href="#management">Management</a><sup>[1]</sup></td>
 <td><a href="#meta">Meta</a><sup>[4]</sup></td>
 <td><a href="#miscellaneous">Miscellaneous</a><sup>[15]</sup></td>
+</tr>
+<tr>
 <td><a href="#people">People</a><sup>[2]</sup></td>
-</tr>
-<tr>
 <td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
-<td><a href="#python">Python</a><sup>[19]</sup></td>
-<td><a href="#sales">Sales</a><sup>[1]</sup></td>
+<td><a href="#python">Python</a><sup>[20]</sup></td>
 </tr>
 <tr>
+<td><a href="#sales">Sales</a><sup>[1]</sup></td>
 <td><a href="#shell">Shell</a><sup>[30]</sup></td>
 <td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
-<td><a href="#startups">Startups</a><sup>[1]</sup></td>
 </tr>
 <tr>
+<td><a href="#startups">Startups</a><sup>[1]</sup></td>
 <td><a href="#vim">Vim</a><sup>[8]</sup></td>
 <td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -66,6 +66,12 @@
 
 <table align="center">
 <tbody>
+<tr>
+<td><a href="https://til.bhupesh.me/citizen/property">Accquiring properties in India</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/meta/creative-writing">Creative Writing</a></td>
+</tr>
 <tr>
 <td><a href="https://til.bhupesh.me/citizen/scam-spam">Figthing Scams</a></td>
 </tr>
@@ -89,12 +95,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/go/writing-benchmarks">Writing benchmarks for Go apps</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/psychology/unconsious-thought-theory">Unconscious Thought Theory</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/databases/oath-for-3-normal-forms">The 3NF Oath ✋🏼</a></td>
 </tr>
 </tbody>
 </table>
@@ -301,6 +301,7 @@
 <li><a href="/go/concurrency-difference-go-vs-elixir">Concurrency Comparison: Go v/s Elixir</a></li>
 <li><a href="/go/string-to-int-and-vice-versa">Convert `string` to `int` and vice-versa in Go</a></li>
 <li><a href="/go/python-next-alternative-go-clousers">Creating Python's next() alternative using Go Closures</a></li>
+<li><a href="/go/fuzzy-string-matching-in-golang">Getting close string matches in Go</a></li>
 <li><a href="/go/measure-execution-time-in-go">Measure Exection time in Go</a></li>
 <li><a href="/go/writing-performant-go-code-megalist">Mega List of Tips for Writing Performant Go Code</a></li>
 <li><a href="/go/memoization-using-golang-generics">Memoization using Golang Generics</a></li>
@@ -321,6 +322,15 @@
 
 <ul>
 <li><a href="/hotwheels/find-when-a-car-was-manufactured">Find when a hotwheels car was manufactured</a></li>
+</ul>
+
+
+
+
+### Infra
+
+<ul>
+<li><a href="/infra/http3">Brief intro to HTTP 3</a></li>
 </ul>
 
 
@@ -407,6 +417,7 @@
 <li><a href="/python/faster-python-tips-and-tricks">Fastest Python First: Tips and Tricks 🏃</a></li>
 <li><a href="/python/functional-programming-in-python">Functional Programming in Python 🐍</a></li>
 <li><a href="/python/generating-random-secure-password-python">Generate random secure password using python</a></li>
+<li><a href="/python/independent-python-scripts">Make python scripts independent</a></li>
 <li><a href="/python/measure-code-execution-time-python">Measure code execution time using timer</a></li>
 <li><a href="/python/pep8">PEP8 - the fashion 💃 police of Python</a></li>
 <li><a href="/python/preventing-global-package-install">Preventing global package install with `PIP_REQUIRE_VIRTUALENV`</a></li>

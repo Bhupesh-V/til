@@ -374,6 +374,10 @@ export const sidebar = [
         "link": "/go/python-next-alternative-go-clousers"
       },
       {
+        "text": "Getting close string matches in Go",
+        "link": "/go/fuzzy-string-matching-in-golang"
+      },
+      {
         "text": "Measure Exection time in Go",
         "link": "/go/measure-execution-time-in-go"
       },
@@ -425,6 +429,15 @@ export const sidebar = [
       {
         "text": "Find when a hotwheels car was manufactured",
         "link": "/hotwheels/find-when-a-car-was-manufactured"
+      }
+    ]
+  },
+  {
+    "text": "Infra",
+    "items": [
+      {
+        "text": "Brief intro to HTTP 3",
+        "link": "/infra/http3"
       }
     ]
   },
@@ -607,6 +620,10 @@ export const sidebar = [
       {
         "text": "Generate random secure password using python",
         "link": "/python/generating-random-secure-password-python"
+      },
+      {
+        "text": "Make python scripts independent",
+        "link": "/python/independent-python-scripts"
       },
       {
         "text": "Measure code execution time using timer",

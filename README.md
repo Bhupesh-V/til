@@ -47,29 +47,29 @@
 <td><a href="#git">Git</a><sup>[10]</sup></td>
 </tr>
 <tr>
-<td><a href="#go">Go</a><sup>[17]</sup></td>
+<td><a href="#go">Go</a><sup>[18]</sup></td>
 <td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
-<td><a href="#management">Management</a><sup>[1]</sup></td>
+<td><a href="#infra">Infra</a><sup>[1]</sup></td>
 </tr>
 <tr>
+<td><a href="#management">Management</a><sup>[1]</sup></td>
 <td><a href="#meta">Meta</a><sup>[4]</sup></td>
 <td><a href="#miscellaneous">Miscellaneous</a><sup>[15]</sup></td>
+</tr>
+<tr>
 <td><a href="#people">People</a><sup>[2]</sup></td>
-</tr>
-<tr>
 <td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
-<td><a href="#python">Python</a><sup>[19]</sup></td>
-<td><a href="#sales">Sales</a><sup>[1]</sup></td>
+<td><a href="#python">Python</a><sup>[20]</sup></td>
 </tr>
 <tr>
+<td><a href="#sales">Sales</a><sup>[1]</sup></td>
 <td><a href="#shell">Shell</a><sup>[30]</sup></td>
 <td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
-<td><a href="#startups">Startups</a><sup>[1]</sup></td>
 </tr>
 <tr>
+<td><a href="#startups">Startups</a><sup>[1]</sup></td>
 <td><a href="#vim">Vim</a><sup>[8]</sup></td>
 <td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -276,6 +276,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/concurrency-difference-go-vs-elixir.md">Concurrency Comparison: Go v/s Elixir</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/string-to-int-and-vice-versa.md">Convert `string` to `int` and vice-versa in Go</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/python-next-alternative-go-clousers.md">Creating Python's next() alternative using Go Closures</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/fuzzy-string-matching-in-golang.md">Getting close string matches in Go</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/measure-execution-time-in-go.md">Measure Exection time in Go</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/writing-performant-go-code-megalist.md">Mega List of Tips for Writing Performant Go Code</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/go/memoization-using-golang-generics.md">Memoization using Golang Generics</a></li>
@@ -296,6 +297,15 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/hotwheels/find-when-a-car-was-manufactured.md">Find when a hotwheels car was manufactured</a></li>
+</ul>
+
+
+
+
+### Infra
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/infra/http3.md">Brief intro to HTTP 3</a></li>
 </ul>
 
 
@@ -382,6 +392,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/python/faster-python-tips-and-tricks.md">Fastest Python First: Tips and Tricks 🏃</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/python/functional-programming-in-python.md">Functional Programming in Python 🐍</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/python/generating-random-secure-password-python.md">Generate random secure password using python</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/python/independent-python-scripts.md">Make python scripts independent</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/python/measure-code-execution-time-python.md">Measure code execution time using timer</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/python/pep8.md">PEP8 - the fashion 💃 police of Python</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/python/preventing-global-package-install.md">Preventing global package install with `PIP_REQUIRE_VIRTUALENV`</a></li>

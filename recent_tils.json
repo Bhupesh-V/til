@@ -1,5 +1,13 @@
 [
  {
+  "title": "Accquiring properties in India",
+  "url": "https://til.bhupesh.me/citizen/property"
+ },
+ {
+  "title": "Creative Writing",
+  "url": "https://til.bhupesh.me/meta/creative-writing"
+ },
+ {
   "title": "Figthing Scams",
   "url": "https://til.bhupesh.me/citizen/scam-spam"
  },
@@ -30,13 +38,5 @@
  {
   "title": "Writing benchmarks for Go apps",
   "url": "https://til.bhupesh.me/go/writing-benchmarks"
- },
- {
-  "title": "Unconscious Thought Theory",
-  "url": "https://til.bhupesh.me/psychology/unconsious-thought-theory"
- },
- {
-  "title": "The 3NF Oath ✋🏼",
-  "url": "https://til.bhupesh.me/databases/oath-for-3-normal-forms"
  }
 ]
