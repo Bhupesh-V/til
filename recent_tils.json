@@ -1,5 +1,17 @@
 [
  {
+  "title": "Getting close string matches in Go",
+  "url": "https://til.bhupesh.me/go/fuzzy-string-matching-in-golang"
+ },
+ {
+  "title": "Brief intro to HTTP 3",
+  "url": "https://til.bhupesh.me/infra/http3"
+ },
+ {
+  "title": "Make python scripts independent",
+  "url": "https://til.bhupesh.me/python/independent-python-scripts"
+ },
+ {
   "title": "Accquiring properties in India",
   "url": "https://til.bhupesh.me/citizen/property"
  },
@@ -26,17 +38,5 @@
  {
   "title": "How I think about Green Software",
   "url": "https://til.bhupesh.me/miscellaneous/green-software"
- },
- {
-  "title": "The IKEA Effect",
-  "url": "https://til.bhupesh.me/psychology/ikea-effect"
- },
- {
-  "title": "Resilience Engineering",
-  "url": "https://til.bhupesh.me/distributed-computing/resilience-engineering"
- },
- {
-  "title": "Writing benchmarks for Go apps",
-  "url": "https://til.bhupesh.me/go/writing-benchmarks"
  }
 ]

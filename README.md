@@ -54,7 +54,7 @@
 <tr>
 <td><a href="#management">Management</a><sup>[1]</sup></td>
 <td><a href="#meta">Meta</a><sup>[4]</sup></td>
-<td><a href="#miscellaneous">Miscellaneous</a><sup>[15]</sup></td>
+<td><a href="#miscellaneous">Miscellaneous</a><sup>[16]</sup></td>
 </tr>
 <tr>
 <td><a href="#people">People</a><sup>[2]</sup></td>
@@ -338,6 +338,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/all-odp-files-are-zip-archives.md">All .odp files are zip archives</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/regex-compiler-research.md">Creating a Regex Compiler/Parser - Research</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/deploy-to-heroku.md">Deploying to Heroku</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/research.md">Everything about conducting research</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/green-software.md">How I think about Green Software</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/internet-search-tricks-tips-for-developers.md">Internet search tips & tricks for developers</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/kill-open-ports-linux.md">Killing Open Ports in Linux</a></li>

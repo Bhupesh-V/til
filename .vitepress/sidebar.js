@@ -487,6 +487,10 @@ export const sidebar = [
         "link": "/miscellaneous/deploy-to-heroku"
       },
       {
+        "text": "Everything about conducting research",
+        "link": "/miscellaneous/research"
+      },
+      {
         "text": "How I think about Green Software",
         "link": "/miscellaneous/green-software"
       },

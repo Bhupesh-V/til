@@ -41,7 +41,7 @@
 <tr>
 <td><a href="#management">Management</a><sup>[1]</sup></td>
 <td><a href="#meta">Meta</a><sup>[4]</sup></td>
-<td><a href="#miscellaneous">Miscellaneous</a><sup>[15]</sup></td>
+<td><a href="#miscellaneous">Miscellaneous</a><sup>[16]</sup></td>
 </tr>
 <tr>
 <td><a href="#people">People</a><sup>[2]</sup></td>
@@ -67,6 +67,15 @@
 <table align="center">
 <tbody>
 <tr>
+<td><a href="https://til.bhupesh.me/go/fuzzy-string-matching-in-golang">Getting close string matches in Go</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/infra/http3">Brief intro to HTTP 3</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/python/independent-python-scripts">Make python scripts independent</a></td>
+</tr>
+<tr>
 <td><a href="https://til.bhupesh.me/citizen/property">Accquiring properties in India</a></td>
 </tr>
 <tr>
@@ -86,15 +95,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/miscellaneous/green-software">How I think about Green Software</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/psychology/ikea-effect">The IKEA Effect</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/distributed-computing/resilience-engineering">Resilience Engineering</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/go/writing-benchmarks">Writing benchmarks for Go apps</a></td>
 </tr>
 </tbody>
 </table>
@@ -363,6 +363,7 @@
 <li><a href="/miscellaneous/all-odp-files-are-zip-archives">All .odp files are zip archives</a></li>
 <li><a href="/miscellaneous/regex-compiler-research">Creating a Regex Compiler/Parser - Research</a></li>
 <li><a href="/miscellaneous/deploy-to-heroku">Deploying to Heroku</a></li>
+<li><a href="/miscellaneous/research">Everything about conducting research</a></li>
 <li><a href="/miscellaneous/green-software">How I think about Green Software</a></li>
 <li><a href="/miscellaneous/internet-search-tricks-tips-for-developers">Internet search tips & tricks for developers</a></li>
 <li><a href="/miscellaneous/kill-open-ports-linux">Killing Open Ports in Linux</a></li>
