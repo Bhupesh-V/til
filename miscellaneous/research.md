@@ -6,6 +6,11 @@
 - Positivism entails that the world is objective and there's a fundamental _truth_. Relies on deductive logic.
 - Constructivism entails that the world is subjective and things can only be understood based on people's experiences. Relies on qualitative research methods.
 
+## Viewpoints
+
+1. Insider
+2. Outsider
+
 ## Building a research question
 
 | Type of question | Description |

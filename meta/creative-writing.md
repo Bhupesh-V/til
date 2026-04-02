@@ -29,12 +29,20 @@ A story consists of following items glued together by conflict,
    - Make good on all the build-up of plot and characters.
    - Should flow naturally, should give readers everything they were promised and more.
 
+Another way to word the above steps:
+
+1. Hook
+2. Context
+3. Tension
+4. Pivot
+5. PayOff
+
 **Viewpoints**
 
 1. Omniscient
    1. Present Narrative
    2. True Omniscient
-   3. Limited (narrator foollows one person at a time.)
+   3. Limited (narrator follows one person at a time.)
 2. 1st Person (Memoir)
    1. Epistolary (story told via letters, diary entries, emails etc.)
    2. Flashback (retrospective)
@@ -123,3 +131,8 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
 
 - [2020 Creative Writing Lectures at BYU - Brandon Sanderson](https://youtube.com/playlist?list=PLSH_xM-KC3Zv-79sVZTTj-YA6IAqh8qeQ&si=ASGDEKEuQVMKkrHE)
 
+
+## Inspirations
+
+- [How to rap](https://www.instagram.com/reel/DVQmRPjkWVx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+- [Writing a joke](https://www.instagram.com/reels/DR5tY4WDN9b/)
