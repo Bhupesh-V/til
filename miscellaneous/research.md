@@ -28,3 +28,7 @@
 ## References
 
 - [Critically exploring psychology](https://www.open.edu/openlearn/health-sports-psychology/critically-exploring-psychology/content-section-0?active-tab=description-tab)
+
+## Resources
+
+- [How to develop good research questions](https://www.nature.com/articles/s41562-025-02292-5.epdf)

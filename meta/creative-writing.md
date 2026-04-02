@@ -127,7 +127,7 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
    2. Thor - epic fantasy.
    3. Captain America (Winter Soldier) - spy thriller.
 
-## Resources
+## References
 
 - [2020 Creative Writing Lectures at BYU - Brandon Sanderson](https://youtube.com/playlist?list=PLSH_xM-KC3Zv-79sVZTTj-YA6IAqh8qeQ&si=ASGDEKEuQVMKkrHE)
 
@@ -136,3 +136,7 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
 
 - [How to rap](https://www.instagram.com/reel/DVQmRPjkWVx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 - [Writing a joke](https://www.instagram.com/reels/DR5tY4WDN9b/)
+
+## Resources
+
+- [A resource thread to get better at storytelling](https://x.com/deyemipresh/status/2031698198658482560)

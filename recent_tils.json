@@ -1,5 +1,9 @@
 [
  {
+  "title": "Everything about conducting research",
+  "url": "https://til.bhupesh.me/miscellaneous/research"
+ },
+ {
   "title": "Getting close string matches in Go",
   "url": "https://til.bhupesh.me/go/fuzzy-string-matching-in-golang"
  },
@@ -34,9 +38,5 @@
  {
   "title": "How to run a Local Nomad Cluster",
   "url": "https://til.bhupesh.me/devops/running-nomad-cluster"
- },
- {
-  "title": "How I think about Green Software",
-  "url": "https://til.bhupesh.me/miscellaneous/green-software"
  }
 ]

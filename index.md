@@ -67,6 +67,9 @@
 <table align="center">
 <tbody>
 <tr>
+<td><a href="https://til.bhupesh.me/miscellaneous/research">Everything about conducting research</a></td>
+</tr>
+<tr>
 <td><a href="https://til.bhupesh.me/go/fuzzy-string-matching-in-golang">Getting close string matches in Go</a></td>
 </tr>
 <tr>
@@ -92,9 +95,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/devops/running-nomad-cluster">How to run a Local Nomad Cluster</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/miscellaneous/green-software">How I think about Green Software</a></td>
 </tr>
 </tbody>
 </table>
