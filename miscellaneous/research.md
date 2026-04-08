@@ -1,5 +1,6 @@
 # Everything about conducting research
 
+Jotting down my learnings on conducting research from a non-academic POV.
 
 ## Approaches
 
@@ -13,6 +14,15 @@
 
 ## Building a research question
 
+### Research Strategy
+
+1. Case Study
+2. Qualitative Interviews
+3. Quantitative Survey
+4. Action Oriented research
+
+### Questions
+
 | Type of question | Description |
 | :---- | :---- |
 | Existence | Does x exist? |
@@ -24,10 +34,24 @@
 | Causal-comparative | Does x cause more change in y than z does? |
 | Causal-comparative interaction | Does x cause change under certain conditions? |
 
+### Preliminary questions to ask while researching questions
+
+A bunch of questions & queries to research across knowledge mediums to get a holistic understanding of your research topic.
+
+- History of topic.
+- Historical and contemporary problems associated.
+- Actors and their motivations involved.
+- Institutions that govern the knowledge and actors.
+
+## Reflections
+
+- Start building up love for your research topic, when you love something, you wanna know more about them. Only way to do this is to romaticise both the subject and object.
 
 ## References
 
 - [Critically exploring psychology](https://www.open.edu/openlearn/health-sports-psychology/critically-exploring-psychology/content-section-0?active-tab=description-tab)
+- [How to Start Researching as a Hobby](https://sarahschauer.substack.com/p/how-to-start-to-researching-as-a)
+- [Understanding different research perspectives](https://www.open.edu/openlearn/money-business/understanding-different-research-perspectives/content-section-0?active-tab=description-tab)
 
 ## Resources
 
