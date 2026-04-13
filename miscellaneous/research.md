@@ -21,9 +21,9 @@ Jotting down my learnings on conducting research from a non-academic POV.
 3. Quantitative Survey
 4. Action Oriented research
 
-### Questions
+### Types of Questions
 
-| Type of question | Description |
+| Question Type | Description |
 | :---- | :---- |
 | Existence | Does x exist? |
 | Description and classification | To what extent does x exist? |
@@ -38,10 +38,16 @@ Jotting down my learnings on conducting research from a non-academic POV.
 
 A bunch of questions & queries to research across knowledge mediums to get a holistic understanding of your research topic.
 
-- History of topic.
-- Historical and contemporary problems associated.
-- Actors and their motivations involved.
-- Institutions that govern the knowledge and actors.
+1. History of topic.
+2. Historical and contemporary problems associated.
+3. Actors and their motivations involved.
+4. Institutions that govern the knowledge and actors (and their high-level goals).
+
+## The Research Process
+
+### Preliminary Considerations
+
+1. Avoid [logical fallacies](https://www.logicallyfallacious.com/).
 
 ## Reflections
 

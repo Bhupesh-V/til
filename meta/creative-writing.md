@@ -28,6 +28,7 @@ A story consists of following items glued together by conflict,
 3. Payoff
    - Make good on all the build-up of plot and characters.
    - Should flow naturally, should give readers everything they were promised and more.
+   - Reader Engagement: If they are slightly ahead, they feel anticipation. If they are slightly behind, they feel curiosity.
 
 Another way to word the above steps:
 
@@ -120,7 +121,7 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
 
 - Multiple ideas mashed together.
 
-## Interesting insights from public media
+## Insights from Review of public media
 
 1. A lot of marvel movies are of different genre with a common theme of _superhero_.
    1. Ant man - small crew heist.
