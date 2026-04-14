@@ -66,6 +66,14 @@ How to make people emotionally invested in a character.
    - Show the flaw.
    - Set-up the journey.
 
+#### Character Struggle (Arc)
+
+Making the protagonost suffer by having them evaluate:
+
+1. Interpretation - Is your view of the world really true?
+2. Behaviour - What happens when your your old tricks no longer work?
+3. Boundary - What will you do when the only way forward is to dis-regard your morals & principles?
+
 ## Formats
 
 ### Short Stories
@@ -137,6 +145,7 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
 
 - [How to rap](https://www.instagram.com/reel/DVQmRPjkWVx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 - [Writing a joke](https://www.instagram.com/reels/DR5tY4WDN9b/)
+- [How does a character earn their arc](https://www.instagram.com/reel/DWxZasEiRAC/)
 
 ## Resources
 

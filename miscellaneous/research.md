@@ -62,3 +62,6 @@ A bunch of questions & queries to research across knowledge mediums to get a hol
 ## Resources
 
 - [How to develop good research questions](https://www.nature.com/articles/s41562-025-02292-5.epdf)
+
+<!-- TODO -->
+<!-- https://www.open.edu/openlearn/digital-computing/managing-complexity-a-systems-approach-introduction/content-section-4.4 -->
