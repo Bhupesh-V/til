@@ -24,7 +24,7 @@
 <td><a href="#data-warehouse">Data Warehouse</a><sup>[1]</sup></td>
 </tr>
 <tr>
-<td><a href="#databases">Databases</a><sup>[13]</sup></td>
+<td><a href="#databases">Databases</a><sup>[14]</sup></td>
 <td><a href="#devops">Devops</a><sup>[8]</sup></td>
 <td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
 </tr>
@@ -207,6 +207,7 @@
 ### Databases
 
 <ul>
+<li><a href="/databases/acid">ACID</a></li>
 <li><a href="/databases/check-constraint-vs-exclusion-constraint">CHECK constraint v/s EXCLUSION constraint</a></li>
 <li><a href="/databases/clustered-non-clustered-indexes">Clustered & Non-clustered Indexes</a></li>
 <li><a href="/databases/database-sharding">Collected notes on Database Sharding 🗃</a></li>

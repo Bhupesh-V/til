@@ -37,7 +37,7 @@
 <td><a href="#data-warehouse">Data Warehouse</a><sup>[1]</sup></td>
 </tr>
 <tr>
-<td><a href="#databases">Databases</a><sup>[13]</sup></td>
+<td><a href="#databases">Databases</a><sup>[14]</sup></td>
 <td><a href="#devops">Devops</a><sup>[8]</sup></td>
 <td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
 </tr>
@@ -182,6 +182,7 @@
 ### Databases
 
 <ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/acid.md">ACID</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/check-constraint-vs-exclusion-constraint.md">CHECK constraint v/s EXCLUSION constraint</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/clustered-non-clustered-indexes.md">Clustered & Non-clustered Indexes</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/databases/database-sharding.md">Collected notes on Database Sharding 🗃</a></li>

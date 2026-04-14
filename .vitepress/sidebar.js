@@ -160,6 +160,10 @@ export const sidebar = [
     "text": "Databases",
     "items": [
       {
+        "text": "ACID",
+        "link": "/databases/acid"
+      },
+      {
         "text": "CHECK constraint v/s EXCLUSION constraint",
         "link": "/databases/check-constraint-vs-exclusion-constraint"
       },
