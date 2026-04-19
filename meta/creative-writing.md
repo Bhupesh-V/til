@@ -68,11 +68,13 @@ How to make people emotionally invested in a character.
 
 #### Character Struggle (Arc)
 
-Making the protagonost suffer by having them evaluate:
+Making the protagonist suffer by having them evaluate:
 
 1. Interpretation - Is your view of the world really true?
 2. Behaviour - What happens when your your old tricks no longer work?
 3. Boundary - What will you do when the only way forward is to dis-regard your morals & principles?
+
+Conflict can be built by showcasing what the character is running away from (loneliness, cowardice) and then finding what discomfort is keeping them from growing up.
 
 ## Formats
 
@@ -129,23 +131,20 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
 
 - Multiple ideas mashed together.
 
-## Insights from Review of public media
+## Insights from review of public media
 
-1. A lot of marvel movies are of different genre with a common theme of _superhero_.
-   1. Ant man - small crew heist.
-   2. Thor - epic fantasy.
-   3. Captain America (Winter Soldier) - spy thriller.
+- A lot of marvel movies are of different genre with a common theme of _superhero_.
+  1. Ant man - small crew heist.
+  2. Thor - epic fantasy.
+  3. Captain America (Winter Soldier) - spy thriller.
 
-## References
+## References & Inspirations
 
 - [2020 Creative Writing Lectures at BYU - Brandon Sanderson](https://youtube.com/playlist?list=PLSH_xM-KC3Zv-79sVZTTj-YA6IAqh8qeQ&si=ASGDEKEuQVMKkrHE)
-
-
-## Inspirations
-
 - [How to rap](https://www.instagram.com/reel/DVQmRPjkWVx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 - [Writing a joke](https://www.instagram.com/reels/DR5tY4WDN9b/)
 - [How does a character earn their arc](https://www.instagram.com/reel/DWxZasEiRAC/)
+- [Internal Conflict](https://www.instagram.com/reel/DXNpKCXDKnW/)
 
 ## Resources
 
