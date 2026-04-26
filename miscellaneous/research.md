@@ -48,6 +48,7 @@ A bunch of questions & queries to research across knowledge mediums to get a hol
 ### Preliminary Considerations
 
 1. Avoid [logical fallacies](https://www.logicallyfallacious.com/).
+2. Avoid (or keep in check) [cognitive biases](https://thedecisionlab.com/biases).
 
 ## Reflections
 
