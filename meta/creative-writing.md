@@ -66,7 +66,7 @@ How to make people emotionally invested in a character.
    - Show the flaw.
    - Set-up the journey.
 
-#### Character Struggle (Arc)
+#### Character Struggle (Arc) & Conflicts
 
 Making the protagonist suffer by having them evaluate:
 
@@ -74,7 +74,10 @@ Making the protagonist suffer by having them evaluate:
 2. Behaviour - What happens when your your old tricks no longer work?
 3. Boundary - What will you do when the only way forward is to dis-regard your morals & principles?
 
-Conflict can be built by showcasing what the character is running away from (loneliness, cowardice) and then finding what discomfort is keeping them from growing up.
+---
+
+- Conflict can be built by showcasing what the character is running away from (loneliness, cowardice) and then finding what discomfort is keeping them from growing up.
+- _Ideas are dead on arrival_ (ideas aren't original because you are exposed to trans-subjective views your whole life, millions of people existed before you). When you don't put your characters through an ordeal, they are just talking about their feelings (your story is not a therapy session), make the character struggle by introducing chronic or acute conflict which are relatable to a human in the real world (depression, trauma, etc).
 
 ## Formats
 
