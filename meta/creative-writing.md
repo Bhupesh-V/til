@@ -101,7 +101,7 @@ Making the protagonist suffer by having them evaluate:
 - E: Event (Exterior)
   - Driven by action/status-quo.
 
-Most stories are made by multiple variations of above (mice) threads. Can be modelled using HTML DOM.
+Most stories are made by multiple variations of above (mice) threads. HTML DOM is a nice closely related concept. These threads have to opened and closed at right times since we are governed by [zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect), this directly helps keep you reader engaged with curiosity gaps.
 
 #### A structured process for writing flash fiction
 
@@ -133,6 +133,8 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
 ## Miscellaneous Tips
 
 1. The [begin] and [end] of a line is a powerful place to set expectations and surprise readers. Same as the start and end of a episode, chapter, etc.
+2. Hide the fact that you are making the reader work for their story; we are problem solvers by design, so readers can naturally figure some shit out.
+3. [Best stories infuse wonder](https://www.youtube.com/watch?v=KxDwieKpawg).
 
 ## Insights from review of public media
 
@@ -149,6 +151,13 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
 - [How does a character earn their arc](https://www.instagram.com/reel/DWxZasEiRAC/)
 - [Internal Conflict](https://www.instagram.com/reel/DXNpKCXDKnW/)
 
-## Resources
+<!-- ## Resources -->
 
-- [A resource thread to get better at storytelling](https://x.com/deyemipresh/status/2031698198658482560)
+<!-- - [A resource thread to get better at storytelling](https://x.com/deyemipresh/status/2031698198658482560) -->
+
+## Tools
+
+- Emotion Wheels
+  - [Plutchik’s Wheel of Emotions](https://www.6seconds.org/2025/02/06/plutchik-wheel-emotions/), another [reference on idaho state university](https://www.isu.edu/media/libraries/counseling-and-testing/documents/Wheel-of-Emotions-Handout-(3).pdf),
+  - [Lindsay Braman's Emotion Sensation Wheel](https://static1.squarespace.com/static/53ce65d8e4b0939090645d85/t/6825f6d62fd2bc5bca165d34/1747318490777/lindsaybraman-emotion-sensation-feeling-wheel-v1.3-8.5x11-propack.pdf)
+- [droptheadverb](https://droptheadverb.com/)
