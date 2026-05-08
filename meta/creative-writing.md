@@ -130,9 +130,9 @@ Most stories are made by multiple variations of above (mice) threads. Can be mod
 5. **Wrap up** (next 3 sentences)
    - Close out mice threads.
 
-### Books
+## Miscellaneous Tips
 
-- Multiple ideas mashed together.
+1. The [begin] and [end] of a line is a powerful place to set expectations and surprise readers. Same as the start and end of a episode, chapter, etc.
 
 ## Insights from review of public media
 
