@@ -160,4 +160,5 @@ Most stories are made by multiple variations of above (mice) threads. HTML DOM i
 - Emotion Wheels
   - [Plutchik’s Wheel of Emotions](https://www.6seconds.org/2025/02/06/plutchik-wheel-emotions/), another [reference on idaho state university](https://www.isu.edu/media/libraries/counseling-and-testing/documents/Wheel-of-Emotions-Handout-(3).pdf),
   - [Lindsay Braman's Emotion Sensation Wheel](https://static1.squarespace.com/static/53ce65d8e4b0939090645d85/t/6825f6d62fd2bc5bca165d34/1747318490777/lindsaybraman-emotion-sensation-feeling-wheel-v1.3-8.5x11-propack.pdf)
+  - [Geoffrey Roberts’ Emotional Word Wheel](https://feelingswheel.com/)
 - [droptheadverb](https://droptheadverb.com/)
