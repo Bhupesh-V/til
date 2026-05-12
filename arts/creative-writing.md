@@ -162,3 +162,5 @@ Most stories are made by multiple variations of above (mice) threads. HTML DOM i
   - [Lindsay Braman's Emotion Sensation Wheel](https://static1.squarespace.com/static/53ce65d8e4b0939090645d85/t/6825f6d62fd2bc5bca165d34/1747318490777/lindsaybraman-emotion-sensation-feeling-wheel-v1.3-8.5x11-propack.pdf)
   - [Geoffrey Roberts’ Emotional Word Wheel](https://feelingswheel.com/)
 - [droptheadverb](https://droptheadverb.com/)
+- Literary Magazines
+  - [Paris Review](https://jordandotson.com/2021/07/paris-review-the-art-of-fiction-complete-list/)

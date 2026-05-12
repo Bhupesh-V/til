@@ -22,6 +22,19 @@ export const sidebar = [
     ]
   },
   {
+    "text": "Arts",
+    "items": [
+      {
+        "text": "Creative Writing",
+        "link": "/arts/creative-writing"
+      },
+      {
+        "text": "Sketching",
+        "link": "/arts/sketching"
+      }
+    ]
+  },
+  {
     "text": "Aws",
     "items": [
       {
@@ -460,10 +473,6 @@ export const sidebar = [
       {
         "text": "Checklist for documenting a medium to large scale system architecture",
         "link": "/meta/checklist-documenting-medium-scale-system-architecture"
-      },
-      {
-        "text": "Creative Writing",
-        "link": "/meta/creative-writing"
       },
       {
         "text": "Tech Writing Cookbook - Writing tips for you & my future self",

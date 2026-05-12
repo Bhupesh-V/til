@@ -11,52 +11,57 @@
 <tr>
 <td><a href="#android">Android</a><sup>[1]</sup></td>
 <td><a href="#artificial-intelligence">Artificial Intelligence</a><sup>[2]</sup></td>
-<td><a href="#aws">Aws</a><sup>[1]</sup></td>
+<td><a href="#arts">Arts</a><sup>[2]</sup></td>
 </tr>
 <tr>
+<td><a href="#aws">Aws</a><sup>[1]</sup></td>
 <td><a href="#career">Career</a><sup>[9]</sup></td>
 <td><a href="#citizen">Citizen</a><sup>[3]</sup></td>
-<td><a href="#coding-practices">Coding Practices</a><sup>[5]</sup></td>
 </tr>
 <tr>
+<td><a href="#coding-practices">Coding Practices</a><sup>[5]</sup></td>
 <td><a href="#community-building">Community Building</a><sup>[5]</sup></td>
 <td><a href="#compilers">Compilers</a><sup>[1]</sup></td>
-<td><a href="#data-warehouse">Data Warehouse</a><sup>[1]</sup></td>
 </tr>
 <tr>
+<td><a href="#data-warehouse">Data Warehouse</a><sup>[1]</sup></td>
 <td><a href="#databases">Databases</a><sup>[14]</sup></td>
 <td><a href="#devops">Devops</a><sup>[8]</sup></td>
-<td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
 </tr>
 <tr>
+<td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
 <td><a href="#ffmpeg">Ffmpeg</a><sup>[3]</sup></td>
 <td><a href="#flutter">Flutter</a><sup>[3]</sup></td>
-<td><a href="#git">Git</a><sup>[10]</sup></td>
 </tr>
 <tr>
+<td><a href="#git">Git</a><sup>[10]</sup></td>
 <td><a href="#go">Go</a><sup>[18]</sup></td>
 <td><a href="#hotwheels">Hotwheels</a><sup>[1]</sup></td>
+</tr>
+<tr>
 <td><a href="#infra">Infra</a><sup>[1]</sup></td>
-</tr>
-<tr>
 <td><a href="#management">Management</a><sup>[1]</sup></td>
-<td><a href="#meta">Meta</a><sup>[4]</sup></td>
-<td><a href="#miscellaneous">Miscellaneous</a><sup>[16]</sup></td>
+<td><a href="#meta">Meta</a><sup>[3]</sup></td>
 </tr>
 <tr>
+<td><a href="#miscellaneous">Miscellaneous</a><sup>[16]</sup></td>
 <td><a href="#people">People</a><sup>[2]</sup></td>
 <td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
-<td><a href="#python">Python</a><sup>[20]</sup></td>
 </tr>
 <tr>
+<td><a href="#python">Python</a><sup>[20]</sup></td>
 <td><a href="#sales">Sales</a><sup>[1]</sup></td>
 <td><a href="#shell">Shell</a><sup>[30]</sup></td>
-<td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
 </tr>
 <tr>
+<td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
 <td><a href="#startups">Startups</a><sup>[1]</sup></td>
 <td><a href="#vim">Vim</a><sup>[8]</sup></td>
+</tr>
+<tr>
 <td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -66,6 +71,9 @@
 
 <table align="center">
 <tbody>
+<tr>
+<td><a href="https://til.bhupesh.me/databases/acid">ACID</a></td>
+</tr>
 <tr>
 <td><a href="https://til.bhupesh.me/miscellaneous/research">Everything about conducting research</a></td>
 </tr>
@@ -80,9 +88,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/citizen/property">Accquiring properties in India</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/meta/creative-writing">Creative Writing</a></td>
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/citizen/scam-spam">Figthing Scams</a></td>
@@ -118,6 +123,16 @@
 <ul>
 <li><a href="/artificial-intelligence/fundamentals-of-llms">Fundamentals of LLMs</a></li>
 <li><a href="/artificial-intelligence/retrieval-augmented-generative-rag">Retrieval-Augmented Generation (RAG)</a></li>
+</ul>
+
+
+
+
+### Arts
+
+<ul>
+<li><a href="/arts/creative-writing">Creative Writing</a></li>
+<li><a href="/arts/sketching">Sketching</a></li>
 </ul>
 
 
@@ -350,7 +365,6 @@
 
 <ul>
 <li><a href="/meta/checklist-documenting-medium-scale-system-architecture">Checklist for documenting a medium to large scale system architecture</a></li>
-<li><a href="/meta/creative-writing">Creative Writing</a></li>
 <li><a href="/meta/tech-writing-cookbook">Tech Writing Cookbook - Writing tips for you & my future self</a></li>
 <li><a href="/meta/the-good-that-comes-with-maintaining-blogs">The good that comes with maintaining blogs</a></li>
 </ul>
