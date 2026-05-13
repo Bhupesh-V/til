@@ -6,6 +6,7 @@ How I deal with complaints in my nation ☹️
 - [PGMS (Delhi)](#pgms-delhi)
 - [LG (Delhi)](#lg-delhi)
 - [CPGRAMS (Nation Wide)](#cpgrams-nation-wide)
+- [Corruption Complaints (Delhi)](#corruption-complaints-delhi)
 - [Grieveance Formats](#grieveance-formats)
   - [DJB Mutation](#djb-mutation)
 - [Claming seat in train](#claming-seat-in-train)
@@ -36,6 +37,9 @@ https://pgportal.gov.in/
 Thoughts:
 - Majorly useless, all grienavnces are forwarded and closed without any resolutions. I recommend not wasting time here, but try it if you don't have any other option.
 
+## Corruption Complaints (Delhi)
+
+https://vcims.delhi.gov.in/
 
 ## Grieveance Formats
 

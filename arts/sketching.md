@@ -1,5 +1,11 @@
 # Sketching
 
+<!-- ## Terminologies -->
+
+<!-- 1. Tone
+2. Density
+3. Contrast -->
+
 ## Perspective
 
 ### Horizon Line
@@ -13,5 +19,6 @@
 - Always on horizon line. Doesn't matter if its visible or not.
 - Lines of perspective come out from this point.
 
-<!-- ## Hatching -->
+## Hatching
 
+Used for adding "value" to a sketch, primarily depth (3d), shadow and tone (thickness).

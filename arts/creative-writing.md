@@ -1,6 +1,6 @@
 # Creative Writing
 
-Collected notes on practicing creative writiing, its an art form we have been using to tell stories for centuries now, it makes sense to learn some versions of the existing theory, the following TIL post is an attempt at that.
+We have been telling stories for centuries it would be a shame to not know that craft, democracy? money? all of them are stories that are being unfolded as we live. What story are you gonna write?
 
 > I might relate creative writing to computer programming throughout the text (in a lot of way its similar).
 
@@ -151,9 +151,11 @@ Most stories are made by multiple variations of above (mice) threads. HTML DOM i
 - [How does a character earn their arc](https://www.instagram.com/reel/DWxZasEiRAC/)
 - [Internal Conflict](https://www.instagram.com/reel/DXNpKCXDKnW/)
 
-<!-- ## Resources -->
+## Resources
 
-<!-- - [A resource thread to get better at storytelling](https://x.com/deyemipresh/status/2031698198658482560) -->
+- [helpingwritersbecomeauthors](https://www.helpingwritersbecomeauthors.com/)
+- Literary Magazines
+  - [Paris Review](https://jordandotson.com/2021/07/paris-review-the-art-of-fiction-complete-list/)
 
 ## Tools
 
@@ -162,5 +164,3 @@ Most stories are made by multiple variations of above (mice) threads. HTML DOM i
   - [Lindsay Braman's Emotion Sensation Wheel](https://static1.squarespace.com/static/53ce65d8e4b0939090645d85/t/6825f6d62fd2bc5bca165d34/1747318490777/lindsaybraman-emotion-sensation-feeling-wheel-v1.3-8.5x11-propack.pdf)
   - [Geoffrey Roberts’ Emotional Word Wheel](https://feelingswheel.com/)
 - [droptheadverb](https://droptheadverb.com/)
-- Literary Magazines
-  - [Paris Review](https://jordandotson.com/2021/07/paris-review-the-art-of-fiction-complete-list/)
