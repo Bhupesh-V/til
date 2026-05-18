@@ -288,6 +288,10 @@ export const sidebar = [
     "text": "Ffmpeg",
     "items": [
       {
+        "text": "Audio/Video Ops",
+        "link": "/ffmpeg/av-ops"
+      },
+      {
         "text": "Converting videos to High quality GIFs",
         "link": "/ffmpeg/converting-videos-to-high-quality-gif"
       },

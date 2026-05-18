@@ -30,7 +30,7 @@
 </tr>
 <tr>
 <td><a href="#distributed-computing">Distributed Computing</a><sup>[3]</sup></td>
-<td><a href="#ffmpeg">Ffmpeg</a><sup>[3]</sup></td>
+<td><a href="#ffmpeg">Ffmpeg</a><sup>[4]</sup></td>
 <td><a href="#flutter">Flutter</a><sup>[3]</sup></td>
 </tr>
 <tr>
@@ -72,6 +72,9 @@
 <table align="center">
 <tbody>
 <tr>
+<td><a href="https://til.bhupesh.me/arts/sketching">Sketching</a></td>
+</tr>
+<tr>
 <td><a href="https://til.bhupesh.me/databases/acid">ACID</a></td>
 </tr>
 <tr>
@@ -97,9 +100,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/databases/postgres-backup-restore">Taking & Restoring Postgres Backups</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/devops/running-nomad-cluster">How to run a Local Nomad Cluster</a></td>
 </tr>
 </tbody>
 </table>
@@ -271,6 +271,7 @@
 ### Ffmpeg
 
 <ul>
+<li><a href="/ffmpeg/av-ops">Audio/Video Ops</a></li>
 <li><a href="/ffmpeg/converting-videos-to-high-quality-gif">Converting videos to High quality GIFs</a></li>
 <li><a href="/ffmpeg/generate-video-thumbnail-using-ffmpeg">Generate Video thumbnail using ffmpeg</a></li>
 <li><a href="/ffmpeg/record-your-desktop-using-ffmpeg-on-linux">Record your Desktop using ffmpeg</a></li>

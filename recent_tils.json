@@ -1,5 +1,9 @@
 [
  {
+  "title": "Sketching",
+  "url": "https://til.bhupesh.me/arts/sketching"
+ },
+ {
   "title": "ACID",
   "url": "https://til.bhupesh.me/databases/acid"
  },
@@ -34,9 +38,5 @@
  {
   "title": "Taking & Restoring Postgres Backups",
   "url": "https://til.bhupesh.me/databases/postgres-backup-restore"
- },
- {
-  "title": "How to run a Local Nomad Cluster",
-  "url": "https://til.bhupesh.me/devops/running-nomad-cluster"
  }
 ]
