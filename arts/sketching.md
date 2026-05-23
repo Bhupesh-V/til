@@ -5,20 +5,29 @@
 <!-- 1. Tone
 2. Density
 3. Contrast -->
+## Basics
 
-## Perspective
+### Perspective
 
-### Horizon Line
+#### Horizon Line
 
 - Always at eye level. It's always straight (duh), irrespective of how far the items are they are always at eye-level.
 - In a scene, find human heads, the horizontal line that goes through all can be considered as horizon. In real life, hold a pen in horizontal position at the eye level.
 - Things that are below & above the horizon, should always remain above/below in your sketch as well.
 
-### Vanishing Point
+#### Vanishing Point
 
 - Always on horizon line. Doesn't matter if its visible or not.
 - Lines of perspective come out from this point.
 
-## Hatching
+### Hatching
 
 Used for adding "value" to a sketch, primarily depth (3d), shadow and tone (thickness).
+
+## Internet Gems
+
+1. [Snail Swarm Theory](https://x.com/kurususatoshi/status/2057813676883861953?s=20) = this is related to gestalt theory below.
+
+## Psychological Principles
+
+1. [Gestalt Theory](https://en.wikipedia.org/wiki/Gestalt_psychology)
