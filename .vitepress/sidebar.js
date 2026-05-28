@@ -92,6 +92,10 @@ export const sidebar = [
         "link": "/citizen/property"
       },
       {
+        "text": "Electricity",
+        "link": "/citizen/electricity"
+      },
+      {
         "text": "Figthing Scams",
         "link": "/citizen/scam-spam"
       },
@@ -779,6 +783,10 @@ export const sidebar = [
       {
         "text": "Monitor network (data) usage",
         "link": "/shell/monitor-network-data-usage"
+      },
+      {
+        "text": "Pandoc Ops",
+        "link": "/shell/pandoc-ops"
       },
       {
         "text": "Print lines between 2 words",

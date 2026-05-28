@@ -29,7 +29,7 @@
 <tr>
 <td><a href="#aws">Aws</a><sup>[1]</sup></td>
 <td><a href="#career">Career</a><sup>[9]</sup></td>
-<td><a href="#citizen">Citizen</a><sup>[3]</sup></td>
+<td><a href="#citizen">Citizen</a><sup>[4]</sup></td>
 </tr>
 <tr>
 <td><a href="#coding-practices">Coding Practices</a><sup>[5]</sup></td>
@@ -64,7 +64,7 @@
 <tr>
 <td><a href="#python">Python</a><sup>[20]</sup></td>
 <td><a href="#sales">Sales</a><sup>[1]</sup></td>
-<td><a href="#shell">Shell</a><sup>[30]</sup></td>
+<td><a href="#shell">Shell</a><sup>[31]</sup></td>
 </tr>
 <tr>
 <td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
@@ -143,6 +143,7 @@
 
 <ul>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/citizen/property.md">Accquiring properties in India</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/citizen/electricity.md">Electricity</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/citizen/scam-spam.md">Figthing Scams</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/citizen/grievances.md">Grievance Sites for Indian Citizens</a></li>
 </ul>
@@ -457,6 +458,7 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/line-discipline-in-unix-linux.md">Line Discipline in Unix/Linux Machines</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/line-editors-tips-tricks.md">Line Editors in Linux, Tips and Tricks</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/monitor-network-data-usage.md">Monitor network (data) usage</a></li>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/pandoc-ops.md">Pandoc Ops</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/print-lines-between-two-words.md">Print lines between 2 words</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/print-value-of-path-readable-format.md">Print value of `$PATH` in readable format</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/shell/random-emoji-one-liner.md">Random emoji 😲 in one line</a></li>

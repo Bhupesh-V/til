@@ -16,7 +16,7 @@
 <tr>
 <td><a href="#aws">Aws</a><sup>[1]</sup></td>
 <td><a href="#career">Career</a><sup>[9]</sup></td>
-<td><a href="#citizen">Citizen</a><sup>[3]</sup></td>
+<td><a href="#citizen">Citizen</a><sup>[4]</sup></td>
 </tr>
 <tr>
 <td><a href="#coding-practices">Coding Practices</a><sup>[5]</sup></td>
@@ -51,7 +51,7 @@
 <tr>
 <td><a href="#python">Python</a><sup>[20]</sup></td>
 <td><a href="#sales">Sales</a><sup>[1]</sup></td>
-<td><a href="#shell">Shell</a><sup>[30]</sup></td>
+<td><a href="#shell">Shell</a><sup>[31]</sup></td>
 </tr>
 <tr>
 <td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
@@ -168,6 +168,7 @@
 
 <ul>
 <li><a href="/citizen/property">Accquiring properties in India</a></li>
+<li><a href="/citizen/electricity">Electricity</a></li>
 <li><a href="/citizen/scam-spam">Figthing Scams</a></li>
 <li><a href="/citizen/grievances">Grievance Sites for Indian Citizens</a></li>
 </ul>
@@ -482,6 +483,7 @@
 <li><a href="/shell/line-discipline-in-unix-linux">Line Discipline in Unix/Linux Machines</a></li>
 <li><a href="/shell/line-editors-tips-tricks">Line Editors in Linux, Tips and Tricks</a></li>
 <li><a href="/shell/monitor-network-data-usage">Monitor network (data) usage</a></li>
+<li><a href="/shell/pandoc-ops">Pandoc Ops</a></li>
 <li><a href="/shell/print-lines-between-two-words">Print lines between 2 words</a></li>
 <li><a href="/shell/print-value-of-path-readable-format">Print value of `$PATH` in readable format</a></li>
 <li><a href="/shell/random-emoji-one-liner">Random emoji 😲 in one line</a></li>
