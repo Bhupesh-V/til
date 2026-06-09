@@ -1,4 +1,4 @@
-# Discovering devices on your local network (Mac)
+# Discovering & Broadcasting devices on your local network (Mac)
 
 ## DNS Resolvers
 
