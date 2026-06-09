@@ -45,22 +45,22 @@
 </tr>
 <tr>
 <td><a href="#miscellaneous">Miscellaneous</a><sup>[16]</sup></td>
+<td><a href="#networking">Networking</a><sup>[1]</sup></td>
 <td><a href="#people">People</a><sup>[2]</sup></td>
-<td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
 </tr>
 <tr>
+<td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
 <td><a href="#python">Python</a><sup>[20]</sup></td>
 <td><a href="#sales">Sales</a><sup>[1]</sup></td>
-<td><a href="#shell">Shell</a><sup>[31]</sup></td>
 </tr>
 <tr>
+<td><a href="#shell">Shell</a><sup>[31]</sup></td>
 <td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
 <td><a href="#startups">Startups</a><sup>[1]</sup></td>
-<td><a href="#vim">Vim</a><sup>[8]</sup></td>
 </tr>
 <tr>
+<td><a href="#vim">Vim</a><sup>[8]</sup></td>
 <td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
-<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -71,6 +71,12 @@
 
 <table align="center">
 <tbody>
+<tr>
+<td><a href="https://til.bhupesh.me/citizen/electricity">Electricity</a></td>
+</tr>
+<tr>
+<td><a href="https://til.bhupesh.me/shell/pandoc-ops">Pandoc Ops</a></td>
+</tr>
 <tr>
 <td><a href="https://til.bhupesh.me/ffmpeg/av-ops">Audio/Video Ops</a></td>
 </tr>
@@ -94,12 +100,6 @@
 </tr>
 <tr>
 <td><a href="https://til.bhupesh.me/citizen/property">Accquiring properties in India</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/citizen/scam-spam">Figthing Scams</a></td>
-</tr>
-<tr>
-<td><a href="https://til.bhupesh.me/citizen/grievances">Grievance Sites for Indian Citizens</a></td>
 </tr>
 </tbody>
 </table>
@@ -393,6 +393,15 @@
 <li><a href="/miscellaneous/ui-ux-tools">UI-UX Tools to ease your life</a></li>
 <li><a href="/miscellaneous/creating-procfile-in-heroku">What's a Procfile 👀</a></li>
 <li><a href="/miscellaneous/write-clean-commits-template">Writing Cleaner Commits - Template</a></li>
+</ul>
+
+
+
+
+### Networking
+
+<ul>
+<li><a href="/networking/local-dns-resolution-mac">Discovering devices on your local network (Mac)</a></li>
 </ul>
 
 

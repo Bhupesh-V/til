@@ -1,5 +1,13 @@
 [
  {
+  "title": "Electricity",
+  "url": "https://til.bhupesh.me/citizen/electricity"
+ },
+ {
+  "title": "Pandoc Ops",
+  "url": "https://til.bhupesh.me/shell/pandoc-ops"
+ },
+ {
   "title": "Audio/Video Ops",
   "url": "https://til.bhupesh.me/ffmpeg/av-ops"
  },
@@ -30,13 +38,5 @@
  {
   "title": "Accquiring properties in India",
   "url": "https://til.bhupesh.me/citizen/property"
- },
- {
-  "title": "Figthing Scams",
-  "url": "https://til.bhupesh.me/citizen/scam-spam"
- },
- {
-  "title": "Grievance Sites for Indian Citizens",
-  "url": "https://til.bhupesh.me/citizen/grievances"
  }
 ]

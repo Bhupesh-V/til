@@ -562,6 +562,15 @@ export const sidebar = [
     ]
   },
   {
+    "text": "Networking",
+    "items": [
+      {
+        "text": "Discovering devices on your local network (Mac)",
+        "link": "/networking/local-dns-resolution-mac"
+      }
+    ]
+  },
+  {
     "text": "People",
     "items": [
       {

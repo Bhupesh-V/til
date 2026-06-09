@@ -58,22 +58,22 @@
 </tr>
 <tr>
 <td><a href="#miscellaneous">Miscellaneous</a><sup>[16]</sup></td>
+<td><a href="#networking">Networking</a><sup>[1]</sup></td>
 <td><a href="#people">People</a><sup>[2]</sup></td>
-<td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
 </tr>
 <tr>
+<td><a href="#psychology">Psychology</a><sup>[5]</sup></td>
 <td><a href="#python">Python</a><sup>[20]</sup></td>
 <td><a href="#sales">Sales</a><sup>[1]</sup></td>
-<td><a href="#shell">Shell</a><sup>[31]</sup></td>
 </tr>
 <tr>
+<td><a href="#shell">Shell</a><sup>[31]</sup></td>
 <td><a href="#software-design">Software Design</a><sup>[1]</sup></td>
 <td><a href="#startups">Startups</a><sup>[1]</sup></td>
-<td><a href="#vim">Vim</a><sup>[8]</sup></td>
 </tr>
 <tr>
+<td><a href="#vim">Vim</a><sup>[8]</sup></td>
 <td><a href="#webdev">Webdev</a><sup>[5]</sup></td>
-<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -368,6 +368,15 @@
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/ui-ux-tools.md">UI-UX Tools to ease your life</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/creating-procfile-in-heroku.md">What's a Procfile 👀</a></li>
 <li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/miscellaneous/write-clean-commits-template.md">Writing Cleaner Commits - Template</a></li>
+</ul>
+
+
+
+
+### Networking
+
+<ul>
+<li><a target="_blank" href="https://github.com/Bhupesh-V/til/blob/master/networking/local-dns-resolution-mac.md">Discovering devices on your local network (Mac)</a></li>
 </ul>
 
 
